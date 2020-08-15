@@ -34,5 +34,3 @@ steps:
         from_secret: kube_url
       kubernetes_token:
         from_secret: kube_token
-
-
