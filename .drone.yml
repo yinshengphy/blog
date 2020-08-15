@@ -38,3 +38,4 @@ steps:
         from_secret: kube_token
       kube_certificate:
         from_secret: kube_certificate
+
