@@ -1,0 +1,38 @@
+kind: pipeline
+type: kubernetes
+name: CI/CD for bolg
+
+steps:
+  - name: build_dest
+    image: node
+    commands:
+      - npm install
+      - npm run-script build
+    #      - hexo generate
+    when:
+      event: [push, tag, deployment]
+
+  - name: publish
+    image: plugins/docker
+    settings:
+      repo: yinshengphy/blog
+      tags: latest
+      dockerfile: Dockerfile
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_passwd
+    when:
+      event: [push, tag, deployment]
+
+  - name: k8s
+    image: vallard/drone-kube
+    settings:
+      template: deployment.yaml
+      namespace: nginx
+      ca:
+        from_secret: kube_ca
+      server: https://192.168.0.3:6443
+      token:
+        from_secret: kube_token
+
