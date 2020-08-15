@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: yinshengphy-cn
-          image: yinshengphy/blog
+          image: yinshengphy/blog:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
