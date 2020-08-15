@@ -15,7 +15,7 @@ steps:
   - name: publish
     image: plugins/docker
     settings:
-      mirror: https://rk0frtcz.mirror.aliyuncs.com
+#      mirror: https://rk0frtcz.mirror.aliyuncs.com
       repo: yinshengphy/blog
       tags: latest
       dockerfile: Dockerfile
@@ -39,5 +39,4 @@ steps:
         from_secret: kube_token
       kube_certificate:
         from_secret: kube_certificate
-
 
