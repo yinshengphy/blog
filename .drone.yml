@@ -10,11 +10,23 @@ steps:
       - npm run-script build
     when:
       event: [push, tag, deployment]
+  - name: publish
+      image: plugins/docker
+      settings:
+        repo: yinshengphy/blog
+        tags: latest
+        dockerfile: Dockerfile
+        username:
+          from_secret: docker_username
+        password:
+          from_secret: docker_passwd
+      when:
+        event: [push, tag, deployment]
 
-  - name: deploy_production
+  - name: helm_deploy
     image: pelotech/drone-helm3
     settings:
-      helm_command: upgrade
+      helm_command: install
       chart: helm/
       release: my-project
       api_server:
