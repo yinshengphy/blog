@@ -14,6 +14,7 @@ steps:
   - name: publish
     image: plugins/docker
     settings:
+      mirror: https://rk0frtcz.mirror.aliyuncs.com/
       repo: yinshengphy/blog
       tags: latest
       dockerfile: Dockerfile
