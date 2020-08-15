@@ -3,26 +3,26 @@ type: kubernetes
 name: CI/CD for bolg
 
 steps:
-  - name: build_dest
-    image: node
-    commands:
-      - npm install
-      - npm run-script build
-    when:
-      event: [push, tag, deployment]
-
-  - name: publish
-    image: plugins/docker
-    settings:
-      repo: yinshengphy/blog
-      tags: latest
-      dockerfile: Dockerfile
-      username:
-        from_secret: docker_username
-      password:
-        from_secret: docker_passwd
-    when:
-      event: [push, tag, deployment]
+#  - name: build_dest
+#    image: node
+#    commands:
+#      - npm install
+#      - npm run-script build
+#    when:
+#      event: [push, tag, deployment]
+#
+#  - name: publish
+#    image: plugins/docker
+#    settings:
+#      repo: yinshengphy/blog
+#      tags: latest
+#      dockerfile: Dockerfile
+#      username:
+#        from_secret: docker_username
+#      password:
+#        from_secret: docker_passwd
+#    when:
+#      event: [push, tag, deployment]
 
   - name: helm_deploy
     image: bitsbeats/drone-helm3
