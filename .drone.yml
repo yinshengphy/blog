@@ -8,31 +8,17 @@ steps:
     commands:
       - npm install
       - npm run-script build
-    #      - hexo generate
     when:
       event: [push, tag, deployment]
 
-  - name: publish
-    image: plugins/docker
+  - name: deploy_production
+    image: pelotech/drone-helm3
     settings:
-      repo: yinshengphy/blog
-      tags: latest
-      dockerfile: Dockerfile
-      username:
-        from_secret: docker_username
-      password:
-        from_secret: docker_passwd
-    when:
-      event: [push, tag, deployment]
-
-  - name: k8s
-    image: vallard/drone-kube
-    settings:
-      template: deployment.yaml
-      namespace: nginx
-      ca:
-        from_secret: kube_ca
-      server: https://192.168.0.3:6443
-      token:
+      helm_command: upgrade
+      chart: helm/
+      release: my-project
+      api_server:
+        from_secret: kube_url
+      kubernetes_token:
         from_secret: kube_token
 
