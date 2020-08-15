@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: blog
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yinshengphy-cn
+  namespace: blog
+  labels:
+    app: yinshengphy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: yinshengphy
+  template:
+    metadata:
+      labels:
+        app: yinshengphy
+    spec:
+      containers:
+        - name: yinshengphy-cn
+          image: yinshengphy/blog
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: yinshengphy-cn
+  namespace: blog
+spec:
+  selector:
+    app: yinshengphy
+  ports:
+    - protocol: TCP
+      port: 80
