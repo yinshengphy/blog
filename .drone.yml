@@ -30,7 +30,7 @@ steps:
       helm_command: install
       chart: helm/
       release: my-project
-      namespace: blog
+      namespace: default
       kube_api_server:
         from_secret: kube_url
       kube_token:
