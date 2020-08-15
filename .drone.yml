@@ -25,12 +25,14 @@ steps:
       event: [push, tag, deployment]
 
   - name: helm_deploy
-    image: pelotech/drone-helm3
+    image: bitsbeats/drone-helm3
     settings:
       helm_command: install
       chart: helm/
       release: my-project
-      api_server:
+      kube_api_server:
         from_secret: kube_url
-      kubernetes_token:
+      kube_token:
         from_secret: kube_token
+      kube_certificate:
+        from_secret: kube_certificate
