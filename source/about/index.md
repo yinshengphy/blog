@@ -2,4 +2,4 @@
 title: about
 date: 2020-08-15 15:40:29
 ---
-# 等待更新
+<img src="/assets/posts/k8s/Kubernetes-logo.png" width="50%" height="50%" alt="">
