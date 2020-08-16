@@ -29,7 +29,7 @@ steps:
   - name: helm_deploy
     image: bitsbeats/drone-helm3
     settings:
-      helm_command: install
+      helm_command: upgrade
       chart: helm/
       release: my-project
       namespace: default
