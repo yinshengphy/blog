@@ -29,7 +29,7 @@ steps:
   - name: helm_deploy
     image: bitsbeats/drone-helm3
     settings:
-      helm_command: upgrade
+      helm_command: install
       chart: helm/
       release: my-project
       namespace: default
@@ -39,3 +39,4 @@ steps:
         from_secret: kube_token
       kube_certificate:
         from_secret: kube_certificate
+      force: true
