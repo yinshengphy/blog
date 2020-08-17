@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: yinshengphy-cn
-          image: yinshengphy/blog:latest
+          image: yinshengphy/blog:{{.Values.commit_hash}}
           imagePullPolicy: Always
           ports:
             - containerPort: 80
