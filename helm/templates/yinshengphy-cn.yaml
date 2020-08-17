@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: yinshengphy-cn
-          image: {{.Values.image.repository}}:{{.Values.commit_hash}}
+          image: "{{.Values.image.repository}}:{{.Values.commit_hash}}"
           imagePullPolicy: Always
           ports:
             - containerPort: 80
