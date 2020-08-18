@@ -94,4 +94,4 @@ systemctl enable docker
 kubernetes官网：<https://kubernetes.io/>
 
 其实kubernetes正常情况下，安装非常容易，但是由于**GFW**的原因，导致国内访问不了国外很多的网站，导致我们缺失相关镜像，这里我们主要的工作主要集中在缺失镜像的替换上。
-_TODO 20200818_
+_TODO 202008181651_
