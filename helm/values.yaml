@@ -6,9 +6,9 @@ replicaCount: 1
 
 image:
   repository: yinshengphy/blog
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart version.
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
