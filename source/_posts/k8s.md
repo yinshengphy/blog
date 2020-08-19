@@ -94,4 +94,56 @@ systemctl enable docker
 kubernetes官网：<https://kubernetes.io/>
 
 其实kubernetes正常情况下，安装非常容易，但是由于**GFW**的原因，导致国内访问不了国外很多的网站，导致我们缺失相关镜像，这里我们主要的工作主要集中在缺失镜像的替换上。
-_TODO 202008181651_
+
+```shell script
+#yum添加阿里云资源库
+cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=0
+EOF
+
+#安装epel-release自动配置yum
+yum -y install epel-release
+
+#安装kubectl，kubelet，kubeadm
+yum -y install kubectl-1.18.2 kubelet-1.18.2 kubeadm-1.18.2
+
+#启动kubelet，并设置开机自启
+systemctl enable kubelet && systemctl start kubelet
+```
+
+此时，安装已完成，下面就是下载缺失的镜像并完成初始化，具体的思路就是，获取依赖镜像的列表，从阿里云源下载依赖的镜像，重新**tag**镜像至k8s.gcr.io
+>**tag**是docker的概念，详细参考官方文档<https://docs.docker.com/engine/reference/commandline/tag/>
+
+```shell script
+#查询缺失的镜像并从阿里云下载
+kubeadm config images list 2>/dev/null |sed -e 's/^/docker pull /g' -e 's#k8s.gcr.io#registry.cn-hangzhou.aliyuncs.com/google_containers#g'
+
+#为下载好的镜像重新打标签
+docker images |grep registry.cn-hangzhou.aliyuncs.com/google_containers |awk '{print "docker tag ",$1":"$2,$1":"$2}' |sed -e 's#registry.cn-hangzhou.aliyuncs.com/google_containers#k8s.gcr.io#2' |bash -x
+
+#初始化
+kubeadm init --kubernetes-version=1.18.2
+```
+
+至此，安装部分全部结束，可以用如下命令查看当前集群中初始化创建的容器组
+```shell script
+kubectl get pods -A
+
+NAMESPACE              NAME                                         READY   STATUS    RESTARTS   AGE
+kube-system            coredns-546565776c-6lwmr                     1/1     Running   1          1h
+kube-system            coredns-546565776c-6tb7r                     1/1     Running   1          1h
+kube-system            etcd-jd                                      1/1     Running   1          1h
+kube-system            kube-apiserver-jd                            1/1     Running   1          1h
+kube-system            kube-controller-manager-jd                   1/1     Running   2          1h
+kube-system            kube-proxy-75dd5                             1/1     Running   2          1h
+kube-system            kube-scheduler-jd                            1/1     Running   2          1h
+```
+可以观察到初始化创建了dns，apiserver，proxy等等一些容器组
+
+
+## kubernetes-dashboard
+_TODO 20200819_
