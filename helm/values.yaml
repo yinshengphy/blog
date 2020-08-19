@@ -8,8 +8,6 @@ image:
   repository: yinshengphy/blog
   pullPolicy: Always
   # Overrides the image tag whose default is the chart version.
-  tag: "latest"
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
