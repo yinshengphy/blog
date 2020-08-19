@@ -144,6 +144,19 @@ kube-system            kube-scheduler-jd                            1/1     Runn
 ```
 可以观察到初始化创建了dns，apiserver，proxy等等一些容器组
 
+## traefik
+
+下面开始安装我们的第一个，也是我认为最重要之一的组件**traefik**
+
+官网：<https://docs.traefik.io/>
+  
+![](/assets/posts/k8s/2.3_1_traefik-architecture.png)
 
 ## kubernetes-dashboard
+
+尽管我们可以用**kubectl**工具来实现管理集群的任何操作，但是我们还是希望有一个可视化界面来直接查看或修改我们集群的信息，类似于这样:
+
+![](/assets/posts/k8s/2.4_1_k8s_dashboard.png)
+
+可以非常直观的看到集群运行状况，甚至在近期更新的**k8s仪表盘**中，我们还可以观察到集群的硬件资源消耗情况（**CPU**，**MEM**等）
 _TODO 20200819_ 
