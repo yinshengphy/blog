@@ -152,6 +152,15 @@ kube-system            kube-scheduler-jd                            1/1     Runn
   
 ![](/assets/posts/k8s/2.3_1_traefik-architecture.png)
 
+ 尽管k8s也提供了**ingress**路由组件，但是我觉得没有**traefik**好用
+ 
+ 下面介绍**traefik**，**traefik**是一种边缘路由器，公开了从集群外部到集群内服务的 **HTTP** 和 **HTTPS** 路由。 流量路由由 **IngressRoute** 资源上定义的规则控制。
+ 
+ **traefik可以分发流量**
+ 
+ 如上图所示，**traefik**接受了来自 **API.DOMAIN.COM** ,**DOMAIN.COM/WEB**等流量，按照配置好的路由规则分别将请求流量路由到**k8s**集群中不同的**service**处理，也就是说，集群只要公布**80**和**443**两个端口，就可以处理任意多的应用的请求，只需要配置好路由规则，以目前这台服务器为例，不仅支持了本站前端页面的访问（**yinshengphy.cn**），也提供了**k8s仪表盘**的访问能力（后面介绍），也提供了traefik自己的控制台操作等。
+
+ 
 ## kubernetes-dashboard
 
 尽管我们可以用**kubectl**工具来实现管理集群的任何操作，但是我们还是希望有一个可视化界面来直接查看或修改我们集群的信息，类似于这样:
