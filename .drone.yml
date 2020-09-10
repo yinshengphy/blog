@@ -38,7 +38,7 @@ steps:
       #        kubectl get secret kubernetes-dashboard-token-tcdfz -o jsonpath={.data.token} -n kubernetes-dashboard | base64 --decode
       kube_token:
         from_secret: kube_token
-      #        kubectl get secret kubernetes-dashboard-token-tcdfz -o jsonpath={.data.ca\\.crt} -n kubernetes-dashboard
+      #        kubectl get secret kubernetes- dashboard-token-tcdfz -o jsonpath={.data.ca\\.crt} -n kubernetes-dashboard
       kube_certificate:
         from_secret: kube_certificate
       values:
