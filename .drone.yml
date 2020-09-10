@@ -45,4 +45,4 @@ steps:
         from_secret: kube_certificate
       values:
         - commit_hash=${DRONE_COMMIT}
-      force: true
+#      force: true
