@@ -34,6 +34,7 @@ steps:
       release: my-blog
       namespace: default
       #      kubectl config view
+
       kube_api_server:
         from_secret: kube_url
       #        kubectl get secret kubernetes-dashboard-token-tcdfz -o jsonpath={.data.token} -n kubernetes-dashboard | base64 --decode
