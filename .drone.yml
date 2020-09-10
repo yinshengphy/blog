@@ -10,7 +10,7 @@ steps:
       - npm install
       - npm run-script build
     when:
-      event: [push, tag, deployment]
+      event: [ push, tag, deployment ]
 
   - name: docker_push
     image: plugins/docker
@@ -24,19 +24,21 @@ steps:
       password:
         from_secret: docker_passwd
     when:
-      event: [push, tag, deployment]
+      event: [ push, tag, deployment ]
 
   - name: helm_deploy
     image: bitsbeats/drone-helm3
     settings:
-#      helm_command: install
+      #      helm_command: install
       chart: helm/
       release: my-blog
       namespace: default
       kube_api_server:
         from_secret: kube_url
+      #        kubectl get secret kubernetes-dashboard-token-tcdfz -o jsonpath={.data.token} -n kubernetes-dashboard | base64 --decode
       kube_token:
         from_secret: kube_token
+      #        kubectl get secret kubernetes-dashboard-token-tcdfz -o jsonpath={.data.ca\\.crt} -n kubernetes-dashboard
       kube_certificate:
         from_secret: kube_certificate
       values:
