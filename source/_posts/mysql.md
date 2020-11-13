@@ -87,8 +87,7 @@ xxxxx    mysql:5.7    "docker-entrypoint.s…"   5 hours ago Up 5 hours   33060/
 
 ```mysql
 # mysql_2执行如下
-CHANGE MASTER TO
-master_host='xx.xx.xx.xx', #宿主机ip
+CHANGE MASTER TOmaster_host='xx.xx.xx.xx', #宿主机ip
 master_port=3308,
 master_user='root',
 master_password='root';
@@ -110,3 +109,18 @@ start slave;
 SHOW SLAVE STATUS;
 ```
 如果	Slave_SQL_Running及Slave_SQL_Running字段均为 Yes 则证明配置正确
+
+## 验证
+我们来测试一下主从复制的效果，首先用navicate工具连接两台数据库
+![](/assets/posts/mysql/2.3_1_navicate.png)
+
+在mysql_1上创建数据库test_db
+
+```mysql
+CREATE DATABASE test_db;
+```
+可以观察到mysql_2上也自动创建了test_db
+
+![](/assets/posts/mysql/2.3_2_navicate.png)
+
+同理，在mysql_2上删除test_db，mysql_1上的test_db也一并删除
