@@ -3,14 +3,36 @@ type: kubernetes
 name: CI/CD for bolg
 
 steps:
+  - name: restore-cache
+    image: drillster/drone-volume-cache
+    settings:
+      restore: true
+      mount:
+        - ./.npm-cache
+        - ./node_modules
+    volumes:
+      - name: cache
+        path: /cache
+
   - name: npm_build
     image: node
     commands:
-      - npm config set registry https://registry.npm.taobao.org
+#      - npm config set registry https://registry.npm.taobao.org
+      - npm config set cache ./.npm-cache --global
       - npm install
       - npm run-script build
     when:
       event: [ push, tag, deployment ]
+  - name: rebuild-cache
+    image: drillster/drone-volume-cache
+    settings:
+      rebuild: true
+      mount:
+        - ./.npm-cache
+        - ./node_modules
+    volumes:
+      - name: cache
+        path: /cache
 
   - name: docker_push
     image: plugins/docker
@@ -45,4 +67,7 @@ steps:
         from_secret: kube_certificate
       values:
         - commit_hash=${DRONE_COMMIT}
-#      force: true
+volumes:
+  - name: cache
+    host:
+      path: /tmp/cache
