@@ -50,9 +50,17 @@ MYSQL 数据库复制操作⼤致可以分成三个步骤：
 2. Slave的I/O进程接收到信息后，将接收到的⽇志内容依次添加到 Slave 端的 relay-log ⽂件的最末端，并将读取到 Master 端的 bin-log 的⽂件名和位置记录到 master-info ⽂件中。
 3. Slave 的 SQL 进程检测到 relay-log 中新增加了内容后，会⻢上解析relay-log 的内容成为在 Master 端真实执⾏时候的那些可执⾏的内容，并在⾃身执⾏。MYSQL 复制环境 909%以上都是⼀个 Master 帯⼀个或者多个 Slave 的架构模式。如果 master和 slave 的压⼒不是太⼤的话，异步复制的延时⼀般都很少。尤其是 slave 端的复制⽅式改成两个进程处理之后，更是减⼩了 slave 端的延时
 
-# 安装步骤
+## GTID
+GTID即全局事务ID (global transaction identifier), 其保证为每一个在主上提交的事务在复制集群中可以生成一个唯一的ID
 
-## 创建容器
+## 什么是GTID Replication
+官方MySQL在5.6才加入该功能。借GTID，在发生主备切换的情况下，MySQL的其它从库可以自动在新主库上找到正确的复制位置，这大大简化了复杂复制拓扑下集群的维护，也减少了人为设置复制位置发生误操作的风险。同时，对于已经执行了的事务，基于GTID的主从复制也可以自动忽略
+
+# 操作步骤
+
+## MYSQL Replication
+
+### 创建容器
 
 直接在安装了docker的服务器上运行如下命令创建所需要的容器
 
@@ -83,11 +91,12 @@ xxxxx    mysql:5.7    "docker-entrypoint.s…"   5 hours ago Up 5 hours   33060/
 xxxxx    mysql:5.7    "docker-entrypoint.s…"   5 hours ago Up 5 hours   33060/tcp, 0.0.0.0:3307->3306/tcp mysql_1
 ```
 
-## 配置主从复制
+### 配置主从复制
 
 ```mysql
 # mysql_2执行如下
-CHANGE MASTER TOmaster_host='xx.xx.xx.xx', #宿主机ip
+CHANGE MASTER TO
+master_host='xx.xx.xx.xx', #宿主机ip
 master_port=3308,
 master_user='root',
 master_password='root';
@@ -110,7 +119,7 @@ SHOW SLAVE STATUS;
 ```
 如果	Slave_SQL_Running及Slave_SQL_Running字段均为 Yes 则证明配置正确
 
-## 验证
+### 验证
 我们来测试一下主从复制的效果，首先用navicate工具连接两台数据库
 ![](/assets/posts/mysql/2.3_1_navicate.png)
 

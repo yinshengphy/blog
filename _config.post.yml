@@ -1,0 +1,11 @@
+widgets:
+  - position: left
+    type: categories
+  - position: left
+    type: toc
+  - position: left
+    type: recent_posts
+  - position: left
+    type: archives
+  - position: left
+    type: tags
