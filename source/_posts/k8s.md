@@ -120,13 +120,20 @@ systemctl enable kubelet && systemctl start kubelet
 
 ```shell script
 #查询缺失的镜像并从阿里云下载
-kubeadm config images list 2>/dev/null |sed -e 's/^/docker pull /g' -e 's#k8s.gcr.io#registry.cn-hangzhou.aliyuncs.com/google_containers#g'
+kubeadm config images list 2>/dev/null |sed -e 's/^/docker pull /g' -e 's#k8s.gcr.io#registry.cn-hangzhou.aliyuncs
+.com/google_containers#g' |bash -x
 
 #为下载好的镜像重新打标签
 docker images |grep registry.cn-hangzhou.aliyuncs.com/google_containers |awk '{print "docker tag ",$1":"$2,$1":"$2}' |sed -e 's#registry.cn-hangzhou.aliyuncs.com/google_containers#k8s.gcr.io#2' |bash -x
 
 #初始化
-kubeadm init --kubernetes-version=1.18.2
+kubeadm init
+
+
+#复制配置文件
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 至此，安装部分全部结束，可以用如下命令查看当前集群中初始化创建的容器组
