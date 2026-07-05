@@ -23,6 +23,7 @@ const formattedDate = new Intl.DateTimeFormat('zh-CN', {
       <div>
         <p class="meta">{formattedDate}</p>
         <h1>{title}</h1>
+        {description && <p class="post-description">{description}</p>}
         {tags.length > 0 && (
           <ul class="tags" aria-label="标签">
             {tags.map((tag) => <li>{tag}</li>)}

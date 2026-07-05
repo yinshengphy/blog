@@ -10,20 +10,30 @@ const post = posts[0];
 
 <BaseLayout>
   <section class="home">
-    <div class="home-copy">
-      <p class="meta">个人博客</p>
-      <h1>容器 云 大数据</h1>
-      <p>保留一篇关于 RSA 的长文，站点由 Astro 静态生成并发布在 K3s 中。</p>
+    <div class="site-summary">
+      <p class="meta">个人技术笔记</p>
+      <h1>容器 / 云 / 大数据</h1>
+      <p>只保留值得长期维护的内容。当前站点由 Astro 静态生成，发布在 K3s 中。</p>
     </div>
-    {post && (
-      <a class="featured-post" href={`/${post.id}/`}>
-        {post.data.thumbnail && <img src={post.data.thumbnail} alt="" />}
-        <span class="meta">
-          {post.data.date.toLocaleDateString('zh-CN')}
-        </span>
-        <h2>{post.data.title}</h2>
-        <p>{post.data.description}</p>
-      </a>
-    )}
+    <div class="post-list">
+      <p class="section-label">文章</p>
+      {post && (
+        <a class="post-card" href={`/${post.id}/`}>
+          {post.data.thumbnail && (
+            <span class="post-thumb">
+              <img src={post.data.thumbnail} alt="" />
+            </span>
+          )}
+          <span class="post-card-copy">
+            <span class="meta">
+              {post.data.date.toLocaleDateString('zh-CN')}
+            </span>
+            <span class="post-card-title">{post.data.title}</span>
+            <span class="post-card-desc">{post.data.description}</span>
+            <span class="read-more">阅读文章</span>
+          </span>
+        </a>
+      )}
+    </div>
   </section>
 </BaseLayout>
