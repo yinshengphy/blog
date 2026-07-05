@@ -1,4 +1,4 @@
-name: Deploy Blog to K3s
+name: Deploy Astro Blog to K3s
 
 on:
   push:
@@ -22,9 +22,6 @@ jobs:
       - name: Use domestic npm registry
         run: |
           npm config set registry https://registry.npmmirror.com
-          if [ -f package-lock.json ]; then
-            sed -i 's#https\?://registry\.npm\.taobao\.org/#https://registry.npmmirror.com/#g' package-lock.json
-          fi
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit --no-fund
@@ -34,7 +31,7 @@ jobs:
 
       - name: Publish to K3s PVC
         run: |
-          test -d public
+          test -d dist
           mkdir -p /deploy/public
           find /deploy/public -mindepth 1 -maxdepth 1 -exec rm -rf {} +
-          cp -a public/. /deploy/public/
+          cp -a dist/. /deploy/public/

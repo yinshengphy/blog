@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+const post = posts[0];
+---
+
+<BaseLayout>
+  <section class="home">
+    <div class="home-copy">
+      <p class="meta">个人博客</p>
+      <h1>容器 云 大数据</h1>
+      <p>保留一篇关于 RSA 的长文，站点由 Astro 静态生成并发布在 K3s 中。</p>
+    </div>
+    {post && (
+      <a class="featured-post" href={`/${post.id}/`}>
+        {post.data.thumbnail && <img src={post.data.thumbnail} alt="" />}
+        <span class="meta">
+          {post.data.date.toLocaleDateString('zh-CN')}
+        </span>
+        <h2>{post.data.title}</h2>
+        <p>{post.data.description}</p>
+      </a>
+    )}
+  </section>
+</BaseLayout>

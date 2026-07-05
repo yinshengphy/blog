@@ -1,0 +1,42 @@
+---
+import 'katex/dist/katex.min.css';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = '容器 云 大数据',
+  description = 'yinshengphy 的个人博客'
+} = Astro.props;
+
+const pageTitle = title === '容器 云 大数据' ? title : `${title} | 容器 云 大数据`;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="返回首页">
+        <img src="/assets/profile/author.jpg" alt="" width="40" height="40" />
+        <span>容器 云 大数据</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="/">文章</a>
+        <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

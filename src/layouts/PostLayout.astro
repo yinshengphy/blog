@@ -1,0 +1,38 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  date: Date;
+  thumbnail?: string;
+  tags?: string[];
+}
+
+const { title, description, date, thumbnail, tags = [] } = Astro.props;
+const formattedDate = new Intl.DateTimeFormat('zh-CN', {
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit'
+}).format(date);
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="post-shell">
+    <header class="post-hero">
+      <div>
+        <p class="meta">{formattedDate}</p>
+        <h1>{title}</h1>
+        {tags.length > 0 && (
+          <ul class="tags" aria-label="标签">
+            {tags.map((tag) => <li>{tag}</li>)}
+          </ul>
+        )}
+      </div>
+      {thumbnail && <img class="post-cover" src={thumbnail} alt="" loading="eager" />}
+    </header>
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
