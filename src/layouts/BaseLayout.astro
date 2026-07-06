@@ -8,11 +8,13 @@ interface Props {
 }
 
 const {
-  title = '容器 云 大数据',
-  description = 'yinshengphy 的个人博客'
+  title = 'yinsheng的小站',
+  description = '记录技术、知识与生活碎碎念的个人博客。'
 } = Astro.props;
 
-const pageTitle = title === '容器 云 大数据' ? title : `${title} | 容器 云 大数据`;
+const siteName = 'yinsheng的小站';
+const pageTitle = title === siteName ? title : `${title} | ${siteName}`;
+const year = new Date().getFullYear();
 ---
 
 <!doctype html>
@@ -22,21 +24,38 @@ const pageTitle = title === '容器 云 大数据' ? title : `${title} | 容器 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/jpeg" href="/assets/profile/author.jpg" />
+    <link rel="apple-touch-icon" href="/assets/profile/author.jpg" />
     <title>{pageTitle}</title>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label="返回首页">
         <img src="/assets/profile/author.jpg" alt="" width="40" height="40" />
-        <span>容器 云 大数据</span>
+        <span>{siteName}</span>
       </a>
       <nav aria-label="主导航">
-        <a href="/">文章</a>
+        <a href="/">首页</a>
+        <a href="/#featured">最新文章</a>
         <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
       </nav>
     </header>
     <main>
       <slot />
     </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <p class="footer-title">{siteName}</p>
+          <p class="footer-copy">慢慢写，长期放。这里装的是学习新东西时的推演、偶尔的碎碎念，还有值得回头再看的笔记。</p>
+        </div>
+        <div class="footer-links" aria-label="页脚链接">
+          <a href="/">首页</a>
+          <a href="/#featured">文章</a>
+          <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <p class="footer-meta">© {year} yinshengphy</p>
+    </footer>
   </body>
 </html>

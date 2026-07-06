@@ -7,21 +7,48 @@ interface Props {
   date: Date;
   thumbnail?: string;
   tags?: string[];
+  categories?: string[];
+  readingMinutes?: number;
+  headings?: { depth: number; slug: string; text: string }[];
 }
 
-const { title, description, date, thumbnail, tags = [] } = Astro.props;
+const {
+  title,
+  description,
+  date,
+  thumbnail,
+  tags = [],
+  categories = [],
+  readingMinutes = 1,
+  headings = []
+} = Astro.props;
 const formattedDate = new Intl.DateTimeFormat('zh-CN', {
   year: 'numeric',
   month: '2-digit',
   day: '2-digit'
 }).format(date);
+const tocHeadings = headings.filter((heading) => heading.depth <= 3);
+const minTocDepth = tocHeadings.length > 0
+  ? Math.min(...tocHeadings.map((heading) => heading.depth))
+  : 2;
 ---
 
 <BaseLayout title={title} description={description}>
   <article class="post-shell">
+    <a class="back-link" href="/">返回首页</a>
     <header class="post-hero">
-      <div>
-        <p class="meta">{formattedDate}</p>
+      <div class="post-intro">
+        <div class="post-meta-row">
+          <p class="meta">{formattedDate}</p>
+          <span class="meta-divider">·</span>
+          <p class="meta">{readingMinutes} 分钟阅读</p>
+          {categories[0] && (
+            <>
+              <span class="meta-divider">·</span>
+              <p class="meta">{categories[0]}</p>
+            </>
+          )}
+        </div>
         <h1>{title}</h1>
         {description && <p class="post-description">{description}</p>}
         {tags.length > 0 && (
@@ -32,8 +59,92 @@ const formattedDate = new Intl.DateTimeFormat('zh-CN', {
       </div>
       {thumbnail && <img class="post-cover" src={thumbnail} alt="" loading="eager" />}
     </header>
-    <div class="prose">
-      <slot />
+    <div class="post-body-layout">
+      <aside class="post-sidebar">
+        {tocHeadings.length > 0 && (
+          <section class="toc-panel">
+            <p class="toc-title">目录</p>
+            <div class="toc-scroll">
+              <nav aria-label="文章目录">
+                <ol class="toc-list">
+                  {tocHeadings.map((heading) => (
+                    <li class={`toc-level-${heading.depth - minTocDepth + 1}`}>
+                      <a class="toc-link" href={`#${heading.slug}`} data-target={heading.slug}>
+                        {heading.text}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+            </div>
+          </section>
+        )}
+        <section class="author-panel">
+          <p class="toc-title">写在这里的人</p>
+          <p>yinsheng。会记技术，也会记一些当下觉得值得留下来的想法。</p>
+          <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">去 GitHub 看看</a>
+        </section>
+      </aside>
+      <div class="prose">
+        <slot />
+      </div>
     </div>
   </article>
 </BaseLayout>
+
+<script>
+  const tocLinks = Array.from(
+    document.querySelectorAll<HTMLAnchorElement>('.toc-link')
+  );
+  const observedHeadings = tocLinks
+    .map((link) => document.getElementById(link.dataset.target || ''))
+    .filter((heading): heading is HTMLElement => heading instanceof HTMLElement);
+
+  const setActiveHeading = (id: string) => {
+    tocLinks.forEach((link) => {
+      const isActive = link.dataset.target === id;
+      link.classList.toggle('is-active', isActive);
+      if (isActive) {
+        link.scrollIntoView({ block: 'nearest' });
+      }
+    });
+
+    observedHeadings.forEach((heading) => {
+      heading.classList.toggle('is-active-heading', heading.id === id);
+    });
+  };
+
+  if (observedHeadings.length > 0) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleEntries = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visibleEntries.length > 0) {
+          setActiveHeading(visibleEntries[0].target.id);
+        }
+      },
+      {
+        rootMargin: '-18% 0px -58% 0px',
+        threshold: [0.1, 0.3, 0.6]
+      }
+    );
+
+    observedHeadings.forEach((heading) => observer.observe(heading));
+
+    if (window.location.hash) {
+      const hashId = window.location.hash.slice(1);
+      setActiveHeading(hashId);
+    } else {
+      setActiveHeading(observedHeadings[0].id);
+    }
+
+    window.addEventListener('hashchange', () => {
+      const hashId = window.location.hash.slice(1);
+      if (hashId) {
+        setActiveHeading(hashId);
+      }
+    });
+  }
+</script>
