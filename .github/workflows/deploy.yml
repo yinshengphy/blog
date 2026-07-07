@@ -4,12 +4,19 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - 'README.md'
-      - 'docs/**'
-      - '.gitignore'
-      - 'LICENSE'
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'astro.config.mjs'
+      - 'tsconfig.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
+
+concurrency:
+  group: blog-deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -24,44 +31,46 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
-
-      - name: Check if dependencies changed
-        id: deps
-        run: |
-          if git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -q "package-lock.json\|package.json"; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Dependencies changed -> full install"
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "Dependencies unchanged -> skip npm ci"
-          fi
+          fetch-depth: 1
+          clean: false
 
       - name: Use domestic npm registry
-        run: npm config set registry https://registry.npmmirror.com
-
-      - name: Full install (dependencies changed)
-        if: steps.deps.outputs.changed == 'true'
-        run: npm ci --prefer-offline --no-audit --no-fund
-
-      - name: Minimal install (content only)
-        if: steps.deps.outputs.changed != 'true'
         run: |
-          if [ -d node_modules ] && [ -f package-lock.json ]; then
-            echo "node_modules exists, running npm install --prefer-offline"
-            npm install --prefer-offline --no-audit --no-fund 2>&1 | tail -3
+          npm config set registry https://registry.npmmirror.com
+          npm config set cache "$PWD/.runner-cache/npm"
+
+      - name: Check dependency cache
+        id: deps
+        run: |
+          set -euo pipefail
+          mkdir -p .runner-cache
+          cat package.json package-lock.json | sha256sum | awk '{print $1}' > .runner-cache/deps.sha.current
+
+          if [ -d node_modules ] && [ -f .runner-cache/deps.sha ] && cmp -s .runner-cache/deps.sha.current .runner-cache/deps.sha; then
+            echo "install=false" >> "$GITHUB_OUTPUT"
+            echo "Dependencies unchanged and node_modules exists -> skip install"
           else
-            echo "node_modules missing, running npm ci"
-            npm ci --prefer-offline --no-audit --no-fund
+            echo "install=true" >> "$GITHUB_OUTPUT"
+            echo "Dependencies missing or changed -> run npm ci"
           fi
 
+      - name: Install dependencies
+        if: steps.deps.outputs.install == 'true'
+        run: |
+          npm ci --prefer-offline --no-audit --no-fund --cache "$PWD/.runner-cache/npm"
+          cp .runner-cache/deps.sha.current .runner-cache/deps.sha
+
       - name: Build
-        run: npm run build
+        run: npm exec -- astro build
 
       - name: Publish to K3s PVC
         run: |
           test -d dist
           mkdir -p /deploy/public
-          find /deploy/public -mindepth 1 -maxdepth 1 -exec rm -rf {} +
-          cp -a dist/. /deploy/public/
+          if command -v rsync >/dev/null 2>&1; then
+            rsync -a --delete dist/ /deploy/public/
+          else
+            find /deploy/public -mindepth 1 -maxdepth 1 -exec rm -rf {} +
+            cp -a dist/. /deploy/public/
+          fi
           echo "Published $(du -sh dist | cut -f1) to PVC"
