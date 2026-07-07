@@ -1,6 +1,7 @@
 ---
 import 'katex/dist/katex.min.css';
 import '../styles/global.css';
+import ChatWidget from '../components/ChatWidget.astro';
 
 interface Props {
   title?: string;
@@ -57,5 +58,6 @@ const year = new Date().getFullYear();
       </div>
       <p class="footer-meta">© {year} yinshengphy</p>
     </footer>
+    <ChatWidget />
   </body>
 </html>

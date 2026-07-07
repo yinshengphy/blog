@@ -1,0 +1,63 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: blog-indexer
+  namespace: blog
+spec:
+  schedule: "* * * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: Never
+          containers:
+            - name: blog-indexer
+              image: localhost:5000/blog-rag-api:20260707-2305
+              imagePullPolicy: IfNotPresent
+              env:
+                - name: SPRING_PROFILES_ACTIVE
+                  value: indexer
+                - name: SPRING_MAIN_WEB_APPLICATION_TYPE
+                  value: none
+                - name: AI_COMPUTE_BASE_URL
+                  value: http://ai-compute-gateway.ai.svc.cluster.local:8080
+                - name: QDRANT_URL
+                  value: http://qdrant.ai.svc.cluster.local:6333
+                - name: EMBEDDING_DIMENSION
+                  value: "1024"
+                - name: RAG_EMBEDDING_MODEL
+                  value: bge-m3
+                - name: BLOG_CONTENT_DIR
+                  value: /content/posts
+                - name: INDEX_DB_PATH
+                  value: /data/index-status.db
+                - name: INDEXER_CHAT_STATUS_URL
+                  value: http://blog-rag-api:8080/internal/status
+              envFrom:
+                - secretRef:
+                    name: ai-compute-client-token
+              volumeMounts:
+                - name: content
+                  mountPath: /content/posts
+                  readOnly: true
+                - name: indexer-data
+                  mountPath: /data
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 768Mi
+          volumes:
+            - name: content
+              persistentVolumeClaim:
+                claimName: blog-content-source
+            - name: indexer-data
+              persistentVolumeClaim:
+                claimName: blog-indexer-data
+
+

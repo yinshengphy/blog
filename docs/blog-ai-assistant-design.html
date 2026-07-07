@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Blog 智能机器人产品与技术设计报告</title>
+    <title>和我聊聊吧~ 产品与技术设计报告</title>
     <style>
       :root {
         color-scheme: light;
@@ -209,7 +209,9 @@
       }
 
       table {
+        display: table;
         width: 100%;
+        max-width: 100%;
         border-collapse: collapse;
         margin: 16px 0 22px;
         overflow: hidden;
@@ -300,19 +302,121 @@
         background: #e5e9f0;
       }
 
-      .assistant-fab {
+      .chat-fab {
         position: absolute;
         right: 24px;
         bottom: 24px;
         display: grid;
         place-items: center;
-        width: 54px;
-        height: 54px;
+        width: 58px;
+        height: 58px;
+        border: none;
         border-radius: 50%;
-        background: var(--text);
+        background: #172033;
         color: #fff;
         box-shadow: 0 18px 42px rgba(23, 26, 34, 0.22);
+        animation: botFloat 3.2s ease-in-out infinite;
+      }
+
+      .chat-fab::before {
+        content: "";
+        position: absolute;
+        inset: -7px;
+        border: 1px solid rgba(47, 99, 214, 0.24);
+        border-radius: inherit;
+        animation: botHalo 2.4s ease-out infinite;
+      }
+
+      .chat-fab .bot-icon {
+        position: relative;
+        z-index: 1;
+        width: 37px;
+        height: 37px;
+        overflow: visible;
+      }
+
+      .chat-fab .bot-face {
+        fill: #f8fafc;
+        stroke: #172033;
+        stroke-width: 3;
+        transform-origin: 32px 36px;
+        animation: botNod 4.8s ease-in-out infinite;
+      }
+
+      .chat-fab .bot-ear {
+        fill: #dbeafe;
+        stroke: #172033;
+        stroke-width: 2.5;
+      }
+
+      .chat-fab .bot-antenna,
+      .chat-fab .bot-shine,
+      .chat-fab .bot-mouth {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .chat-fab .bot-antenna {
+        stroke: #f8fafc;
+        stroke-width: 4;
+      }
+
+      .chat-fab .bot-shine {
+        stroke: rgba(23, 32, 51, 0.2);
+        stroke-width: 2.8;
+      }
+
+      .chat-fab .bot-mouth {
+        stroke: #172033;
+        stroke-width: 3;
+      }
+
+      .chat-fab .bot-signal {
+        fill: #f2c94c;
+        animation: botSignal 1.7s ease-in-out infinite;
+      }
+
+      .chat-fab .bot-eye {
+        fill: #172033;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: botBlink 4.2s ease-in-out infinite;
+      }
+
+      .chat-fab .bot-cheek {
+        fill: #f4a6a6;
+        opacity: 0.9;
+      }
+
+      .chat-fab .bot-tip {
+        position: absolute;
+        right: 66px;
+        top: 50%;
+        width: max-content;
+        max-width: 132px;
+        transform: translateY(-50%);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.96);
+        color: var(--text);
+        padding: 7px 10px;
+        font-size: 12px;
         font-weight: 800;
+        box-shadow: 0 10px 24px rgba(23, 26, 34, 0.12);
+      }
+
+      .chat-fab .bot-spark {
+        position: absolute;
+        top: 11px;
+        right: 12px;
+        z-index: 2;
+        width: 7px;
+        height: 7px;
+        border: 2px solid #111827;
+        border-radius: 50%;
+        background: #84cc16;
+        animation: sparkBlink 1.8s ease-in-out infinite;
       }
 
       .chat-panel {
@@ -370,6 +474,47 @@
         background: #f0f3f7;
       }
 
+      .bubble.streaming {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .bubble.streaming::after {
+        content: "";
+        display: inline-block;
+        width: 7px;
+        height: 1.1em;
+        margin-left: 3px;
+        vertical-align: -0.18em;
+        border-radius: 2px;
+        background: var(--accent);
+        animation: caretBlink 0.9s steps(1) infinite;
+      }
+
+      .typing-dots {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        margin-left: 6px;
+        vertical-align: middle;
+      }
+
+      .typing-dots i {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #98a2b3;
+        animation: typingPulse 1.15s ease-in-out infinite;
+      }
+
+      .typing-dots i:nth-child(2) {
+        animation-delay: 0.16s;
+      }
+
+      .typing-dots i:nth-child(3) {
+        animation-delay: 0.32s;
+      }
+
       .source-card {
         max-width: 92%;
         border: 1px solid var(--line);
@@ -419,6 +564,108 @@
         border-left-color: var(--good);
       }
 
+      @keyframes caretBlink {
+        0%,
+        48% {
+          opacity: 1;
+        }
+
+        49%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes typingPulse {
+        0%,
+        80%,
+        100% {
+          opacity: 0.35;
+          transform: translateY(0);
+        }
+
+        40% {
+          opacity: 1;
+          transform: translateY(-3px);
+        }
+      }
+
+      @keyframes botFloat {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+
+        45% {
+          transform: translateY(-5px) rotate(-2deg);
+        }
+
+        70% {
+          transform: translateY(-2px) rotate(2deg);
+        }
+      }
+
+      @keyframes botHalo {
+        0% {
+          opacity: 0.55;
+          transform: scale(0.82);
+        }
+
+        100% {
+          opacity: 0;
+          transform: scale(1.28);
+        }
+      }
+
+      @keyframes sparkBlink {
+        0%,
+        100% {
+          opacity: 0.45;
+          transform: scale(0.86);
+        }
+
+        50% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes botBlink {
+        0%,
+        88%,
+        100% {
+          transform: scaleY(1);
+        }
+
+        92% {
+          transform: scaleY(0.18);
+        }
+      }
+
+      @keyframes botNod {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-1px);
+        }
+      }
+
+      @keyframes botSignal {
+        0%,
+        100% {
+          opacity: 0.55;
+          transform: translateY(0);
+        }
+
+        50% {
+          opacity: 1;
+          transform: translateY(-1px);
+        }
+      }
+
       .sources {
         display: grid;
         gap: 8px;
@@ -437,6 +684,17 @@
           padding-top: 32px;
         }
 
+        table {
+          display: block;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+        }
+
+        th,
+        td {
+          min-width: 132px;
+        }
+
         .chat-preview {
           min-height: 600px;
           padding: 16px;
@@ -448,7 +706,7 @@
           width: calc(100% - 24px);
         }
 
-        .assistant-fab {
+        .chat-fab {
           right: 14px;
           bottom: 16px;
         }
@@ -460,29 +718,29 @@
       <section class="hero">
         <div>
           <p class="eyebrow">Product & Architecture Report</p>
-          <h1>Blog 智能机器人设计方案</h1>
+          <h1>和我聊聊吧~ 设计方案</h1>
           <p class="lead">
-            为个人 Astro 博客增加一个右下角极简聊天机器人。它能够识别用户意图，在人格问答、博客 RAG
-            问答和通用问答之间分流；当命中博客内容时展示来源，并允许用户跳转到对应文章。
+            为个人 Astro 博客增加一个右下角极简问答机器人。访客问一句，它回答一句；回答优先基于博客内容，
+            并返回可点击来源。页面不展示任何服务器、硬件或内部网络信息，只呈现清晰、克制的问答体验。
           </p>
         </div>
         <aside class="summary-card" aria-label="方案摘要">
           <dl>
             <div>
               <dt>部署约束</dt>
-              <dd>K3s 单节点，现有博客仍保持静态 Astro + nginx 服务。</dd>
+              <dd>私有化部署，现有静态博客服务不变。</dd>
             </div>
             <div>
               <dt>核心服务</dt>
-              <dd><code>blog-service</code>，Spring AI 后端，独立 Deployment。</dd>
+              <dd>独立 RAG 后端，前端只访问博客自己的 API。</dd>
             </div>
             <div>
-              <dt>本地模型</dt>
-              <dd><code>llama.cpp server</code> + RTX 2060 6GB 量化模型。</dd>
+              <dt>AI Compute</dt>
+              <dd>私有模型服务统一调度，具体硬件和内部拓扑不对访客展示。</dd>
             </div>
             <div>
               <dt>RAG 存储</dt>
-              <dd>Qdrant 存储已发布博客正文切片与来源元数据。</dd>
+              <dd>保存博客切片、语义向量和可点击来源元数据。</dd>
             </div>
           </dl>
         </aside>
@@ -501,7 +759,7 @@
           </article>
           <article class="card">
             <h3>本地优先</h3>
-            <p class="muted">模型和向量库自托管，避免云模型成本和外部依赖，符合当前 K3s 私有部署方式。</p>
+            <p class="muted">模型和向量库自托管，避免云模型成本和外部依赖；访客侧不暴露底层部署细节。</p>
           </article>
         </div>
 
@@ -517,8 +775,8 @@
           <tbody>
             <tr>
               <td>模型部署</td>
-              <td>本地 <code>llama.cpp server</code></td>
-              <td>需要独立模型服务、GPU 资源限制、冷启动和并发保护。</td>
+              <td>私有 AI 计算网关 + 私有模型运行时</td>
+              <td>业务只调用统一网关；页面和公开响应不出现具体硬件型号、显存、内部服务名或网络地址。</td>
             </tr>
             <tr>
               <td>RAG 范围</td>
@@ -537,8 +795,8 @@
             </tr>
             <tr>
               <td>交互形式</td>
-              <td>极简右下角聊天窗</td>
-              <td>不做完整客服系统，降低页面干扰。</td>
+              <td>问答式右下角聊天窗</td>
+              <td>每个用户问题默认只产生一次完整回答；除非内容确实过长，不主动拆成多条。</td>
             </tr>
             <tr>
               <td>来源展示</td>
@@ -567,24 +825,46 @@
           </div>
           <section class="chat-panel">
             <div class="chat-head">
-              <strong>博客助手</strong>
-              <span>可以问文章内容、作者信息或通用问题</span>
+              <strong>和我聊聊吧~</strong>
+              <span>我会先从文章里找依据，也能聊点技术、学习和生活</span>
             </div>
             <div class="chat-body">
-              <div class="bubble bot">你好，我可以基于这个博客回答问题。你也可以问：RSA 为什么要用欧拉函数？</div>
+              <div class="bubble bot">嗨，我在这儿。可以问文章里的内容，也可以随便聊点技术和生活。</div>
               <div class="bubble user">RSA 的公钥和私钥是怎么来的？</div>
-              <div class="bubble bot">这属于博客内容问题。我会先检索相关文章，再结合命中的段落回答...</div>
+              <div
+                class="bubble bot streaming"
+                aria-live="polite"
+                data-stream-text="这属于博客内容问题。我会先检索相关文章，再结合命中的段落回答：RSA 的密钥生成可以理解为先选择两个大质数，再构造一个只有私钥持有者才能反向求解的数学关系。"
+              >
+                <span class="stream-text"></span>
+              </div>
               <div class="source-card">
                 <strong>来源：RSA 加密原理</strong><br />
-                <span class="muted">命中章节：RSA 密钥如何生成 · 点击跳转文章</span>
+                <span class="muted">生成完成后展示引用 · 点击跳转到对应小节</span>
               </div>
             </div>
             <div class="chat-input">
-              <span>输入你的问题...</span>
-              <button type="button">发送</button>
+              <span>正在生成<span class="typing-dots" aria-hidden="true"><i></i><i></i><i></i></span></span>
+              <button type="button">停止</button>
             </div>
           </section>
-          <div class="assistant-fab">AI</div>
+          <button class="chat-fab" type="button" aria-label="和我聊聊吧~">
+            <svg class="bot-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path class="bot-antenna" d="M32 17V10" />
+              <circle class="bot-signal" cx="32" cy="7" r="3.2" />
+              <rect class="bot-ear" x="9" y="31" width="9" height="14" rx="5" />
+              <rect class="bot-ear" x="46" y="31" width="9" height="14" rx="5" />
+              <rect class="bot-face" x="15" y="18" width="34" height="35" rx="15" />
+              <path class="bot-shine" d="M23 25h12" />
+              <circle class="bot-eye" cx="27" cy="36" r="3.1" />
+              <circle class="bot-eye" cx="38" cy="36" r="3.1" />
+              <path class="bot-mouth" d="M28 44c2.4 1.8 5.6 1.8 8 0" />
+              <circle class="bot-cheek" cx="23" cy="42" r="2.2" />
+              <circle class="bot-cheek" cx="42" cy="42" r="2.2" />
+            </svg>
+            <span class="bot-tip" aria-hidden="true">和我聊聊吧~</span>
+            <span class="bot-spark" aria-hidden="true"></span>
+          </button>
         </div>
 
         <h3>推荐交互流程</h3>
@@ -592,19 +872,19 @@
           <li>
             <div>
               <strong>初始态</strong>
-              <p class="muted">右下角显示小型 AI 按钮。首次访问可用一个短 tooltip 提示“问问博客内容”。</p>
+              <p class="muted">右下角显示小机器人按钮。首次访问可用一个短 tooltip 提示“和我聊聊吧~”。</p>
             </div>
           </li>
           <li>
             <div>
               <strong>展开聊天窗</strong>
-              <p class="muted">顶部显示“博客助手”和能力说明；正文区展示 2-3 个建议问题；底部为输入框。</p>
+              <p class="muted">顶部显示“和我聊聊吧~”和轻量说明；正文区展示 2-3 个建议问题；底部为输入框。</p>
             </div>
           </li>
           <li>
             <div>
               <strong>发送问题</strong>
-              <p class="muted">前端通过 SSE 调用 <code>/api/assistant/chat</code>，答案流式输出。</p>
+              <p class="muted">默认通过 <code>POST /api/chat/stream</code> 发送问题和可选 <code>sessionId</code>，SSE delta 只更新同一个回答气泡。</p>
             </div>
           </li>
           <li>
@@ -616,7 +896,7 @@
           <li>
             <div>
               <strong>错误与限流</strong>
-              <p class="muted">模型忙、限流、检索为空时使用短文案解释，不暴露内部错误。</p>
+              <p class="muted">服务繁忙、限流、检索为空时使用短文案解释，不暴露内部错误或部署细节。</p>
             </div>
           </li>
         </ol>
@@ -629,7 +909,7 @@
           </article>
           <article class="card">
             <h3>生成中</h3>
-            <p class="muted">SSE 逐段输出，输入框禁用或允许停止生成。建议保留“停止”按钮。</p>
+            <p class="muted">SSE 流式生成，但 UI 不拆成多条消息。输入框进入等待态，按钮显示“思考中”，避免重复提交。</p>
           </article>
           <article class="card">
             <h3>RAG 无命中</h3>
@@ -637,7 +917,7 @@
           </article>
           <article class="card">
             <h3>模型繁忙</h3>
-            <p class="muted">RTX 2060 资源有限，排队或返回“当前繁忙，请稍后再试”。</p>
+            <p class="muted">私有模型服务资源有限，排队或返回“当前繁忙，请稍后再试”。不展示具体硬件信息。</p>
           </article>
         </div>
       </section>
@@ -645,23 +925,28 @@
       <section>
         <h2>3. 技术架构总览</h2>
         <p>
-          现有博客继续保持静态部署。新增后端命名为 <code>blog-service</code>，原因是它未来不仅服务智能机器人，
-          也可以承载评论、订阅、搜索、统计等博客后端能力。为了避免后续混乱，当前实现中把智能机器人作为
-          <code>assistant</code> 模块或 bounded context。
+          现有博客继续保持静态部署。新增后端命名为 <code>blog-rag-api</code>，只负责博客问答、RAG 检索、
+          限流和来源构造。模型计算能力不放进业务后端，而是沉到通用 AI Compute 服务中；未来图片理解、代码助手、摘要生成、
+          批量 embedding 等 AI 需求都复用同一个内部 API。
         </p>
 
         <div class="diagram">
 <pre>用户浏览器
-  ├─ GET /                    → blog-web nginx → Astro 静态文件
-  └─ GET /api/assistant/chat  → blog-service Spring Boot
-                                ├─ Intent Router
-                                ├─ Persona Answer Chain
-                                ├─ Blog RAG Chain
-                                │   ├─ Qdrant: blog_chunks collection
-                                │   └─ Source Builder: article URL + heading
-                                ├─ General Answer Chain
-                                ├─ SQLite: rate_limit + metrics
-                                └─ llama.cpp server: local GGUF model</pre>
+  ├─ GET /                    → 静态博客页面
+  └─ POST /api/chat/stream    → RAG API
+                                ├─ ChatLimiter: 同时只处理少量生成任务
+                                ├─ Query Embedding → AI Compute Gateway
+                                ├─ Qdrant: blog_chunks collection
+                                ├─ Rerank: vector + title + tag + updated_at
+                                ├─ Prompt Builder: blog snippets + persona rules
+                                ├─ Chat Completion → AI Compute Gateway
+                                └─ Citation Builder: title + heading + anchor URL
+
+blog-indexer CronJob
+  ├─ 每 1 分钟扫描 src/content/posts/*.md
+  ├─ SQLite index status 做增量判断
+  ├─ Embedding → AI Compute Gateway
+  └─ Upsert/Delete → Qdrant</pre>
         </div>
 
         <h3>推荐服务命名</h3>
@@ -675,19 +960,19 @@
           </thead>
           <tbody>
             <tr>
-              <td>Spring Boot 后端</td>
-              <td><code>blog-service</code></td>
-              <td>面向博客后端能力的统一服务，避免未来新增评论/订阅时名字过窄。</td>
+              <td>RAG API</td>
+              <td><code>blog-rag-api</code></td>
+              <td>面向博客问答的 Spring Boot 服务，不持有模型和硬件细节。</td>
             </tr>
             <tr>
-              <td>AI 模块包名</td>
-              <td><code>assistant</code></td>
-              <td>内部模块边界，包含意图识别、RAG、人格问答和通用问答。</td>
+              <td>AI Compute Gateway</td>
+              <td><code>ai-compute-gateway</code></td>
+              <td>CPU Pod，暴露 OpenAI-compatible API，负责队列、鉴权、优先级和运行时适配。</td>
             </tr>
             <tr>
-              <td>模型服务</td>
-              <td><code>llama-server</code></td>
-              <td>部署 llama.cpp server，暴露 OpenAI-compatible API。</td>
+              <td>模型运行时</td>
+              <td><code>ai-compute-runtime</code></td>
+              <td>私有模型运行时，底层跑 Ollama；具体硬件和资源申请只写在部署清单里。</td>
             </tr>
             <tr>
               <td>向量库</td>
@@ -697,7 +982,7 @@
             <tr>
               <td>索引任务</td>
               <td><code>blog-indexer</code></td>
-              <td>CI 或手动 Job，用于生成博客切片和 embeddings。</td>
+              <td>k3s CronJob，每 1 分钟运行一次，增量更新 Qdrant。</td>
             </tr>
           </tbody>
         </table>
@@ -718,38 +1003,44 @@
             <tr>
               <td>后端</td>
               <td>Spring Boot + Spring AI</td>
-              <td>符合你的偏好；Java 生态稳定；Spring AI 提供 Chat、Embedding、VectorStore、RAG Advisor 抽象。</td>
+              <td><code>blog-rag-api</code> 和 <code>ai-compute-gateway</code> 都使用 Spring Boot，栈一致，便于维护。</td>
               <td>Spring AI 版本迭代较快，落地前需锁版本并验证 API。</td>
             </tr>
             <tr>
-              <td>模型服务</td>
-              <td>llama.cpp server</td>
-              <td>轻量、可控、适合 GGUF 量化模型；适合 RTX 2060 6GB 和低资源环境。</td>
-              <td>并发有限；模型效果依赖选型和量化质量。</td>
+              <td>AI Compute Gateway</td>
+              <td>OpenAI-compatible API</td>
+              <td>对内暴露 <code>/v1/chat/completions</code>、<code>/v1/embeddings</code>、<code>/v1/models</code>，业务服务不直接依赖 Ollama。</td>
+              <td>多一层服务，但后续替换运行时或增加队列更稳。</td>
+            </tr>
+            <tr>
+              <td>模型运行时</td>
+              <td>Ollama</td>
+              <td>第一版直接使用 Ollama 管理本地模型，业务层只感知统一网关。</td>
+              <td>私有算力有限，需要限制并发和输出长度。</td>
             </tr>
             <tr>
               <td>向量库</td>
               <td>Qdrant</td>
               <td>独立服务、扩展性好、支持 payload 元数据和过滤，适合来源追踪。</td>
-              <td>比文件型向量库多一个服务，需要持久化和备份。</td>
+              <td>只在集群内访问。暂不备份，可由 Markdown 重建。</td>
             </tr>
             <tr>
               <td>索引</td>
-              <td>CI 自动索引 + 手动 reindex</td>
-              <td>发布文章后索引同步更新；手动入口方便修复和重建。</td>
-              <td>CI 时间增加；模型服务不可用时索引可能失败。</td>
+              <td>CronJob + CI 异步触发</td>
+              <td><code>blog-indexer</code> 每 1 分钟增量扫描；CI 发布后异步触发一次 Job，但不阻塞博客发布。</td>
+              <td>页面可能先更新，索引稍后补齐，最坏由下一分钟 CronJob 兜底。</td>
             </tr>
             <tr>
               <td>响应</td>
-              <td>SSE</td>
-              <td>实现简单，适合文本流式输出；比 WebSocket 更贴合单请求生成。</td>
-              <td>需要处理断开、超时和前端停止生成。</td>
+              <td>JSON + SSE</td>
+              <td><code>POST /api/chat</code> 返回 JSON；默认前端使用 <code>POST /api/chat/stream</code>，同一个回答气泡内流式更新。</td>
+              <td>SSE 只影响显示速度，不能把 delta 渲染成多条机器人消息。</td>
             </tr>
             <tr>
               <td>限流</td>
               <td>SQLite</td>
-              <td>轻量、持久化、够个人博客使用；记录 IP hash 时间窗口即可。</td>
-              <td>多副本时需共享 PVC 或改为 Redis；初期建议 blog-service 单副本。</td>
+              <td>每 IP 10 次/分钟、100 次/天；日志不保存完整问题，只存 hash、长度、耗时和命中情况。</td>
+              <td>多副本时需共享 PVC 或改为 Redis；初期建议 <code>blog-rag-api</code> 单副本。</td>
             </tr>
           </tbody>
         </table>
@@ -757,7 +1048,7 @@
         <div class="callout warn">
           <strong>重要约束：</strong>
           你的现有博客是静态站，不能把模型 Key、RAG 检索或限流逻辑放在 Astro 前端。前端只能是聊天组件，
-          所有智能逻辑都应进入 <code>blog-service</code>。
+          博客智能逻辑进入 <code>blog-rag-api</code>，GPU 调度逻辑进入 <code>ai-compute-gateway</code>。
         </div>
       </section>
 
@@ -834,19 +1125,22 @@
 
         <h3>RAG 索引数据结构</h3>
         <pre>{
-  "id": "rsa-revised__h2-rsa-keygen__chunk-003",
+  "id": "rsa__0003",
   "vector": [0.012, -0.083, "..."],
   "payload": {
-    "post_id": "rsa-revised",
+    "source_type": "post",
+    "scope": "blog",
+    "slug": "rsa",
     "title": "RSA 加密原理",
-    "url": "/rsa-revised/",
-    "heading": "RSA 密钥如何生成",
-    "heading_slug": "rsa-keygen",
-    "chunk_index": 3,
-    "published": true,
-    "date": "2020-03-21",
+    "section": "RSA 密钥如何生成",
+    "heading_path": "RSA 加密原理 &gt; RSA 密钥如何生成",
+    "url": "/rsa/#rsa-密钥如何生成",
+    "content": "这一小节的正文内容...",
+    "content_hash": "abc123",
+    "chunk_hash": "def456",
     "tags": ["RSA", "密码学", "数论"],
-    "text_preview": "第 1 步：选择两个不同的大质数..."
+    "date": "2026-07-06",
+    "updated_at": "2026-07-06T12:00:00+08:00"
   }
 }</pre>
 
@@ -862,74 +1156,118 @@
           <tbody>
             <tr>
               <td>切片粒度</td>
-              <td>按 Markdown 标题分段后再按 450-800 中文字符切片</td>
+              <td>按 Markdown 的 H2/H3/H4 分段后再按 500-900 中文字符切片</td>
               <td>保留章节语义，来源卡片也能定位到标题。</td>
             </tr>
             <tr>
               <td>重叠</td>
-              <td>80-120 中文字符</td>
+              <td>80-150 中文字符</td>
               <td>避免公式或推导链断裂。</td>
             </tr>
             <tr>
               <td>召回数量</td>
-              <td>Top 5 检索，最终给模型 Top 3</td>
-              <td>降低上下文噪声，适合小模型。</td>
+              <td>Top 5 检索，最多返回 5 条引用</td>
+              <td>符合博客问答场景，也不会让引用卡片淹没正文。</td>
             </tr>
             <tr>
               <td>来源展示</td>
-              <td>最多 3 个来源卡片</td>
-              <td>移动端空间有限，避免喧宾夺主。</td>
+              <td><code>/{slug}/#anchor</code></td>
+              <td>当前博客实际文章路由如此，点击 citation 在当前页跳转到对应小节。</td>
             </tr>
           </tbody>
         </table>
+
+        <div class="callout">
+          <strong>增量规则：</strong>
+          indexer 读取 <code>src/content/posts/*.md</code>，状态保存在 <code>blog-indexer-data</code> PVC 中的 SQLite。
+          新增文章写入新 chunk；修改文章先删旧 chunk 再写新 chunk；删除文章时根据 SQLite 中消失的 slug 删除 Qdrant 中所有对应点。
+        </div>
       </section>
 
       <section>
         <h2>6. API 设计草案</h2>
-        <h3>聊天接口</h3>
-        <pre>POST /api/assistant/chat
+        <h3>普通聊天接口</h3>
+        <pre>POST /api/chat
+Content-Type: application/json
+
+{
+  "question": "RSA 的公钥和私钥是怎么来的？",
+  "sessionId": "optional-client-session-id"
+}
+
+200 OK
+{
+  "answer": "RSA 的密钥生成可以分成几步...",
+  "citations": [
+    {
+      "title": "RSA 加密原理",
+      "section": "RSA 密钥如何生成",
+      "url": "/rsa/#rsa-密钥如何生成",
+      "snippet": "第 1 步：选择两个不同的大质数..."
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "RSA 加密原理",
+      "url": "/rsa/"
+    }
+  ]
+}</pre>
+
+        <h3>默认流式聊天接口</h3>
+        <pre>POST /api/chat/stream
 Accept: text/event-stream
 Content-Type: application/json
 
 {
-  "message": "RSA 的公钥和私钥是怎么来的？",
-  "conversationId": "optional-client-session-id",
-  "page": {
-    "url": "/rsa-revised/",
-    "title": "RSA 加密原理"
-  }
+  "question": "RSA 的公钥和私钥是怎么来的？",
+  "sessionId": "optional-client-session-id"
 }</pre>
 
         <h3>SSE 事件</h3>
-        <pre>event: intent
-data: {"intent":"blog_rag","confidence":0.91}
+        <pre>event: meta
+data: {"requestId":"...","mode":"blog_rag"}
 
 event: delta
 data: {"text":"RSA 的密钥生成可以分成几步："}
 
-event: sources
-data: [{"title":"RSA 加密原理","url":"/rsa-revised/#rsa-keygen","heading":"RSA 密钥如何生成","score":0.82}]
+event: citations
+data: [{"title":"RSA 加密原理","url":"/rsa/#rsa-密钥如何生成","section":"RSA 密钥如何生成","snippet":"第 1 步..."}]
 
 event: done
 data: {"elapsedMs":1840}</pre>
 
-        <h3>手动重建索引</h3>
-        <pre>POST /api/admin/assistant/reindex
-Authorization: Bearer &lt;admin-token&gt;
+        <h3>AI Compute Gateway 内部接口</h3>
+        <pre>POST ${AI_COMPUTE_BASE_URL}/v1/chat/completions
+Authorization: Bearer &lt;internal-token&gt;
 
 {
-  "scope": "published_posts"
+  "model": "qwen3:4b",
+  "messages": [{"role":"user","content":"..."}],
+  "max_tokens": 1000
+}
+
+POST ${AI_COMPUTE_BASE_URL}/v1/embeddings
+Authorization: Bearer &lt;internal-token&gt;
+
+{
+  "model": "bge-m3",
+  "input": ["需要向量化的文本"]
 }</pre>
 
         <div class="callout">
           <strong>建议：</strong>
-          管理接口不要暴露给公网访客。可以只允许内网访问，或用 Cloudflare Access / 管理 token 保护。
+          网关是内部服务，不暴露公网。<code>blog-rag-api</code> 和 <code>blog-indexer</code> 通过 Secret 注入
+          内部服务 token 调用它；网关再用内部 token 或网络隔离访问私有模型运行时。
         </div>
       </section>
 
       <section>
         <h2>7. K3s 部署方案</h2>
-        <p>新增组件不应破坏现有 <code>blog-web</code>。建议新增以下资源：</p>
+        <p>
+          新增组件不应破坏现有 <code>blog-web</code>。博客业务继续在 <code>blog</code> namespace；
+          AI 基础设施放入独立 namespace。跨服务访问先默认允许，靠内部服务发现和 token 控制。
+        </p>
         <table>
           <thead>
             <tr>
@@ -940,29 +1278,44 @@ Authorization: Bearer &lt;admin-token&gt;
           </thead>
           <tbody>
             <tr>
-              <td><code>blog-service</code></td>
+              <td><code>blog-rag-api</code></td>
               <td>Deployment + Service</td>
-              <td>Spring Boot，初期 1 副本，内存 512Mi-1Gi，挂载 SQLite PVC。</td>
+              <td>业务 namespace，1 副本，暴露 <code>/api/chat</code> 和 <code>/api/chat/stream</code>。</td>
             </tr>
             <tr>
-              <td><code>llama-server</code></td>
+              <td><code>blog-indexer</code></td>
+              <td>CronJob + Job</td>
+              <td>业务 namespace，每 1 分钟执行，<code>concurrencyPolicy: Forbid</code>，挂载内容源和状态 PVC。</td>
+            </tr>
+            <tr>
+              <td><code>ai-compute-gateway</code></td>
               <td>Deployment + Service</td>
-              <td>GPU 调度，挂载模型 PVC，限制并发，暴露集群内 HTTP。</td>
+              <td>AI namespace，Spring Boot，OpenAI-compatible API，负责队列和鉴权。</td>
+            </tr>
+            <tr>
+              <td><code>ai-compute-runtime</code></td>
+              <td>Deployment + Service + PVC</td>
+              <td>AI namespace，Ollama 私有模型运行时，挂载模型 PVC；具体资源申请只在 YAML 中维护。</td>
             </tr>
             <tr>
               <td><code>qdrant</code></td>
-              <td>StatefulSet 或 Deployment + PVC</td>
-              <td>1 副本，持久化 collection，ClusterIP 仅内网访问。</td>
+              <td>StatefulSet + Service + PVC</td>
+              <td>AI namespace，1 副本，持久化 <code>blog_chunks</code>，仅集群内访问，不启用 API key。</td>
             </tr>
             <tr>
-              <td><code>blog-ai-data</code></td>
+              <td><code>blog-content-source</code></td>
               <td>PVC</td>
-              <td>存放 SQLite、必要配置和索引状态。</td>
+              <td>业务 namespace，由 GitHub Actions runner 写入 Markdown 源文件，indexer 只读挂载。</td>
             </tr>
             <tr>
-              <td><code>blog-models</code></td>
+              <td><code>blog-indexer-data</code></td>
               <td>PVC</td>
-              <td>存放 GGUF 模型文件，避免镜像过大。</td>
+              <td>业务 namespace，保存 SQLite 状态表 <code>blog_index_status</code>。</td>
+            </tr>
+            <tr>
+              <td><code>blog-rag-api-data</code></td>
+              <td>PVC</td>
+              <td>业务 namespace，保存聊天限流 SQLite，仅记录 IP hash 和时间窗口。</td>
             </tr>
           </tbody>
         </table>
@@ -970,14 +1323,19 @@ Authorization: Bearer &lt;admin-token&gt;
         <h3>流量路径</h3>
         <div class="diagram">
 <pre>Cloudflare Tunnel
-  ├─ /             → blog-web Service:80
-  └─ /api/*        → blog-service Service:8080
+  └─ Traefik Ingress
 
-blog-service
-  ├─ http://llama-server:8080/v1/chat/completions
-  ├─ http://llama-server:8080/v1/embeddings 或独立 embedding server
-  ├─ http://qdrant:6333
-  └─ /data/rate-limit.sqlite</pre>
+Traefik
+  ├─ /             → 静态博客 Service
+  └─ /api/*        → RAG API Service
+
+RAG API
+  ├─ AI Compute Gateway: chat completions
+  ├─ AI Compute Gateway: embeddings
+  └─ Vector DB
+
+AI Compute Gateway
+  └─ Private model runtime</pre>
         </div>
 
         <h3>模型部署建议</h3>
@@ -985,72 +1343,70 @@ blog-service
           <article class="card">
             <h3>生成模型</h3>
             <p class="muted">
-              RTX 2060 6GB 更适合 3B-7B 量化模型。优先选择 Q4_K_M / Q5_K_M 这类 GGUF 量化。
-              并发建议从 <code>1</code> 开始，避免显存抖动。
+              主模型 <code>qwen2.5:3b</code>。<code>qwen3:4b</code> 需确认不会流式输出思考过程后再启用。Chat 最大输出
+              <code>1000 tokens</code>，同一时间只允许 1 个生成任务。
             </p>
           </article>
           <article class="card">
             <h3>Embedding 模型</h3>
             <p class="muted">
-              最好与生成模型分开。可以使用独立 embedding 模型服务；若显存紧张，embedding 可 CPU 跑，
-              因为在线只需要对用户 query 做一次 embedding。
+              主模型 <code>bge-m3</code>，fallback <code>nomic-embed-text</code>。Embedding 也走 Ollama，
+              但必须服从 <code>chat &gt; embedding</code> 优先级。
             </p>
           </article>
         </div>
 
         <div class="callout warn">
           <strong>注意：</strong>
-          单张 RTX 2060 6GB 同时跑生成模型和 embedding 模型可能紧张。第一版可以让生成模型使用 GPU，
-          embedding 使用 CPU 或离线任务错峰运行。
+          只有私有模型运行时可以使用本地加速资源。RAG API、indexer、Qdrant 和 gateway 都不能申请这类资源。
         </div>
       </section>
 
       <section>
         <h2>8. CI/CD 与索引流程</h2>
         <p>
-          现有 CI 在 <code>npm run build</code> 后复制 <code>dist/</code> 到 <code>/deploy/public/</code>。
-          新增智能机器人后，博客发布和索引更新应保持一致。
+          现有 CI 已优化为依赖未变化时跳过安装，并使用 <code>npm exec -- astro build</code> 构建。
+          新增聊天入口后，CI 只负责发布静态文件、同步 Markdown 源文件，并异步触发索引 Job，不等待索引完成。
         </p>
         <ol class="flow">
           <li>
             <div>
               <strong>构建 Astro</strong>
-              <p class="muted">沿用现有流程：checkout → npm ci → npm run build。</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <strong>生成索引输入</strong>
-              <p class="muted">解析 <code>src/content/posts/*.md</code>，过滤 draft，输出 <code>post_id/title/url/heading/text</code>。</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <strong>切片与 embedding</strong>
-              <p class="muted">调用集群内 embedding 服务生成向量，或在 CI runner 内执行索引任务。</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <strong>写入 Qdrant</strong>
-              <p class="muted">按 collection upsert；使用 <code>source_hash</code> 判断是否需要更新。</p>
+              <p class="muted">仅当 <code>src/**</code>、<code>public/**</code>、依赖或构建配置变化时触发部署 workflow。</p>
             </div>
           </li>
           <li>
             <div>
               <strong>发布静态文件</strong>
-              <p class="muted">复制 <code>dist/</code> 到 <code>blog-public PVC</code>。</p>
+              <p class="muted">将 <code>dist/</code> 增量同步到 <code>blog-public</code> PVC，nginx 立即读取新页面。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>同步 Markdown 源文件</strong>
+              <p class="muted">将 <code>src/content/posts</code> 同步到 <code>blog-content-source</code> PVC，供 CronJob 读取。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>异步触发索引</strong>
+              <p class="muted">CI 创建一次 <code>blog-indexer</code> Job 后直接结束；索引失败不影响博客发布。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>CronJob 兜底</strong>
+              <p class="muted">每 1 分钟执行一次增量扫描，确保遗漏或失败能自动补上。</p>
             </div>
           </li>
         </ol>
 
-        <h3>建议的索引命令</h3>
-        <pre># CI 中执行
-java -jar blog-service-indexer.jar \
-  --posts-dir ./src/content/posts \
-  --site-base-url https://你的博客域名 \
-  --qdrant-url http://qdrant:6333 \
-  --collection blog_posts</pre>
+        <h3>CI 后置动作示例</h3>
+        <pre># 同步 Markdown 到 PVC 挂载点
+rsync -a --delete src/content/posts/ /deploy/content/posts/
+
+# 异步触发一次 indexer Job，不等待完成
+kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GITHUB_RUN_ID} || true</pre>
       </section>
 
       <section>
@@ -1066,7 +1422,7 @@ java -jar blog-service-indexer.jar \
           </article>
           <article class="card">
             <h3>防滥用</h3>
-            <p class="muted">限制输入长度，例如 500 中文字符；限制单次输出 tokens；模型繁忙时快速失败。</p>
+            <p class="muted">限制输入长度、RAG 上下文最大 <code>5000 tokens</code>、输出最大 <code>1000 tokens</code>。</p>
           </article>
           <article class="card">
             <h3>来源约束</h3>
@@ -1074,11 +1430,19 @@ java -jar blog-service-indexer.jar \
           </article>
           <article class="card">
             <h3>人设保护</h3>
-            <p class="muted">人设资料只作为回答边界，不暴露原文；遇到隐私请求应拒答。</p>
+            <p class="muted">人设资料放在 <code>config/persona.md</code>，以 ConfigMap 挂载，不暴露原文；遇到隐私请求应拒答。</p>
           </article>
           <article class="card">
             <h3>公网暴露</h3>
-            <p class="muted">只暴露 <code>/api/assistant/chat</code>；Qdrant、llama-server、admin reindex 均不直接暴露公网。</p>
+            <p class="muted">公网只暴露博客和 <code>/api/chat*</code>；Qdrant、gateway、runtime、indexer 均不直接暴露公网。</p>
+          </article>
+          <article class="card">
+            <h3>内部鉴权</h3>
+            <p class="muted">RAG API 调 gateway 需要内部服务 token；向量库暂不启用 API key，仅集群内访问。</p>
+          </article>
+          <article class="card">
+            <h3>队列策略</h3>
+            <p class="muted">gateway 中 chat 优先级高于 embedding；排队超过 30 秒返回 429。</p>
           </article>
         </div>
       </section>
@@ -1097,32 +1461,32 @@ java -jar blog-service-indexer.jar \
             <tr>
               <td>Phase 1</td>
               <td>静态 UI + API 合约</td>
-              <td>Astro 聊天组件、SSE 前端封装、错误状态、来源卡片样式。</td>
+              <td>Astro Chat Widget、lucide Bot 图标、关闭按钮、3 个建议问题、SSE 单气泡更新、引用卡片样式。</td>
             </tr>
             <tr>
               <td>Phase 2</td>
-              <td>blog-service 基础能力</td>
-              <td>Spring Boot 服务、SSE chat endpoint、SQLite 限流、基础日志。</td>
+              <td>blog-rag-api 基础能力</td>
+              <td>Spring Boot 服务、<code>/api/chat</code>、<code>/api/chat/stream</code>、限流、JSON 日志和健康检查。</td>
             </tr>
             <tr>
               <td>Phase 3</td>
-              <td>本地模型接入</td>
-              <td>llama-server Deployment、模型 PVC、Spring AI ChatClient 接入。</td>
+              <td>AI Compute 接入</td>
+              <td><code>ai-compute-gateway</code>、<code>ai-compute-runtime</code>、Ollama 模型 PVC、OpenAI-compatible API。</td>
             </tr>
             <tr>
               <td>Phase 4</td>
               <td>RAG 上线</td>
-              <td>Qdrant、索引器、博客切片、来源卡片跳转。</td>
+              <td>Qdrant、增量 indexer、Markdown 切片、Astro anchor 校验、来源卡片跳转。</td>
             </tr>
             <tr>
               <td>Phase 5</td>
-              <td>人格与意图分流</td>
-              <td>persona 资料接入、intent router、RAG/general/persona 三链路。</td>
+              <td>人格与回答边界</td>
+              <td><code>config/persona.md</code>、博客内容与补充说明分区、人设问题受控回答。</td>
             </tr>
             <tr>
               <td>Phase 6</td>
               <td>运维优化</td>
-              <td>监控、健康检查、重建索引、限流面板或日志报表。</td>
+              <td>指标接口、Grafana 后续接入、手动模型 pull、索引 Job 排查和队列状态查看。</td>
             </tr>
           </tbody>
         </table>
@@ -1133,46 +1497,84 @@ java -jar blog-service-indexer.jar \
         <pre>blog/
   src/
     components/
-      BlogAssistant.astro
+      ChatWidget.astro
     scripts/
-      assistant-widget.ts
+      chat-widget.ts
+  config/
+    persona.md
   docs/
     blog-ai-assistant-design.html
-  service/
-    blog-service/
+  services/
+    blog-rag-api/
       src/main/java/...
-        assistant/
-          IntentRouter.java
-          AssistantController.java
+        chat/
+          ChatController.java
           BlogRagService.java
-          PersonaService.java
-          GeneralChatService.java
-          SourceBuilder.java
+          CitationBuilder.java
         ratelimit/
         indexer/
       src/main/resources/
         application.yml
+    ai-compute-gateway/
+      src/main/java/...
+        queue/
+        openai/
+        ollama/
+      src/main/resources/
+        application.yml
   k8s/
-    blog-service.yaml
-    llama-server.yaml
-    qdrant.yaml</pre>
+    rag/
+      namespace.yaml
+      blog-rag-api.yaml
+      blog-indexer.yaml
+      ai-compute-gateway.yaml
+      ai-compute-runtime.yaml
+      qdrant.yaml
+      ingress.yaml</pre>
 
         <div class="callout good">
           <strong>建议：</strong>
-          如果你不想把 Java 后端放进当前 Astro 仓库，也可以拆成 <code>blog-service</code> 独立仓库。
-          但第一版放在 monorepo 里更容易让 CI 同步博客内容和索引逻辑。
+          manifests 放在 <code>k8s/rag/</code>。镜像第一版优先使用本机 k3s 可访问的本地镜像，Docker Hub 基础镜像优先国内源。
+          Ollama 模型先手动进入 Pod 执行 <code>ollama pull</code>，避免 CI 被大模型下载拖慢。
         </div>
       </section>
 
       <section>
-        <h2>12. 仍需你补充的信息</h2>
-        <ul>
-          <li>人设资料：作者身份、回答语气、可公开信息、不能回答的信息。</li>
-          <li>博客公网域名：用于构造来源 URL。</li>
-          <li>模型选择：具体 GGUF 模型文件、量化等级、上下文长度。</li>
-          <li>是否接受生成速度较慢：本地 6GB GPU 对长回答会有限制。</li>
-          <li>Cloudflare Tunnel 当前 ingress 配置：确认是否能 path route 到 <code>blog-service</code>。</li>
-        </ul>
+        <h2>12. 已确认决策清单</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>主题</th>
+              <th>确认方案</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AI Compute</td>
+              <td>CPU gateway + Ollama GPU runtime；runtime Service 名 <code>ai-compute-runtime</code>。</td>
+            </tr>
+            <tr>
+              <td>API 风格</td>
+              <td>Gateway 对内使用 OpenAI-compatible API；前端默认请求 <code>POST /api/chat/stream</code>。</td>
+            </tr>
+            <tr>
+              <td>索引</td>
+              <td>Markdown 源文件由 CI 同步到 PVC；CronJob 每 1 分钟增量扫描；CI 异步触发一次 Job。</td>
+            </tr>
+            <tr>
+              <td>命名空间</td>
+              <td><code>blog-rag-api</code> 和 <code>blog-indexer</code> 在 <code>blog</code>；gateway、runtime、Qdrant 在 <code>ai</code>。</td>
+            </tr>
+            <tr>
+              <td>模型</td>
+              <td>Chat: <code>qwen2.5:3b</code>；<code>qwen3:4b</code> 暂不作为公开聊天默认模型，避免流式输出思考过程；Embedding: <code>bge-m3</code>，fallback <code>nomic-embed-text</code>。</td>
+            </tr>
+            <tr>
+              <td>隐私</td>
+              <td>不保存完整问题；不保存聊天历史；第一版不支持多轮上下文。</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section>
@@ -1181,7 +1583,7 @@ java -jar blog-service-indexer.jar \
           <li><a href="https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html">Spring AI Retrieval Augmented Generation Reference</a></li>
           <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs.html">Spring AI Vector Databases Reference</a></li>
           <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html">Spring AI Qdrant VectorStore Reference</a></li>
-          <li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md">llama.cpp server README</a></li>
+          <li><a href="https://github.com/ollama/ollama/blob/main/docs/api.md">Ollama API Documentation</a></li>
           <li><a href="https://qdrant.tech/documentation/">Qdrant Documentation</a></li>
           <li><a href="https://qdrant.tech/documentation/manage-data/collections/">Qdrant Collections Documentation</a></li>
           <li><a href="https://qdrant.tech/documentation/manage-data/points/">Qdrant Points Documentation</a></li>
@@ -1189,5 +1591,50 @@ java -jar blog-service-indexer.jar \
         </ul>
       </section>
     </main>
+    <script>
+      const streamingBubble = document.querySelector(".bubble.streaming");
+      const streamText = streamingBubble?.querySelector(".stream-text");
+      let streamingTimer = 0;
+      let streamingVisible = false;
+
+      function playStreamingDemo() {
+        if (!streamingBubble || !streamText) return;
+        window.clearTimeout(streamingTimer);
+        const text = streamingBubble.dataset.streamText || "";
+        streamText.textContent = "";
+        let index = 0;
+
+        const tick = () => {
+          if (!streamingVisible) return;
+          streamText.textContent = text.slice(0, index);
+          index += index < 8 ? 1 : 2;
+
+          if (index <= text.length) {
+            streamingTimer = window.setTimeout(tick, 42);
+          } else {
+            streamingTimer = window.setTimeout(playStreamingDemo, 1800);
+          }
+        };
+
+        tick();
+      }
+
+      if (streamingBubble) {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            streamingVisible = entry.isIntersecting;
+            if (streamingVisible) {
+              playStreamingDemo();
+            } else {
+              window.clearTimeout(streamingTimer);
+            }
+          },
+          { threshold: 0.45 }
+        );
+        observer.observe(streamingBubble);
+      }
+    </script>
   </body>
 </html>
+
+

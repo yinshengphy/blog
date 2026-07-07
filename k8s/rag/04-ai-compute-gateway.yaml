@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-compute-gateway
+  namespace: ai
+spec:
+  selector:
+    app: ai-compute-gateway
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-compute-gateway
+  namespace: ai
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ai-compute-gateway
+  template:
+    metadata:
+      labels:
+        app: ai-compute-gateway
+    spec:
+      containers:
+        - name: ai-compute-gateway
+          image: localhost:5000/ai-compute-gateway:20260707-2305
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: OLLAMA_BASE_URL
+              value: http://ai-compute-runtime:11434
+            - name: AI_COMPUTE_CHAT_MODEL
+              value: qwen2.5:3b
+            - name: AI_COMPUTE_FALLBACK_CHAT_MODEL
+              value: qwen2.5:3b
+            - name: AI_COMPUTE_EMBEDDING_MODEL
+              value: bge-m3
+            - name: AI_COMPUTE_FALLBACK_EMBEDDING_MODEL
+              value: nomic-embed-text
+          envFrom:
+            - secretRef:
+                name: ai-compute-gateway-token
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 768Mi
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 10
+
+
+
+

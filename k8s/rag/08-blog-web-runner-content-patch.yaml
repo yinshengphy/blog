@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog-web
+  namespace: blog
+spec:
+  template:
+    spec:
+      containers:
+        - name: runner
+          volumeMounts:
+            - name: blog-content-source
+              mountPath: /deploy/content/posts
+      volumes:
+        - name: blog-content-source
+          persistentVolumeClaim:
+            claimName: blog-content-source

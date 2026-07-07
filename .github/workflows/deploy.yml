@@ -74,3 +74,22 @@ jobs:
             cp -a dist/. /deploy/public/
           fi
           echo "Published $(du -sh dist | cut -f1) to PVC"
+
+      - name: Sync markdown source for RAG indexer
+        run: |
+          mkdir -p /deploy/content/posts
+          if command -v rsync >/dev/null 2>&1; then
+            rsync -a --delete src/content/posts/ /deploy/content/posts/
+          else
+            find /deploy/content/posts -mindepth 1 -maxdepth 1 -exec rm -rf {} +
+            cp -a src/content/posts/. /deploy/content/posts/
+          fi
+          echo "Synced markdown posts for RAG indexer"
+
+      - name: Trigger RAG indexer asynchronously
+        run: |
+          if command -v kubectl >/dev/null 2>&1; then
+            kubectl -n blog create job --from=cronjob/blog-indexer "blog-indexer-manual-${GITHUB_RUN_ID}" || true
+          else
+            echo "kubectl not found, skip manual index trigger; CronJob will catch up"
+          fi
