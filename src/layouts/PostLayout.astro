@@ -62,21 +62,23 @@ const minTocDepth = tocHeadings.length > 0
     <div class="post-body-layout">
       <aside class="post-sidebar">
         {tocHeadings.length > 0 && (
-          <section class="toc-panel">
-            <p class="toc-title">目录</p>
-            <div class="toc-scroll">
-              <nav aria-label="文章目录">
-                <ol class="toc-list">
-                  {tocHeadings.map((heading) => (
-                    <li class={`toc-level-${heading.depth - minTocDepth + 1}`}>
-                      <a class="toc-link" href={`#${heading.slug}`} data-target={heading.slug}>
-                        {heading.text}
-                      </a>
-                    </li>
-                  ))}
-                </ol>
-              </nav>
-            </div>
+          <section class="toc-panel" id="post-toc">
+            <details class="toc-details" open>
+              <summary class="toc-title toc-summary">目录</summary>
+              <div class="toc-scroll">
+                <nav aria-label="文章目录">
+                  <ol class="toc-list">
+                    {tocHeadings.map((heading) => (
+                      <li class={`toc-level-${heading.depth - minTocDepth + 1}`}>
+                        <a class="toc-link" href={`#${heading.slug}`} data-target={heading.slug}>
+                          {heading.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              </div>
+            </details>
           </section>
         )}
         <section class="author-panel">
@@ -89,6 +91,11 @@ const minTocDepth = tocHeadings.length > 0
         <slot />
       </div>
     </div>
+    {tocHeadings.length > 0 && (
+      <a class="toc-return-link" href="#post-toc" aria-label="回到文章目录">
+        目录
+      </a>
+    )}
   </article>
 </BaseLayout>
 
@@ -96,9 +103,21 @@ const minTocDepth = tocHeadings.length > 0
   const tocLinks = Array.from(
     document.querySelectorAll<HTMLAnchorElement>('.toc-link')
   );
+  const tocDetails = document.querySelector<HTMLDetailsElement>('.toc-details');
+  const tocReturnLink = document.querySelector<HTMLAnchorElement>('.toc-return-link');
+  const mobileQuery = window.matchMedia('(max-width: 780px)');
   const observedHeadings = tocLinks
     .map((link) => document.getElementById(link.dataset.target || ''))
     .filter((heading): heading is HTMLElement => heading instanceof HTMLElement);
+
+  const syncTocDisclosure = () => {
+    if (tocDetails) {
+      tocDetails.open = !mobileQuery.matches;
+    }
+  };
+
+  syncTocDisclosure();
+  mobileQuery.addEventListener('change', syncTocDisclosure);
 
   const setActiveHeading = (id: string) => {
     tocLinks.forEach((link) => {
@@ -144,6 +163,20 @@ const minTocDepth = tocHeadings.length > 0
       const hashId = window.location.hash.slice(1);
       if (hashId) {
         setActiveHeading(hashId);
+      }
+    });
+
+    tocLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        if (tocDetails && mobileQuery.matches) {
+          tocDetails.open = false;
+        }
+      });
+    });
+
+    tocReturnLink?.addEventListener('click', () => {
+      if (tocDetails && mobileQuery.matches) {
+        tocDetails.open = true;
       }
     });
   }
