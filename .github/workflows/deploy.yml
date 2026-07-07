@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '.gitignore'
+      - 'LICENSE'
   workflow_dispatch:
 
 jobs:
@@ -18,13 +23,37 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check if dependencies changed
+        id: deps
+        run: |
+          if git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -q "package-lock.json\|package.json"; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Dependencies changed -> full install"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Dependencies unchanged -> skip npm ci"
+          fi
 
       - name: Use domestic npm registry
-        run: |
-          npm config set registry https://registry.npmmirror.com
+        run: npm config set registry https://registry.npmmirror.com
 
-      - name: Install dependencies
+      - name: Full install (dependencies changed)
+        if: steps.deps.outputs.changed == 'true'
         run: npm ci --prefer-offline --no-audit --no-fund
+
+      - name: Minimal install (content only)
+        if: steps.deps.outputs.changed != 'true'
+        run: |
+          if [ -d node_modules ] && [ -f package-lock.json ]; then
+            echo "node_modules exists, running npm install --prefer-offline"
+            npm install --prefer-offline --no-audit --no-fund 2>&1 | tail -3
+          else
+            echo "node_modules missing, running npm ci"
+            npm ci --prefer-offline --no-audit --no-fund
+          fi
 
       - name: Build
         run: npm run build
@@ -35,3 +64,4 @@ jobs:
           mkdir -p /deploy/public
           find /deploy/public -mindepth 1 -maxdepth 1 -exec rm -rf {} +
           cp -a dist/. /deploy/public/
+          echo "Published $(du -sh dist | cut -f1) to PVC"
