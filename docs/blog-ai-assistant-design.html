@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog 智能机器人产品与技术设计报告</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fa;
+        --panel: #ffffff;
+        --text: #171a22;
+        --muted: #667085;
+        --line: #e1e5ec;
+        --accent: #2f63d6;
+        --accent-soft: #edf3ff;
+        --good: #197a50;
+        --warn: #a35c00;
+        --danger: #aa2d2d;
+        --code: #f0f3f7;
+        --shadow: 0 16px 44px rgba(23, 26, 34, 0.08);
+        --radius: 10px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      body {
+        margin: 0;
+        line-height: 1.68;
+        background: linear-gradient(180deg, #fbfcfd 0%, var(--bg) 100%);
+      }
+
+      a {
+        color: var(--accent);
+        text-underline-offset: 3px;
+      }
+
+      .page {
+        width: min(1120px, calc(100% - 36px));
+        margin: 0 auto;
+        padding: 48px 0 72px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+        gap: 40px;
+        align-items: start;
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow,
+      .section-label {
+        margin: 0;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 760;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 11em;
+        margin-bottom: 18px;
+        font-size: clamp(36px, 6vw, 64px);
+        line-height: 1.02;
+        letter-spacing: -0.01em;
+      }
+
+      h2 {
+        margin: 42px 0 16px;
+        font-size: clamp(26px, 3.2vw, 36px);
+        line-height: 1.16;
+      }
+
+      h3 {
+        margin: 28px 0 12px;
+        font-size: 20px;
+        line-height: 1.24;
+      }
+
+      .lead {
+        max-width: 68ch;
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.78;
+      }
+
+      .summary-card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.88);
+        box-shadow: var(--shadow);
+        padding: 22px;
+      }
+
+      .summary-card dl {
+        display: grid;
+        gap: 14px;
+        margin: 0;
+      }
+
+      .summary-card div {
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .summary-card div:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      dt {
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 760;
+      }
+
+      dd {
+        margin: 5px 0 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        padding: 20px;
+      }
+
+      .card h3 {
+        margin-top: 0;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .badge-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 0 10px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #fff;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 650;
+      }
+
+      .badge.strong {
+        border-color: rgba(47, 99, 214, 0.24);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .diagram,
+      pre {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--code);
+        padding: 18px;
+        color: #202733;
+        font-size: 13px;
+        line-height: 1.65;
+      }
+
+      code {
+        border-radius: 5px;
+        background: var(--code);
+        padding: 2px 5px;
+        font-size: 0.94em;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 16px 0 22px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 12px 14px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #fafbfc;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      .flow {
+        counter-reset: step;
+        display: grid;
+        gap: 12px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .flow li {
+        counter-increment: step;
+        display: grid;
+        grid-template-columns: 34px 1fr;
+        gap: 12px;
+        align-items: start;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        padding: 14px;
+      }
+
+      .flow li::before {
+        content: counter(step);
+        display: grid;
+        place-items: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .chat-preview {
+        position: relative;
+        min-height: 520px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background:
+          linear-gradient(180deg, rgba(247, 248, 250, 0.7), rgba(247, 248, 250, 0.95)),
+          repeating-linear-gradient(0deg, transparent 0, transparent 31px, rgba(225, 229, 236, 0.5) 32px);
+        padding: 24px;
+      }
+
+      .fake-page-title {
+        width: 62%;
+        height: 42px;
+        border-radius: 8px;
+        background: #dfe5ef;
+      }
+
+      .fake-lines {
+        display: grid;
+        gap: 12px;
+        width: min(620px, 78%);
+        margin-top: 28px;
+      }
+
+      .fake-lines span {
+        height: 14px;
+        border-radius: 999px;
+        background: #e5e9f0;
+      }
+
+      .assistant-fab {
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        display: grid;
+        place-items: center;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        background: var(--text);
+        color: #fff;
+        box-shadow: 0 18px 42px rgba(23, 26, 34, 0.22);
+        font-weight: 800;
+      }
+
+      .chat-panel {
+        position: absolute;
+        right: 24px;
+        bottom: 92px;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        width: min(380px, calc(100% - 48px));
+        height: 430px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.96);
+        box-shadow: var(--shadow);
+      }
+
+      .chat-head {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .chat-head strong {
+        display: block;
+      }
+
+      .chat-head span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .chat-body {
+        display: grid;
+        align-content: start;
+        gap: 12px;
+        overflow: auto;
+        padding: 16px;
+      }
+
+      .bubble {
+        max-width: 86%;
+        border-radius: 12px;
+        padding: 10px 12px;
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
+      .bubble.user {
+        justify-self: end;
+        background: var(--text);
+        color: #fff;
+      }
+
+      .bubble.bot {
+        background: #f0f3f7;
+      }
+
+      .source-card {
+        max-width: 92%;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: #fff;
+        padding: 10px;
+        font-size: 13px;
+      }
+
+      .chat-input {
+        display: flex;
+        gap: 8px;
+        padding: 12px;
+        border-top: 1px solid var(--line);
+      }
+
+      .chat-input span {
+        flex: 1;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 8px 12px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .chat-input button {
+        border: none;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #fff;
+        padding: 0 14px;
+        font-weight: 760;
+      }
+
+      .callout {
+        border-left: 4px solid var(--accent);
+        border-radius: var(--radius);
+        background: #fff;
+        padding: 16px 18px;
+      }
+
+      .callout.warn {
+        border-left-color: var(--warn);
+      }
+
+      .callout.good {
+        border-left-color: var(--good);
+      }
+
+      .sources {
+        display: grid;
+        gap: 8px;
+        padding-left: 18px;
+      }
+
+      @media (max-width: 860px) {
+        .hero,
+        .two-col,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .page {
+          width: min(100% - 28px, 1120px);
+          padding-top: 32px;
+        }
+
+        .chat-preview {
+          min-height: 600px;
+          padding: 16px;
+        }
+
+        .chat-panel {
+          right: 12px;
+          bottom: 82px;
+          width: calc(100% - 24px);
+        }
+
+        .assistant-fab {
+          right: 14px;
+          bottom: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Product & Architecture Report</p>
+          <h1>Blog 智能机器人设计方案</h1>
+          <p class="lead">
+            为个人 Astro 博客增加一个右下角极简聊天机器人。它能够识别用户意图，在人格问答、博客 RAG
+            问答和通用问答之间分流；当命中博客内容时展示来源，并允许用户跳转到对应文章。
+          </p>
+        </div>
+        <aside class="summary-card" aria-label="方案摘要">
+          <dl>
+            <div>
+              <dt>部署约束</dt>
+              <dd>K3s 单节点，现有博客仍保持静态 Astro + nginx 服务。</dd>
+            </div>
+            <div>
+              <dt>核心服务</dt>
+              <dd><code>blog-service</code>，Spring AI 后端，独立 Deployment。</dd>
+            </div>
+            <div>
+              <dt>本地模型</dt>
+              <dd><code>llama.cpp server</code> + RTX 2060 6GB 量化模型。</dd>
+            </div>
+            <div>
+              <dt>RAG 存储</dt>
+              <dd>Qdrant 存储已发布博客正文切片与来源元数据。</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section>
+        <h2>1. 设计目标</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>降低阅读摩擦</h3>
+            <p class="muted">访客无需翻完整站，就能直接询问博客中讲过的知识点，并从答案跳回文章。</p>
+          </article>
+          <article class="card">
+            <h3>保留个人感</h3>
+            <p class="muted">人格问答由独立人设资料驱动，用来回答“你是谁”“这个站为什么存在”等问题。</p>
+          </article>
+          <article class="card">
+            <h3>本地优先</h3>
+            <p class="muted">模型和向量库自托管，避免云模型成本和外部依赖，符合当前 K3s 私有部署方式。</p>
+          </article>
+        </div>
+
+        <h3>已确认的产品边界</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>问题</th>
+              <th>决策</th>
+              <th>设计影响</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>模型部署</td>
+              <td>本地 <code>llama.cpp server</code></td>
+              <td>需要独立模型服务、GPU 资源限制、冷启动和并发保护。</td>
+            </tr>
+            <tr>
+              <td>RAG 范围</td>
+              <td>只检索已发布博客正文</td>
+              <td>索引管线只读取 Astro content posts，来源可以稳定映射到文章 URL。</td>
+            </tr>
+            <tr>
+              <td>人设资料</td>
+              <td>后续单独提供</td>
+              <td>作为独立 <code>persona.md</code> 或配置项进入后端，不混入博客 RAG。</td>
+            </tr>
+            <tr>
+              <td>开放策略</td>
+              <td>访客可问，基础限流</td>
+              <td>需要 IP hash + SQLite 时间窗口限流，不保存完整问题。</td>
+            </tr>
+            <tr>
+              <td>交互形式</td>
+              <td>极简右下角聊天窗</td>
+              <td>不做完整客服系统，降低页面干扰。</td>
+            </tr>
+            <tr>
+              <td>来源展示</td>
+              <td>只在命中博客内容时展示</td>
+              <td>人格和通用回答不展示来源，RAG 回答底部展示来源卡片。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>2. 页面与交互设计</h2>
+        <p>
+          机器人入口采用右下角浮动按钮。展开后是小聊天窗，不覆盖整页阅读；移动端宽度接近全屏但仍保留边距。
+          视觉风格沿用博客当前的简约浅色系统：低饱和背景、轻边框、8-14px 圆角、少量阴影。
+        </p>
+
+        <div class="chat-preview" aria-label="聊天组件视觉草图">
+          <div class="fake-page-title"></div>
+          <div class="fake-lines">
+            <span></span>
+            <span style="width: 92%"></span>
+            <span style="width: 84%"></span>
+            <span style="width: 76%"></span>
+            <span style="width: 88%"></span>
+          </div>
+          <section class="chat-panel">
+            <div class="chat-head">
+              <strong>博客助手</strong>
+              <span>可以问文章内容、作者信息或通用问题</span>
+            </div>
+            <div class="chat-body">
+              <div class="bubble bot">你好，我可以基于这个博客回答问题。你也可以问：RSA 为什么要用欧拉函数？</div>
+              <div class="bubble user">RSA 的公钥和私钥是怎么来的？</div>
+              <div class="bubble bot">这属于博客内容问题。我会先检索相关文章，再结合命中的段落回答...</div>
+              <div class="source-card">
+                <strong>来源：RSA 加密原理</strong><br />
+                <span class="muted">命中章节：RSA 密钥如何生成 · 点击跳转文章</span>
+              </div>
+            </div>
+            <div class="chat-input">
+              <span>输入你的问题...</span>
+              <button type="button">发送</button>
+            </div>
+          </section>
+          <div class="assistant-fab">AI</div>
+        </div>
+
+        <h3>推荐交互流程</h3>
+        <ol class="flow">
+          <li>
+            <div>
+              <strong>初始态</strong>
+              <p class="muted">右下角显示小型 AI 按钮。首次访问可用一个短 tooltip 提示“问问博客内容”。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>展开聊天窗</strong>
+              <p class="muted">顶部显示“博客助手”和能力说明；正文区展示 2-3 个建议问题；底部为输入框。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>发送问题</strong>
+              <p class="muted">前端通过 SSE 调用 <code>/api/assistant/chat</code>，答案流式输出。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>展示来源</strong>
+              <p class="muted">只有 RAG 命中博客内容时，答案下方出现来源卡片，点击跳转到文章 URL 或章节锚点。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>错误与限流</strong>
+              <p class="muted">模型忙、限流、检索为空时使用短文案解释，不暴露内部错误。</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3>关键状态</h3>
+        <div class="two-col">
+          <article class="card">
+            <h3>空状态</h3>
+            <p class="muted">展示能力边界和建议问题，例如“这个博客讲过哪些密码学内容？”“作者是谁？”</p>
+          </article>
+          <article class="card">
+            <h3>生成中</h3>
+            <p class="muted">SSE 逐段输出，输入框禁用或允许停止生成。建议保留“停止”按钮。</p>
+          </article>
+          <article class="card">
+            <h3>RAG 无命中</h3>
+            <p class="muted">不强行编造来源。提示“博客里没有找到可靠内容，我按通用知识回答”。</p>
+          </article>
+          <article class="card">
+            <h3>模型繁忙</h3>
+            <p class="muted">RTX 2060 资源有限，排队或返回“当前繁忙，请稍后再试”。</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. 技术架构总览</h2>
+        <p>
+          现有博客继续保持静态部署。新增后端命名为 <code>blog-service</code>，原因是它未来不仅服务智能机器人，
+          也可以承载评论、订阅、搜索、统计等博客后端能力。为了避免后续混乱，当前实现中把智能机器人作为
+          <code>assistant</code> 模块或 bounded context。
+        </p>
+
+        <div class="diagram">
+<pre>用户浏览器
+  ├─ GET /                    → blog-web nginx → Astro 静态文件
+  └─ GET /api/assistant/chat  → blog-service Spring Boot
+                                ├─ Intent Router
+                                ├─ Persona Answer Chain
+                                ├─ Blog RAG Chain
+                                │   ├─ Qdrant: blog_chunks collection
+                                │   └─ Source Builder: article URL + heading
+                                ├─ General Answer Chain
+                                ├─ SQLite: rate_limit + metrics
+                                └─ llama.cpp server: local GGUF model</pre>
+        </div>
+
+        <h3>推荐服务命名</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>资源</th>
+              <th>推荐名称</th>
+              <th>说明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Spring Boot 后端</td>
+              <td><code>blog-service</code></td>
+              <td>面向博客后端能力的统一服务，避免未来新增评论/订阅时名字过窄。</td>
+            </tr>
+            <tr>
+              <td>AI 模块包名</td>
+              <td><code>assistant</code></td>
+              <td>内部模块边界，包含意图识别、RAG、人格问答和通用问答。</td>
+            </tr>
+            <tr>
+              <td>模型服务</td>
+              <td><code>llama-server</code></td>
+              <td>部署 llama.cpp server，暴露 OpenAI-compatible API。</td>
+            </tr>
+            <tr>
+              <td>向量库</td>
+              <td><code>qdrant</code></td>
+              <td>独立 StatefulSet 或 Deployment + PVC。</td>
+            </tr>
+            <tr>
+              <td>索引任务</td>
+              <td><code>blog-indexer</code></td>
+              <td>CI 或手动 Job，用于生成博客切片和 embeddings。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>4. 技术选型</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>层级</th>
+              <th>选型</th>
+              <th>理由</th>
+              <th>风险</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>后端</td>
+              <td>Spring Boot + Spring AI</td>
+              <td>符合你的偏好；Java 生态稳定；Spring AI 提供 Chat、Embedding、VectorStore、RAG Advisor 抽象。</td>
+              <td>Spring AI 版本迭代较快，落地前需锁版本并验证 API。</td>
+            </tr>
+            <tr>
+              <td>模型服务</td>
+              <td>llama.cpp server</td>
+              <td>轻量、可控、适合 GGUF 量化模型；适合 RTX 2060 6GB 和低资源环境。</td>
+              <td>并发有限；模型效果依赖选型和量化质量。</td>
+            </tr>
+            <tr>
+              <td>向量库</td>
+              <td>Qdrant</td>
+              <td>独立服务、扩展性好、支持 payload 元数据和过滤，适合来源追踪。</td>
+              <td>比文件型向量库多一个服务，需要持久化和备份。</td>
+            </tr>
+            <tr>
+              <td>索引</td>
+              <td>CI 自动索引 + 手动 reindex</td>
+              <td>发布文章后索引同步更新；手动入口方便修复和重建。</td>
+              <td>CI 时间增加；模型服务不可用时索引可能失败。</td>
+            </tr>
+            <tr>
+              <td>响应</td>
+              <td>SSE</td>
+              <td>实现简单，适合文本流式输出；比 WebSocket 更贴合单请求生成。</td>
+              <td>需要处理断开、超时和前端停止生成。</td>
+            </tr>
+            <tr>
+              <td>限流</td>
+              <td>SQLite</td>
+              <td>轻量、持久化、够个人博客使用；记录 IP hash 时间窗口即可。</td>
+              <td>多副本时需共享 PVC 或改为 Redis；初期建议 blog-service 单副本。</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout warn">
+          <strong>重要约束：</strong>
+          你的现有博客是静态站，不能把模型 Key、RAG 检索或限流逻辑放在 Astro 前端。前端只能是聊天组件，
+          所有智能逻辑都应进入 <code>blog-service</code>。
+        </div>
+      </section>
+
+      <section>
+        <h2>5. RAG 与意图识别设计</h2>
+        <h3>意图类型</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>类型</th>
+              <th>示例</th>
+              <th>处理链路</th>
+              <th>是否展示来源</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>persona</code></td>
+              <td>你是谁？这个站是谁写的？作者现在关注什么？</td>
+              <td>读取人设资料 + 受控回答模板</td>
+              <td>否</td>
+            </tr>
+            <tr>
+              <td><code>blog_rag</code></td>
+              <td>RSA 为什么需要欧拉函数？这篇文章讲了什么？</td>
+              <td>Query embedding → Qdrant 检索 → 上下文压缩 → 生成回答</td>
+              <td>是</td>
+            </tr>
+            <tr>
+              <td><code>general</code></td>
+              <td>解释一下 HTTPS；推荐一个学习路线。</td>
+              <td>直接调用本地模型，使用通用系统提示词</td>
+              <td>否</td>
+            </tr>
+            <tr>
+              <td><code>reject_or_clarify</code></td>
+              <td>请求隐私、攻击、无意义输入、过长输入。</td>
+              <td>拒答或追问</td>
+              <td>否</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>意图识别策略</h3>
+        <p>
+          初期不建议上复杂分类模型。更稳的方案是“规则优先 + 小模型分类兜底”：
+        </p>
+        <ol class="flow">
+          <li>
+            <div>
+              <strong>规则命中人格问题</strong>
+              <p class="muted">包含“你是谁、作者是谁、这个站、yinsheng、联系方式”等关键词时进入 persona。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>规则命中博客问题</strong>
+              <p class="muted">包含文章标题、标签、已知主题词，或用户明确说“博客里/文章中/这篇”时进入 blog_rag。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>轻量 LLM 分类</strong>
+              <p class="muted">无法判断时调用本地模型输出 JSON：<code>{ intent, confidence, reason }</code>。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>低置信度兜底</strong>
+              <p class="muted">低置信度时先做一次 RAG 检索；若得分低于阈值，按 general 回答且不展示来源。</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3>RAG 索引数据结构</h3>
+        <pre>{
+  "id": "rsa-revised__h2-rsa-keygen__chunk-003",
+  "vector": [0.012, -0.083, "..."],
+  "payload": {
+    "post_id": "rsa-revised",
+    "title": "RSA 加密原理",
+    "url": "/rsa-revised/",
+    "heading": "RSA 密钥如何生成",
+    "heading_slug": "rsa-keygen",
+    "chunk_index": 3,
+    "published": true,
+    "date": "2020-03-21",
+    "tags": ["RSA", "密码学", "数论"],
+    "text_preview": "第 1 步：选择两个不同的大质数..."
+  }
+}</pre>
+
+        <h3>切片建议</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>参数</th>
+              <th>建议</th>
+              <th>原因</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>切片粒度</td>
+              <td>按 Markdown 标题分段后再按 450-800 中文字符切片</td>
+              <td>保留章节语义，来源卡片也能定位到标题。</td>
+            </tr>
+            <tr>
+              <td>重叠</td>
+              <td>80-120 中文字符</td>
+              <td>避免公式或推导链断裂。</td>
+            </tr>
+            <tr>
+              <td>召回数量</td>
+              <td>Top 5 检索，最终给模型 Top 3</td>
+              <td>降低上下文噪声，适合小模型。</td>
+            </tr>
+            <tr>
+              <td>来源展示</td>
+              <td>最多 3 个来源卡片</td>
+              <td>移动端空间有限，避免喧宾夺主。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>6. API 设计草案</h2>
+        <h3>聊天接口</h3>
+        <pre>POST /api/assistant/chat
+Accept: text/event-stream
+Content-Type: application/json
+
+{
+  "message": "RSA 的公钥和私钥是怎么来的？",
+  "conversationId": "optional-client-session-id",
+  "page": {
+    "url": "/rsa-revised/",
+    "title": "RSA 加密原理"
+  }
+}</pre>
+
+        <h3>SSE 事件</h3>
+        <pre>event: intent
+data: {"intent":"blog_rag","confidence":0.91}
+
+event: delta
+data: {"text":"RSA 的密钥生成可以分成几步："}
+
+event: sources
+data: [{"title":"RSA 加密原理","url":"/rsa-revised/#rsa-keygen","heading":"RSA 密钥如何生成","score":0.82}]
+
+event: done
+data: {"elapsedMs":1840}</pre>
+
+        <h3>手动重建索引</h3>
+        <pre>POST /api/admin/assistant/reindex
+Authorization: Bearer &lt;admin-token&gt;
+
+{
+  "scope": "published_posts"
+}</pre>
+
+        <div class="callout">
+          <strong>建议：</strong>
+          管理接口不要暴露给公网访客。可以只允许内网访问，或用 Cloudflare Access / 管理 token 保护。
+        </div>
+      </section>
+
+      <section>
+        <h2>7. K3s 部署方案</h2>
+        <p>新增组件不应破坏现有 <code>blog-web</code>。建议新增以下资源：</p>
+        <table>
+          <thead>
+            <tr>
+              <th>资源</th>
+              <th>类型</th>
+              <th>建议配置</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>blog-service</code></td>
+              <td>Deployment + Service</td>
+              <td>Spring Boot，初期 1 副本，内存 512Mi-1Gi，挂载 SQLite PVC。</td>
+            </tr>
+            <tr>
+              <td><code>llama-server</code></td>
+              <td>Deployment + Service</td>
+              <td>GPU 调度，挂载模型 PVC，限制并发，暴露集群内 HTTP。</td>
+            </tr>
+            <tr>
+              <td><code>qdrant</code></td>
+              <td>StatefulSet 或 Deployment + PVC</td>
+              <td>1 副本，持久化 collection，ClusterIP 仅内网访问。</td>
+            </tr>
+            <tr>
+              <td><code>blog-ai-data</code></td>
+              <td>PVC</td>
+              <td>存放 SQLite、必要配置和索引状态。</td>
+            </tr>
+            <tr>
+              <td><code>blog-models</code></td>
+              <td>PVC</td>
+              <td>存放 GGUF 模型文件，避免镜像过大。</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>流量路径</h3>
+        <div class="diagram">
+<pre>Cloudflare Tunnel
+  ├─ /             → blog-web Service:80
+  └─ /api/*        → blog-service Service:8080
+
+blog-service
+  ├─ http://llama-server:8080/v1/chat/completions
+  ├─ http://llama-server:8080/v1/embeddings 或独立 embedding server
+  ├─ http://qdrant:6333
+  └─ /data/rate-limit.sqlite</pre>
+        </div>
+
+        <h3>模型部署建议</h3>
+        <div class="two-col">
+          <article class="card">
+            <h3>生成模型</h3>
+            <p class="muted">
+              RTX 2060 6GB 更适合 3B-7B 量化模型。优先选择 Q4_K_M / Q5_K_M 这类 GGUF 量化。
+              并发建议从 <code>1</code> 开始，避免显存抖动。
+            </p>
+          </article>
+          <article class="card">
+            <h3>Embedding 模型</h3>
+            <p class="muted">
+              最好与生成模型分开。可以使用独立 embedding 模型服务；若显存紧张，embedding 可 CPU 跑，
+              因为在线只需要对用户 query 做一次 embedding。
+            </p>
+          </article>
+        </div>
+
+        <div class="callout warn">
+          <strong>注意：</strong>
+          单张 RTX 2060 6GB 同时跑生成模型和 embedding 模型可能紧张。第一版可以让生成模型使用 GPU，
+          embedding 使用 CPU 或离线任务错峰运行。
+        </div>
+      </section>
+
+      <section>
+        <h2>8. CI/CD 与索引流程</h2>
+        <p>
+          现有 CI 在 <code>npm run build</code> 后复制 <code>dist/</code> 到 <code>/deploy/public/</code>。
+          新增智能机器人后，博客发布和索引更新应保持一致。
+        </p>
+        <ol class="flow">
+          <li>
+            <div>
+              <strong>构建 Astro</strong>
+              <p class="muted">沿用现有流程：checkout → npm ci → npm run build。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>生成索引输入</strong>
+              <p class="muted">解析 <code>src/content/posts/*.md</code>，过滤 draft，输出 <code>post_id/title/url/heading/text</code>。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>切片与 embedding</strong>
+              <p class="muted">调用集群内 embedding 服务生成向量，或在 CI runner 内执行索引任务。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>写入 Qdrant</strong>
+              <p class="muted">按 collection upsert；使用 <code>source_hash</code> 判断是否需要更新。</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>发布静态文件</strong>
+              <p class="muted">复制 <code>dist/</code> 到 <code>blog-public PVC</code>。</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3>建议的索引命令</h3>
+        <pre># CI 中执行
+java -jar blog-service-indexer.jar \
+  --posts-dir ./src/content/posts \
+  --site-base-url https://你的博客域名 \
+  --qdrant-url http://qdrant:6333 \
+  --collection blog_posts</pre>
+      </section>
+
+      <section>
+        <h2>9. 安全、隐私与成本控制</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>限流</h3>
+            <p class="muted">SQLite 表记录 <code>ip_hash</code>、分钟窗口、日窗口、失败次数。初期建议 10 次/分钟、100 次/天。</p>
+          </article>
+          <article class="card">
+            <h3>日志</h3>
+            <p class="muted">只记录请求量、耗时、意图、是否 RAG 命中、错误码。不保存完整问题正文。</p>
+          </article>
+          <article class="card">
+            <h3>防滥用</h3>
+            <p class="muted">限制输入长度，例如 500 中文字符；限制单次输出 tokens；模型繁忙时快速失败。</p>
+          </article>
+          <article class="card">
+            <h3>来源约束</h3>
+            <p class="muted">只有 RAG 命中且分数过阈值时展示来源，避免伪来源。</p>
+          </article>
+          <article class="card">
+            <h3>人设保护</h3>
+            <p class="muted">人设资料只作为回答边界，不暴露原文；遇到隐私请求应拒答。</p>
+          </article>
+          <article class="card">
+            <h3>公网暴露</h3>
+            <p class="muted">只暴露 <code>/api/assistant/chat</code>；Qdrant、llama-server、admin reindex 均不直接暴露公网。</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>10. 实施路线</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>阶段</th>
+              <th>目标</th>
+              <th>交付物</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Phase 1</td>
+              <td>静态 UI + API 合约</td>
+              <td>Astro 聊天组件、SSE 前端封装、错误状态、来源卡片样式。</td>
+            </tr>
+            <tr>
+              <td>Phase 2</td>
+              <td>blog-service 基础能力</td>
+              <td>Spring Boot 服务、SSE chat endpoint、SQLite 限流、基础日志。</td>
+            </tr>
+            <tr>
+              <td>Phase 3</td>
+              <td>本地模型接入</td>
+              <td>llama-server Deployment、模型 PVC、Spring AI ChatClient 接入。</td>
+            </tr>
+            <tr>
+              <td>Phase 4</td>
+              <td>RAG 上线</td>
+              <td>Qdrant、索引器、博客切片、来源卡片跳转。</td>
+            </tr>
+            <tr>
+              <td>Phase 5</td>
+              <td>人格与意图分流</td>
+              <td>persona 资料接入、intent router、RAG/general/persona 三链路。</td>
+            </tr>
+            <tr>
+              <td>Phase 6</td>
+              <td>运维优化</td>
+              <td>监控、健康检查、重建索引、限流面板或日志报表。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>11. 推荐初版目录结构</h2>
+        <pre>blog/
+  src/
+    components/
+      BlogAssistant.astro
+    scripts/
+      assistant-widget.ts
+  docs/
+    blog-ai-assistant-design.html
+  service/
+    blog-service/
+      src/main/java/...
+        assistant/
+          IntentRouter.java
+          AssistantController.java
+          BlogRagService.java
+          PersonaService.java
+          GeneralChatService.java
+          SourceBuilder.java
+        ratelimit/
+        indexer/
+      src/main/resources/
+        application.yml
+  k8s/
+    blog-service.yaml
+    llama-server.yaml
+    qdrant.yaml</pre>
+
+        <div class="callout good">
+          <strong>建议：</strong>
+          如果你不想把 Java 后端放进当前 Astro 仓库，也可以拆成 <code>blog-service</code> 独立仓库。
+          但第一版放在 monorepo 里更容易让 CI 同步博客内容和索引逻辑。
+        </div>
+      </section>
+
+      <section>
+        <h2>12. 仍需你补充的信息</h2>
+        <ul>
+          <li>人设资料：作者身份、回答语气、可公开信息、不能回答的信息。</li>
+          <li>博客公网域名：用于构造来源 URL。</li>
+          <li>模型选择：具体 GGUF 模型文件、量化等级、上下文长度。</li>
+          <li>是否接受生成速度较慢：本地 6GB GPU 对长回答会有限制。</li>
+          <li>Cloudflare Tunnel 当前 ingress 配置：确认是否能 path route 到 <code>blog-service</code>。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>13. 官方参考资料</h2>
+        <ul class="sources">
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html">Spring AI Retrieval Augmented Generation Reference</a></li>
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs.html">Spring AI Vector Databases Reference</a></li>
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html">Spring AI Qdrant VectorStore Reference</a></li>
+          <li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md">llama.cpp server README</a></li>
+          <li><a href="https://qdrant.tech/documentation/">Qdrant Documentation</a></li>
+          <li><a href="https://qdrant.tech/documentation/manage-data/collections/">Qdrant Collections Documentation</a></li>
+          <li><a href="https://qdrant.tech/documentation/manage-data/points/">Qdrant Points Documentation</a></li>
+          <li><a href="https://qdrant.tech/documentation/search/filtering/">Qdrant Filtering Documentation</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
