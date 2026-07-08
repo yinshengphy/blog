@@ -29,10 +29,26 @@ jobs:
         shell: bash
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          clean: false
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          shopt -s dotglob nullglob
+          for item in * .*; do
+            case "$item" in
+              .|..|.runner-cache|node_modules)
+                continue
+                ;;
+            esac
+            rm -rf "$item"
+          done
+          curl -fsSL \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -o source.tar.gz \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/tarball/${GITHUB_SHA}"
+          tar -xzf source.tar.gz --strip-components=1
+          rm source.tar.gz
 
       - name: 使用国内 npm 镜像
         run: |
