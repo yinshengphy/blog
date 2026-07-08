@@ -5,3 +5,5 @@ dist/
 .env
 .DS_Store
 npm-debug.log*
+.idea/
+.astro-dev-*.log

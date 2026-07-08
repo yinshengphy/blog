@@ -48,6 +48,10 @@ spec:
           env:
             - name: OLLAMA_HOST
               value: 0.0.0.0:11434
+            - name: OLLAMA_KEEP_ALIVE
+              value: 10m
+            - name: OLLAMA_MAX_LOADED_MODELS
+              value: "2"
             - name: HTTP_PROXY
               value: http://192.168.31.53:7890
             - name: HTTPS_PROXY
@@ -65,11 +69,12 @@ spec:
               mountPath: /root/.ollama
           resources:
             limits:
+              cpu: "4"
               nvidia.com/gpu: 1
-              memory: 8Gi
+              memory: 6Gi
             requests:
               cpu: 500m
-              memory: 2Gi
+              memory: 1Gi
       volumes:
         - name: models
           persistentVolumeClaim:

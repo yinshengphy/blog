@@ -10,11 +10,11 @@ Only `ai-compute-runtime` requests `nvidia.com/gpu: 1`. The RAG API, gateway, Qd
 
 ## Current Models
 
-- Chat: `qwen2.5:3b`
+- Chat: `huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M`
 - Embedding: `bge-m3`
 - Vector dimension: `1024`
 
-`qwen3:4b` is installed on the runtime but is not the public chat default because the current model/runtime combination can stream thinking text as normal content. Re-enable it only after verifying that streaming output does not expose reasoning text.
+The public chat default uses a Q4_K_M Qwen3 4B Instruct model for faster responses on the RTX 2060 6GB. Keep `qwen2.5:3b` installed as a small fallback model.
 
 ## Build Images
 
@@ -54,9 +54,15 @@ kubectl apply -f 07-ingress.yaml
 kubectl patch deployment -n blog blog-web --type=strategic --patch-file 08-blog-web-runner-content-patch.yaml
 ```
 
-Pull models once inside the runtime:
+Import or pull models once inside the runtime. Copy the GGUF into the pod and create the model locally:
 
 ```bash
+kubectl -n ai cp /tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf deploy/ai-compute-runtime:/tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf
+kubectl -n ai exec deploy/ai-compute-runtime -- sh -c 'cat > /tmp/huihui-qwen3-q4.Modelfile <<EOF
+FROM /tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf
+PARAMETER num_ctx 4096
+EOF
+ollama create huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M -f /tmp/huihui-qwen3-q4.Modelfile'
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull qwen2.5:3b
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull bge-m3
 ```
@@ -85,4 +91,3 @@ Expected stream events:
 - `done`
 
 Qdrant should report `blog_chunks` with vector size `1024` and nonzero `points_count`.
-

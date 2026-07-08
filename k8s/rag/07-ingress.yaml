@@ -6,6 +6,40 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
+    - host: yinshengphy.cn
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-rag-api
+                port:
+                  number: 8080
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-web
+                port:
+                  number: 80
+    - host: www.yinshengphy.cn
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-rag-api
+                port:
+                  number: 8080
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-web
+                port:
+                  number: 80
     - http:
         paths:
           - path: /api

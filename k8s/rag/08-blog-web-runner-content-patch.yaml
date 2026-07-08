@@ -8,6 +8,13 @@ spec:
     spec:
       containers:
         - name: runner
+          resources:
+            requests:
+              cpu: 150m
+              memory: 256Mi
+            limits:
+              cpu: "2"
+              memory: 2Gi
           volumeMounts:
             - name: blog-content-source
               mountPath: /deploy/content/posts

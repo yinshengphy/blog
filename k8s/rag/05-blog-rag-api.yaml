@@ -72,7 +72,7 @@ spec:
     spec:
       containers:
         - name: blog-rag-api
-          image: localhost:5000/blog-rag-api:20260707-2305
+          image: localhost:5000/blog-rag-api:20260708-2222
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -84,9 +84,15 @@ spec:
             - name: EMBEDDING_DIMENSION
               value: "1024"
             - name: RAG_CHAT_MODEL
-              value: qwen2.5:3b
+              value: huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M
             - name: RAG_EMBEDDING_MODEL
               value: bge-m3
+            - name: RAG_TOP_K
+              value: "3"
+            - name: RAG_MAX_CONTEXT_CHARS
+              value: "8000"
+            - name: RAG_MAX_ANSWER_TOKENS
+              value: "600"
             - name: BLOG_CONTENT_DIR
               value: /content/posts
             - name: INDEX_DB_PATH

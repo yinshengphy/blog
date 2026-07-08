@@ -20,18 +20,20 @@
   <section class="chat-panel" aria-label="和我聊聊吧" data-chat-panel hidden>
     <header class="chat-panel-head">
       <div>
-        <strong>和我聊聊吧~</strong>
-        <span>我会先从文章里找依据，也能聊点技术、学习和生活</span>
+        <strong>小站助手</strong>
+        <span>问文章内容会给引用；普通问题就直接聊</span>
       </div>
       <button class="chat-close" type="button" aria-label="关闭聊天" data-chat-close>×</button>
     </header>
 
     <div class="chat-messages" data-chat-messages>
-      <div class="chat-bubble bot">嗨，我在这儿。可以问文章里的内容，也可以随便聊点技术和生活。</div>
+      <div class="chat-message bot">
+        <div class="chat-bubble bot">嗨，我是小站助手。可以帮你读文章、找观点，也能简单聊点工程问题。</div>
+      </div>
       <div class="chat-suggestions" aria-label="建议问题">
         <button type="button" data-suggestion="RSA 这篇文章主要讲了什么？">RSA 这篇文章主要讲了什么？</button>
-        <button type="button" data-suggestion="这个博客有哪些技术内容？">这个博客有哪些技术内容？</button>
-        <button type="button" data-suggestion="作者最近关注什么？">作者最近关注什么？</button>
+        <button type="button" data-suggestion="你是谁？">你是谁？</button>
+        <button type="button" data-suggestion="RSA 为什么不直接加密大段数据？">RSA 为什么不直接加密大段数据？</button>
       </div>
     </div>
 
@@ -59,6 +61,7 @@
   const sessionKey = "yinsheng-chat-session-id";
   const sessionId = localStorage.getItem(sessionKey) || crypto.randomUUID();
   localStorage.setItem(sessionKey, sessionId);
+  sessionStorage.removeItem("yinsheng-chat-state-v1");
 
   function setOpen(open: boolean) {
     if (!panel || !toggle) return;
@@ -67,8 +70,27 @@
     if (open) input?.focus();
   }
 
+  history.replaceState({ yinshengSoftNav: true }, "", window.location.href);
+
   toggle?.addEventListener("click", () => setOpen(panel?.hidden ?? true));
   closeButton?.addEventListener("click", () => setOpen(false));
+
+  messages?.addEventListener("click", async (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const link = target.closest<HTMLAnchorElement>("a[data-chat-cite-link]");
+    if (!link) return;
+
+    const url = new URL(link.href, window.location.href);
+    if (url.origin !== window.location.origin) return;
+
+    event.preventDefault();
+    await navigateInPlace(url);
+  });
+
+  window.addEventListener("popstate", () => {
+    navigateInPlace(new URL(window.location.href), false);
+  });
 
   widget?.querySelectorAll("[data-suggestion]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -102,6 +124,7 @@
 
     const answerBubble = appendBubble("bot streaming", "");
     const answerText = document.createElement("span");
+    answerText.className = "chat-answer-text";
     answerBubble.append(answerText);
 
     try {
@@ -119,7 +142,7 @@
         },
         citations(data) {
           answerBubble.classList.remove("streaming");
-          renderCitations(answerBubble, data);
+          renderCitationMarkers(answerText, data);
         },
         error(data) {
           answerBubble.classList.remove("streaming");
@@ -143,26 +166,118 @@
   });
 
   function appendBubble(kind: string, text: string) {
+    const role = kind.includes("user") ? "user" : "bot";
+    const row = document.createElement("div");
+    row.className = `chat-message ${role}`;
+
     const bubble = document.createElement("div");
     bubble.className = `chat-bubble ${kind}`;
     bubble.textContent = text;
-    messages?.append(bubble);
+
+    row.append(bubble);
+    messages?.append(row);
     scrollMessages();
     return bubble;
   }
 
-  function renderCitations(container: HTMLElement, citations: SsePayload[]) {
+  function renderCitationMarkers(container: HTMLElement, citations: SsePayload[]) {
     if (!Array.isArray(citations) || citations.length === 0) return;
-    const list = document.createElement("div");
-    list.className = "chat-citations";
-    citations.slice(0, 5).forEach((citation) => {
-      const link = document.createElement("a");
-      link.href = citation.url || "#";
-      link.className = "chat-citation";
-      link.innerHTML = `<strong>${escapeHtml(citation.title || "来源")}</strong><span>${escapeHtml(citation.section || "")}</span><small>${escapeHtml(citation.snippet || "")}</small>`;
-      list.append(link);
+    const byIndex = new Map<number, SsePayload>();
+    citations.slice(0, 3).forEach((citation, index) => byIndex.set(index + 1, citation));
+
+    const text = container.textContent || "";
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    let matched = false;
+    text.replace(/\[(\d+)\]/g, (match, rawIndex, offset) => {
+      const index = Number(rawIndex);
+      const citation = byIndex.get(index);
+      if (!citation) return match;
+      fragment.append(document.createTextNode(text.slice(cursor, offset)));
+      fragment.append(citationLink(index, citation));
+      cursor = offset + match.length;
+      matched = true;
+      return match;
     });
-    container.after(list);
+    fragment.append(document.createTextNode(text.slice(cursor)));
+
+    if (!matched) {
+      fragment.append(document.createTextNode(" "));
+      citations.slice(0, 3).forEach((citation, index) => {
+        fragment.append(citationLink(index + 1, citation));
+      });
+    }
+
+    container.replaceChildren(fragment);
+  }
+
+  function citationLink(index: number, citation: SsePayload) {
+    const sup = document.createElement("sup");
+    sup.className = "chat-cite-ref";
+    const link = document.createElement("a");
+    link.href = citation.url || "#";
+    link.textContent = String(index);
+    link.title = [citation.title, citation.section].filter(Boolean).join(" · ");
+    link.dataset.chatCiteLink = "true";
+    sup.append(link);
+    return sup;
+  }
+
+  async function navigateInPlace(url: URL, push = true) {
+    try {
+      if (isSamePage(url)) {
+        if (push) history.pushState({ yinshengSoftNav: true }, "", url.href);
+        scrollToHash(url.hash);
+        return;
+      }
+
+      const response = await fetch(url.pathname + url.search, {
+        headers: { "Accept": "text/html" }
+      });
+      if (!response.ok) throw new Error("navigation failed");
+
+      const html = await response.text();
+      const nextDocument = new DOMParser().parseFromString(html, "text/html");
+      const nextMain = nextDocument.querySelector("main");
+      const currentMain = document.querySelector("main");
+      if (!nextMain || !currentMain) throw new Error("main not found");
+
+      currentMain.replaceChildren(
+        ...Array.from(nextMain.childNodes).map((node) => document.importNode(node, true))
+      );
+      document.title = nextDocument.title;
+      updateMetaDescription(nextDocument);
+
+      if (push) history.pushState({ yinshengSoftNav: true }, "", url.href);
+      scrollToHash(url.hash);
+      setOpen(true);
+    } catch {
+      window.location.href = url.href;
+    }
+  }
+
+  function isSamePage(url: URL) {
+    return url.pathname === window.location.pathname && url.search === window.location.search;
+  }
+
+  function scrollToHash(hash: string) {
+    requestAnimationFrame(() => {
+      if (!hash) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+
+      const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+      if (target) {
+        target.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+    });
+  }
+
+  function updateMetaDescription(nextDocument: Document) {
+    const current = document.querySelector<HTMLMetaElement>('meta[name="description"]');
+    const next = nextDocument.querySelector<HTMLMetaElement>('meta[name="description"]');
+    if (current && next?.content) current.content = next.content;
   }
 
   async function readSse(stream: ReadableStream<Uint8Array>, handlers: SseHandlers) {
@@ -197,13 +312,6 @@
     if (messages) messages.scrollTop = messages.scrollHeight;
   }
 
-  function escapeHtml(value: unknown) {
-    return String(value)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;");
-  }
 </script>
 
 <style>
@@ -349,7 +457,7 @@
     height: min(560px, calc(100vh - 112px));
     overflow: hidden;
     border: 1px solid var(--line);
-    border-radius: 14px;
+    border-radius: 8px;
     background: rgba(255, 255, 255, 0.97);
     box-shadow: 0 18px 48px rgba(23, 26, 34, 0.16);
     backdrop-filter: blur(14px);
@@ -390,34 +498,78 @@
   }
 
   .chat-messages {
-    display: grid;
-    align-content: start;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     gap: 12px;
     overflow: auto;
-    padding: 16px;
+    padding: 16px 14px;
+    background: #f3f6fb;
   }
 
-  .chat-bubble {
-    max-width: 88%;
-    padding: 10px 12px;
-    border-radius: 12px;
+  .chat-widget :global(.chat-message) {
+    display: flex;
+    width: 100%;
+  }
+
+  .chat-widget :global(.chat-message.bot) {
+    justify-content: flex-start;
+    padding-right: 52px;
+  }
+
+  .chat-widget :global(.chat-message.user) {
+    justify-content: flex-end;
+    padding-left: 52px;
+  }
+
+  .chat-widget :global(.chat-bubble) {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    padding: 10px 13px;
+    border-radius: 18px;
     font-size: 14px;
     line-height: 1.62;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
   }
 
-  .chat-bubble.bot {
-    justify-self: start;
-    background: #f0f3f7;
+  .chat-widget :global(.chat-bubble.bot) {
+    border-bottom-left-radius: 6px;
+    background: #ffffff;
     color: var(--ink-soft);
   }
 
-  .chat-bubble.user {
-    justify-self: end;
-    background: var(--text);
+  .chat-widget :global(.chat-bubble.user) {
+    border-bottom-right-radius: 6px;
+    background: #2563eb;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.22);
+  }
+
+  .chat-widget :global(.chat-cite-ref) {
+    margin-left: 2px;
+    font-size: 0.72em;
+    line-height: 0;
+    vertical-align: super;
+  }
+
+  .chat-widget :global(.chat-cite-ref a) {
+    color: #1f4fb5;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .chat-widget :global(.chat-cite-ref a:hover) {
+    text-decoration: underline;
+  }
+
+  .chat-widget :global(.chat-bubble.user .chat-cite-ref a) {
     color: #fff;
   }
 
-  .chat-bubble.streaming::after {
+  .chat-widget :global(.chat-bubble.streaming::after) {
     content: "";
     display: inline-block;
     width: 7px;
@@ -430,9 +582,12 @@
   }
 
   .chat-suggestions {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 8px;
-    justify-items: start;
+    align-items: flex-start;
+    max-width: calc(100% - 52px);
+    margin-right: auto;
   }
 
   .chat-suggestions button,
