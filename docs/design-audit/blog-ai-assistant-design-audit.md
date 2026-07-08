@@ -1,44 +1,44 @@
-# Blog AI Assistant Design Audit
+# 博客 AI 助手设计审查
 
-Date: 2026-07-07
+日期：2026-07-07
 
-## Screenshots
+## 截图
 
-- `01-desktop-first-screen.png`: desktop first screen.
-- `02-desktop-full-page.png`: desktop full page.
-- `03-mobile-first-screen.png`: mobile first screen.
-- `04-mobile-full-page.png`: mobile full page.
+- `01-desktop-first-screen.png`：桌面端首屏。
+- `02-desktop-full-page.png`：桌面端完整页面。
+- `03-mobile-first-screen.png`：移动端首屏。
+- `04-mobile-full-page.png`：移动端完整页面。
 
-## Scope
+## 范围
 
-Reviewed `docs/blog-ai-assistant-design.html` as a product and architecture design report for the blog AI assistant.
+审查对象是 `docs/blog-ai-assistant-design.html`，它是博客 AI 助手的产品与架构设计报告。
 
-## Strengths
+## 优点
 
-1. The desktop first screen has a clear hierarchy: large title, short positioning text, and a compact summary card.
-2. The page reads like an implementation-oriented design document, not a marketing page. This suits the current engineering task.
-3. The chat widget sketch communicates the intended UI pattern well: floating entry, panel, messages, citation card, and input area.
-4. The content covers product boundaries, architecture, RAG flow, deployment, CI/CD, and safety concerns in one place.
+1. 桌面端首屏层级清楚：大标题、短定位文案和紧凑的摘要卡片。
+2. 页面更像面向实施的设计文档，而不是营销页，适合当前工程任务。
+3. 聊天组件草图很好地表达了目标 UI 模式：浮动入口、面板、消息、引用卡片和输入区。
+4. 内容把产品边界、架构、RAG 流程、部署、CI/CD 和安全顾虑放在同一处说明。
 
-## UX Risks
+## 体验风险
 
-1. The document is visually polished but very long. Without a sticky table of contents or section navigation, later sections are hard to scan.
-2. Some technical decisions in the document do not match the current target exactly, such as `llama.cpp server`, `/api/assistant/chat`, and SSE, while the current implementation direction expects Ollama and `/api/chat`.
-3. The page mixes product design, architecture, API, deployment, CI, and rollout details at the same visual priority, so readers may not know which decisions are final and which are exploratory.
-4. Tables are useful on desktop, but they dominate the later sections and make the page feel more like a spec dump than a guided design.
+1. 文档视觉完成度不错，但篇幅很长。没有固定目录或章节导航时，后半部分不容易快速扫读。
+2. 文档中的部分技术决策与当前目标不完全一致，例如 `llama.cpp server`、`/api/assistant/chat` 和 SSE；当前实现方向更接近 Ollama 与 `/api/chat`。
+3. 页面把产品设计、架构、API、部署、CI 和发布细节放在同一视觉优先级，读者可能分不清哪些是最终决策，哪些仍是探索项。
+4. 表格在桌面端有用，但后半部分表格占比过高，让页面更像规格堆叠，而不是有引导的设计说明。
 
-## Accessibility And Responsive Risks
+## 无障碍与响应式风险
 
-1. Mobile has horizontal overflow. At 390px viewport, tables expand the page from 375px content width to 411px scroll width.
-2. Long tables need a mobile treatment: horizontal scroll wrappers, stacked rows, or card-style rows.
-3. The chat preview is illustrative, but its fake controls are not interactive or semantically representative. This is fine for a report, but not enough as an implementation prototype.
-4. The all-light, low-saturation palette is readable overall, but muted text inside dense tables may need contrast checks before production use.
+1. 移动端存在横向溢出。390px 视口下，表格会把页面从 375px 内容宽度撑到 411px 滚动宽度。
+2. 长表格需要移动端处理方式：横向滚动容器、堆叠行或卡片式行。
+3. 聊天预览偏示意，假控件不可交互，也不具备真实语义。作为报告可以接受，但不足以作为实现原型。
+4. 整体浅色、低饱和配色可读性尚可，但密集表格里的弱化文字上线前需要做对比度检查。
 
-## Recommendations
+## 建议
 
-1. Add a compact sticky or floating table of contents for the report itself.
-2. Split sections into three visual groups: product experience, backend architecture, and deployment/operations.
-3. Mark decisions as `Confirmed`, `Open`, or `Rejected` so the document can guide implementation without ambiguity.
-4. Align endpoint and model-service naming with the current target: `/api/chat`, Ollama, Qdrant, Spring AI RAG API, and k3s CronJob indexer.
-5. Fix mobile table overflow before treating this as a shareable design artifact.
-6. Convert the chat widget section into a closer production mock: empty state, loading state, answer with citations, busy/error state.
+1. 为报告本身增加紧凑的固定目录或浮动目录。
+2. 将章节拆成三个视觉分组：产品体验、后端架构、部署与运维。
+3. 给决策标记 `已确认`、`待确认` 或 `已拒绝`，避免实现时产生歧义。
+4. 让端点和模型服务命名与当前目标一致：`/api/chat`、Ollama、Qdrant、Spring AI RAG API 和 k3s CronJob indexer。
+5. 修复移动端表格溢出后，再把它作为可分享的设计产物。
+6. 把聊天组件章节改成更接近生产效果的 mock：空状态、加载状态、带引用的回答、繁忙/错误状态。

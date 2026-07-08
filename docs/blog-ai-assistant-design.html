@@ -717,7 +717,7 @@
     <main class="page">
       <section class="hero">
         <div>
-          <p class="eyebrow">Product & Architecture Report</p>
+          <p class="eyebrow">产品与架构报告</p>
           <h1>和我聊聊吧~ 设计方案</h1>
           <p class="lead">
             为个人 Astro 博客增加一个右下角极简问答机器人。访客问一句，它回答一句；回答优先基于博客内容，
@@ -735,7 +735,7 @@
               <dd>独立 RAG 后端，前端只访问博客自己的 API。</dd>
             </div>
             <div>
-              <dt>AI Compute</dt>
+              <dt>AI 计算</dt>
               <dd>私有模型服务统一调度，具体硬件和内部拓扑不对访客展示。</dd>
             </div>
             <div>
@@ -926,7 +926,7 @@
         <h2>3. 技术架构总览</h2>
         <p>
           现有博客继续保持静态部署。新增后端命名为 <code>blog-rag-api</code>，只负责博客问答、RAG 检索、
-          限流和来源构造。模型计算能力不放进业务后端，而是沉到通用 AI Compute 服务中；未来图片理解、代码助手、摘要生成、
+          限流和来源构造。模型计算能力不放进业务后端，而是沉到通用 AI 计算服务中；未来图片理解、代码助手、摘要生成、
           批量 embedding 等 AI 需求都复用同一个内部 API。
         </p>
 
@@ -934,18 +934,18 @@
 <pre>用户浏览器
   ├─ GET /                    → 静态博客页面
   └─ POST /api/chat/stream    → RAG API
-                                ├─ ChatLimiter: 同时只处理少量生成任务
-                                ├─ Query Embedding → AI Compute Gateway
+                                ├─ 聊天限流器：同时只处理少量生成任务
+                                ├─ 查询向量化 → AI 计算网关
                                 ├─ Qdrant: blog_chunks collection
                                 ├─ Rerank: vector + title + tag + updated_at
                                 ├─ Prompt Builder: blog snippets + persona rules
-                                ├─ Chat Completion → AI Compute Gateway
-                                └─ Citation Builder: title + heading + anchor URL
+                                ├─ 聊天生成 → AI 计算网关
+                                └─ 引用构造：标题 + 小节 + 锚点 URL
 
-blog-indexer CronJob
+blog-indexer 定时任务
   ├─ 每 1 分钟扫描 src/content/posts/*.md
   ├─ SQLite index status 做增量判断
-  ├─ Embedding → AI Compute Gateway
+  ├─ Embedding → AI 计算网关
   └─ Upsert/Delete → Qdrant</pre>
         </div>
 
@@ -965,9 +965,9 @@ blog-indexer CronJob
               <td>面向博客问答的 Spring Boot 服务，不持有模型和硬件细节。</td>
             </tr>
             <tr>
-              <td>AI Compute Gateway</td>
+              <td>AI 计算网关</td>
               <td><code>ai-compute-gateway</code></td>
-              <td>CPU Pod，暴露 OpenAI-compatible API，负责队列、鉴权、优先级和运行时适配。</td>
+              <td>CPU Pod，暴露 OpenAI 兼容 API，负责队列、鉴权、优先级和运行时适配。</td>
             </tr>
             <tr>
               <td>模型运行时</td>
@@ -1007,8 +1007,8 @@ blog-indexer CronJob
               <td>Spring AI 版本迭代较快，落地前需锁版本并验证 API。</td>
             </tr>
             <tr>
-              <td>AI Compute Gateway</td>
-              <td>OpenAI-compatible API</td>
+              <td>AI 计算网关</td>
+              <td>OpenAI 兼容 API</td>
               <td>对内暴露 <code>/v1/chat/completions</code>、<code>/v1/embeddings</code>、<code>/v1/models</code>，业务服务不直接依赖 Ollama。</td>
               <td>多一层服务，但后续替换运行时或增加队列更稳。</td>
             </tr>
@@ -1074,7 +1074,7 @@ blog-indexer CronJob
             <tr>
               <td><code>blog_rag</code></td>
               <td>RSA 为什么需要欧拉函数？这篇文章讲了什么？</td>
-              <td>Query embedding → Qdrant 检索 → 上下文压缩 → 生成回答</td>
+              <td>查询向量化 → Qdrant 检索 → 上下文压缩 → 生成回答</td>
               <td>是</td>
             </tr>
             <tr>
@@ -1166,7 +1166,7 @@ blog-indexer CronJob
             </tr>
             <tr>
               <td>召回数量</td>
-              <td>Top 5 检索，最多返回 5 条引用</td>
+              <td>检索前 5 条，最多返回 5 条引用</td>
               <td>符合博客问答场景，也不会让引用卡片淹没正文。</td>
             </tr>
             <tr>
@@ -1179,7 +1179,7 @@ blog-indexer CronJob
 
         <div class="callout">
           <strong>增量规则：</strong>
-          indexer 读取 <code>src/content/posts/*.md</code>，状态保存在 <code>blog-indexer-data</code> PVC 中的 SQLite。
+          索引器读取 <code>src/content/posts/*.md</code>，状态保存在 <code>blog-indexer-data</code> PVC 中的 SQLite。
           新增文章写入新 chunk；修改文章先删旧 chunk 再写新 chunk；删除文章时根据 SQLite 中消失的 slug 删除 Qdrant 中所有对应点。
         </div>
       </section>
@@ -1237,7 +1237,7 @@ data: [{"title":"RSA 加密原理","url":"/rsa/#rsa-密钥如何生成","section
 event: done
 data: {"elapsedMs":1840}</pre>
 
-        <h3>AI Compute Gateway 内部接口</h3>
+        <h3>AI 计算网关内部接口</h3>
         <pre>POST ${AI_COMPUTE_BASE_URL}/v1/chat/completions
 Authorization: Bearer &lt;internal-token&gt;
 
@@ -1290,7 +1290,7 @@ Authorization: Bearer &lt;internal-token&gt;
             <tr>
               <td><code>ai-compute-gateway</code></td>
               <td>Deployment + Service</td>
-              <td>AI namespace，Spring Boot，OpenAI-compatible API，负责队列和鉴权。</td>
+              <td>AI namespace，Spring Boot，OpenAI 兼容 API，负责队列和鉴权。</td>
             </tr>
             <tr>
               <td><code>ai-compute-runtime</code></td>
@@ -1305,7 +1305,7 @@ Authorization: Bearer &lt;internal-token&gt;
             <tr>
               <td><code>blog-content-source</code></td>
               <td>PVC</td>
-              <td>业务 namespace，由 GitHub Actions runner 写入 Markdown 源文件，indexer 只读挂载。</td>
+              <td>业务命名空间，由 GitHub Actions runner 写入 Markdown 源文件，索引器只读挂载。</td>
             </tr>
             <tr>
               <td><code>blog-indexer-data</code></td>
@@ -1330,12 +1330,12 @@ Traefik
   └─ /api/*        → RAG API Service
 
 RAG API
-  ├─ AI Compute Gateway: chat completions
-  ├─ AI Compute Gateway: embeddings
-  └─ Vector DB
+  ├─ AI 计算网关：聊天生成
+  ├─ AI 计算网关：向量化
+  └─ 向量数据库
 
-AI Compute Gateway
-  └─ Private model runtime</pre>
+AI 计算网关
+  └─ 私有模型运行时</pre>
         </div>
 
         <h3>模型部署建议</h3>
@@ -1350,7 +1350,7 @@ AI Compute Gateway
           <article class="card">
             <h3>Embedding 模型</h3>
             <p class="muted">
-              主模型 <code>bge-m3</code>，fallback <code>nomic-embed-text</code>。Embedding 也走 Ollama，
+              主模型 <code>bge-m3</code>，备用模型 <code>nomic-embed-text</code>。Embedding 也走 Ollama，
               但必须服从 <code>chat &gt; embedding</code> 优先级。
             </p>
           </article>
@@ -1358,7 +1358,7 @@ AI Compute Gateway
 
         <div class="callout warn">
           <strong>注意：</strong>
-          只有私有模型运行时可以使用本地加速资源。RAG API、indexer、Qdrant 和 gateway 都不能申请这类资源。
+          只有私有模型运行时可以使用本地加速资源。RAG API、索引器、Qdrant 和网关都不能申请这类资源。
         </div>
       </section>
 
@@ -1405,7 +1405,7 @@ AI Compute Gateway
         <pre># 同步 Markdown 到 PVC 挂载点
 rsync -a --delete src/content/posts/ /deploy/content/posts/
 
-# 异步触发一次 indexer Job，不等待完成
+# 异步触发一次索引器 Job，不等待完成
 kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GITHUB_RUN_ID} || true</pre>
       </section>
 
@@ -1434,15 +1434,15 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
           </article>
           <article class="card">
             <h3>公网暴露</h3>
-            <p class="muted">公网只暴露博客和 <code>/api/chat*</code>；Qdrant、gateway、runtime、indexer 均不直接暴露公网。</p>
+            <p class="muted">公网只暴露博客和 <code>/api/chat*</code>；Qdrant、网关、运行时、索引器均不直接暴露公网。</p>
           </article>
           <article class="card">
             <h3>内部鉴权</h3>
-            <p class="muted">RAG API 调 gateway 需要内部服务 token；向量库暂不启用 API key，仅集群内访问。</p>
+            <p class="muted">RAG API 调用网关需要内部服务 token；向量库暂不启用 API key，仅集群内访问。</p>
           </article>
           <article class="card">
             <h3>队列策略</h3>
-            <p class="muted">gateway 中 chat 优先级高于 embedding；排队超过 30 秒返回 429。</p>
+            <p class="muted">网关中聊天生成的优先级高于 embedding；排队超过 30 秒返回 429。</p>
           </article>
         </div>
       </section>
@@ -1459,32 +1459,32 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
           </thead>
           <tbody>
             <tr>
-              <td>Phase 1</td>
+              <td>阶段 1</td>
               <td>静态 UI + API 合约</td>
               <td>Astro Chat Widget、lucide Bot 图标、关闭按钮、3 个建议问题、SSE 单气泡更新、引用卡片样式。</td>
             </tr>
             <tr>
-              <td>Phase 2</td>
+              <td>阶段 2</td>
               <td>blog-rag-api 基础能力</td>
               <td>Spring Boot 服务、<code>/api/chat</code>、<code>/api/chat/stream</code>、限流、JSON 日志和健康检查。</td>
             </tr>
             <tr>
-              <td>Phase 3</td>
-              <td>AI Compute 接入</td>
-              <td><code>ai-compute-gateway</code>、<code>ai-compute-runtime</code>、Ollama 模型 PVC、OpenAI-compatible API。</td>
+              <td>阶段 3</td>
+              <td>AI 计算接入</td>
+              <td><code>ai-compute-gateway</code>、<code>ai-compute-runtime</code>、Ollama 模型 PVC、OpenAI 兼容 API。</td>
             </tr>
             <tr>
-              <td>Phase 4</td>
+              <td>阶段 4</td>
               <td>RAG 上线</td>
-              <td>Qdrant、增量 indexer、Markdown 切片、Astro anchor 校验、来源卡片跳转。</td>
+              <td>Qdrant、增量索引器、Markdown 切片、Astro 锚点校验、来源卡片跳转。</td>
             </tr>
             <tr>
-              <td>Phase 5</td>
+              <td>阶段 5</td>
               <td>人格与回答边界</td>
               <td><code>config/persona.md</code>、博客内容与补充说明分区、人设问题受控回答。</td>
             </tr>
             <tr>
-              <td>Phase 6</td>
+              <td>阶段 6</td>
               <td>运维优化</td>
               <td>指标接口、Grafana 后续接入、手动模型 pull、索引 Job 排查和队列状态查看。</td>
             </tr>
@@ -1550,12 +1550,12 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
           </thead>
           <tbody>
             <tr>
-              <td>AI Compute</td>
-              <td>CPU gateway + Ollama GPU runtime；runtime Service 名 <code>ai-compute-runtime</code>。</td>
+              <td>AI 计算</td>
+              <td>CPU 网关 + Ollama GPU 运行时；运行时 Service 名为 <code>ai-compute-runtime</code>。</td>
             </tr>
             <tr>
               <td>API 风格</td>
-              <td>Gateway 对内使用 OpenAI-compatible API；前端默认请求 <code>POST /api/chat/stream</code>。</td>
+              <td>网关对内使用 OpenAI 兼容 API；前端默认请求 <code>POST /api/chat/stream</code>。</td>
             </tr>
             <tr>
               <td>索引</td>
@@ -1563,11 +1563,11 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
             </tr>
             <tr>
               <td>命名空间</td>
-              <td><code>blog-rag-api</code> 和 <code>blog-indexer</code> 在 <code>blog</code>；gateway、runtime、Qdrant 在 <code>ai</code>。</td>
+              <td><code>blog-rag-api</code> 和 <code>blog-indexer</code> 在 <code>blog</code>；网关、运行时、Qdrant 在 <code>ai</code>。</td>
             </tr>
             <tr>
               <td>模型</td>
-              <td>Chat: <code>qwen2.5:3b</code>；<code>qwen3:4b</code> 暂不作为公开聊天默认模型，避免流式输出思考过程；Embedding: <code>bge-m3</code>，fallback <code>nomic-embed-text</code>。</td>
+              <td>聊天：<code>qwen2.5:3b</code>；<code>qwen3:4b</code> 暂不作为公开聊天默认模型，避免流式输出思考过程；Embedding：<code>bge-m3</code>，备用模型 <code>nomic-embed-text</code>。</td>
             </tr>
             <tr>
               <td>隐私</td>
@@ -1580,14 +1580,14 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
       <section>
         <h2>13. 官方参考资料</h2>
         <ul class="sources">
-          <li><a href="https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html">Spring AI Retrieval Augmented Generation Reference</a></li>
-          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs.html">Spring AI Vector Databases Reference</a></li>
-          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html">Spring AI Qdrant VectorStore Reference</a></li>
-          <li><a href="https://github.com/ollama/ollama/blob/main/docs/api.md">Ollama API Documentation</a></li>
-          <li><a href="https://qdrant.tech/documentation/">Qdrant Documentation</a></li>
-          <li><a href="https://qdrant.tech/documentation/manage-data/collections/">Qdrant Collections Documentation</a></li>
-          <li><a href="https://qdrant.tech/documentation/manage-data/points/">Qdrant Points Documentation</a></li>
-          <li><a href="https://qdrant.tech/documentation/search/filtering/">Qdrant Filtering Documentation</a></li>
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html">Spring AI RAG 参考文档</a></li>
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs.html">Spring AI 向量数据库参考文档</a></li>
+          <li><a href="https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html">Spring AI Qdrant VectorStore 参考文档</a></li>
+          <li><a href="https://github.com/ollama/ollama/blob/main/docs/api.md">Ollama API 文档</a></li>
+          <li><a href="https://qdrant.tech/documentation/">Qdrant 文档</a></li>
+          <li><a href="https://qdrant.tech/documentation/manage-data/collections/">Qdrant Collections 文档</a></li>
+          <li><a href="https://qdrant.tech/documentation/manage-data/points/">Qdrant Points 文档</a></li>
+          <li><a href="https://qdrant.tech/documentation/search/filtering/">Qdrant Filtering 文档</a></li>
         </ul>
       </section>
     </main>

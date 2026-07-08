@@ -1,24 +1,24 @@
-# Blog RAG k3s manifests
+# Blog RAG k3s 清单
 
-This directory deploys the blog chat RAG stack:
+这个目录用于部署博客聊天 RAG 栈：
 
-- `blog-rag-api` in namespace `blog`
-- `blog-indexer` CronJob in namespace `blog`
-- `ai-compute-gateway`, `ai-compute-runtime`, and `qdrant` in namespace `ai`
+- `blog-rag-api` 位于 `blog` 命名空间。
+- `blog-indexer` CronJob 位于 `blog` 命名空间。
+- `ai-compute-gateway`、`ai-compute-runtime` 和 `qdrant` 位于 `ai` 命名空间。
 
-Only `ai-compute-runtime` requests `nvidia.com/gpu: 1`. The RAG API, gateway, Qdrant, and indexer are CPU workloads.
+只有 `ai-compute-runtime` 申请 `nvidia.com/gpu: 1`。RAG API、网关、Qdrant 和索引器都是 CPU 工作负载。
 
-## Current Models
+## 当前模型
 
-- Chat: `huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M`
-- Embedding: `bge-m3`
-- Vector dimension: `1024`
+- 聊天模型：`huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M`
+- Embedding 模型：`bge-m3`
+- 向量维度：`1024`
 
-The public chat default uses a Q4_K_M Qwen3 4B Instruct model for faster responses on the RTX 2060 6GB. Keep `qwen2.5:3b` installed as a small fallback model.
+公网聊天默认使用 Q4_K_M 量化的 Qwen3 4B Instruct 模型，以便在 RTX 2060 6GB 上获得更快响应。保留 `qwen2.5:3b` 作为小型备用模型。
 
-## Build Images
+## 构建镜像
 
-Build sibling module images from Windows:
+在 Windows 上构建相邻模块镜像：
 
 ```powershell
 cd C:\IdeaProjects\blog-rag-api
@@ -28,7 +28,7 @@ cd C:\IdeaProjects\ai-compute-gateway
 mvn -B -DskipTests package jib:buildTar
 ```
 
-Import them into k3s containerd and tag them with the manifest version:
+导入到 k3s containerd，并打上清单中使用的版本标签：
 
 ```bash
 sudo k3s ctr images import /tmp/blog-rag-api.tar
@@ -37,11 +37,11 @@ sudo k3s ctr images tag --force localhost:5000/blog-rag-api:latest localhost:500
 sudo k3s ctr images tag --force localhost:5000/ai-compute-gateway:latest localhost:5000/ai-compute-gateway:20260707-2305
 ```
 
-Avoid relying on `latest` for Jobs. With `imagePullPolicy: IfNotPresent`, a CronJob can keep using an older local image.
+不要让 Job 依赖 `latest`。当 `imagePullPolicy: IfNotPresent` 时，CronJob 可能继续使用旧的本地镜像。
 
-## Apply
+## 应用清单
 
-Create a real token secret first. Do not apply `01-secrets.example.yaml` unchanged in production.
+先创建真实 token Secret。生产环境不要原样应用 `01-secrets.example.yaml`。
 
 ```bash
 kubectl apply -f 00-namespace.yaml
@@ -54,7 +54,7 @@ kubectl apply -f 07-ingress.yaml
 kubectl patch deployment -n blog blog-web --type=strategic --patch-file 08-blog-web-runner-content-patch.yaml
 ```
 
-Import or pull models once inside the runtime. Copy the GGUF into the pod and create the model locally:
+在运行时 Pod 内导入或拉取一次模型。把 GGUF 复制进 Pod，并在本地创建模型：
 
 ```bash
 kubectl -n ai cp /tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf deploy/ai-compute-runtime:/tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf
@@ -67,7 +67,7 @@ kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull qwen2.5:3b
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull bge-m3
 ```
 
-## Verify
+## 验证
 
 ```bash
 kubectl get pods -n blog
@@ -82,12 +82,12 @@ curl -s -N http://127.0.0.1/api/chat/stream \
   -d '{"question":"RSA 是什么？"}'
 ```
 
-Expected stream events:
+预期流式事件：
 
 - `meta`
-- many `delta`
+- 多个 `delta`
 - `citations`
 - `relatedPosts`
 - `done`
 
-Qdrant should report `blog_chunks` with vector size `1024` and nonzero `points_count`.
+Qdrant 中应存在 `blog_chunks`，向量维度为 `1024`，且 `points_count` 大于 0。

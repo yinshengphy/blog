@@ -1,0 +1,87 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: guacamole
+  namespace: guacamole
+spec:
+  selector:
+    app: guacamole
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guacamole
+  namespace: guacamole
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: guacamole
+  template:
+    metadata:
+      labels:
+        app: guacamole
+    spec:
+      containers:
+        - name: guacamole
+          image: docker.io/guacamole/guacamole:1.6.0
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: WEBAPP_CONTEXT
+              value: ROOT
+            - name: GUACD_HOSTNAME
+              value: guacd.guacamole.svc.cluster.local
+            - name: POSTGRESQL_HOSTNAME
+              value: postgres.guacamole.svc.cluster.local
+            - name: POSTGRESQL_DATABASE
+              valueFrom:
+                secretKeyRef:
+                  name: guacamole-postgres
+                  key: POSTGRES_DB
+            - name: POSTGRESQL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: guacamole-postgres
+                  key: POSTGRES_USER
+            - name: POSTGRESQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: guacamole-postgres
+                  key: POSTGRES_PASSWORD
+            - name: REMOTE_IP_VALVE_ENABLED
+              value: "true"
+            - name: PROXY_IP_HEADER
+              value: X-Forwarded-For
+            - name: PROXY_PROTOCOL_HEADER
+              value: X-Forwarded-Proto
+          ports:
+            - name: http
+              containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 20
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 50m
+              memory: 256Mi
+            limits:
+              cpu: 500m
+              memory: 768Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL

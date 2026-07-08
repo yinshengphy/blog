@@ -1,4 +1,4 @@
-name: Deploy Astro Blog to K3s
+name: 部署 Astro 博客到 K3s
 
 on:
   push:
@@ -28,18 +28,18 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Checkout
+      - name: 检出代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           clean: false
 
-      - name: Use domestic npm registry
+      - name: 使用国内 npm 镜像
         run: |
           npm config set registry https://registry.npmmirror.com
           npm config set cache "$PWD/.runner-cache/npm"
 
-      - name: Check dependency cache
+      - name: 检查依赖缓存
         id: deps
         run: |
           set -euo pipefail
@@ -48,22 +48,22 @@ jobs:
 
           if [ -d node_modules ] && [ -f .runner-cache/deps.sha ] && cmp -s .runner-cache/deps.sha.current .runner-cache/deps.sha; then
             echo "install=false" >> "$GITHUB_OUTPUT"
-            echo "Dependencies unchanged and node_modules exists -> skip install"
+            echo "依赖未变化且 node_modules 存在，跳过安装"
           else
             echo "install=true" >> "$GITHUB_OUTPUT"
-            echo "Dependencies missing or changed -> run npm ci"
+            echo "依赖缺失或已变化，执行 npm ci"
           fi
 
-      - name: Install dependencies
+      - name: 安装依赖
         if: steps.deps.outputs.install == 'true'
         run: |
           npm ci --prefer-offline --no-audit --no-fund --cache "$PWD/.runner-cache/npm"
           cp .runner-cache/deps.sha.current .runner-cache/deps.sha
 
-      - name: Build
+      - name: 构建
         run: npm exec -- astro build
 
-      - name: Publish to K3s PVC
+      - name: 发布到 K3s PVC
         run: |
           test -d dist
           mkdir -p /deploy/public
@@ -73,9 +73,9 @@ jobs:
             find /deploy/public -mindepth 1 -maxdepth 1 -exec rm -rf {} +
             cp -a dist/. /deploy/public/
           fi
-          echo "Published $(du -sh dist | cut -f1) to PVC"
+          echo "已发布 $(du -sh dist | cut -f1) 到 PVC"
 
-      - name: Sync markdown source for RAG indexer
+      - name: 同步 Markdown 源文件给 RAG 索引器
         run: |
           mkdir -p /deploy/content/posts
           if command -v rsync >/dev/null 2>&1; then
@@ -84,12 +84,12 @@ jobs:
             find /deploy/content/posts -mindepth 1 -maxdepth 1 -exec rm -rf {} +
             cp -a src/content/posts/. /deploy/content/posts/
           fi
-          echo "Synced markdown posts for RAG indexer"
+          echo "已同步 Markdown 文章给 RAG 索引器"
 
-      - name: Trigger RAG indexer asynchronously
+      - name: 异步触发 RAG 索引器
         run: |
           if command -v kubectl >/dev/null 2>&1; then
             kubectl -n blog create job --from=cronjob/blog-indexer "blog-indexer-manual-${GITHUB_RUN_ID}" || true
           else
-            echo "kubectl not found, skip manual index trigger; CronJob will catch up"
+            echo "未找到 kubectl，跳过手动索引触发；CronJob 会自动补上"
           fi
