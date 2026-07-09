@@ -15,7 +15,7 @@ spec:
           restartPolicy: Never
           containers:
             - name: blog-indexer
-              image: localhost:5000/blog-rag-api:20260709-2208
+              image: localhost:5000/blog-rag-api:20260709-2219
               imagePullPolicy: IfNotPresent
               env:
                 - name: SPRING_PROFILES_ACTIVE
