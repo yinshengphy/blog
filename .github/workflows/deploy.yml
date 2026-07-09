@@ -54,8 +54,67 @@ jobs:
             git config --global http.version HTTP/1.1
             git init .
             git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-            git fetch --depth=1 origin "${GITHUB_SHA}"
-            git checkout --force FETCH_HEAD
+            if git fetch --depth=1 origin "${GITHUB_SHA}"; then
+              git checkout --force FETCH_HEAD
+            else
+              echo "git 拉取失败，改用 GitHub API 下载源码"
+          node <<'NODE'
+          const fs = require("fs");
+          const path = require("path");
+
+          const token = process.env.GITHUB_TOKEN;
+          const repository = process.env.GITHUB_REPOSITORY;
+          const sha = process.env.GITHUB_SHA;
+          const [owner, repo] = repository.split("/");
+
+          async function githubJson(url) {
+            for (let attempt = 1; attempt <= 4; attempt += 1) {
+              const response = await fetch(url, {
+                headers: {
+                  Authorization: `Bearer ${token}`,
+                  Accept: "application/vnd.github+json",
+                  "User-Agent": "self-hosted-runner"
+                }
+              });
+              if (response.ok) {
+                return response.json();
+              }
+              if (attempt === 4) {
+                throw new Error(`${response.status} ${response.statusText} ${url}`);
+              }
+              await new Promise(resolve => setTimeout(resolve, attempt * 1500));
+            }
+          }
+
+          const commit = await githubJson(`https://api.github.com/repos/${owner}/${repo}/git/commits/${sha}`);
+          const tree = await githubJson(`https://api.github.com/repos/${owner}/${repo}/git/trees/${commit.tree.sha}?recursive=1`);
+          if (tree.truncated) {
+            throw new Error("GitHub API 返回的文件树被截断");
+          }
+
+          for (const entry of tree.tree) {
+            if (entry.type === "tree") {
+              fs.mkdirSync(entry.path, { recursive: true });
+              continue;
+            }
+            if (entry.type !== "blob") {
+              continue;
+            }
+            const blob = await githubJson(entry.url);
+            const target = path.resolve(entry.path);
+            fs.mkdirSync(path.dirname(target), { recursive: true });
+            const content = Buffer.from(blob.content.replace(/\n/g, ""), blob.encoding);
+            if (entry.mode === "120000") {
+              fs.symlinkSync(content.toString("utf8"), target);
+            } else {
+              fs.writeFileSync(target, content);
+              if (entry.mode === "100755") {
+                fs.chmodSync(target, 0o755);
+              }
+            }
+          }
+          NODE
+            fi
             rm -rf .git
           fi
 
