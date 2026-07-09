@@ -31,6 +31,14 @@ const tocHeadings = headings.filter((heading) => heading.depth <= 3);
 const minTocDepth = tocHeadings.length > 0
   ? Math.min(...tocHeadings.map((heading) => heading.depth))
   : 2;
+const titleSlug = title.normalize('NFKC')
+  .toLowerCase()
+  .trim()
+  .replace(/[`*_~[\](){}<>"'，。！？；：、]/g, '')
+  .replace(/\s+/g, '-')
+  .replace(/[^\p{Script=Han}\p{Letter}\p{Number}-]/gu, '')
+  .replace(/-+/g, '-')
+  .replace(/^-|-$/g, '') || 'post-title';
 ---
 
 <BaseLayout title={title} description={description}>
@@ -49,7 +57,7 @@ const minTocDepth = tocHeadings.length > 0
             </>
           )}
         </div>
-        <h1>{title}</h1>
+        <h1 id={titleSlug}>{title}</h1>
         {description && <p class="post-description">{description}</p>}
         {tags.length > 0 && (
           <ul class="tags" aria-label="标签">

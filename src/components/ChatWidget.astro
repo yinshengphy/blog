@@ -45,6 +45,8 @@
 </div>
 
 <script>
+  import katex from "katex";
+
   type SsePayload = any;
   type SseHandlers = Record<string, (data: SsePayload) => void>;
 
@@ -85,7 +87,7 @@
     if (url.origin !== window.location.origin) return;
 
     event.preventDefault();
-    await navigateInPlace(url);
+    await navigateInPlace(url, true, link.dataset.chatCiteSnippet || "");
   });
 
   window.addEventListener("popstate", () => {
@@ -126,6 +128,8 @@
     const answerText = document.createElement("span");
     answerText.className = "chat-answer-text";
     answerBubble.append(answerText);
+    let rawAnswer = "";
+    let latestCitations: SsePayload[] = [];
 
     try {
       const response = await fetch("/api/chat/stream", {
@@ -137,12 +141,14 @@
       if (!response.ok || !response.body) throw new Error("stream failed");
       await readSse(response.body, {
         delta(data) {
-          answerText.textContent += data.text || "";
+          rawAnswer += data.text || "";
+          answerText.textContent = rawAnswer;
           scrollMessages();
         },
         citations(data) {
+          latestCitations = Array.isArray(data) ? data : [];
           answerBubble.classList.remove("streaming");
-          renderCitationMarkers(answerText, data);
+          renderAnswerContent(answerText, rawAnswer, latestCitations);
         },
         error(data) {
           answerBubble.classList.remove("streaming");
@@ -150,6 +156,7 @@
         },
         done() {
           answerBubble.classList.remove("streaming");
+          renderAnswerContent(answerText, rawAnswer, latestCitations);
         }
       });
     } catch (error) {
@@ -180,28 +187,18 @@
     return bubble;
   }
 
-  function renderCitationMarkers(container: HTMLElement, citations: SsePayload[]) {
-    if (!Array.isArray(citations) || citations.length === 0) return;
+  function renderAnswerContent(container: HTMLElement, rawText: string, citations: SsePayload[]) {
+    if (!rawText) return;
     const byIndex = new Map<number, SsePayload>();
-    citations.slice(0, 3).forEach((citation, index) => byIndex.set(index + 1, citation));
-
-    const text = container.textContent || "";
     const fragment = document.createDocumentFragment();
-    let cursor = 0;
-    let matched = false;
-    text.replace(/\[(\d+)\]/g, (match, rawIndex, offset) => {
-      const index = Number(rawIndex);
-      const citation = byIndex.get(index);
-      if (!citation) return match;
-      fragment.append(document.createTextNode(text.slice(cursor, offset)));
-      fragment.append(citationLink(index, citation));
-      cursor = offset + match.length;
-      matched = true;
-      return match;
-    });
-    fragment.append(document.createTextNode(text.slice(cursor)));
+    const state = { matchedCitation: false };
+    if (Array.isArray(citations)) {
+      citations.slice(0, 3).forEach((citation, index) => byIndex.set(index + 1, citation));
+    }
 
-    if (!matched) {
+    appendRichText(fragment, rawText, byIndex, state);
+
+    if (!state.matchedCitation && Array.isArray(citations) && citations.length > 0) {
       fragment.append(document.createTextNode(" "));
       citations.slice(0, 3).forEach((citation, index) => {
         fragment.append(citationLink(index + 1, citation));
@@ -209,6 +206,80 @@
     }
 
     container.replaceChildren(fragment);
+  }
+
+  function appendRichText(
+    fragment: DocumentFragment | HTMLElement,
+    text: string,
+    citations: Map<number, SsePayload>,
+    state: { matchedCitation: boolean }
+  ) {
+    const tokenPattern = /```(?:math|latex)\s*([\s\S]+?)```|\$\$([\s\S]+?)\$\$|\\\[([\s\S]+?)\\\]|\\\(([\s\S]+?)\\\)|\$([^$\n]+)\$|\[(\d+)\]/g;
+    let cursor = 0;
+    let match: RegExpExecArray | null;
+    while ((match = tokenPattern.exec(text)) !== null) {
+      appendMarkdownText(fragment, text.slice(cursor, match.index));
+      if (match[1] || match[2] || match[3]) {
+        fragment.append(katexNode((match[1] || match[2] || match[3] || "").trim(), true));
+      } else if (match[4] || match[5]) {
+        fragment.append(katexNode((match[4] || match[5] || "").trim(), false));
+      } else if (match[6]) {
+        const index = Number(match[6]);
+        const citation = citations.get(index);
+        if (citation) {
+          fragment.append(citationLink(index, citation));
+          state.matchedCitation = true;
+        } else {
+          fragment.append(document.createTextNode(match[0]));
+        }
+      }
+      cursor = match.index + match[0].length;
+    }
+    appendMarkdownText(fragment, text.slice(cursor));
+  }
+
+  function appendMarkdownText(fragment: DocumentFragment | HTMLElement, text: string) {
+    if (!text) return;
+    const lines = text.split("\n");
+    lines.forEach((line, index) => {
+      if (index > 0) fragment.append(document.createElement("br"));
+      appendInlineMarkdown(fragment, line);
+    });
+  }
+
+  function appendInlineMarkdown(fragment: DocumentFragment | HTMLElement, text: string) {
+    const inlinePattern = /`([^`]+)`|\*\*([^*]+)\*\*/g;
+    let cursor = 0;
+    let match: RegExpExecArray | null;
+    while ((match = inlinePattern.exec(text)) !== null) {
+      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+      if (match[1]) {
+        const code = document.createElement("code");
+        code.textContent = match[1];
+        fragment.append(code);
+      } else if (match[2]) {
+        const strong = document.createElement("strong");
+        strong.textContent = match[2];
+        fragment.append(strong);
+      }
+      cursor = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(text.slice(cursor)));
+  }
+
+  function katexNode(expression: string, displayMode: boolean) {
+    const node = document.createElement(displayMode ? "div" : "span");
+    node.className = displayMode ? "chat-math-display" : "chat-math-inline";
+    try {
+      node.innerHTML = katex.renderToString(expression, {
+        displayMode,
+        throwOnError: false,
+        strict: "ignore"
+      });
+    } catch {
+      node.textContent = displayMode ? `$$${expression}$$` : `$${expression}$`;
+    }
+    return node;
   }
 
   function citationLink(index: number, citation: SsePayload) {
@@ -219,15 +290,16 @@
     link.textContent = String(index);
     link.title = [citation.title, citation.section].filter(Boolean).join(" · ");
     link.dataset.chatCiteLink = "true";
+    link.dataset.chatCiteSnippet = citation.snippet || "";
     sup.append(link);
     return sup;
   }
 
-  async function navigateInPlace(url: URL, push = true) {
+  async function navigateInPlace(url: URL, push = true, snippet = "") {
     try {
       if (isSamePage(url)) {
         if (push) history.pushState({ yinshengSoftNav: true }, "", url.href);
-        scrollToHash(url.hash);
+        scrollToHash(url.hash, snippet);
         return;
       }
 
@@ -249,7 +321,7 @@
       updateMetaDescription(nextDocument);
 
       if (push) history.pushState({ yinshengSoftNav: true }, "", url.href);
-      scrollToHash(url.hash);
+      scrollToHash(url.hash, snippet);
       setOpen(true);
     } catch {
       window.location.href = url.href;
@@ -260,7 +332,7 @@
     return url.pathname === window.location.pathname && url.search === window.location.search;
   }
 
-  function scrollToHash(hash: string) {
+  function scrollToHash(hash: string, snippet = "") {
     requestAnimationFrame(() => {
       if (!hash) {
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -269,9 +341,98 @@
 
       const target = document.getElementById(decodeURIComponent(hash.slice(1)));
       if (target) {
-        target.scrollIntoView({ block: "start", behavior: "smooth" });
+        const preciseTarget = findSnippetTarget(target, snippet) || target;
+        preciseTarget.scrollIntoView({ block: "center", behavior: "smooth" });
+        highlightCitationTarget(preciseTarget);
       }
     });
+  }
+
+  function findSnippetTarget(anchor: HTMLElement, snippet: string) {
+    const normalizedSnippet = normalizeText(snippet);
+    if (!normalizedSnippet || normalizedSnippet.length < 8) return null;
+    const candidates = citationCandidates(anchor);
+    let best: HTMLElement | null = null;
+    let bestScore = 0;
+    candidates.forEach((candidate) => {
+      const text = normalizeText(candidate.textContent || "");
+      if (!text) return;
+      let score = text.includes(normalizedSnippet.slice(0, Math.min(60, normalizedSnippet.length))) ? 1000 : 0;
+      citationTerms(normalizedSnippet).forEach((term) => {
+        if (text.includes(term)) score += Math.max(1, term.length - 1);
+      });
+      if (score > bestScore) {
+        best = candidate;
+        bestScore = score;
+      }
+    });
+    return bestScore > 0 ? best : null;
+  }
+
+  function citationCandidates(anchor: HTMLElement) {
+    const candidates: HTMLElement[] = [];
+    const prose = document.querySelector<HTMLElement>(".prose");
+    const anchorLevel = headingLevel(anchor);
+    if (!prose?.contains(anchor)) {
+      for (const child of Array.from(prose?.children || [])) {
+        if (isHeading(child)) break;
+        collectReadableBlocks(child, candidates);
+      }
+      return candidates;
+    }
+
+    let current = anchor.nextElementSibling;
+    while (current) {
+      if (isHeading(current) && headingLevel(current as HTMLElement) <= anchorLevel) break;
+      collectReadableBlocks(current, candidates);
+      current = current.nextElementSibling;
+    }
+    return candidates;
+  }
+
+  function collectReadableBlocks(element: Element, candidates: HTMLElement[]) {
+    if (!(element instanceof HTMLElement)) return;
+    if (element.matches("p, li, blockquote, pre, table")) {
+      candidates.push(element);
+      return;
+    }
+    element.querySelectorAll<HTMLElement>("p, li, blockquote, pre, table").forEach((child) => candidates.push(child));
+  }
+
+  function isHeading(element: Element) {
+    return /^H[1-6]$/.test(element.tagName);
+  }
+
+  function headingLevel(element: HTMLElement) {
+    return isHeading(element) ? Number(element.tagName.slice(1)) : 1;
+  }
+
+  function citationTerms(normalized: string) {
+    const terms = new Set<string>();
+    const latin = normalized.match(/[a-z0-9]{2,}/g) || [];
+    latin.forEach((term) => terms.add(term));
+    const han = normalized.match(/[\p{Script=Han}]{2,}/gu) || [];
+    han.forEach((text) => {
+      for (let index = 0; index < text.length - 1; index += 1) {
+        terms.add(text.slice(index, index + 2));
+      }
+    });
+    return Array.from(terms).filter((term) => !["这个", "一种", "可以", "通过", "实现", "问题", "内容", "文章"].includes(term));
+  }
+
+  function normalizeText(value: string) {
+    return value
+      .toLowerCase()
+      .normalize("NFKC")
+      .replace(/[`*_~[\](){}<>"'，。！？；：、,.!?\s-]/g, "");
+  }
+
+  function highlightCitationTarget(target: HTMLElement) {
+    document.querySelectorAll(".chat-citation-focus").forEach((element) => {
+      element.classList.remove("chat-citation-focus");
+    });
+    target.classList.add("chat-citation-focus");
+    window.setTimeout(() => target.classList.remove("chat-citation-focus"), 2200);
   }
 
   function updateMetaDescription(nextDocument: Document) {
@@ -541,6 +702,31 @@
     color: var(--ink-soft);
   }
 
+  .chat-widget :global(.chat-answer-text code) {
+    border-radius: 5px;
+    background: var(--code-bg);
+    padding: 1px 5px;
+    font-size: 0.92em;
+  }
+
+  .chat-widget :global(.chat-math-inline) {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+  }
+
+  .chat-widget :global(.chat-math-display) {
+    display: block;
+    max-width: 100%;
+    margin: 8px 0;
+    overflow-x: auto;
+  }
+
+  .chat-widget :global(.chat-math-display .katex-display) {
+    margin: 0;
+  }
+
   .chat-widget :global(.chat-bubble.user) {
     border-bottom-right-radius: 6px;
     background: #2563eb;
@@ -579,6 +765,13 @@
     border-radius: 2px;
     background: var(--accent);
     animation: chatCaretBlink 0.9s steps(1) infinite;
+  }
+
+  :global(.chat-citation-focus) {
+    border-radius: 6px;
+    background: rgba(47, 99, 214, 0.12);
+    box-shadow: 0 0 0 5px rgba(47, 99, 214, 0.12);
+    transition: background 180ms ease, box-shadow 180ms ease;
   }
 
   .chat-suggestions {
