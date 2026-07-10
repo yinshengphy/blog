@@ -254,9 +254,11 @@
     canvas.height = Math.max(1, Math.round(bitmap.height * scale));
     const context = canvas.getContext("2d");
     if (!context) throw new Error("canvas unavailable");
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, canvas.width, canvas.height);
     context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
     bitmap.close();
-    return { mimeType: "image/webp", data: canvas.toDataURL("image/webp", 0.82), name: file.name };
+    return { mimeType: "image/jpeg", data: canvas.toDataURL("image/jpeg", 0.84), name: file.name };
   }
 
   function renderAttachmentPreview() {
@@ -303,10 +305,17 @@
     appendRichText(fragment, rawText, byIndex, state);
 
     if (!state.matchedCitation && Array.isArray(citations) && citations.length > 0) {
-      fragment.append(document.createTextNode(" "));
+      const sources = document.createElement("div");
+      sources.className = "chat-source-list";
+      const label = document.createElement("strong");
+      label.textContent = "参考来源";
+      sources.append(label);
       citations.slice(0, 3).forEach((citation, index) => {
-        fragment.append(citationLink(index + 1, citation));
+        const link = citationAnchor(citation);
+        link.textContent = `${index + 1}. ${citation.title || citation.section || "来源"}`;
+        sources.append(link);
       });
+      fragment.append(sources);
     }
 
     container.replaceChildren(fragment);
@@ -387,9 +396,15 @@
   function citationLink(index: number, citation: SsePayload) {
     const sup = document.createElement("sup");
     sup.className = "chat-cite-ref";
+    const link = citationAnchor(citation);
+    link.textContent = String(index);
+    sup.append(link);
+    return sup;
+  }
+
+  function citationAnchor(citation: SsePayload) {
     const link = document.createElement("a");
     link.href = citation.url || "#";
-    link.textContent = String(index);
     link.title = [citation.title, citation.section].filter(Boolean).join(" · ");
     link.dataset.chatCiteLink = "true";
     link.dataset.chatCiteSnippet = citation.snippet || "";
@@ -401,8 +416,7 @@
     } catch {
       // 无效链接保持普通文本行为。
     }
-    sup.append(link);
-    return sup;
+    return link;
   }
 
   async function navigateInPlace(url: URL, push = true, snippet = "") {
@@ -873,6 +887,30 @@
   }
 
   .chat-widget :global(.chat-cite-ref a:hover) {
+    text-decoration: underline;
+  }
+
+  .chat-widget :global(.chat-source-list) {
+    display: grid;
+    gap: 5px;
+    margin-top: 12px;
+    padding-top: 9px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .chat-widget :global(.chat-source-list strong) {
+    color: var(--muted);
+  }
+
+  .chat-widget :global(.chat-source-list a) {
+    color: #1f4fb5;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .chat-widget :global(.chat-source-list a:hover) {
     text-decoration: underline;
   }
 
