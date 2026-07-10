@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: ai-compute-gateway
-          image: localhost:5000/ai-compute-gateway:20260710-2238
+          image: localhost:5000/ai-compute-gateway:20260711-0602
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
