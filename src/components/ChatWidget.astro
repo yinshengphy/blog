@@ -120,6 +120,13 @@
     fileInput.value = "";
   });
 
+  input?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || event.isComposing) return;
+    if (event.altKey) return;
+    event.preventDefault();
+    form?.requestSubmit();
+  });
+
   input?.addEventListener("paste", async (event) => {
     const files = Array.from(event.clipboardData?.items || [])
       .filter((item) => item.kind === "file" && item.type.startsWith("image/"))
@@ -935,6 +942,7 @@
 
   .chat-form {
     display: grid;
+    min-width: 0;
     gap: 7px;
     padding: 12px;
     border-top: 1px solid var(--line);
@@ -990,28 +998,37 @@
 
   .chat-attachment-preview {
     display: flex;
+    min-width: 0;
+    max-height: 68px;
     gap: 7px;
+    padding: 6px 4px 2px;
     overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .chat-attachment-preview[hidden] {
     display: none;
   }
 
-  .chat-attachment-item {
+  .chat-widget :global(.chat-attachment-item) {
     position: relative;
     flex: 0 0 56px;
+    width: 56px;
     height: 56px;
+    overflow: visible;
   }
 
-  .chat-attachment-item img {
+  .chat-widget :global(.chat-attachment-item img) {
+    display: block;
     width: 100%;
     height: 100%;
+    max-width: 56px;
+    max-height: 56px;
     border-radius: 6px;
     object-fit: cover;
   }
 
-  .chat-attachment-item button {
+  .chat-widget :global(.chat-attachment-item button) {
     position: absolute;
     top: -5px;
     right: -5px;
