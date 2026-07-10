@@ -326,8 +326,6 @@
         if (citation) {
           fragment.append(citationLink(index, citation));
           state.matchedCitation = true;
-        } else {
-          fragment.append(document.createTextNode(match[0]));
         }
       }
       cursor = match.index + match[0].length;
