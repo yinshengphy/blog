@@ -72,7 +72,7 @@ spec:
     spec:
       containers:
         - name: blog-rag-api
-          image: localhost:5000/blog-rag-api:20260710-2238
+          image: localhost:5000/blog-rag-api:20260710-2314
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
