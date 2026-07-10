@@ -4,17 +4,17 @@
 
 - `blog-rag-api` 位于 `blog` 命名空间。
 - `blog-indexer` CronJob 位于 `blog` 命名空间。
-- `ai-compute-gateway`、`ai-compute-runtime` 和 `qdrant` 位于 `ai` 命名空间。
+- `ai-compute-gateway`、`ai-compute-runtime`、`qdrant` 和 `searxng` 位于 `ai` 命名空间。
 
 只有 `ai-compute-runtime` 申请 `nvidia.com/gpu: 1`。RAG API、网关、Qdrant 和索引器都是 CPU 工作负载。
 
 ## 当前模型
 
-- 聊天模型：`huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M`
+- 聊天模型：`huihui_ai/qwen3-vl-abliterated:4b-instruct`
 - Embedding 模型：`bge-m3`
 - 向量维度：`1024`
 
-公网聊天默认使用 Q4_K_M 量化的 Qwen3 4B Instruct 模型，以便在 RTX 2060 6GB 上获得更快响应。保留 `qwen2.5:3b` 作为小型备用模型。
+公网聊天默认使用 Q4_K_M 量化的 Qwen3-VL 4B Instruct 模型，支持文本、图片和工具调用。保留 `qwen2.5:3b` 作为小型备用模型，`bge-m3` 在 CPU 上生成向量。
 
 ## 构建镜像
 
@@ -47,6 +47,7 @@ sudo k3s ctr images tag --force localhost:5000/ai-compute-gateway:latest localho
 kubectl apply -f 00-namespace.yaml
 kubectl apply -f 02-qdrant.yaml
 kubectl apply -f 03-ai-compute-runtime.yaml
+kubectl apply -f 10-searxng.yaml
 kubectl apply -f 04-ai-compute-gateway.yaml
 kubectl apply -f 05-blog-rag-api.yaml
 kubectl apply -f 06-blog-indexer.yaml
@@ -54,15 +55,10 @@ kubectl apply -f 07-ingress.yaml
 kubectl patch deployment -n blog blog-web --type=strategic --patch-file 08-blog-web-runner-content-patch.yaml
 ```
 
-在运行时 Pod 内导入或拉取一次模型。把 GGUF 复制进 Pod，并在本地创建模型：
+在运行时 Pod 内拉取一次模型：
 
 ```bash
-kubectl -n ai cp /tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf deploy/ai-compute-runtime:/tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf
-kubectl -n ai exec deploy/ai-compute-runtime -- sh -c 'cat > /tmp/huihui-qwen3-q4.Modelfile <<EOF
-FROM /tmp/Huihui-Qwen3-4B-Instruct-2507-abliterated.Q4_K_M.gguf
-PARAMETER num_ctx 4096
-EOF
-ollama create huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M -f /tmp/huihui-qwen3-q4.Modelfile'
+kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull huihui_ai/qwen3-vl-abliterated:4b-instruct
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull qwen2.5:3b
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull bge-m3
 ```

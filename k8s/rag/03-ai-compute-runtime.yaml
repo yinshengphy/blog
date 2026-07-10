@@ -52,6 +52,10 @@ spec:
               value: 10m
             - name: OLLAMA_MAX_LOADED_MODELS
               value: "2"
+            - name: OLLAMA_NUM_PARALLEL
+              value: "1"
+            - name: OLLAMA_CONTEXT_LENGTH
+              value: "4096"
             - name: HTTP_PROXY
               value: http://192.168.31.53:7890
             - name: HTTPS_PROXY

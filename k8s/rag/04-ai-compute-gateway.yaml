@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: ai-compute-gateway
-          image: localhost:5000/ai-compute-gateway:20260708-2208
+          image: localhost:5000/ai-compute-gateway:20260710-2238
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -36,7 +36,7 @@ spec:
             - name: OLLAMA_BASE_URL
               value: http://ai-compute-runtime:11434
             - name: AI_COMPUTE_CHAT_MODEL
-              value: huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M
+              value: huihui_ai/qwen3-vl-abliterated:4b-instruct
             - name: AI_COMPUTE_FALLBACK_CHAT_MODEL
               value: qwen2.5:3b
             - name: AI_COMPUTE_CHAT_KEEP_ALIVE
@@ -45,6 +45,8 @@ spec:
               value: 5m
             - name: AI_COMPUTE_EMBEDDING_MODEL
               value: bge-m3
+            - name: AI_COMPUTE_EMBEDDING_NUM_GPU
+              value: "0"
             - name: AI_COMPUTE_FALLBACK_EMBEDDING_MODEL
               value: nomic-embed-text
           envFrom:
