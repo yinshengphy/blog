@@ -163,7 +163,8 @@
           answerBubble.classList.remove("streaming");
           answerText.textContent = data.message || "聊天服务暂时不可用，请稍后再试。";
         },
-        done() {
+        done(data) {
+          if (typeof data.answer === "string" && data.answer) rawAnswer = data.answer;
           answerBubble.classList.remove("streaming");
           renderAnswerContent(answerText, rawAnswer, latestCitations);
         }
