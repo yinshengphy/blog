@@ -84,7 +84,7 @@ spec:
             - name: EMBEDDING_DIMENSION
               value: "1024"
             - name: RAG_CHAT_MODEL
-              value: huihui_ai/qwen3-vl-abliterated:4b-instruct
+              value: huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M
             - name: RAG_EMBEDDING_MODEL
               value: bge-m3
             - name: RAG_TOP_K
@@ -103,8 +103,6 @@ spec:
               value: "15"
             - name: RATE_LIMIT_PER_DAY
               value: "300"
-            - name: WEB_SEARCH_BASE_URL
-              value: http://searxng.ai.svc.cluster.local:8080
           envFrom:
             - secretRef:
                 name: ai-compute-client-token

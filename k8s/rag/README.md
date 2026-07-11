@@ -4,13 +4,13 @@
 
 - `blog-rag-api` 位于 `blog` 命名空间。
 - `blog-indexer` CronJob 位于 `blog` 命名空间。
-- `ai-compute-gateway`、`ai-compute-runtime`、`qdrant` 和 `searxng` 位于 `ai` 命名空间。
+- `ai-compute-gateway`、`ai-compute-runtime` 和 `qdrant` 位于 `ai` 命名空间。
 
 只有 `ai-compute-runtime` 申请 `nvidia.com/gpu: 1`。RAG API、网关、Qdrant 和索引器都是 CPU 工作负载。
 
 ## 当前模型
 
-- 聊天模型：`huihui_ai/qwen3-vl-abliterated:4b-instruct`
+- 聊天模型：`huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M`
 - Embedding 模型：`bge-m3`
 - 向量维度：`1024`
 
@@ -47,7 +47,6 @@ sudo k3s ctr images tag --force localhost:5000/ai-compute-gateway:latest localho
 kubectl apply -f 00-namespace.yaml
 kubectl apply -f 02-qdrant.yaml
 kubectl apply -f 03-ai-compute-runtime.yaml
-kubectl apply -f 10-searxng.yaml
 kubectl apply -f 04-ai-compute-gateway.yaml
 kubectl apply -f 05-blog-rag-api.yaml
 kubectl apply -f 06-blog-indexer.yaml
@@ -58,7 +57,7 @@ kubectl patch deployment -n blog blog-web --type=strategic --patch-file 08-blog-
 在运行时 Pod 内拉取一次模型：
 
 ```bash
-kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull huihui_ai/qwen3-vl-abliterated:4b-instruct
+kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull qwen2.5:3b
 kubectl -n ai exec deploy/ai-compute-runtime -- ollama pull bge-m3
 ```

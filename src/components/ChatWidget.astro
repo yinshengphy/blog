@@ -38,15 +38,8 @@
     </div>
 
     <form class="chat-form" data-chat-form>
-      <div class="chat-attachment-preview" data-chat-attachment-preview hidden></div>
       <div class="chat-composer-row">
-        <label class="chat-attach" title="添加图片" aria-label="添加图片">
-          <input data-chat-file type="file" accept="image/jpeg,image/png,image/webp" multiple hidden />
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M15.5 6.5 8.7 13.3a2.5 2.5 0 0 0 3.5 3.5l7.1-7.1a4 4 0 0 0-5.6-5.7l-7.8 7.8a5.5 5.5 0 0 0 7.8 7.8l6.2-6.2" />
-          </svg>
-        </label>
-        <textarea data-chat-input name="question" autocomplete="off" maxlength="1200" rows="1" placeholder="输入问题，也可以粘贴图片..."></textarea>
+        <textarea data-chat-input name="question" autocomplete="off" maxlength="1200" rows="1" placeholder="输入问题..."></textarea>
         <button type="submit" data-chat-submit>发送</button>
       </div>
     </form>
@@ -67,11 +60,7 @@
   const input = widget?.querySelector("[data-chat-input]") as HTMLTextAreaElement | null;
   const submit = widget?.querySelector("[data-chat-submit]") as HTMLButtonElement | null;
   const messages = widget?.querySelector("[data-chat-messages]") as HTMLElement | null;
-  const fileInput = widget?.querySelector("[data-chat-file]") as HTMLInputElement | null;
-  const attachmentPreview = widget?.querySelector("[data-chat-attachment-preview]") as HTMLElement | null;
   let currentController: AbortController | null = null;
-  type PendingImage = { mimeType: string; data: string; name: string };
-  let pendingImages: PendingImage[] = [];
 
   const sessionKey = "yinsheng-chat-session-id";
   const sessionId = localStorage.getItem(sessionKey) || crypto.randomUUID();
@@ -115,27 +104,11 @@
     });
   });
 
-  fileInput?.addEventListener("change", async () => {
-    await addImages(Array.from(fileInput.files || []));
-    fileInput.value = "";
-  });
-
   input?.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" || event.isComposing) return;
     if (event.altKey) return;
     event.preventDefault();
     form?.requestSubmit();
-  });
-
-  input?.addEventListener("paste", async (event) => {
-    const files = Array.from(event.clipboardData?.items || [])
-      .filter((item) => item.kind === "file" && item.type.startsWith("image/"))
-      .map((item) => item.getAsFile())
-      .filter((file): file is File => Boolean(file));
-    if (files.length > 0) {
-      event.preventDefault();
-      await addImages(files);
-    }
   });
 
   form?.addEventListener("submit", async (event) => {
@@ -151,14 +124,11 @@
       return;
     }
 
-    const question = input.value.trim() || (pendingImages.length > 0 ? "请分析图片内容。" : "");
+    const question = input.value.trim();
     if (!question) return;
-    const sentImages = pendingImages;
 
-    appendBubble("user", question, sentImages);
+    appendBubble("user", question);
     input.value = "";
-    pendingImages = [];
-    renderAttachmentPreview();
     input.disabled = true;
     submit.textContent = "停止";
     currentController = new AbortController();
@@ -174,7 +144,7 @@
       const response = await fetch("/api/chat/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "text/event-stream" },
-        body: JSON.stringify({ question, sessionId, pageContext: currentPageContext(), images: sentImages }),
+        body: JSON.stringify({ question, sessionId, pageContext: currentPageContext() }),
         signal: currentController.signal
       });
       if (!response.ok || !response.body) throw new Error("stream failed");
@@ -211,77 +181,19 @@
     }
   });
 
-  function appendBubble(kind: string, text: string, images: PendingImage[] = []) {
+  function appendBubble(kind: string, text: string) {
     const role = kind.includes("user") ? "user" : "bot";
     const row = document.createElement("div");
     row.className = `chat-message ${role}`;
 
     const bubble = document.createElement("div");
     bubble.className = `chat-bubble ${kind}`;
-    if (images.length > 0) {
-      const gallery = document.createElement("div");
-      gallery.className = "chat-bubble-images";
-      images.forEach((image) => {
-        const element = document.createElement("img");
-        element.src = image.data;
-        element.alt = image.name;
-        gallery.append(element);
-      });
-      bubble.append(gallery);
-    }
     if (text) bubble.append(document.createTextNode(text));
 
     row.append(bubble);
     messages?.append(row);
     scrollMessages();
     return bubble;
-  }
-
-  async function addImages(files: File[]) {
-    const available = Math.max(0, 3 - pendingImages.length);
-    for (const file of files.slice(0, available)) {
-      if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) continue;
-      pendingImages.push(await compressImage(file));
-    }
-    renderAttachmentPreview();
-  }
-
-  async function compressImage(file: File): Promise<PendingImage> {
-    const bitmap = await createImageBitmap(file);
-    const scale = Math.min(1, 1280 / Math.max(bitmap.width, bitmap.height));
-    const canvas = document.createElement("canvas");
-    canvas.width = Math.max(1, Math.round(bitmap.width * scale));
-    canvas.height = Math.max(1, Math.round(bitmap.height * scale));
-    const context = canvas.getContext("2d");
-    if (!context) throw new Error("canvas unavailable");
-    context.fillStyle = "#ffffff";
-    context.fillRect(0, 0, canvas.width, canvas.height);
-    context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-    bitmap.close();
-    return { mimeType: "image/jpeg", data: canvas.toDataURL("image/jpeg", 0.84), name: file.name };
-  }
-
-  function renderAttachmentPreview() {
-    if (!attachmentPreview) return;
-    attachmentPreview.replaceChildren();
-    attachmentPreview.hidden = pendingImages.length === 0;
-    pendingImages.forEach((image, index) => {
-      const item = document.createElement("div");
-      item.className = "chat-attachment-item";
-      const preview = document.createElement("img");
-      preview.src = image.data;
-      preview.alt = image.name;
-      const remove = document.createElement("button");
-      remove.type = "button";
-      remove.setAttribute("aria-label", "移除图片");
-      remove.textContent = "×";
-      remove.addEventListener("click", () => {
-        pendingImages.splice(index, 1);
-        renderAttachmentPreview();
-      });
-      item.append(preview, remove);
-      attachmentPreview.append(item);
-    });
   }
 
   function currentPageContext() {
@@ -858,21 +770,6 @@
     box-shadow: 0 6px 18px rgba(37, 99, 235, 0.22);
   }
 
-  .chat-widget :global(.chat-bubble-images) {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 6px;
-    margin-bottom: 7px;
-  }
-
-  .chat-widget :global(.chat-bubble-images img) {
-    display: block;
-    width: 100%;
-    max-height: 150px;
-    border-radius: 6px;
-    object-fit: cover;
-  }
-
   .chat-widget :global(.chat-cite-ref) {
     margin-left: 2px;
     font-size: 0.72em;
@@ -1012,72 +909,6 @@
     padding: 0 15px;
     font-weight: 700;
     cursor: pointer;
-  }
-
-  .chat-attach {
-    display: grid;
-    place-items: center;
-    width: 36px;
-    height: 36px;
-    flex: 0 0 36px;
-    border: 1px solid var(--line);
-    border-radius: 50%;
-    color: var(--ink-soft);
-    cursor: pointer;
-  }
-
-  .chat-attach svg {
-    width: 19px;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.8;
-    stroke-linecap: round;
-  }
-
-  .chat-attachment-preview {
-    display: flex;
-    min-width: 0;
-    max-height: 68px;
-    gap: 7px;
-    padding: 6px 4px 2px;
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
-
-  .chat-attachment-preview[hidden] {
-    display: none;
-  }
-
-  .chat-widget :global(.chat-attachment-item) {
-    position: relative;
-    flex: 0 0 56px;
-    width: 56px;
-    height: 56px;
-    overflow: visible;
-  }
-
-  .chat-widget :global(.chat-attachment-item img) {
-    display: block;
-    width: 100%;
-    height: 100%;
-    max-width: 56px;
-    max-height: 56px;
-    border-radius: 6px;
-    object-fit: cover;
-  }
-
-  .chat-widget :global(.chat-attachment-item button) {
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    background: #172033;
-    color: #fff;
-    line-height: 16px;
   }
 
   @keyframes chatCaretBlink {

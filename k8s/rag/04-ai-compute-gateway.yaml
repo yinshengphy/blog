@@ -36,7 +36,7 @@ spec:
             - name: OLLAMA_BASE_URL
               value: http://ai-compute-runtime:11434
             - name: AI_COMPUTE_CHAT_MODEL
-              value: huihui_ai/qwen3-vl-abliterated:4b-instruct
+              value: huihui-qwen3:4b-instruct-2507-abliterated-q4_K_M
             - name: AI_COMPUTE_FALLBACK_CHAT_MODEL
               value: qwen2.5:3b
             - name: AI_COMPUTE_CHAT_KEEP_ALIVE
