@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
-  const categoryNames = ['技术学习', '知识笔记', '生活碎念'];
+  const categoryNames = ['技术学习', '知识笔记', '随笔'];
   return categoryNames.map((category) => ({
     params: { category },
     props: { category }
@@ -53,7 +53,7 @@ function formatDate(date: Date) {
     ) : (
       <div class="archive-empty">
         <h2>这里还没有文章</h2>
-        <p>以后随手记录的生活片段，会放在这里。</p>
+        <p>以后随手记录的随笔，会放在这里。</p>
       </div>
     )}
   </div>

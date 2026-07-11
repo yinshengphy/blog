@@ -5,7 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
-const categories = ['技术学习', '知识笔记', '生活碎念'];
+const categories = ['技术学习', '知识笔记', '随笔'];
 const latestDate = posts[0]?.data.date;
 
 function formatDate(date: Date) {
@@ -65,7 +65,7 @@ function formatDate(date: Date) {
       </div>
       <div class="article-filter-empty" hidden>
         <h3>这里还没有文章</h3>
-        <p>以后随手记录的生活片段，会放在这里。</p>
+        <p>以后随手记录的随笔，会放在这里。</p>
       </div>
     </section>
   </div>
