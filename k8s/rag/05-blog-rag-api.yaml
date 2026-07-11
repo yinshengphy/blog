@@ -92,7 +92,7 @@ spec:
             - name: RAG_MAX_CONTEXT_CHARS
               value: "8000"
             - name: RAG_MAX_ANSWER_TOKENS
-            value: "900"
+              value: "900"
             - name: BLOG_CONTENT_DIR
               value: /content/posts
             - name: INDEX_DB_PATH

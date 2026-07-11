@@ -34,3 +34,43 @@ const readingMinutes = Math.max(1, Math.round(contentText.length / 450));
 >
   <Content />
 </PostLayout>
+
+<script>
+  let rendering = false;
+  let mermaidReady: Promise<typeof import("mermaid").default> | null = null;
+
+  function loadMermaid() {
+    mermaidReady ??= import("mermaid").then(({ default: mermaid }) => {
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: "neutral",
+        securityLevel: "strict",
+        fontFamily: "inherit"
+      });
+      return mermaid;
+    });
+    return mermaidReady;
+  }
+
+  async function renderMermaidDiagrams() {
+    if (rendering) return;
+    const blocks = Array.from(document.querySelectorAll<HTMLElement>('pre[data-language="mermaid"]'));
+    if (blocks.length === 0) return;
+    rendering = true;
+    const mermaid = await loadMermaid();
+    blocks.forEach((block) => {
+      const diagram = document.createElement("div");
+      diagram.className = "mermaid";
+      diagram.textContent = block.textContent || "";
+      block.replaceWith(diagram);
+    });
+    try {
+      await mermaid.run({ nodes: Array.from(document.querySelectorAll<HTMLElement>(".mermaid:not([data-processed])")) });
+    } finally {
+      rendering = false;
+    }
+  }
+
+  renderMermaidDiagrams();
+  new MutationObserver(() => renderMermaidDiagrams()).observe(document.body, { childList: true, subtree: true });
+</script>
