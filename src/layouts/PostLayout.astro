@@ -53,7 +53,7 @@ const titleSlug = title.normalize('NFKC')
           {categories[0] && (
             <>
               <span class="meta-divider">·</span>
-              <p class="meta">{categories[0]}</p>
+              <a class="meta meta-link" href={`/categories/${encodeURIComponent(categories[0])}/`}>{categories[0]}</a>
             </>
           )}
         </div>
@@ -61,7 +61,9 @@ const titleSlug = title.normalize('NFKC')
         {description && <p class="post-description">{description}</p>}
         {tags.length > 0 && (
           <ul class="tags" aria-label="标签">
-            {tags.map((tag) => <li>{tag}</li>)}
+            {tags.map((tag) => (
+              <li><a href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a></li>
+            ))}
           </ul>
         )}
       </div>

@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const categoryNames = ['技术学习', '知识笔记', '生活碎念'];
+  return categoryNames.map((category) => ({
+    params: { category },
+    props: { category }
+  }));
+}
+
+const { category } = Astro.props;
+const posts = (await getCollection('posts'))
+  .filter((post) => post.data.categories.includes(category))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+}
+---
+
+<BaseLayout title={category} description={`${category}分类下的博客文章。`}>
+  <div class="archive-page">
+    <a class="back-link" href="/#articles">返回全部文章</a>
+    <header class="archive-heading">
+      <p>分类</p>
+      <h1>{category}</h1>
+      <span>{posts.length} 篇文章</span>
+    </header>
+
+    {posts.length > 0 ? (
+      <div class="article-list">
+        {posts.map((post) => (
+          <article class="article-list-item">
+            <div class="article-list-header">
+              <h2><a href={`/${post.id}/`}>{post.data.title}</a></h2>
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+            </div>
+            <div class="article-taxonomy">
+              {post.data.tags.map((tag) => (
+                <a href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>
+              ))}
+            </div>
+            <p>{post.data.description}</p>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="archive-empty">
+        <h2>这里还没有文章</h2>
+        <p>以后随手记录的生活片段，会放在这里。</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

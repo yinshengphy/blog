@@ -5,99 +5,102 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
-const post = posts[0];
-const topics = [
-  {
-    title: '技术学习',
-    description: '把新接触的技术慢慢拆开，留下自己能复用的理解。'
-  },
-  {
-    title: '知识笔记',
-    description: '遇到值得反复回看的主题，会认真整理成完整文章。'
-  },
-  {
-    title: '生活碎念',
-    description: '偶尔也会记录一点非技术内容，留给未来的自己看。'
-  }
-];
+const categories = ['技术学习', '知识笔记', '生活碎念'];
+const latestDate = posts[0]?.data.date;
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+}
 ---
 
-<BaseLayout title="yinsheng的小站" description="记录技术、知识与生活碎碎念的个人博客。">
-  <section class="home-hero">
-    <div class="hero-copy">
-      <p class="eyebrow">个人博客 / 学习记录 / 碎碎念</p>
-      <h1>yinsheng的小站</h1>
-      <p class="hero-summary">这里会放我学习新技术时的推演、整理知识时留下的笔记，也会写一点生活里的碎碎念。更新不追求频率，重点是把真正有意思、值得回看的东西留下来。</p>
-      <div class="hero-actions">
-        {post && <a class="button-primary" href={`/${post.id}/`}>先看这篇</a>}
-        <a class="button-secondary" href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-    </div>
-    <div class="hero-aside">
-      <img class="hero-avatar" src="/assets/profile/author.jpg" alt="yinsheng 头像" width="320" height="320" />
-      <dl class="hero-facts">
-        <div>
-          <dt>现在在写</dt>
-          <dd>密码学、基础设施、一些零散但有意思的主题</dd>
-        </div>
-        <div>
-          <dt>这个站的节奏</dt>
-          <dd>不赶热点，偏向长期保存与慢慢补完</dd>
-        </div>
-      </dl>
-    </div>
-  </section>
+<BaseLayout title="yinsheng的小站" description="记录技术实践、知识笔记与项目复盘的个人博客。">
+  <div class="home-page">
+    <header class="home-heading">
+      <h1>记录技术原理、工程实践与项目复盘。</h1>
+      <p>这里是 yinsheng 的个人技术博客，记录学习新知识时的推演、项目实践和一些生活片段。</p>
+      {latestDate && (
+        <p class="home-updated">最后更新：<time datetime={latestDate.toISOString()}>{formatDate(latestDate)}</time></p>
+      )}
+    </header>
 
-  <section class="content-section">
-    <div class="section-heading">
-      <p class="section-label">这个站会写什么</p>
-      <h2>主要是学习、记录，还有一点点生活感。</h2>
-    </div>
-    <div class="topic-grid">
-      {topics.map((topic) => (
-        <article class="topic-card">
-          <h3>{topic.title}</h3>
-          <p>{topic.description}</p>
+    <section class="article-index" id="articles" aria-labelledby="articles-title">
+      <h2 class="sr-only" id="articles-title">全部文章</h2>
+      <div class="category-nav" role="tablist" aria-label="文章分类">
+        <button class="is-active" type="button" role="tab" aria-selected="true" data-category="全部文章">
+          全部文章 <span>{posts.length}</span>
+        </button>
+        {categories.map((category) => (
+          <button type="button" role="tab" aria-selected="false" data-category={category}>
+            {category}
+            <span>{posts.filter((post) => post.data.categories.includes(category)).length}</span>
+          </button>
+        ))}
+      </div>
+
+      <div class="article-list" aria-live="polite">
+      {posts.map((post) => (
+        <article class="article-list-item" data-categories={post.data.categories.join(',')}>
+          <div class="article-list-header">
+            <h3><a href={`/${post.id}/`}>{post.data.title}</a></h3>
+            <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+          </div>
+          <div class="article-taxonomy">
+            {post.data.categories[0] && (
+              <a class="category-link" href={`/categories/${encodeURIComponent(post.data.categories[0])}/`}>
+                {post.data.categories[0]}
+              </a>
+            )}
+            {post.data.tags.map((tag) => (
+              <a href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>
+            ))}
+          </div>
+          <p>{post.data.description}</p>
+          <a class="article-read-link" href={`/${post.id}/`}>阅读全文</a>
         </article>
       ))}
-    </div>
-  </section>
-
-  {post && (
-    <section class="content-section featured-post" id="featured">
-      <div class="section-heading">
-        <p class="section-label">最新文章</p>
-        <h2>先从这一篇开始。</h2>
       </div>
-      <a class="post-card" href={`/${post.id}/`}>
-        {post.data.thumbnail && (
-          <span class="post-thumb">
-            <img src={post.data.thumbnail} alt="" />
-          </span>
-        )}
-        <span class="post-card-copy">
-          <span class="meta-row">
-            <span class="meta">{post.data.date.toLocaleDateString('zh-CN')}</span>
-            {post.data.categories[0] && <span class="meta-tag">{post.data.categories[0]}</span>}
-          </span>
-          <span class="post-card-title">{post.data.title}</span>
-          <span class="post-card-desc">{post.data.description}</span>
-          {post.data.tags.length > 0 && (
-            <span class="inline-tags" aria-label="文章标签">
-              {post.data.tags.map((tag) => <span>{tag}</span>)}
-            </span>
-          )}
-          <span class="read-more">阅读文章</span>
-        </span>
-      </a>
+      <div class="article-filter-empty" hidden>
+        <h3>这里还没有文章</h3>
+        <p>以后随手记录的生活片段，会放在这里。</p>
+      </div>
     </section>
-  )}
-
-  <section class="content-section closing-note">
-    <div class="section-heading">
-      <p class="section-label">站点说明</p>
-      <h2>它不会很满，但希望每次回来都有一点值得看的东西。</h2>
-    </div>
-    <p>这里不打算做成信息很重的博客系统，更像是一个会慢慢生长的个人空间。主题可能从技术延伸到知识，再偶尔拐到生活，只要是我想认真留下来的，都会往这里放。</p>
-  </section>
+  </div>
 </BaseLayout>
+
+<script>
+  const tabs = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('.category-nav [role="tab"]')
+  );
+  const articles = Array.from(
+    document.querySelectorAll<HTMLElement>('.article-list-item')
+  );
+  const emptyState = document.querySelector<HTMLElement>('.article-filter-empty');
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const category = tab.dataset.category || '全部文章';
+      let visibleCount = 0;
+
+      tabs.forEach((item) => {
+        const isSelected = item === tab;
+        item.classList.toggle('is-active', isSelected);
+        item.setAttribute('aria-selected', String(isSelected));
+      });
+
+      articles.forEach((article) => {
+        const categories = (article.dataset.categories || '').split(',');
+        const isVisible = category === '全部文章' || categories.includes(category);
+        article.hidden = !isVisible;
+        if (isVisible) visibleCount += 1;
+      });
+
+      if (emptyState) {
+        emptyState.hidden = visibleCount > 0;
+      }
+    });
+  });
+</script>
