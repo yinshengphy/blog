@@ -170,10 +170,35 @@ jobs:
           fi
           echo "已同步 Markdown 文章给 RAG 索引器"
 
-      - name: 异步触发 RAG 索引器
+      - name: 同步新增和变更文章索引
         run: |
-          if command -v kubectl >/dev/null 2>&1; then
-            kubectl -n blog create job --from=cronjob/blog-indexer "blog-indexer-manual-${GITHUB_RUN_ID}" || true
-          else
-            echo "未找到 kubectl，跳过手动索引触发；CronJob 会自动补上"
+          set -euo pipefail
+          if [ -z "${INDEX_API_TOKEN:-}" ]; then
+            echo "未配置 INDEX_API_TOKEN，无法同步博客索引"
+            exit 1
           fi
+
+          for attempt in $(seq 1 12); do
+            status=$(curl --silent --show-error --max-time 600 \
+              --output /tmp/blog-index-response.json \
+              --write-out '%{http_code}' \
+              --request POST \
+              --header "Authorization: Bearer ${INDEX_API_TOKEN}" \
+              http://blog-rag-api:8080/internal/index/sync)
+            if [ "$status" = "200" ]; then
+              cat /tmp/blog-index-response.json
+              echo "博客索引同步完成"
+              exit 0
+            fi
+            if [ "$status" = "409" ]; then
+              echo "模型正在处理聊天或索引任务，30 秒后重试（${attempt}/12）"
+              sleep 30
+              continue
+            fi
+            cat /tmp/blog-index-response.json || true
+            echo "博客索引同步失败，HTTP ${status}"
+            exit 1
+          done
+
+          echo "博客索引同步等待超时"
+          exit 1
