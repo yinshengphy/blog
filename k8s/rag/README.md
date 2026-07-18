@@ -2,7 +2,7 @@
 
 这个目录用于部署博客聊天 RAG 栈：
 
-- `blog-rag-api` 位于 `blog` 命名空间。
+- `blog-service` 位于 `blog` 命名空间。
 - `blog-indexer` CronJob 位于 `blog` 命名空间。
 - `ai-compute-gateway`、`ai-compute-runtime` 和 `qdrant` 位于 `ai` 命名空间。
 
@@ -21,7 +21,7 @@
 在 Windows 上构建相邻模块镜像：
 
 ```powershell
-cd C:\IdeaProjects\blog-rag-api
+cd C:\IdeaProjects\blog-service
 mvn -B -DskipTests package jib:buildTar
 
 cd C:\IdeaProjects\ai-compute-gateway
@@ -31,9 +31,9 @@ mvn -B -DskipTests package jib:buildTar
 导入到 k3s containerd，并打上清单中使用的版本标签：
 
 ```bash
-sudo k3s ctr images import /tmp/blog-rag-api.tar
+sudo k3s ctr images import /tmp/blog-service.tar
 sudo k3s ctr images import /tmp/ai-compute-gateway.tar
-sudo k3s ctr images tag --force localhost:5000/blog-rag-api:latest localhost:5000/blog-rag-api:20260707-2305
+sudo k3s ctr images tag --force localhost:5000/blog-service:latest localhost:5000/blog-service:20260707-2305
 sudo k3s ctr images tag --force localhost:5000/ai-compute-gateway:latest localhost:5000/ai-compute-gateway:20260707-2305
 ```
 
@@ -48,7 +48,7 @@ kubectl apply -f 00-namespace.yaml
 kubectl apply -f 02-qdrant.yaml
 kubectl apply -f 03-ai-compute-runtime.yaml
 kubectl apply -f 04-ai-compute-gateway.yaml
-kubectl apply -f 05-blog-rag-api.yaml
+kubectl apply -f 05-blog-service.yaml
 kubectl apply -f 06-blog-indexer.yaml
 kubectl apply -f 07-ingress.yaml
 kubectl patch deployment -n blog blog-web --type=strategic --patch-file 08-blog-web-runner-content-patch.yaml

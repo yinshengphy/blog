@@ -184,7 +184,7 @@ jobs:
               --write-out '%{http_code}' \
               --request POST \
               --header "Authorization: Bearer ${INDEX_API_TOKEN}" \
-              http://blog-rag-api:8080/internal/index/sync)
+              http://blog-service:8080/internal/index/sync)
             if [ "$status" = "200" ]; then
               cat /tmp/blog-index-response.json
               echo "博客索引同步完成"

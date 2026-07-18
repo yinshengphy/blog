@@ -925,7 +925,7 @@
       <section>
         <h2>3. 技术架构总览</h2>
         <p>
-          现有博客继续保持静态部署。新增后端命名为 <code>blog-rag-api</code>，只负责博客问答、RAG 检索、
+          现有博客继续保持静态部署。新增后端命名为 <code>blog-service</code>，只负责博客问答、RAG 检索、
           限流和来源构造。模型计算能力不放进业务后端，而是沉到通用 AI 计算服务中；未来图片理解、代码助手、摘要生成、
           批量 embedding 等 AI 需求都复用同一个内部 API。
         </p>
@@ -961,7 +961,7 @@ blog-indexer 定时任务
           <tbody>
             <tr>
               <td>RAG API</td>
-              <td><code>blog-rag-api</code></td>
+              <td><code>blog-service</code></td>
               <td>面向博客问答的 Spring Boot 服务，不持有模型和硬件细节。</td>
             </tr>
             <tr>
@@ -1003,7 +1003,7 @@ blog-indexer 定时任务
             <tr>
               <td>后端</td>
               <td>Spring Boot + Spring AI</td>
-              <td><code>blog-rag-api</code> 和 <code>ai-compute-gateway</code> 都使用 Spring Boot，栈一致，便于维护。</td>
+              <td><code>blog-service</code> 和 <code>ai-compute-gateway</code> 都使用 Spring Boot，栈一致，便于维护。</td>
               <td>Spring AI 版本迭代较快，落地前需锁版本并验证 API。</td>
             </tr>
             <tr>
@@ -1040,7 +1040,7 @@ blog-indexer 定时任务
               <td>限流</td>
               <td>SQLite</td>
               <td>每 IP 10 次/分钟、100 次/天；日志不保存完整问题，只存 hash、长度、耗时和命中情况。</td>
-              <td>多副本时需共享 PVC 或改为 Redis；初期建议 <code>blog-rag-api</code> 单副本。</td>
+              <td>多副本时需共享 PVC 或改为 Redis；初期建议 <code>blog-service</code> 单副本。</td>
             </tr>
           </tbody>
         </table>
@@ -1048,7 +1048,7 @@ blog-indexer 定时任务
         <div class="callout warn">
           <strong>重要约束：</strong>
           你的现有博客是静态站，不能把模型 Key、RAG 检索或限流逻辑放在 Astro 前端。前端只能是聊天组件，
-          博客智能逻辑进入 <code>blog-rag-api</code>，GPU 调度逻辑进入 <code>ai-compute-gateway</code>。
+          博客智能逻辑进入 <code>blog-service</code>，GPU 调度逻辑进入 <code>ai-compute-gateway</code>。
         </div>
       </section>
 
@@ -1257,7 +1257,7 @@ Authorization: Bearer &lt;internal-token&gt;
 
         <div class="callout">
           <strong>建议：</strong>
-          网关是内部服务，不暴露公网。<code>blog-rag-api</code> 和 <code>blog-indexer</code> 通过 Secret 注入
+          网关是内部服务，不暴露公网。<code>blog-service</code> 和 <code>blog-indexer</code> 通过 Secret 注入
           内部服务 token 调用它；网关再用内部 token 或网络隔离访问私有模型运行时。
         </div>
       </section>
@@ -1278,7 +1278,7 @@ Authorization: Bearer &lt;internal-token&gt;
           </thead>
           <tbody>
             <tr>
-              <td><code>blog-rag-api</code></td>
+              <td><code>blog-service</code></td>
               <td>Deployment + Service</td>
               <td>业务 namespace，1 副本，暴露 <code>/api/chat</code> 和 <code>/api/chat/stream</code>。</td>
             </tr>
@@ -1313,7 +1313,7 @@ Authorization: Bearer &lt;internal-token&gt;
               <td>业务 namespace，保存 SQLite 状态表 <code>blog_index_status</code>。</td>
             </tr>
             <tr>
-              <td><code>blog-rag-api-data</code></td>
+              <td><code>blog-service-data</code></td>
               <td>PVC</td>
               <td>业务 namespace，保存聊天限流 SQLite，仅记录 IP hash 和时间窗口。</td>
             </tr>
@@ -1465,7 +1465,7 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
             </tr>
             <tr>
               <td>阶段 2</td>
-              <td>blog-rag-api 基础能力</td>
+              <td>blog-service 基础能力</td>
               <td>Spring Boot 服务、<code>/api/chat</code>、<code>/api/chat/stream</code>、限流、JSON 日志和健康检查。</td>
             </tr>
             <tr>
@@ -1505,7 +1505,7 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
   docs/
     blog-ai-assistant-design.html
   services/
-    blog-rag-api/
+    blog-service/
       src/main/java/...
         chat/
           ChatController.java
@@ -1525,7 +1525,7 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
   k8s/
     rag/
       namespace.yaml
-      blog-rag-api.yaml
+      blog-service.yaml
       blog-indexer.yaml
       ai-compute-gateway.yaml
       ai-compute-runtime.yaml
@@ -1563,7 +1563,7 @@ kubectl -n blog create job --from=cronjob/blog-indexer blog-indexer-manual-${GIT
             </tr>
             <tr>
               <td>命名空间</td>
-              <td><code>blog-rag-api</code> 和 <code>blog-indexer</code> 在 <code>blog</code>；网关、运行时、Qdrant 在 <code>ai</code>。</td>
+              <td><code>blog-service</code> 和 <code>blog-indexer</code> 在 <code>blog</code>；网关、运行时、Qdrant 在 <code>ai</code>。</td>
             </tr>
             <tr>
               <td>模型</td>

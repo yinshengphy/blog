@@ -36,7 +36,7 @@ categories:
 | 项目 | 技术 | 职责 |
 | :--- | :--- | :--- |
 | `blog` | Astro、TypeScript、Nginx | 静态页面、聊天组件、Markdown 内容和部署清单 |
-| `blog-rag-api` | Spring Boot、Java、SQLite | 意图路由、会话编排、工具执行、检索、引用和限流 |
+| `blog-service` | Spring Boot、Java、SQLite | 意图路由、会话编排、工具执行、检索、引用和限流 |
 | `ai-compute-gateway` | Spring Boot、OpenAI 兼容协议 | 统一封装聊天、Embedding、流式响应和工具调用 |
 
 基础设施包括：
@@ -300,7 +300,7 @@ done
 
 K3s 中主要划分为两个命名空间：
 
-- `blog`：`blog-web`、`blog-rag-api`、`blog-indexer`。
+- `blog`：`blog-web`、`blog-service`、`blog-indexer`。
 - `ai`：`ai-compute-gateway`、`ai-compute-runtime`、`qdrant`。
 
 只有模型运行时需要访问加速设备；RAG API、网关、Qdrant 和索引器都是普通工作负载。
@@ -312,7 +312,7 @@ K3s 中主要划分为两个命名空间：
 三个仓库各自使用独立的自托管 GitHub Actions Runner：
 
 - `blog`：构建 Astro，发布 `dist` 到 PVC，同步 Markdown，并触发索引任务。
-- `blog-rag-api`：执行 Maven 测试和打包。
+- `blog-service`：执行 Maven 测试和打包。
 - `ai-compute-gateway`：单独构建计算网关。
 
 依赖缓存按清单文件哈希控制：

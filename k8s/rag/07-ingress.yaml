@@ -13,7 +13,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: blog-rag-api
+                name: blog-service
                 port:
                   number: 8080
           - path: /
@@ -30,7 +30,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: blog-rag-api
+                name: blog-service
                 port:
                   number: 8080
           - path: /
@@ -46,7 +46,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: blog-rag-api
+                name: blog-service
                 port:
                   number: 8080
           - path: /
