@@ -159,7 +159,7 @@ jobs:
           fi
           echo "已发布 $(du -sh dist | cut -f1) 到 PVC"
 
-      - name: 同步 Markdown 源文件给 RAG 索引器
+      - name: 同步 Markdown 源文件给博客服务
         run: |
           mkdir -p /deploy/content/posts
           if command -v rsync >/dev/null 2>&1; then
@@ -168,7 +168,7 @@ jobs:
             find /deploy/content/posts -mindepth 1 -maxdepth 1 -exec rm -rf {} +
             cp -a src/content/posts/. /deploy/content/posts/
           fi
-          echo "已同步 Markdown 文章给 RAG 索引器"
+          echo "已同步 Markdown 文章给博客服务"
 
       - name: 同步新增和变更文章索引
         run: |
