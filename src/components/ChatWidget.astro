@@ -23,18 +23,17 @@
         <strong>小站助手</strong>
         <span>问文章内容会给引用；普通问题就直接聊</span>
       </div>
-      <button class="chat-close" type="button" aria-label="关闭聊天" data-chat-close>×</button>
+      <div class="chat-head-actions">
+        <button class="chat-clear" type="button" aria-label="清空当前对话" data-chat-clear>清空</button>
+        <button class="chat-close" type="button" aria-label="关闭聊天" data-chat-close>×</button>
+      </div>
     </header>
 
     <div class="chat-messages" data-chat-messages>
       <div class="chat-message bot">
         <div class="chat-bubble bot">嗨，我是小站助手。可以帮你读文章、找观点，也能简单聊点工程问题。</div>
       </div>
-      <div class="chat-suggestions" aria-label="建议问题">
-        <button type="button" data-suggestion="RSA 这篇文章主要讲了什么？">RSA 这篇文章主要讲了什么？</button>
-        <button type="button" data-suggestion="你是谁？">你是谁？</button>
-        <button type="button" data-suggestion="RSA 为什么不直接加密大段数据？">RSA 为什么不直接加密大段数据？</button>
-      </div>
+      <div class="chat-suggestions" aria-label="建议问题" data-chat-initial-suggestions></div>
     </div>
 
     <form class="chat-form" data-chat-form>
@@ -51,26 +50,46 @@
 
   type SsePayload = any;
   type SseHandlers = Record<string, (data: SsePayload) => void>;
+  type StoredMessage = {
+    role: "user" | "bot";
+    text: string;
+    citations?: SsePayload[];
+    suggestedQuestions?: string[];
+  };
+  type ChatState = {
+    messages: StoredMessage[];
+    open: boolean;
+    updatedAt: number;
+  };
 
   const widget = document.querySelector("[data-chat-widget]") as HTMLElement | null;
   const toggle = widget?.querySelector("[data-chat-toggle]") as HTMLButtonElement | null;
   const panel = widget?.querySelector("[data-chat-panel]") as HTMLElement | null;
   const closeButton = widget?.querySelector("[data-chat-close]") as HTMLButtonElement | null;
+  const clearButton = widget?.querySelector("[data-chat-clear]") as HTMLButtonElement | null;
   const form = widget?.querySelector("[data-chat-form]") as HTMLFormElement | null;
   const input = widget?.querySelector("[data-chat-input]") as HTMLTextAreaElement | null;
   const submit = widget?.querySelector("[data-chat-submit]") as HTMLButtonElement | null;
   const messages = widget?.querySelector("[data-chat-messages]") as HTMLElement | null;
   let currentController: AbortController | null = null;
 
-  const sessionKey = "yinsheng-chat-session-id";
-  const sessionId = localStorage.getItem(sessionKey) || crypto.randomUUID();
+  const sessionKey = "yinsheng-chat-session-id-v2";
+  const stateKey = "yinsheng-chat-state-v2";
+  const stateTtlMs = 2 * 60 * 60 * 1000;
+  let sessionId = localStorage.getItem(sessionKey) || crypto.randomUUID();
   localStorage.setItem(sessionKey, sessionId);
-  sessionStorage.removeItem("yinsheng-chat-state-v1");
+  sessionStorage.removeItem("yinsheng-chat-session-id");
+  let chatState = loadChatState();
 
-  function setOpen(open: boolean) {
+  restoreMessages();
+  setOpen(chatState.open, false);
+
+  function setOpen(open: boolean, persist = true) {
     if (!panel || !toggle) return;
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", String(open));
+    chatState.open = open;
+    if (persist) saveChatState();
     if (open) input?.focus();
   }
 
@@ -78,6 +97,7 @@
 
   toggle?.addEventListener("click", () => setOpen(panel?.hidden ?? true));
   closeButton?.addEventListener("click", () => setOpen(false));
+  clearButton?.addEventListener("click", clearConversation);
 
   messages?.addEventListener("click", async (event) => {
     const target = event.target;
@@ -96,12 +116,15 @@
     navigateInPlace(new URL(window.location.href), false);
   });
 
-  widget?.querySelectorAll("[data-suggestion]").forEach((button) => {
-    button.addEventListener("click", () => {
-      if (!(button instanceof HTMLButtonElement) || !(input instanceof HTMLTextAreaElement)) return;
-      input.value = button.dataset.suggestion || "";
-      form?.dispatchEvent(new Event("submit", { cancelable: true }));
-    });
+  messages?.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const button = target.closest<HTMLButtonElement>("button[data-suggestion]");
+    if (!button || !(input instanceof HTMLTextAreaElement)) return;
+    const questionText = button.dataset.suggestion || "";
+    if (!questionText) return;
+    input.value = questionText;
+    form?.requestSubmit();
   });
 
   input?.addEventListener("keydown", (event) => {
@@ -127,7 +150,13 @@
     const question = input.value.trim();
     if (!question) return;
 
+    messages?.querySelectorAll(".chat-suggestions").forEach((element) => element.remove());
+    const requestHistory = chatState.messages.slice(-8).map((message) => ({
+      role: message.role === "bot" ? "assistant" : "user",
+      content: message.text
+    }));
     appendBubble("user", question);
+    rememberMessage({ role: "user", text: question });
     input.value = "";
     input.disabled = true;
     submit.textContent = "停止";
@@ -139,12 +168,19 @@
     answerBubble.append(answerText);
     let rawAnswer = "";
     let latestCitations: SsePayload[] = [];
+    let latestSuggestedQuestions: string[] = [];
+    let answerStored = false;
 
     try {
       const response = await fetch("/api/chat/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "text/event-stream" },
-        body: JSON.stringify({ question, sessionId, pageContext: currentPageContext() }),
+        body: JSON.stringify({
+          question,
+          sessionId,
+          pageContext: currentPageContext(),
+          history: requestHistory
+        }),
         signal: currentController.signal
       });
       if (!response.ok || !response.body) throw new Error("stream failed");
@@ -159,21 +195,39 @@
           answerBubble.classList.remove("streaming");
           renderAnswerContent(answerText, rawAnswer, latestCitations);
         },
+        suggestedQuestions(data) {
+          latestSuggestedQuestions = Array.isArray(data)
+            ? data.filter((value) => typeof value === "string").slice(0, 3)
+            : [];
+        },
         error(data) {
           answerBubble.classList.remove("streaming");
-          answerText.textContent = data.message || "聊天服务暂时不可用，请稍后再试。";
+          rawAnswer = data.message || "聊天服务暂时不可用，请稍后再试。";
+          answerText.textContent = rawAnswer;
+          rememberMessage({ role: "bot", text: rawAnswer });
+          answerStored = true;
         },
         done(data) {
           if (typeof data.answer === "string" && data.answer) rawAnswer = data.answer;
           answerBubble.classList.remove("streaming");
           renderAnswerContent(answerText, rawAnswer, latestCitations);
+          appendSuggestionRow(latestSuggestedQuestions);
+          rememberMessage({
+            role: "bot",
+            text: rawAnswer,
+            citations: latestCitations,
+            suggestedQuestions: latestSuggestedQuestions
+          });
+          answerStored = true;
         }
       });
     } catch (error) {
       answerBubble.classList.remove("streaming");
-      answerText.textContent = error instanceof DOMException && error.name === "AbortError"
+      rawAnswer = error instanceof DOMException && error.name === "AbortError"
         ? "已停止生成。"
         : "聊天服务暂时不可用，请稍后再试。";
+      answerText.textContent = rawAnswer;
+      if (!answerStored) rememberMessage({ role: "bot", text: rawAnswer });
     } finally {
       currentController = null;
       input.disabled = false;
@@ -181,6 +235,119 @@
       input.focus();
     }
   });
+
+  function loadChatState(): ChatState {
+    try {
+      const value = localStorage.getItem(stateKey);
+      if (!value) return { messages: [], open: false, updatedAt: Date.now() };
+      const parsed = JSON.parse(value) as ChatState;
+      if (!Array.isArray(parsed.messages) || Date.now() - Number(parsed.updatedAt || 0) > stateTtlMs) {
+        localStorage.removeItem(stateKey);
+        return { messages: [], open: false, updatedAt: Date.now() };
+      }
+      return {
+        messages: parsed.messages.slice(-20),
+        open: Boolean(parsed.open),
+        updatedAt: Number(parsed.updatedAt || Date.now())
+      };
+    } catch {
+      localStorage.removeItem(stateKey);
+      return { messages: [], open: false, updatedAt: Date.now() };
+    }
+  }
+
+  function saveChatState() {
+    chatState.messages = chatState.messages.slice(-20);
+    chatState.updatedAt = Date.now();
+    localStorage.setItem(stateKey, JSON.stringify(chatState));
+  }
+
+  function rememberMessage(message: StoredMessage) {
+    if (!message.text.trim()) return;
+    chatState.messages.push({
+      ...message,
+      text: message.text.slice(0, 4000),
+      citations: message.citations?.slice(0, 3),
+      suggestedQuestions: message.suggestedQuestions?.slice(0, 3)
+    });
+    saveChatState();
+  }
+
+  function restoreMessages() {
+    if (!messages) return;
+    if (chatState.messages.length === 0) {
+      renderInitialSuggestions();
+      return;
+    }
+    messages.replaceChildren();
+    chatState.messages.forEach((message, index) => {
+      const bubble = appendBubble(message.role, "");
+      if (message.role === "bot") {
+        const answer = document.createElement("span");
+        answer.className = "chat-answer-text";
+        bubble.append(answer);
+        renderAnswerContent(answer, message.text, message.citations || []);
+        if (index === chatState.messages.length - 1) {
+          appendSuggestionRow(message.suggestedQuestions || []);
+        }
+      } else {
+        bubble.append(document.createTextNode(message.text));
+      }
+    });
+  }
+
+  function clearConversation() {
+    currentController?.abort();
+    currentController = null;
+    sessionId = crypto.randomUUID();
+    localStorage.setItem(sessionKey, sessionId);
+    chatState = { messages: [], open: true, updatedAt: Date.now() };
+    saveChatState();
+    if (!messages) return;
+    messages.replaceChildren();
+    const bubble = appendBubble("bot", "嗨，我是小站助手。可以帮你理解文章、定位章节，也能聊技术问题。");
+    bubble.closest(".chat-message")?.setAttribute("data-chat-greeting", "true");
+    renderInitialSuggestions();
+    input?.focus();
+  }
+
+  function renderInitialSuggestions() {
+    const container = messages?.querySelector<HTMLElement>("[data-chat-initial-suggestions]");
+    const suggestions = initialSuggestions();
+    if (container) {
+      fillSuggestionButtons(container, suggestions);
+      return;
+    }
+    appendSuggestionRow(suggestions, true);
+  }
+
+  function initialSuggestions() {
+    if (currentPageContext().pageType === "BLOG_POST") {
+      return ["总结这篇文章", "这篇文章的核心观点是什么？", "这篇文章还有哪些相关内容？"];
+    }
+    return ["这个博客主要写了哪些内容？", "推荐几篇关于 RAG 与系统架构的文章", "你能帮我做什么？"];
+  }
+
+  function appendSuggestionRow(values: string[], initial = false) {
+    if (!messages || values.length === 0) return;
+    const row = document.createElement("div");
+    row.className = "chat-suggestions";
+    row.setAttribute("aria-label", initial ? "建议问题" : "可以继续问");
+    if (initial) row.dataset.chatInitialSuggestions = "true";
+    fillSuggestionButtons(row, values);
+    messages.append(row);
+    scrollMessages();
+  }
+
+  function fillSuggestionButtons(container: HTMLElement, values: string[]) {
+    container.replaceChildren(...values.slice(0, 3).map((value) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.suggestion = value;
+      button.textContent = value;
+      return button;
+    }));
+  }
 
   function appendBubble(kind: string, text: string) {
     const role = kind.includes("user") ? "user" : "bot";
@@ -243,6 +410,9 @@
     const tokenPattern = /```(?:math|latex)\s*([\s\S]+?)```|\$\$([\s\S]+?)\$\$|\\\[([\s\S]+?)\\\]|\\\(([\s\S]+?)\\\)|\$([^$\n]+)\$|\[(\d+)\]/g;
     let cursor = 0;
     let match: RegExpExecArray | null;
+    const citationSeqMap = new Map<number, number>();
+    let seqCounter = 0;
+
     while ((match = tokenPattern.exec(text)) !== null) {
       appendMarkdownText(fragment, text.slice(cursor, match.index));
       if (match[1] || match[2] || match[3]) {
@@ -250,10 +420,16 @@
       } else if (match[4] || match[5]) {
         fragment.append(katexNode((match[4] || match[5] || "").trim(), false));
       } else if (match[6]) {
-        const index = Number(match[6]);
-        const citation = citations.get(index);
+        const rawIndex = Number(match[6]);
+        const citation = citations.get(rawIndex);
         if (citation) {
-          fragment.append(citationLink(index, citation));
+          let seq = citationSeqMap.get(rawIndex);
+          if (!seq) {
+            seqCounter += 1;
+            seq = seqCounter;
+            citationSeqMap.set(rawIndex, seq);
+          }
+          fragment.append(citationLink(seq, citation));
           state.matchedCitation = true;
         }
       }
@@ -683,6 +859,25 @@
     color: var(--muted);
     font-size: 13px;
     line-height: 1.45;
+  }
+
+  .chat-head-actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .chat-clear {
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    padding: 5px 3px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .chat-clear:hover {
+    color: var(--ink-soft);
   }
 
   .chat-close {
