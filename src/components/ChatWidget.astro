@@ -325,7 +325,7 @@
     if (currentPageContext().pageType === "BLOG_POST") {
       return ["总结这篇文章", "这篇文章的核心观点是什么？", "这篇文章还有哪些相关内容？"];
     }
-    return ["这个博客主要写了哪些内容？", "推荐几篇关于 RAG 与系统架构的文章", "你能帮我做什么？"];
+    return ["介绍一下这个博客和作者", "博客主要包含哪些技术方向与随笔？", "有哪些最值得推荐阅读的文章？"];
   }
 
   function appendSuggestionRow(values: string[], initial = false) {
@@ -1045,7 +1045,7 @@
     transition: background 180ms ease, box-shadow 180ms ease;
   }
 
-  .chat-suggestions {
+  .chat-widget :global(.chat-suggestions) {
     display: flex;
     flex-direction: column;
     gap: 7px;
@@ -1056,7 +1056,7 @@
     padding: 4px 0;
   }
 
-  .chat-suggestions button {
+  .chat-widget :global(.chat-suggestions button) {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -1077,14 +1077,14 @@
     text-overflow: ellipsis;
   }
 
-  .chat-suggestions button::before {
+  .chat-widget :global(.chat-suggestions button::before) {
     content: "✨";
     font-size: 11px;
     opacity: 0.85;
     flex-shrink: 0;
   }
 
-  .chat-suggestions button:hover {
+  .chat-widget :global(.chat-suggestions button:hover) {
     border-color: #2563eb;
     background: #eff6ff;
     color: #1d4ed8;
@@ -1092,7 +1092,7 @@
     box-shadow: 0 4px 14px rgba(37, 99, 235, 0.18);
   }
 
-  .chat-suggestions button:active {
+  .chat-widget :global(.chat-suggestions button:active) {
     transform: translateY(0);
   }
 
