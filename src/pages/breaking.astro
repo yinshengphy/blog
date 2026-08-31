@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BreakingBoard from '../components/BreakingBoard.astro';
+import rawBreakingNews from '../data/breaking-news.json';
+
+const cutoff = Date.now() - 3 * 24 * 60 * 60 * 1000;
+const items = rawBreakingNews.filter(
+  (item) => new Date(item.discoveredAt).getTime() >= cutoff
+);
+---
+
+<BaseLayout title="三日突发" description="最近三天内进入重大突发监测的新闻事件。">
+  <div class="archive-page breaking-page">
+    <a class="back-link" href="/">返回首页</a>
+    <BreakingBoard items={items} />
+  </div>
+</BaseLayout>

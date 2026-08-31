@@ -1,0 +1,61 @@
+---
+interface BreakingItem {
+  title: string;
+  summary: string;
+  source: string;
+  discoveredAt: string;
+  severity: string;
+  link?: string;
+}
+
+interface Props {
+  items: BreakingItem[];
+}
+
+const { items } = Astro.props;
+const sortedItems = [...items].sort(
+  (a, b) => new Date(b.discoveredAt).getTime() - new Date(a.discoveredAt).getTime()
+);
+
+function formatDate(value: string) {
+  return new Date(value).toLocaleString('zh-CN', {
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+}
+---
+
+<section class="breaking-board" aria-labelledby="breaking-board-title">
+  <div class="breaking-board-heading">
+    <div>
+      <p class="section-label">Rolling three days</p>
+      <h2 id="breaking-board-title">三日突发</h2>
+      <p>只保留最近三天进入重大突发监测的事件，按最新发现时间滚动更新。</p>
+    </div>
+  </div>
+
+  {sortedItems.length > 0 ? (
+    <div class="breaking-board-list">
+      {sortedItems.map((item) => (
+        <article class="breaking-item">
+          <div class="breaking-item-meta">
+            <span>{item.severity}</span>
+            <time datetime={item.discoveredAt}>{formatDate(item.discoveredAt)}</time>
+          </div>
+          <h3>
+            {item.link ? (
+              <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a>
+            ) : item.title}
+          </h3>
+          <p>{item.summary}</p>
+          <small>{item.source}</small>
+        </article>
+      ))}
+    </div>
+  ) : (
+    <p class="breaking-empty">最近三天暂无已收录突发新闻。</p>
+  )}
+</section>

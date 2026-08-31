@@ -16,6 +16,7 @@ const {
 const siteName = 'yinsheng的小站';
 const pageTitle = title === siteName ? title : `${title} | ${siteName}`;
 const year = new Date().getFullYear();
+const isBreakingPage = Astro.url.pathname.startsWith('/breaking');
 ---
 
 <!doctype html>
@@ -36,8 +37,8 @@ const year = new Date().getFullYear();
         <span>{siteName}</span>
       </a>
       <nav aria-label="主导航">
-        <a href="/">首页</a>
-        <a class="is-active" href="/#articles">文章</a>
+        <a class:list={{ 'is-active': !isBreakingPage }} href="/">首页</a>
+        <a class:list={{ 'is-active': isBreakingPage }} href="/breaking/">三日突发</a>
         <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
       </nav>
     </header>
@@ -52,7 +53,7 @@ const year = new Date().getFullYear();
         </div>
         <div class="footer-links" aria-label="页脚链接">
           <a href="/">首页</a>
-          <a href="/#articles">文章</a>
+          <a href="/breaking/">三日突发</a>
           <a href="https://github.com/yinshengphy" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>

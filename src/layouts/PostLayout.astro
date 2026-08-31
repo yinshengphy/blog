@@ -119,6 +119,9 @@ const titleSlug = title.normalize('NFKC')
   const observedHeadings = tocLinks
     .map((link) => document.getElementById(link.dataset.target || ''))
     .filter((heading): heading is HTMLElement => heading instanceof HTMLElement);
+  const headingScrollOffset = 96;
+  let manualTargetId: string | null = null;
+  let manualTargetTimer: number | undefined;
 
   const syncTocDisclosure = () => {
     if (tocDetails) {
@@ -134,7 +137,7 @@ const titleSlug = title.normalize('NFKC')
       const isActive = link.dataset.target === id;
       link.classList.toggle('is-active', isActive);
       if (isActive) {
-        link.scrollIntoView({ block: 'nearest' });
+        link.scrollIntoView({ block: 'nearest', inline: 'nearest' });
       }
     });
 
@@ -143,41 +146,84 @@ const titleSlug = title.normalize('NFKC')
     });
   };
 
-  if (observedHeadings.length > 0) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visibleEntries = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+  const decodeHash = () => {
+    const hash = window.location.hash.slice(1);
+    try {
+      return decodeURIComponent(hash);
+    } catch {
+      return hash;
+    }
+  };
 
-        if (visibleEntries.length > 0) {
-          setActiveHeading(visibleEntries[0].target.id);
-        }
-      },
-      {
-        rootMargin: '-18% 0px -58% 0px',
-        threshold: [0.1, 0.3, 0.6]
-      }
-    );
-
-    observedHeadings.forEach((heading) => observer.observe(heading));
-
-    if (window.location.hash) {
-      const hashId = window.location.hash.slice(1);
-      setActiveHeading(hashId);
-    } else {
-      setActiveHeading(observedHeadings[0].id);
+  const syncActiveHeading = () => {
+    if (manualTargetId) {
+      setActiveHeading(manualTargetId);
+      return;
     }
 
-    window.addEventListener('hashchange', () => {
-      const hashId = window.location.hash.slice(1);
-      if (hashId) {
+    let currentHeading = observedHeadings[0];
+    observedHeadings.forEach((heading) => {
+      if (heading.getBoundingClientRect().top <= headingScrollOffset) {
+        currentHeading = heading;
+      }
+    });
+
+    if (currentHeading) setActiveHeading(currentHeading.id);
+  };
+
+  const scrollToHeading = (id: string) => {
+    const target = document.getElementById(id);
+    if (!target) return;
+
+    manualTargetId = id;
+    if (manualTargetTimer) window.clearTimeout(manualTargetTimer);
+    setActiveHeading(id);
+    history.pushState({ tocHeading: id }, '', `#${encodeURIComponent(id)}`);
+    target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    manualTargetTimer = window.setTimeout(() => {
+      manualTargetId = null;
+      syncActiveHeading();
+    }, 1200);
+  };
+
+  if (observedHeadings.length > 0) {
+    if (window.location.hash) {
+      const hashId = decodeHash();
+      if (observedHeadings.some((heading) => heading.id === hashId)) {
         setActiveHeading(hashId);
+      } else {
+        syncActiveHeading();
+      }
+    } else {
+      syncActiveHeading();
+    }
+
+    let scrollFrame = 0;
+    const onScroll = () => {
+      if (scrollFrame) return;
+      scrollFrame = window.requestAnimationFrame(() => {
+        scrollFrame = 0;
+        syncActiveHeading();
+      });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', syncActiveHeading);
+
+    window.addEventListener('hashchange', () => {
+      const hashId = decodeHash();
+      if (hashId && observedHeadings.some((heading) => heading.id === hashId)) {
+        setActiveHeading(hashId);
+      } else {
+        syncActiveHeading();
       }
     });
 
     tocLinks.forEach((link) => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetId = link.dataset.target;
+        if (targetId) scrollToHeading(targetId);
         if (tocDetails && mobileQuery.matches) {
           tocDetails.open = false;
         }
