@@ -12,6 +12,14 @@
   "discoveredAt" : "2026-08-31T19:27:00+08:00",
   "severity" : "重大"
 }, {
+  "fingerprint" : "4ceaff30925bbcf7",
+  "title" : "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
+  "summary" : "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-08-31T10:52:13.180612+00:00",
+  "severity" : "重大",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad?traffic_source=rss"
+}, {
   "title" : "巴格达一座炼油厂发生爆炸后起火",
   "summary" : "伊拉克巴格达一座炼油厂在不明爆炸后起火，人员伤亡和事故原因仍待进一步确认。",
   "source" : "Al Jazeera English",
