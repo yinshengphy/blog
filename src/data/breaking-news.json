@@ -56,6 +56,14 @@
   "severity" : "重大",
   "link" : "https://apnews.com/article/switzerland-shooting-rave-aargau-843e1c1cc57e1c1cc57e1a0cb379851007ea6ba8"
 }, {
+  "fingerprint" : "9983f1d0bda7f6de",
+  "title" : "西藏吉隆泥石流灾害排查出261名失联外籍人员 - 新华网",
+  "summary" : "西藏吉隆泥石流灾害排查出261名失联外籍人员 - 新华网",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T02:31:24.017699+00:00",
+  "severity" : "重大",
+  "link" : "https://news.google.com/rss/articles/CBMifkFVX3lxTE01RTduZ3FOX1VMQl83X2FydWdSNnlON3pZeVRtVU5LN1djbjNWaGhJeDMyZkZ0el93WlVsR3ZCRkFPTVFCTDllUm9RQ0pHM0M4dTRGZ1RuOVh5VDJxUllTaXpGTXhnOXg0TDJpRWRXUURDdFp0NUsyZ0dXMnNiUQ?oc=5"
+}, {
   "title" : "喜马拉雅山区洪灾造成数百人死亡、数千人失踪",
   "summary" : "喜马拉雅山区洪灾持续造成重大人员伤亡和失踪，联合国及尼泊尔方面警告后续风险。",
   "source" : "RFI 法国国际广播",
@@ -76,12 +84,4 @@
   "discoveredAt" : "2026-08-29T17:47:00+08:00",
   "severity" : "重大",
   "link" : "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "30d88b7a362962b2",
-  "title" : "喜马拉雅山区洪灾升至近600人死亡 约2500人失踪",
-  "summary" : "喜马拉雅山区洪灾升至近600人死亡 约2500人失踪",
-  "source" : "RFI 法国国际广播",
-  "discoveredAt" : "2026-08-28T21:26:44.036610+00:00",
-  "severity" : "重大",
-  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260828-%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E5%B1%B1%E5%8C%BA%E6%B4%AA%E7%81%BE%E5%8D%87%E8%87%B3%E8%BF%91600%E4%BA%BA%E6%AD%BB%E4%BA%A1-%E7%BA%A62500%E4%BA%BA%E5%A4%B1%E8%B8%AA"
 } ]
