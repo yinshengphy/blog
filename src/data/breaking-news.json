@@ -49,6 +49,14 @@
   "discoveredAt" : "2026-08-30T19:34:00+08:00",
   "severity" : "重大"
 }, {
+  "fingerprint" : "cd47e9a1a2914fe0",
+  "title" : "瑞士发生枪击事件致多人伤亡 - 中国日报网",
+  "summary" : "瑞士发生枪击事件致多人伤亡 - 中国日报网",
+  "source" : "Google News China Breaking",
+  "discoveredAt" : "2026-08-30T06:12:14.928934+00:00",
+  "severity" : "重大",
+  "link" : "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4YngyUndVckppSHVGSzE2bWJFVDI5cmt4TXR5THd3UF9LbHVNMU9kLUoxSmMwQWtkUkp0WFVkZWloMUFiTFR3Q2tqZGhJWmxwcTR4bHd1Rm05Z09qUXZQVTM1akprU1JsQjRkOFNfMlRuN2MzNDItVklfQQ?oc=5"
+}, {
   "title" : "瑞士一场聚会发生枪击，造成1死5伤",
   "summary" : "瑞士阿尔高州一场聚会发生枪击事件，造成至少1人死亡、5人受伤，警方展开调查。",
   "source" : "AP News World",
