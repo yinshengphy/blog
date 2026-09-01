@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+const posts = await getCollection('posts');
+const trendingPost = posts.find((p) => p.id === 'global-trending' || p.id === 'global-trending.md');
+
+let Content: any = null;
+let renderedPost = null;
+if (trendingPost) {
+  renderedPost = trendingPost;
+  const res = await render(trendingPost);
+  Content = res.Content;
+}
+---
+
+<BaseLayout title="TRENDING" description="过去12小时内全球热议焦点与事实交叉核验（持续滚动更新）。">
+  <div class="archive-page trending-page">
+    <a class="back-link" href="/">返回首页</a>
+    
+    <section class="breaking-board" aria-labelledby="trending-board-title">
+      <div class="breaking-board-heading">
+        <div>
+          <p class="section-label">Rolling 12 Hours</p>
+          <h2 id="trending-board-title">TRENDING</h2>
+          <p>过去 12 小时内全球热议焦点与事实交叉核验简报，系统每 2 小时滚动更新。</p>
+        </div>
+      </div>
+
+      <div class="post-content trending-content" style="margin-top: 1.5rem; line-height: 1.8;">
+        {Content ? (
+          <Content />
+        ) : (
+          <p class="breaking-empty">暂无最近12小时的热议动态。</p>
+        )}
+      </div>
+    </section>
+  </div>
+</BaseLayout>
