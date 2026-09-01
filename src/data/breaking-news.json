@@ -1,443 +1,121 @@
-[
-  {
-    "fingerprint": "92f712b585787937",
-    "title": "美国大峡谷国家公园遭遇致命山洪袭击，引发紧急疏散与用水管制",
-    "summary": "美联社报道，美国亚利桑那州大峡谷国家公园近日突发致命山洪。暴雨引发的洪流冲毁部分基础设施与徒步路线，造成人员伤亡。公园管理部门已紧急组织受灾区域人员疏散，并对园区实施紧急供水限制和安全管控措施。",
-    "source": "AP News Top Headlines",
-    "discoveredAt": "2026-08-31T22:12:43.076223+00:00",
-    "severity": "自然灾害",
-    "link": "https://apnews.com/photo-gallery/deadly-flash-flood-forces-grand-canyon-evacuations-water-restrictions-photos-555174f4e12f4d7db925c469db45593a"
-  },
-  {
-    "fingerprint": "c03f77b8395882c8",
-    "title": "尼泊尔强降雨引发特大泥石流灾害，已致939人遇难、3925人失联。",
-    "summary": "据新华社等官方渠道最新通报，尼泊尔特大泥石流及洪涝灾害伤亡人数进一步攀升，截至目前已确认造成939人死亡，另有3925人处于失联状态。极端地质灾害致使灾区大批房屋道路受损，多国救援力量与当地部门正全力展开搜救。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-31T17:50:13.362639+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FNExWZzMxLVpZWnZDeEJrUTNiSHNEQVBfQ1d5T2tqNnAxenBja2lTZjF5LWxMTFhQQUUyUTJzajIwSkNhaDljSHFEeThpQ0U1bTJIU05hQUE1VE5mTHdxUVBqLUxJM0JFTW5KelJQZHJ6VF82NnZVUUdBMU0xdkU?oc=5"
-  },
-  {
-    "fingerprint": "a2db6f4b450b804f",
-    "title": "美联社报道称美军新型导弹在伊朗城市造成严重破坏与大范围人员伤亡",
-    "summary": "据美联社报道，相关调查与报告显示，美军使用的新型导弹在伊朗某城市造成了大范围的严重破坏和人员伤亡。该事件表明美伊军事对抗烈度进一步升级，或将引发伊朗方面的强烈报复行动，加剧中东整体局势动荡。",
-    "source": "AP News World",
-    "discoveredAt": "2026-08-31T12:29:51.895237+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://apnews.com/article/iran-lamerd-us-prsm-lockheed-martin-b4a37c59bcf5d1a11eb87aa79f153648"
-  },
-  {
-    "fingerprint": "03035cd228d61547",
-    "title": "尼泊尔特大泥石流灾害中约590名外国公民失联",
-    "summary": "新华网报道，尼泊尔近期持续强降雨引发严重泥石流与山洪灾害，造成约590名外国公民失联。目前灾区多处道路交通与通信中断，尼泊尔搜救部门正会同多方力量在恶劣天气条件下紧急搜寻受困人员及遇难者。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-31T11:27:59.001657+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QVXloQTBiYkRaMUU3bEtLN3hidVhTWG1Bazdhb2dKWTFUM3BzLXRmLXUzSDdMTjBfTXN3V0UzQmx6RE9DazlzQUM0R0NocjA0cTd6OHl0QkEwbzJxNDBVRFhab2hraDJwN3cwRVJzcFZGa01nMXBzNDQ5ajhDc3c?oc=5"
-  },
-  {
-    "fingerprint": "4ceaff30925bbcf7",
-    "title": "伊拉克首都巴格达一炼油厂发生不明原因爆炸并引发火灾",
-    "summary": "据半岛电视台报道，伊拉克首都巴格达南部的多拉（Al-Dora）炼油厂及发电厂突发不明原因爆炸并引发大火。多拉设施为巴格达重要能源与电力枢纽，当前中东地缘冲突加剧背景下，事件起因及伤亡损失正待官方进一步通报。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-08-31T10:52:13.180612+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad?traffic_source=rss"
-  },
-  {
-    "fingerprint": "593fd376c0144121",
-    "title": "报道称美军空袭伊朗南部岛屿并造成伤亡，伊朗随后向约旦境内美军基地发射导弹。",
-    "summary": "据报道，美伊冲突出现新一轮直接军事交火：美军空袭伊朗南部岛屿并造成多人伤亡，伊朗随后向约旦境内美军基地发射导弹。相关伤亡、袭击规模及目标信息尚待美国、伊朗及约旦官方确认，但事件若属实，将显著推高中东地区全面升级风险，并对国际能源市场形成冲击。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-31T05:06:38.203089+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mVzltTE1TbDJETVhoMnh2WGZ1ZFB4NGllQ21DMWdkbVY2SmVtZWJCTjNScHUwNzdLQjJ1SlJaN0M5blphZXJtZGR0NVcwTGdpNW9LOWZTN0RYMHJkVklUVW5NMGQxQQ?oc=5"
-  },
-  {
-    "fingerprint": "8cd05b960e0b67bd",
-    "title": "尼泊尔暴雨引发的泥石流及洪灾持续恶化，遇难人数已攀升至903人。",
-    "summary": "据央广网报道，尼泊尔近期由持续强降雨引发的特大泥石流与洪涝灾害已导致至少903人遇难。灾害造成大范围房屋倒塌和基础设施损毁，多地交通瘫痪，搜救与善后工作正面临巨大挑战。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-31T05:06:10.974441+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nVFE0QXZSUGhKYnBrdUVvVGlXbC0tWHJ1QUkxUVFhMzhCdDE3eE9IZ2h1STAzeTkwRHY0ZEc1eWhDMzR6VmxPWDZJRW5RY29nVWFfNmlHaTVia252U0p2T1VsNFJxYkNo?oc=5"
-  },
-  {
-    "fingerprint": "f31907a877abecdb",
-    "title": "伊朗媒体称伊朗伊斯兰革命卫队发射导弹袭击了位于约旦的美军基地",
-    "summary": "据伊朗媒体报道，伊朗伊斯兰革命卫队对位于约旦境内的美军基地发动了导弹袭击。该事件标志着中东地缘政治和军事对抗出现重大升级，可能直接引发美伊双方更广泛的直接军事冲突与报复行动，具体伤亡及设施损毁情况有待进一步核实。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-31T02:06:11.581186+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU0NUVGFQTzRuYk1NZzNvQWx1N2M1dmU2Y3N3ZURhcTJjWnBMZy1vLWNjcE1URDdhSk5xZFZnMVc1VlZvY1MzaUs5dWlBNFpoaGU0UUNrdDNqUUZhTDdzMzVmZjNEelRqUWk4?oc=5"
-  },
-  {
-    "fingerprint": "6fde386b8e0b6c9c",
-    "title": "美国大峡谷国家公园突发山洪灾害，导致超过20名游客和徒步人员失联。",
-    "summary": "据新华网援引外媒报道，美国亚利桑那州大峡谷国家公园局部突降暴雨引发罕见山洪，已造成超过20名游客及徒步人员失联。国家公园管理局与当地救援力量已紧急启动多部门联合搜救，并对涉险区域实施封闭管制。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-30T22:57:59.538042+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSzVHeUZ5ZmhtV2JhVkN3Tk9xM2dwLWQzY1dZTHI4ZU11cTZJdVdrV2NqSXBjdF9ydGtrVnpyMUJlUGd3emNJOHM5T0thcnpkUVZKUURrZmtkUXVPZFF5NGtvVzQySXpETmM3S0NwWFNfWnNpSERXbEp3OC1SUEZTdGxTZEotYzVsNHJHdzQxRHpQOWdFOVF6Mktn?oc=5"
-  },
-  {
-    "fingerprint": "ca96878420be3451",
-    "title": "西藏吉隆县突发特大泥石流灾害，官方通报已致16人遇难、546人失联，搜救工作全面加速。",
-    "summary": "西藏日喀则市吉隆县遭遇特大泥石流灾害，最新灾情统计显示已导致16人遇难、546人失联。灾情发生后，应急、消防、公安及解放军等多方救援力量紧急赶赴现场，克服道路阻断等困难加速推进人员搜救、安置与基础设施抢通工作。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-30T17:47:30.298747+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hRUdLcFVqSDVUbzAtbFY1MUdPUXBYLThtSW5zU0RBVWY4c3VNczd4NG5QaUhmSFBUdjY1LVk0ZDVoRFhhYlBUWUI3bkhYNlNSbEctUkxaeHUtM1hQREpmSnM5ZjA4S3d6WFFrbzF3aw?oc=5"
-  },
-  {
-    "fingerprint": "8c0451e41d9b0575",
-    "title": "一艘载有267人的客货渡船在塞浦路斯附近海域沉没",
-    "summary": "新华网报道，一艘载有267人的客货渡船在塞浦路斯附近海域发生沉没事故。该事件涉及大量人员涉险，目前当地海事救援部门已紧急展开搜救行动，伤亡及具体失联情况正进一步核查中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-30T11:34:27.233770+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeUI0dVZIMndwN0lJV19weHQyekRNcW9MNC1lemhkSlhmbUdwZ0E3MjFPVEhUYnYwTmpOUlFoWXpWQWhybjR4MzI0aEc5MUl0SjNZUU5jTkZCQUdJWktGeXZ5MmJhVldhdDNlZjF2aVJIM2NuZ3JXendCTDdCSmc?oc=5"
-  },
-  {
-    "fingerprint": "2d06c184f9305ebb",
-    "title": "尼泊尔与中国西藏边境喜马拉雅区域特大洪灾遇难人数已攀升至750人",
-    "summary": "据联合早报等媒体最新通报，受极端强降雨影响，尼泊尔与中国西藏交界喜马拉雅地区暴发的特大山洪与泥石流灾情持续扩大，遇难人数已升至750人。灾害造成跨境多地交通中断与设施破坏，目前搜救与应急排查工作仍在全面进行中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-30T07:36:20.455765+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FdE5BNVdfbjdDNVBuMnpQZU1CZEdRbzVHYkowRy1QaGtsQ0NaaUpiVFZmcWF0NWw5bGdiT1FWQ1RfUllNLVBGRzVjd05pd2ZCRlFOT2hnYjd0bUdiVTRfdzdRUUZWeHFKOEE?oc=5"
-  },
-  {
-    "fingerprint": "cd47e9a1a2914fe0",
-    "title": "瑞士境内发生一起严重枪击事件，已造成多人死伤。",
-    "summary": "据中国日报网等媒体报道，瑞士突发一起恶性枪击事件，造成多人伤亡。枪击发生后当地警方及应急力量迅速介入处置并封锁相关区域。作为枪支管理严格且治安相对稳定的欧洲国家，该起枪击案引发国际关注，事件详细伤亡及原因正进一步调查中。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-30T06:12:14.928934+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4YngyUndVckppSHVGSzE2bWJFVDI5cmt4TXR5THd3UF9LbHVNMU9kLUoxSmMwQWtkUkp0WFVkZWloMUFiTFR3Q2tqZGhJWmxwcTR4bHd1Rm05Z09qUXZQVTM1akprU1JsQjRkOFNfMlRuN2MzNDItVklfQQ?oc=5"
-  },
-  {
-    "fingerprint": "9983f1d0bda7f6de",
-    "title": "西藏日喀则吉隆县发生泥石流灾害，官方排查出261名外籍人员处于失联状态并全力搜救",
-    "summary": "新华社通报，西藏自治区日喀则市吉隆县突发泥石流灾害，经各方拉网式排查，初步核实共有261名外籍人员失联。当地应急管理、公安、边检及救援力量已全面启动应急预案，正在复杂恶劣地形与气象条件下全力开展人员搜救及排险工作。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-30T02:31:24.017699+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01RTduZ3FOX1VMQl83X2FydWdSNnlON3pZeVRtVU5LN1djbjNWaGhJeDMyZkZ0el93WlVsR3ZCRkFPTVFCTDllUm9RQ0pHM0M4dTRGZ1RuOVh5VDJxUllTaXpGTXhnOXg0TDJpRWRXUURDdFp0NUsyZ0dXMnNiUQ?oc=5"
-  },
-  {
-    "fingerprint": "30d88b7a362962b2",
-    "title": "中尼边境喜马拉雅山区特大洪灾伤亡严重恶化，遇难人数升至近600人，失踪激增至约2500人。",
-    "summary": "中尼边境喜马拉雅山区26日爆发的毁灭性洪灾灾情持续恶化。截至28日，已证实死亡人数攀升至近600人，失踪人数剧增至约2500人，受灾人口估算达9.3万人。法国外交部确认4名本国公民失联，国际组织与多方救援队正全力展开搜救。",
-    "source": "RFI 法国国际广播",
-    "discoveredAt": "2026-08-28T21:26:44.036610+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260828-%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E5%B1%B1%E5%8C%BA%E6%B4%AA%E7%81%BE%E5%8D%87%E8%87%B3%E8%BF%91600%E4%BA%BA%E6%AD%BB%E4%BA%A1-%E7%BA%A62500%E4%BA%BA%E5%A4%B1%E8%B8%AA"
-  },
-  {
-    "fingerprint": "82e1835f7552c1e5",
-    "title": "无人机视频证实中尼边境特大泥石流由蓝塘里壤峰冰川崩塌引发，灾害已致两国超550人遇难、逾1100人失踪。",
-    "summary": "经核实的无人机视频显示，中尼边境特大泥石流灾害由海拔约7200米的蓝塘里壤峰冰川突发崩塌引发。截至目前，尼泊尔境内已确认547人遇难、575名外国游客失踪；中国西藏境内5人遇难、558人失踪（含260名外籍人员），跨境救援与搜救仍在艰难进行。",
-    "source": "RSSHub Solidot 科技要闻",
-    "discoveredAt": "2026-08-28T15:48:47.880563+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://www.solidot.org/story?sid=85224"
-  },
-  {
-    "fingerprint": "4d7a81d9553e361a",
-    "title": "台风红色预警发布，台风逼近并即将登陆浙江沿海，浙闽局地或现特大暴雨。",
-    "summary": "气象部门已发布最高等级台风红色预警，台风“沙德尔”正逼近并将登陆浙江沿海。受其直接影响，浙江、福建两省部分地区将遭遇极端强降雨及破坏性大风，局地将出现特大暴雨。沿海多地已全面启动最高级别应急防范措施以应对潜在灾害风险。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T23:24:56.803590+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93ME9SN0dlZTJjeURYekREVHU3WlY0b2VQVzgwakZSS0xOU295STU5cDNQMFlzVXpZakx1V094R0JmTmlIaDhCLXZrZkhJSGFlTFdJVXlaTTI0UndW?oc=5"
-  },
-  {
-    "fingerprint": "73ce8ba487d8662c",
-    "title": "俄罗斯远东大型化工厂突发严重火灾，已证实导致包括多名中国公民在内的人员遇难。",
-    "summary": "据德国之声报道，俄罗斯远东地区一家大型化工厂发生突发火灾事故。最新信息显示，事故已造成多名中国公民遇难。目前当地应急与外交部门正在核实具体伤亡人数并协助善后，事故原因正在进一步调查中。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-27T22:43:30.561416+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOTHdqdVhtcGJZWldCQlFYSk9EdVUtUlhOa2ZhNDFIVS1tYzZwLTFWOXZrT25kd1pNb2pPc2oya21PTTlGbS1TUkFoSEpaclFKaGY1b1QwR1cwN2VWOVJZMjJnek9jbUM4bXFNNThCeXppdGhHbHFULS1JTnkxSE5nZDFtb2lxY1pJMWxhZkJuSWpEbXQzejlRVE8tX1hISjJURHFXa1Ytb0doekg0ejU0OTNOb0pENTFxWWF0Uk5JRDVQRURTTVRnQ0NCTWw5RlhVRHVIZE1ZRHBfNzNEUHIzcDhHN3ZtbnB1X203d2dYdThvU0EtdlJZcVZabmhZM05aU1RkakJzenZKQmY5WDBvZXJNYWZqRXN4WldiYkhyMDlLX0tlZEx2aHJoQ1ByUdIBrgJBVV95cUxOTHdqdVhtcGJZWldCQlFYSk9EdVUtUlhOa2ZhNDFIVS1tYzZwLTFWOXZrT25kd1pNb2pPc2oya21PTTlGbS1TUkFoSEpaclFKaGY1b1QwR1cwN2VWOVJZMjJnek9jbUM4bXFNNThCeXppdGhHbHFULS1JTnkxSE5nZDFtb2lxY1pJMWxhZkJuSWpEbXQzejlRVE8tX1hISjJURHFXa1Ytb0doekg0ejU0OTNOb0pENTFxWWF0Uk5JRDVQRURTTVRnQ0NCTWw5RlhVRHVIZE1ZRHBfNzNEUHIzcDhHN3ZtbnB1X203d2dYdThvU0EtdlJZcVZabmhZM05aU1RkakJzenZKQmY5WDBvZXJNYWZqRXN4WldiYkhyMDlLX0tlZEx2aHJoQ1ByUQ?oc=5"
-  },
-  {
-    "fingerprint": "030b49a6407517b4",
-    "title": "中尼边境冰川崩塌引发特大泥石流山洪，遇难人数升至392人，超1400人失踪并面临二次洪水威胁",
-    "summary": "中国西藏与尼泊尔边境因冰川局部崩塌引发特大泥石流与洪灾。截至27日，搜救人员已找到392名遇难者遗体，目前仍有超过1400人失踪（含517名外籍公民）。尼泊尔官方发出紧急预警，指出冰川崩塌形成的堰塞湖随时可能引发第二轮严重洪水。",
-    "source": "RFI 法国国际广播",
-    "discoveredAt": "2026-08-27T21:21:23.382947+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260827-%E5%B0%BC%E6%B3%8A%E5%B0%94%E4%B8%8E%E8%A5%BF%E8%97%8F%E8%BE%B9%E5%A2%83%E6%B4%AA%E7%81%BE%E6%AD%BB%E4%BA%A1%E4%BA%BA%E6%95%B0%E5%8D%87%E8%87%B3%E8%BF%91400%E4%BA%BA-%E9%80%BE1400%E4%BA%BA%E5%A4%B1%E8%B8%AA-%E5%B0%BC%E6%B3%8A%E5%B0%94%E8%AD%A6%E5%91%8A%E4%BA%8C%E6%AC%A1%E6%B4%AA%E6%B0%B4%E9%A3%8E%E9%99%A9"
-  },
-  {
-    "fingerprint": "4e38d793eb80115b",
-    "title": "多名官员透露，受伊朗相关冲突消耗影响，美国在欧洲的爱国者导弹库存已濒临耗尽。",
-    "summary": "据美联社独家报道，多名官员警告称，由于应对伊朗相关战事的巨大消耗，美国部署在欧洲的爱国者防空导弹库存已降至“极其危险”的临界水平。该关键战略武器的枯竭不仅将严重削弱欧洲的防空防御网，更凸显出多线地缘冲突对美国军工产能与全球军力部署造成的极限施压，恐引发深远的军事与地缘政治震荡。",
-    "source": "AP News Top Headlines",
-    "discoveredAt": "2026-08-27T15:56:21.938266+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://apnews.com/article/patriot-missiles-iran-war-russia-ukraine-trump-09c7d8030a2e11fbd8ee3f7176b3f2d4"
-  },
-  {
-    "fingerprint": "64ea584075f0f9dd",
-    "title": "俄罗斯远东中俄合资阿穆尔天然气化工综合体发生重大火灾，遇难人数升至15人且多为外籍劳工。",
-    "summary": "俄罗斯远东地区中俄合资的阿穆尔天然气化工综合体本周突发重大火灾，厂方最新通报确认遇难人数已升至15人，死者绝大多数为外籍劳工，另有数十人受伤送医。俄调查部门已介入调查是否存在违规操作，未受损区域仍在推进施工。",
-    "source": "DW Chinese (德国之声)",
-    "discoveredAt": "2026-08-27T13:36:37.212286+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.dw.com/zh/俄远东大型化工厂突发火灾-遇难者多为外籍/a-78532543?maca=chi-rss-chi-all-1127-xml-mrss"
-  },
-  {
-    "fingerprint": "3de358e3245a917b",
-    "title": "西藏吉隆县接壤尼泊尔边境突发特大山洪，中尼两国失联人数合计超千人且涉及大批外国游客。",
-    "summary": "据BBC等媒体报道，中国西藏日喀则吉隆县接壤尼泊尔边境地区突发特大山洪灾害。灾情出现重大伤亡失联升级，中尼两国各自报告逾500人失联，合计失踪人数超千人，其中包括大批外籍跨国游客，目前双边正展开紧急跨境搜救行动。",
-    "source": "BBC Chinese (中文要闻)",
-    "discoveredAt": "2026-08-27T04:50:50.360334+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://www.bbc.com/zhongwen/articles/cwyzlnde773o/trad?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "0e24d402110ea5f1",
-    "title": "阿尔及利亚东北部多省单日爆发逾150起森林山火，已造成至少12人死亡。",
-    "summary": "据半岛电视台报道，阿尔及利亚东北部多省在单日内集中爆发超过150起森林山火。火势迅速蔓延，目前已造成至少12人死亡。阿尔及利亚民防和救援部门正全力扑救，受极端高温和干燥天气影响，火情控制面临严峻挑战。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-08-27T04:50:43.596493+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/27/twelve-dead-as-over-150-wildfires-rage-across-northeastern-algeria?traffic_source=rss"
-  },
-  {
-    "fingerprint": "2323133018200208",
-    "title": "应急管理部与国家消防救援局紧急调派中国救援队增援西藏日喀则泥石流灾害现场开展搜救处置。",
-    "summary": "西藏日喀则地区突发严重泥石流地质灾害，应急管理部、国家消防救援局已紧急调派国家级专业力量“中国救援队”赶赴现场增援。目前搜救与应急抢险工作全面展开，相关灾情损失与被困情况正持续核实处置中。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-27T02:44:48.396528+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YSHRFYkw5aS15b2RxbEZBN2JfaXpkc3dueWQwNV9aOXlQUnMxZmloZ0ZHdVEzMzd6NHp3UnB0VlZqaGFoX0xoVGh5bC11Z1NPQWEzT002ZTNsOEhHbGx0eTBjeEFMYlZVcHUtQmY1N1YwTW8?oc=5"
-  },
-  {
-    "fingerprint": "bc5658ef81e4762f",
-    "title": "西藏日喀则市吉隆县遭受泥石流灾害，国家金融监督管理总局已紧急启动保险业二级救灾应急响应。",
-    "summary": "西藏日喀则市吉隆县近日突发泥石流地质灾害，造成当地设施受损。为全力支持抗灾救灾与灾后重建，国家金融监督管理总局已正式启动保险业二级救灾应急响应，部署保险机构开通理赔绿色通道、预付赔款，全力做好防汛救灾金融服务保障。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T02:35:34.697239+00:00",
-    "severity": "特大自然灾害",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Ua2RJenFQT1BCYnhEbUQ1WHJacUFQWGZjcE9TYXltOG1hSTg3LTlZMW5NREVnU1czQ3k3OERMVHlEVk11QXBpekJqVnlYaXQtRVhN?oc=5"
-  },
-  {
-    "fingerprint": "02a342eaab4d88a5",
-    "title": "视频丨应急救援包机已起飞、多方力量驰援西藏吉隆泥石流灾害救援最新进展- 即时新闻 - 东南网",
-    "summary": "西藏吉隆突发泥石流灾害，各方力量正全力展开抢险救援。目前，应急救援包机已紧急起飞，搭载专业救援队伍与急需救灾物资赶赴一线，多部门协同推进人员搜救、险情排查及受灾群众安置等工作，救援行动正在紧张有序进行中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T01:36:52.614942+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XWUxLWFgwZXB2UC03aUhMTzJWdXJzckw0QWh3a2U3dUFxc2lUNkZRYlV6ZDRfUE1hM3JsNkVkOExTYXByZG1Na041NkRXd3RuRm1yWm5JYThJTUwwaDkzXzVrSQ?oc=5"
-  },
-  {
-    "fingerprint": "7d35c9e8d8cf076c",
-    "title": "吉隆口岸救援正在进行，泥石流或因地震引发雪崩导致 - 珠海网",
-    "summary": "吉隆口岸突发泥石流灾害，初步研判系地震诱发上游雪崩进而形成次生泥石流所致。灾情发生后，相关部门迅速启动应急响应，多方救援力量已赶赴现场开展搜救处置与通路保畅工作。目前受灾及人员伤亡情况正在核实，抢险救援仍在全力进行中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T01:25:56.552318+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51WlAzMHFXa1FnbjgySFVXUFhJakVtMUNpNnk0M3NMdElyQXFJdXB2a2d4azBSMnV6dFNWYlZCbFYxbzRFTlRNMC1kb19UZDZJTmNhUWphdHBFLXh3RXVSMzYyeUtBV1NKSE9zZ0NGeWpBM3o3ZG5r?oc=5"
-  },
-  {
-    "fingerprint": "6da43adb6ed20a52",
-    "title": "新闻8点见丨西藏吉隆泥石流灾害已造成3人遇难，265人失联 - 新京报",
-    "summary": "西藏吉隆突发泥石流灾害。据最新通报，截至目前灾害已造成3人遇难，另有265人失联。灾情发生后，当地已紧急启动应急响应机制，组织多方专业力量全力开展失联人员搜救、受灾群众转移安置及灾情核查工作，各项抢险救灾行动正全面推进。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T01:07:38.643527+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsMkdfOXV2WDduakpmMUlEblJrMFZUbWprUWNXQ0lSUHE4UEQzd3ctMFh3QzlIV21tRnVocXNpalhVRWV0R0Z0NzZUR0o2RWFTTThvNGRhNm1UaWxfSmxMaXBYX0w?oc=5"
-  },
-  {
-    "fingerprint": "94ab4b7f07d6e3fd",
-    "title": "增援西藏吉隆泥石流救援 包机携带人员设备抵达日喀则 - 中国日报网",
-    "summary": "西藏吉隆突发泥石流灾害，应急救援力量迅速响应。运载专业救援人员与急需装备物资的增援包机已顺利抵达日喀则。目前，增援力量正紧急转运奔赴吉隆灾区一线，协同开展搜救排险、道路抢通和应急处置工作，全力保障人民群众生命财产安全。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-27T00:57:00.922372+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCNUpJQndLN3ExdE1LdkZtTXpDeEJrWXBVSTJlOG8yTHYyZTFJc2o4UmFCWkJ1Wmc5Z0pDYVBRLS1xTUg0bmVhUWszTGRfRjRnbFJRSnJiOFlvd2I4dThRdFlYakxMYjdjRjRTb0c2WGlzX0NFaGZkazBRNA?oc=5"
-  },
-  {
-    "fingerprint": "8a593d8bca6e7518",
-    "title": "应急救援包机已起飞！西藏吉隆泥石流灾害最新情况梳理 - 中国青年网",
-    "summary": "西藏吉隆突发泥石流灾害后，多部门迅速启动应急响应。目前应急救援包机已紧急起飞，搭载专业力量与物资赶赴现场。各方正全力推进人员搜救、道路抢通、隐患排查及受灾群众转移安置，各项抢险救灾工作正紧张有序开展。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-27T00:16:22.709600+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTSEVPSmM1TXRHNjBDLXQ3d0szcW9VYlFSbFlCbjFrV3RtaGNQZjBmOXVMelRtOE5XNEZxQlBINmR0eGM3bWhuNWJUdXdUTUg4YWxla0tKZDN3VElfUV8yeHNjTFg?oc=5"
-  },
-  {
-    "fingerprint": "9484d9fe44da945d",
-    "title": "多部门迅即部署西藏吉隆泥石流灾害应急处置 - 光明网",
-    "summary": "西藏吉隆县发生泥石流灾害后，国家防总、应急管理部等多部门迅即启动应急响应并派出工作组。救援力量正全力开展抢险救援、受灾群众疏散安置及受阻路段抢通保畅工作，同时加强隐患排查与次生灾害防范监测，确保各项应急处置有力有序开展。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T22:50:57.885245+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPZUxiY2RheEtiRTU5VVdndnUtUEJySTZCQXNNUC1VYlFhYjZadWR3cGZyQnpLZEtMUlU1aURrZEVDa2VGSTB5Tk5VQV9WSEJLT1lBQ3g4SEZ4NjFfTmdfRg?oc=5"
-  },
-  {
-    "fingerprint": "5913354c3a966e23",
-    "title": "尼泊尔北部山洪暴发已致多人死亡 384人失联 - 中国网新闻中心",
-    "summary": "尼泊尔北部近日突发严重山洪灾害，已造成多人死亡、384人失联。强降雨引发的洪水与次生灾害导致当地多处道路、房屋严重受损，交通及通信一度受阻。目前，当地政府已派遣搜救力量赶赴灾区全力搜救失联人员，救灾及伤亡核实工作仍在持续进行中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T22:23:35.607295+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KYXg1NklwRlg5WUpHdmxOQ2tTUlBXMFFFS2NudDlHRXpYdFFiRUhySjN5MEN4djAtXzNYSWFFQnV4LTUyMUE0MWhMejBpS2VSY1Q2UE9nQ1NNQ0laWThqbHZSWEwwM2tJRHFB?oc=5"
-  },
-  {
-    "fingerprint": "0d599ca40525f783",
-    "title": "尼泊尔突发严重山洪灾害 幸存者心有余悸讲述遭遇洪水袭击的惊险时刻",
-    "summary": "尼泊尔近日突发强降雨引发严重山洪与滑坡，造成多地基础设施损毁、人员被困。幸存者回忆洪水来势极为凶猛，瞬间吞没家园与道路，逃生过程惊心动魄。目前灾区搜救与善后工作正紧张展开，受灾民众急需紧急救援与安置支持。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-08-26T21:39:23.815693+00:00",
-    "severity": "重大",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/26/video-survivors-recount-moment-flash-floods-hit-nepal?traffic_source=rss"
-  },
-  {
-    "fingerprint": "9ef4801037401029",
-    "title": "西藏土石流：接壤尼泊尔边境山洪暴发 数百人失踪包括多国游客 - BBC",
-    "summary": "西藏接壤尼泊尔边境地区突发严重山洪并引发大规模土石流灾害，已导致数百人失踪，失联人员中包含多国游客。受灾区域地势险峻且交通与通信受阻，搜救工作正面临严峻挑战，跨境受灾情况已引发国际社会高度关注。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T18:39:06.530067+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CTG9yTTh6cnplOGJ1TG5PUzFQRkwtNjZTTzFLcEMwYzRWQlhzTVF2eGMyUFRzdWlKYldDSTVRcWNVd2RnbkJWU1prR2FMUVhKeVk4X0c4MVNnbUFCTjItZ0JiN0xvd9IBa0FVX3lxTE1PT1F4VHcyMnlBRE5SdUdLeERKN21TU1VXSkdqTTNnWnE1MTkxNi1Yb1ZqbWQtX2ZVdGwtMFhCZjZsVmgwTi1LNkdwYWtOZTE3dDlIVzNiT3cxOHV2dzdnZF9hY2cwV3dsSi1j?oc=5"
-  },
-  {
-    "fingerprint": "d3ab4f362c143df2",
-    "title": "古特雷斯对尼泊尔和中国严重洪灾造成的人员伤亡和破坏深感悲痛 - UN News",
-    "summary": "联合国秘书长古特雷斯就尼泊尔及中国近期遭遇的严重洪灾发表声明，对灾害造成的人员伤亡、财产损失与基础设施破坏深感悲痛。古特雷斯向遇难者家属、两国政府及人民致以诚挚慰问，祝愿伤者早日康复，并重申联合国随时准备为两国的应急救灾和恢复工作提供全力支持。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-26T17:47:47.486029+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CR2IxX0xVT2QtelU5Si1pdzVYaGZ5M3l4WUthS3Y0SmNmR3FnM3daZUNvS0hxYVJnTjIzLXJZZnZpbGotZnhVcUlkc0p1LXN3MnlkQzE5RQ?oc=5"
-  },
-  {
-    "fingerprint": "abd35b4fb14a93df",
-    "title": "西藏土石流：接壤尼泊尔边境山洪暴发 数百人失联 - BBC",
-    "summary": "据BBC报道，中国西藏接壤尼泊尔边境地区突发严重山洪与土石流灾害，已导致数百人失联。暴雨引发的泥石流冲毁了部分基础设施与民房，边境交通受阻。目前当地已紧急启动应急响应机制，救援力量正全力搜寻失联人员并排查次生灾害隐患。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T16:47:49.924321+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CTG9yTTh6cnplOGJ1TG5PUzFQRkwtNjZTTzFLcEMwYzRWQlhzTVF2eGMyUFRzdWlKYldDSTVRcWNVd2RnbkJWU1prR2FMUVhKeVk4X0c4MVNnbUFCTjItZ0JiN0xvd9IBa0FVX3lxTE1PT1F4VHcyMnlBRE5SdUdLeERKN21TU1VXSkdqTTNnWnE1MTkxNi1Yb1ZqbWQtX2ZVdGwtMFhCZjZsVmgwTi1LNkdwYWtOZTE3dDlIVzNiT3cxOHV2dzdnZF9hY2cwV3dsSi1j?oc=5"
-  },
-  {
-    "fingerprint": "d37f1a2c5f3fac1f",
-    "title": "尼泊尔与西藏边境遭毁灭性洪灾 数百人失踪 遇难人数急剧上升 已发现95具遗体 - RFI",
-    "summary": "尼泊尔与中国西藏边境地区近日突发毁灭性洪灾，造成重大人员伤亡。强降雨引发的严重洪涝导致遇难人数急剧攀升，目前已发现95具遗体，仍有数百人处于失踪状态。灾区损毁严重且救援环境恶劣，搜救行动正在紧急进行，伤亡规模恐将进一步扩大。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-26T16:22:20.520510+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxPajh3MEZ5SkhhbDhLck1wV1V5aENFT1k5REpWVkN6TkM4NTJhWUxoVWtsVzNWSDlwMDh0ckw1cFFRZ2s5TGRENHI0b1RjZVp4TF82OGFGRWNSTHI2a3N2Mm9aa0xpcFlsYWw2S2hCX0Y1R2RMbHRlTnJPYy1OU0V6VW51MEtDdld2cW44R1dSWXIxVzVIYWs3MFo2ZU13VEV4NEpQNGZjMXhfTU96NXN2T3AzZm1pWnBwQldMUlR4QXlpNlhMTkVPd2NHVzc1S1c3a0t0aFpSOUN6LU9sbVo0VEdrWFI4Zmppc2xjcEZaalh6YmRVeTNhaU9lZGNOMlllWklaalFTbF8ydTl6MUNaSENDQnd2U1VtbVNyb244ZTk0QURLRmRVUWtqOTBjYldOQUxsaVRJRlZZSml5VHVKMFJoXzdpWW1XdC1ZUkN1VEJKTDE4dm5wVkh4aXhDWFE4a2Rub2dleUUyOFZ2UF9MRXAzRmhkR25YdmxGRHhMVl9fVzlTbGh5RzVHZ3hLNUNjeXk4cVg5RXpvSHhJMXJSODBZTVZrdzFTcUd4dUlVa2VfZzR5ZGt3QXRoS1QwOWhhZ3ZsQ2p5aDFxN19feEJSNTFJN0NZT2pKRmpNTzdLdHZDdDRqZ1lOcTVPc3ZSMDhXUUE?oc=5"
-  },
-  {
-    "fingerprint": "6edc417ba9d9f0e9",
-    "title": "泥石流灾害造成西藏吉隆口岸重大人员伤亡失联 各方加紧抢险救援 - 中国日报网",
-    "summary": "西藏吉隆口岸突发泥石流灾害，造成重大人员伤亡及失联。灾情发生后，应急、消防及地方各方救援力量迅速响应，紧急赶赴现场加紧抢险救援，全力推进失联人员搜救、伤员救治、险情排查与善后处置等各项工作。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T15:17:52.315364+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EeWgtN2JaVXpycU83OEd3MGh2d3g3SjV3TzhfNUV5b2tucFFld1pwRTZyaDBXYkNEZDkwMVB6LVJISF9LQVZrWndYNldRZWVvN3NYX2ltMHhXYm90MHE1TGVKaGRkX21PSVVRQ284UHBMeV9qRUpBZFpqOVA?oc=5"
-  },
-  {
-    "fingerprint": "fac2e2a491534894",
-    "title": "西藏吉隆口岸泥石流厚度目测约1.5米，村民称“对面整个山头都滑下来了”，最新消息汇总 - chinanews.com.cn",
-    "summary": "西藏吉隆口岸突发严重泥石流灾害。现场泥石堆积厚度目测约达1.5米，目击村民称对面山体发生大面积滑塌。灾情发生后，当地相关部门迅速启动应急响应，全力推进抢险保通、人员疏散与隐患排查工作，具体灾损情况正进一步核实汇总中。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T15:11:37.692322+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GamVyN1dwcllROHZhZzQ4RTRaLTJzdkRJTDlFOUZPeFhTMlhyd0R6bk1iLXBsbmQyNi1QOWk1dWEwSFRSY2phUS1jY0ZIUkp1a1RaODV4NVRvOEEyaTV4bkxkWll1eHRm?oc=5"
-  },
-  {
-    "fingerprint": "f8ec6180739764d4",
-    "title": "俄中合资石化企业远东工地火灾 至少7人遇难 包括中国公民6人 9人失踪 - RFI",
-    "summary": "俄罗斯远东地区一处俄中合资石化项目的施工工地突发严重火灾。目前事故已造成至少7人遇难，其中包括6名中国公民，另有9人失踪。现场搜救及善后处置工作正全面展开，事故具体原因有待进一步调查核实。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T15:08:50.607574+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxPTHk5eFhsRDlQU1VzWXRKZHRtVy1FX00yWWF4WGRhVGJNS3ZYRmdTYjVQZFFnZk1KOUtBU09vRGpKenV2OFNXTFBiM3BDaHQ4cFhCSmY2RVZTSWxtdUdXUDRYM1gwSlN5UWc5RXY4UndGb29RNURKbS1RZzEwMlRWTnc1M2l4d0xpa3FzMU1KQTB3SWxONzhHZTZLNXUxemtxbUxBOVdZY0ZHV2oxZzFjT0FIX3JvLWxQaUFDSnJyMldHSTc5cGRzRE91NEpScnVDM2NyUHJ2NlNHeWt6WGtQUlZ3OEt2Z3ZxQXFESXlwYVBJZnBoSE1GbnlsS2lKVmJiNDFsNjhrQWVqcUtMdTh2bUJCdGl4OFA5UHFTZ3dHeXQxVFpDTFFkVFgtaUJDT2VuUHBiXzd2Nk41eXRnc05IRVdkQ1JhTFYtbDNGZGxUeDl5LTM0RE9yWWVZT1JJZXZzNldGM2xkSUNEQW02QlpZNzg1UXZTTkRRZFozM2lnYy1vU0pIQXJMa1BndExEOUV6Mmh6UkdCZ1ZEWUNDcDg4c2tPbDhnX1FKWU9ERTVhR0lCS0Nka2N3QlNldGl1d0dESFZv?oc=5"
-  },
-  {
-    "fingerprint": "9264bf1cd46b56bf",
-    "title": "西藏吉隆口岸泥石流，最新消息汇总 - 四川在线",
-    "summary": "西藏吉隆口岸突发泥石流灾害，导致通道受阻并波及周边设施。当地应急、交通等部门已紧急启动抢险响应，全力开展清淤保通、设施抢修及人员疏散安置工作。目前现场正持续推进抢通作业并严密监测次生灾害，力争尽快恢复口岸正常通行秩序。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T15:06:49.608169+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ETjJrWWVCZTNmbkVvS09tcUxpV01wSWs0UU55M0Z0M0xJbXJNYlZmYkloemp0QjQ4Q1Z1dENTQ3Y3YkhfM2gtTWJFUkFxZXVaYlRjZ25aUnZwbEJXYUZSdw?oc=5"
-  },
-  {
-    "fingerprint": "6228bfbe1b0ef1db",
-    "title": "西藏—尼泊爾邊境山洪暴發 數百人失蹤包括多國遊客",
-    "summary": "中国西藏与尼泊尔边境地区突发严重山洪，导致包括多国游客在内的数百人失踪。暴雨引发的洪灾造成当地道路与基础设施严重损毁，边境交通受阻。目前搜救工作已全面展开，但恶劣天气与受损路况给救援带来极大困难，灾情仍在进一步评估中。",
-    "source": "BBC Chinese (中文要闻)",
-    "discoveredAt": "2026-08-26T15:06:44.405618+00:00",
-    "severity": "重大",
-    "link": "https://www.bbc.com/zhongwen/articles/cwyzlnde773o/trad?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "19b5f7fa97ffbb4e",
-    "title": "中尼吉隆口岸泥石流灾害数百人失踪",
-    "summary": "中尼边境重要通道吉隆口岸突发严重泥石流灾害，已导致数百人失踪。受灾区域道路交通严重受阻，跨境基础设施及周边建筑受损。目前相关部门已启动紧急应急响应，搜救排险与人员转移工作正在全力推进，失联人员具体伤亡情况与灾损核查仍在持续进行。",
-    "source": "RSSHub Solidot 科技要闻",
-    "discoveredAt": "2026-08-26T15:04:05.201214+00:00",
-    "severity": "重大",
-    "link": "https://www.solidot.org/story?sid=85202"
-  },
-  {
-    "fingerprint": "c6a786e51c4c20b7",
-    "title": "西藏吉隆口岸发生泥石流灾害 多方积极开展抢险救援救助工作 - 中国青年网",
-    "summary": "西藏吉隆口岸近日突发泥石流灾害，造成局部道路受阻。灾情发生后，当地政府迅速联动应急、消防、边检等多方力量启动应急响应，全面开展清淤抢通、隐患排查及受困人员转移安置工作。目前抢险救援与物资救助正有序推进，全力确保人员安全并争取尽快恢复口岸通畅。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-08-26T15:04:00.753076+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubDQyUlRkYmZVanhNT2wwelgtUFJacm00YjhpLWFXSkNabFdkWHJpS19YUjFlbHZMRVBJUVJpbVVWR1pMZGVBRVVRY1FzOVdSejljZUpoR2xrdUUyTWVjR2Uzd2M?oc=5"
-  },
-  {
-    "fingerprint": "7754a3821fdad52c",
-    "title": "记者连线丨俄工厂火灾事故致多名中国公民伤亡 - 新华网",
-    "summary": "据新华网报道，俄罗斯一工厂突发火灾事故，造成多名中国公民伤亡。事故发生后，中国驻俄使领馆紧急启动应急机制，全力协调推进伤员救治与善后处置，积极核实人员具体信息，并敦促俄方彻查事故原因、做好安全保障。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-26T15:03:54.589639+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sM2pRd1d0bmZ1Y3VnQTE2ZGNnelloUGZYWlJ3UFJmeEc3S0U5dzBuRmJGeDI5dHZQRFpaT2d4WW43blRsVGRxd0NkLTd0aTdmeGNwc0FDNUNDLWVGUy1xSUN0Q09xNklDeUFIQV9RU1VqSDRPZ2k4?oc=5"
-  },
-  {
-    "fingerprint": "7ee180f1e9b9f1be",
-    "title": "俄工厂火灾事故致多名中国公民伤亡 - 新华网",
-    "summary": "据新华网报道，俄罗斯一工厂发生火灾事故，造成多名中国公民伤亡。中国驻俄使领馆已启动应急响应机制，全力协助开展伤员救治与善后处置工作，并敦促俄方尽快查明火灾原因，切实保障在俄中国公民的人身安全与合法权益。",
-    "source": "Google News China Breaking",
-    "discoveredAt": "2026-08-26T15:03:49.482902+00:00",
-    "severity": "重大",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yQ3F6RGdCNDNoR296aVh4WldzbUU1V3hVMm9LaGJWT2dRUUphWEp4b2NWenFqVEd0cmRoWkVxMkJPZzQ1bHAyZTZ2d1FnQldtT1l4eUl3clg3Tzlfd1BtTTBVWXJzT1hfWjdmM3hsX2stQ0MwNGtHV1JsQkJBWlE?oc=5"
-  },
-  {
-    "fingerprint": "0e858c70873fcbfe",
-    "title": "尼泊尔与西藏边境遭毁灭性洪灾 数百人失踪 遇难人数急剧上升 已发现95具遗体",
-    "summary": "据法广消息，尼泊尔与中国西藏边境地区近日遭遇毁灭性暴雨洪灾，灾情导致遇难人数急剧攀升。搜救部门目前已寻获至少95具遗体，仍有数百人失踪。极端天气引发严重山洪与地质灾害，多处基础设施损毁，搜救及善后工作正紧张展开。",
-    "source": "RFI 法国国际广播",
-    "discoveredAt": "2026-08-26T15:03:40.485942+00:00",
-    "severity": "重大",
-    "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260826-%E5%B0%BC%E6%B3%8A%E5%B0%94%E4%B8%8E%E8%A5%BF%E8%97%8F%E8%BE%B9%E5%A2%83%E9%81%AD%E6%AF%81%E7%81%AD%E6%80%A7%E6%B4%AA%E7%81%BE-%E6%95%B0%E7%99%BE%E4%BA%BA%E5%A4%B1%E8%B8%AA-%E9%81%87%E9%9A%BE%E4%BA%BA%E6%95%B0%E6%80%A5%E5%89%A7%E4%B8%8A%E5%8D%87-%E5%B7%B2%E5%8F%91%E7%8E%B095%E5%85%B7%E9%81%97%E4%BD%93"
-  },
-  {
-    "fingerprint": "9cb6686e46dc42ab",
-    "title": "台风“纳拉”引发创纪录洪水致房屋被淹 中国多地展开大规模人员紧急疏散",
-    "summary": "台风“纳拉”在中国多地引发创纪录强降雨与特大洪水，造成大面积房屋被淹、基础设施受损严重。面对严峻汛情，受灾地区已迅速启动高等级应急响应，紧急展开大规模人员安全疏散与抢险搜救，全力防范次生灾害并保障受灾群众基本生活。",
-    "source": "The Guardian World",
-    "discoveredAt": "2026-08-26T15:03:36.119804+00:00",
-    "severity": "重大",
-    "link": "https://www.theguardian.com/world/2026/aug/26/typhoon-narra-floods-evacuations-china"
-  },
-  {
-    "fingerprint": "cb8b4e18275b1a7b",
-    "title": "西藏—尼泊爾邊境山洪暴發 數百人失蹤",
-    "summary": "中国西藏与尼泊尔边境地区突发严重山洪灾害，暴雨引发的山洪冲毁大量基础设施与房屋，已造成数百人失踪。受灾区域交通与通信严重受阻，两国应急与救援部门正全力开展搜救及人员疏散工作，灾情评估与抢险救援仍在持续推进。",
-    "source": "BBC Chinese (中文要闻)",
-    "discoveredAt": "2026-08-26T15:03:20.676851+00:00",
-    "severity": "重大",
-    "link": "https://www.bbc.com/zhongwen/articles/cwyzlnde773o/trad?at_medium=RSS&at_campaign=rss"
-  }
-]
+[ {
+  "fingerprint" : "84ba8e90646abfc1",
+  "title" : "俄罗斯对乌克兰基辅及周边地区发起大规模空袭 造成至少4死10余伤",
+  "summary" : "俄罗斯军队对乌克兰首都基辅及周边地区发动新一轮大规模空袭。袭击造成居民区及相关设施受损，已导致至少4人死亡、10余人受伤。防空部队进行了拦截作业，当地消防及紧急情况部门已赶赴现场扑灭火势并开展搜救。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-01T06:47:19.725565+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMikANBVV95cUxOa0ZBNmlmSVBvZEstZFBFMkV5SEh2Wl8tNXEwakc1MjRTV3ZBT3o4V0lzajg4aGxzMkdMWnFWZi1GS3pKUmhUZ3lla1IwNElJNGtFZVZzUk5zZHhCOWVMYlNWa0RMVmUwc2gtZ3pHYUtDazQ0TmpCdlY3MlE5WDYyc0dsM1dZVWs4bGI3RndXRmp2TGxRNVFuT3VkcUhZd0NPRWtmeVFjd0M4WWhGZXo1dmNGXzRrNWlUUkQ5MTVEZmk5SW5TWHlrNHREQkZyeXNIOXRUTmVYVG8zS1Q0Zzk2YTVhNDM3NF9rT2JMeHNKUnJfV01YcVZXUDBrOVJOa21WX2FRdlBkdG0tU1VidDV2QllwNWxORDFWX2drN0dzYTRNR3RBQ3ZtNExwQ0RxTW82QWVkUDRQYWNLcExhanJEWHdQaXFHdmdIZGNtOXVKNWp4dURUOGNJdmJYVnM2dFMweURhYVQ0SUs1SVN3OURKWGVIZkh0ZGprdHVFWHNXT1V4RzY3UmRSUzdtb2FtWnpy?oc=5"
+}, {
+  "fingerprint" : "92f712b585787937",
+  "title" : "美国大峡谷国家公园遭遇致命山洪袭击，引发紧急疏散与用水管制",
+  "summary" : "美联社报道，美国亚利桑那州大峡谷国家公园近日突发致命山洪。暴雨引发的洪流冲毁部分基础设施与徒步路线，造成人员伤亡。公园管理部门已紧急组织受灾区域人员疏散，并对园区实施紧急供水限制和安全管控措施。",
+  "source" : "AP News Top Headlines",
+  "discoveredAt" : "2026-08-31T22:12:43.076223+00:00",
+  "severity" : "自然灾害",
+  "link" : "https://apnews.com/photo-gallery/deadly-flash-flood-forces-grand-canyon-evacuations-water-restrictions-photos-555174f4e12f4d7db925c469db45593a"
+}, {
+  "fingerprint" : "c03f77b8395882c8",
+  "title" : "尼泊尔强降雨引发特大泥石流灾害，已致939人遇难、3925人失联。",
+  "summary" : "据新华社等官方渠道最新通报，尼泊尔特大泥石流及洪涝灾害伤亡人数进一步攀升，截至目前已确认造成939人死亡，另有3925人处于失联状态。极端地质灾害致使灾区大批房屋道路受损，多国救援力量与当地部门正全力展开搜救。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-31T17:50:13.362639+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FNExWZzMxLVpZWnZDeEJrUTNiSHNEQVBfQ1d5T2tqNnAxenBja2lTZjF5LWxMTFhQQUUyUTJzajIwSkNhaDljSHFEeThpQ0U1bTJIU05hQUE1VE5mTHdxUVBqLUxJM0JFTW5KelJQZHJ6VF82NnZVUUdBMU0xdkU?oc=5"
+}, {
+  "fingerprint" : "a2db6f4b450b804f",
+  "title" : "美联社报道称美军新型导弹在伊朗城市造成严重破坏与大范围人员伤亡",
+  "summary" : "据美联社报道，相关调查与报告显示，美军使用的新型导弹在伊朗某城市造成了大范围的严重破坏和人员伤亡。该事件表明美伊军事对抗烈度进一步升级，或将引发伊朗方面的强烈报复行动，加剧中东整体局势动荡。",
+  "source" : "AP News World",
+  "discoveredAt" : "2026-08-31T12:29:51.895237+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://apnews.com/article/iran-lamerd-us-prsm-lockheed-martin-b4a37c59bcf5d1a11eb87aa79f153648"
+}, {
+  "fingerprint" : "03035cd228d61547",
+  "title" : "尼泊尔特大泥石流灾害中约590名外国公民失联",
+  "summary" : "新华网报道，尼泊尔近期持续强降雨引发严重泥石流与山洪灾害，造成约590名外国公民失联。目前灾区多处道路交通与通信中断，尼泊尔搜救部门正会同多方力量在恶劣天气条件下紧急搜寻受困人员及遇难者。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-31T11:27:59.001657+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QVXloQTBiYkRaMUU3bEtLN3hidVhTWG1Bazdhb2dKWTFUM3BzLXRmLXUzSDdMTjBfTXN3V0UzQmx6RE9DazlzQUM0R0NocjA0cTd6OHl0QkEwbzJxNDBVRFhab2hraDJwN3cwRVJzcFZGa01nMXBzNDQ5ajhDc3c?oc=5"
+}, {
+  "fingerprint" : "4ceaff30925bbcf7",
+  "title" : "伊拉克首都巴格达一炼油厂发生不明原因爆炸并引发火灾",
+  "summary" : "据半岛电视台报道，伊拉克首都巴格达南部的多拉（Al-Dora）炼油厂及发电厂突发不明原因爆炸并引发大火。多拉设施为巴格达重要能源与电力枢纽，当前中东地缘冲突加剧背景下，事件起因及伤亡损失正待官方进一步通报。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-08-31T10:52:13.180612+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad?traffic_source=rss"
+}, {
+  "fingerprint" : "593fd376c0144121",
+  "title" : "报道称美军空袭伊朗南部岛屿并造成伤亡，伊朗随后向约旦境内美军基地发射导弹。",
+  "summary" : "据报道，美伊冲突出现新一轮直接军事交火：美军空袭伊朗南部岛屿并造成多人伤亡，伊朗随后向约旦境内美军基地发射导弹。相关伤亡、袭击规模及目标信息尚待美国、伊朗及约旦官方确认，但事件若属实，将显著推高中东地区全面升级风险，并对国际能源市场形成冲击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-31T05:06:38.203089+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mVzltTE1TbDJETVhoMnh2WGZ1ZFB4NGllQ21DMWdkbVY2SmVtZWJCTjNScHUwNzdLQjJ1SlJaN0M5blphZXJtZGR0NVcwTGdpNW9LOWZTN0RYMHJkVklUVW5NMGQxQQ?oc=5"
+}, {
+  "fingerprint" : "8cd05b960e0b67bd",
+  "title" : "尼泊尔暴雨引发的泥石流及洪灾持续恶化，遇难人数已攀升至903人。",
+  "summary" : "据央广网报道，尼泊尔近期由持续强降雨引发的特大泥石流与洪涝灾害已导致至少903人遇难。灾害造成大范围房屋倒塌和基础设施损毁，多地交通瘫痪，搜救与善后工作正面临巨大挑战。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-31T05:06:10.974441+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nVFE0QXZSUGhKYnBrdUVvVGlXbC0tWHJ1QUkxUVFhMzhCdDE3eE9IZ2h1STAzeTkwRHY0ZEc1eWhDMzR6VmxPWDZJRW5RY29nVWFfNmlHaTVia252U0p2T1VsNFJxYkNo?oc=5"
+}, {
+  "fingerprint" : "f31907a877abecdb",
+  "title" : "伊朗媒体称伊朗伊斯兰革命卫队发射导弹袭击了位于约旦的美军基地",
+  "summary" : "据伊朗媒体报道，伊朗伊斯兰革命卫队对位于约旦境内的美军基地发动了导弹袭击。该事件标志着中东地缘政治和军事对抗出现重大升级，可能直接引发美伊双方更广泛的直接军事冲突与报复行动，具体伤亡及设施损毁情况有待进一步核实。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-31T02:06:11.581186+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU0NUVGFQTzRuYk1NZzNvQWx1N2M1dmU2Y3N3ZURhcTJjWnBMZy1vLWNjcE1URDdhSk5xZFZnMVc1VlZvY1MzaUs5dWlBNFpoaGU0UUNrdDNqUUZhTDdzMzVmZjNEelRqUWk4?oc=5"
+}, {
+  "fingerprint" : "6fde386b8e0b6c9c",
+  "title" : "美国大峡谷国家公园突发山洪灾害，导致超过20名游客和徒步人员失联。",
+  "summary" : "据新华网援引外媒报道，美国亚利桑那州大峡谷国家公园局部突降暴雨引发罕见山洪，已造成超过20名游客及徒步人员失联。国家公园管理局与当地救援力量已紧急启动多部门联合搜救，并对涉险区域实施封闭管制。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T22:57:59.538042+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSzVHeUZ5ZmhtV2JhVkN3Tk9xM2dwLWQzY1dZTHI4ZU11cTZJdVdrV2NqSXBjdF9ydGtrVnpyMUJlUGd3emNJOHM5T0thcnpkUVZKUURrZmtkUXVPZFF5NGtvVzQySXpETmM3S0NwWFNfWnNpSERXbEp3OC1SUEZTdGxTZEotYzVsNHJHdzQxRHpQOWdFOVF6Mktn?oc=5"
+}, {
+  "fingerprint" : "ca96878420be3451",
+  "title" : "西藏吉隆县突发特大泥石流灾害，官方通报已致16人遇难、546人失联，搜救工作全面加速。",
+  "summary" : "西藏日喀则市吉隆县遭遇特大泥石流灾害，最新灾情统计显示已导致16人遇难、546人失联。灾情发生后，应急、消防、公安及解放军等多方救援力量紧急赶赴现场，克服道路阻断等困难加速推进人员搜救、安置与基础设施抢通工作。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T17:47:30.298747+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hRUdLcFVqSDVUbzAtbFY1MUdPUXBYLThtSW5zU0RBVWY4c3VNczd4NG5QaUhmSFBUdjY1LVk0ZDVoRFhhYlBUWUI3bkhYNlNSbEctUkxaeHUtM1hQREpmSnM5ZjA4S3d6WFFrbzF3aw?oc=5"
+}, {
+  "fingerprint" : "8c0451e41d9b0575",
+  "title" : "一艘载有267人的客货渡船在塞浦路斯附近海域沉没",
+  "summary" : "新华网报道，一艘载有267人的客货渡船在塞浦路斯附近海域发生沉没事故。该事件涉及大量人员涉险，目前当地海事救援部门已紧急展开搜救行动，伤亡及具体失联情况正进一步核查中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T11:34:27.233770+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JeUI0dVZIMndwN0lJV19weHQyekRNcW9MNC1lemhkSlhmbUdwZ0E3MjFPVEhUYnYwTmpOUlFoWXpWQWhybjR4MzI0aEc5MUl0SjNZUU5jTkZCQUdJWktGeXZ5MmJhVldhdDNlZjF2aVJIM2NuZ3JXendCTDdCSmc?oc=5"
+}, {
+  "fingerprint" : "2d06c184f9305ebb",
+  "title" : "尼泊尔与中国西藏边境喜马拉雅区域特大洪灾遇难人数已攀升至750人",
+  "summary" : "据联合早报等媒体最新通报，受极端强降雨影响，尼泊尔与中国西藏交界喜马拉雅地区暴发的特大山洪与泥石流灾情持续扩大，遇难人数已升至750人。灾害造成跨境多地交通中断与设施破坏，目前搜救与应急排查工作仍在全面进行中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T07:36:20.455765+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FdE5BNVdfbjdDNVBuMnpQZU1CZEdRbzVHYkowRy1QaGtsQ0NaaUpiVFZmcWF0NWw5bGdiT1FWQ1RfUllNLVBGRzVjd05pd2ZCRlFOT2hnYjd0bUdiVTRfdzdRUUZWeHFKOEE?oc=5"
+}, {
+  "fingerprint" : "cd47e9a1a2914fe0",
+  "title" : "瑞士境内发生一起严重枪击事件，已造成多人死伤。",
+  "summary" : "据中国日报网等媒体报道，瑞士突发一起恶性枪击事件，造成多人伤亡。枪击发生后当地警方及应急力量迅速介入处置并封锁相关区域。作为枪支管理严格且治安相对稳定的欧洲国家，该起枪击案引发国际关注，事件详细伤亡及原因正进一步调查中。",
+  "source" : "Google News China Breaking",
+  "discoveredAt" : "2026-08-30T06:12:14.928934+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4YngyUndVckppSHVGSzE2bWJFVDI5cmt4TXR5THd3UF9LbHVNMU9kLUoxSmMwQWtkUkp0WFVkZWloMUFiTFR3Q2tqZGhJWmxwcTR4bHd1Rm05Z09qUXZQVTM1akprU1JsQjRkOFNfMlRuN2MzNDItVklfQQ?oc=5"
+}, {
+  "fingerprint" : "9983f1d0bda7f6de",
+  "title" : "西藏日喀则吉隆县发生泥石流灾害，官方排查出261名外籍人员处于失联状态并全力搜救",
+  "summary" : "新华社通报，西藏自治区日喀则市吉隆县突发泥石流灾害，经各方拉网式排查，初步核实共有261名外籍人员失联。当地应急管理、公安、边检及救援力量已全面启动应急预案，正在复杂恶劣地形与气象条件下全力开展人员搜救及排险工作。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-08-30T02:31:24.017699+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMifkFVX3lxTE01RTduZ3FOX1VMQl83X2FydWdSNnlON3pZeVRtVU5LN1djbjNWaGhJeDMyZkZ0el93WlVsR3ZCRkFPTVFCTDllUm9RQ0pHM0M4dTRGZ1RuOVh5VDJxUllTaXpGTXhnOXg0TDJpRWRXUURDdFp0NUsyZ0dXMnNiUQ?oc=5"
+} ]
