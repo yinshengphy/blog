@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
-  const categoryNames = ['TRENDING', '每日早报', '每日技术推送', '技术学习', '知识笔记', '随笔'];
+  const categoryNames = ['每日早报', '每日技术推送', '技术学习', '知识笔记', '随笔'];
   return categoryNames.map((category) => ({
     params: { category },
     props: { category }

@@ -6,34 +6,202 @@ const posts = await getCollection('posts');
 const trendingPost = posts.find((p) => p.id === 'global-trending' || p.id === 'global-trending.md');
 
 let Content: any = null;
-let renderedPost = null;
+let headings: { depth: number; slug: string; text: string }[] = [];
 if (trendingPost) {
-  renderedPost = trendingPost;
   const res = await render(trendingPost);
   Content = res.Content;
+  headings = res.headings;
 }
+
+const tocHeadings = headings.filter((h) => h.depth <= 3);
+const minTocDepth = tocHeadings.length > 0 ? Math.min(...tocHeadings.map((h) => h.depth)) : 2;
 ---
 
 <BaseLayout title="TRENDING" description="过去12小时内全球热议焦点与事实交叉核验（持续滚动更新）。">
-  <div class="archive-page trending-page">
+  <article class="post-shell">
     <a class="back-link" href="/">返回首页</a>
     
-    <section class="breaking-board" aria-labelledby="trending-board-title">
-      <div class="breaking-board-heading">
-        <div>
-          <p class="section-label">Rolling 12 Hours</p>
-          <h2 id="trending-board-title">TRENDING</h2>
-          <p>过去 12 小时内全球热议焦点与事实交叉核验简报，系统每 2 小时滚动更新。</p>
+    <header class="post-hero" style="grid-template-columns: 1fr; border-bottom: 1px solid var(--line);">
+      <div class="post-intro">
+        <div class="post-meta-row">
+          <p class="meta">滚动更新</p>
+          <span class="meta-divider">·</span>
+          <p class="meta">近 12 小时热议</p>
         </div>
+        <h1 id="trending-board-title">TRENDING</h1>
+        <p class="post-description">过去 12 小时内全球热议焦点与多源交叉核验结果。系统每 2 小时滚动更新，自动保留最新动态。</p>
       </div>
+    </header>
 
-      <div class="post-content trending-content" style="margin-top: 1.5rem; line-height: 1.8;">
+    <div class="post-body-layout">
+      <aside class="post-sidebar">
+        {tocHeadings.length > 0 && (
+          <section class="toc-panel" id="post-toc">
+            <details class="toc-details" open>
+              <summary class="toc-title toc-summary">热议目录</summary>
+              <div class="toc-scroll">
+                <nav aria-label="热议目录">
+                  <ol class="toc-list">
+                    {tocHeadings.map((heading) => (
+                      <li class={`toc-level-${heading.depth - minTocDepth + 1}`}>
+                        <a class="toc-link" href={`#${heading.slug}`} data-target={heading.slug}>
+                          {heading.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              </div>
+            </details>
+          </section>
+        )}
+        <section class="author-panel">
+          <p class="toc-title">数据监测机制</p>
+          <p>基于全球搜索与社媒热度信号，结合多家权威媒体交叉核验，纯事实呈现。</p>
+        </section>
+      </aside>
+
+      <div class="prose">
         {Content ? (
           <Content />
         ) : (
           <p class="breaking-empty">暂无最近12小时的热议动态。</p>
         )}
       </div>
-    </section>
-  </div>
+    </div>
+    {tocHeadings.length > 0 && (
+      <a class="toc-return-link" href="#post-toc" aria-label="回到目录">
+        目录
+      </a>
+    )}
+  </article>
 </BaseLayout>
+
+<script>
+  const tocLinks = Array.from(
+    document.querySelectorAll<HTMLAnchorElement>('.toc-link')
+  );
+  const tocDetails = document.querySelector<HTMLDetailsElement>('.toc-details');
+  const tocReturnLink = document.querySelector<HTMLAnchorElement>('.toc-return-link');
+  const mobileQuery = window.matchMedia('(max-width: 780px)');
+  const observedHeadings = tocLinks
+    .map((link) => document.getElementById(link.dataset.target || ''))
+    .filter((heading): heading is HTMLElement => heading instanceof HTMLElement);
+  const headingScrollOffset = 96;
+  let manualTargetId: string | null = null;
+  let manualTargetTimer: number | undefined;
+
+  const syncTocDisclosure = () => {
+    if (tocDetails) {
+      tocDetails.open = !mobileQuery.matches;
+    }
+  };
+
+  syncTocDisclosure();
+  mobileQuery.addEventListener('change', syncTocDisclosure);
+
+  const setActiveHeading = (id: string) => {
+    tocLinks.forEach((link) => {
+      const isActive = link.dataset.target === id;
+      link.classList.toggle('is-active', isActive);
+      if (isActive) {
+        link.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      }
+    });
+
+    observedHeadings.forEach((heading) => {
+      heading.classList.toggle('is-active-heading', heading.id === id);
+    });
+  };
+
+  const decodeHash = () => {
+    const hash = window.location.hash.slice(1);
+    try {
+      return decodeURIComponent(hash);
+    } catch {
+      return hash;
+    }
+  };
+
+  const syncActiveHeading = () => {
+    if (manualTargetId) {
+      setActiveHeading(manualTargetId);
+      return;
+    }
+
+    let currentHeading = observedHeadings[0];
+    observedHeadings.forEach((heading) => {
+      if (heading.getBoundingClientRect().top <= headingScrollOffset) {
+        currentHeading = heading;
+      }
+    });
+
+    if (currentHeading) setActiveHeading(currentHeading.id);
+  };
+
+  const scrollToHeading = (id: string) => {
+    const target = document.getElementById(id);
+    if (!target) return;
+
+    manualTargetId = id;
+    if (manualTargetTimer) window.clearTimeout(manualTargetTimer);
+    setActiveHeading(id);
+    history.pushState({ tocHeading: id }, '', `#${encodeURIComponent(id)}`);
+    target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    manualTargetTimer = window.setTimeout(() => {
+      manualTargetId = null;
+      syncActiveHeading();
+    }, 1200);
+  };
+
+  if (observedHeadings.length > 0) {
+    if (window.location.hash) {
+      const hashId = decodeHash();
+      if (observedHeadings.some((heading) => heading.id === hashId)) {
+        setActiveHeading(hashId);
+      } else {
+        syncActiveHeading();
+      }
+    } else {
+      syncActiveHeading();
+    }
+
+    let scrollFrame = 0;
+    const onScroll = () => {
+      if (scrollFrame) return;
+      scrollFrame = window.requestAnimationFrame(() => {
+        scrollFrame = 0;
+        syncActiveHeading();
+      });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', syncActiveHeading);
+
+    window.addEventListener('hashchange', () => {
+      const hashId = decodeHash();
+      if (hashId && observedHeadings.some((heading) => heading.id === hashId)) {
+        setActiveHeading(hashId);
+      } else {
+        syncActiveHeading();
+      }
+    });
+
+    tocLinks.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetId = link.dataset.target;
+        if (targetId) scrollToHeading(targetId);
+        if (tocDetails && mobileQuery.matches) {
+          tocDetails.open = false;
+        }
+      });
+    });
+
+    tocReturnLink?.addEventListener('click', () => {
+      if (tocDetails && mobileQuery.matches) {
+        tocDetails.open = true;
+      }
+    });
+  }
+</script>
