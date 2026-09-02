@@ -395,34 +395,55 @@ h3 {
 
 .breaking-item {
   min-width: 0;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--line);
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.breaking-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-color: var(--accent);
 }
 
 .breaking-item-meta {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .breaking-item-meta span {
-  padding: 3px 7px;
-  border-radius: 3px;
+  padding: 3px 8px;
+  border-radius: 4px;
   background: #fff0ed;
   color: #b5432f;
   font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.breaking-item-meta time {
+  font-family: var(--font-mono, monospace);
+  font-size: 12px;
+  opacity: 0.85;
 }
 
 .breaking-item h3 {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 12px;
+  font-size: 19px;
   line-height: 1.45;
+  font-weight: 700;
 }
 
 .breaking-item h3 a {
   text-decoration: none;
+  color: var(--text);
 }
 
 .breaking-item h3 a:hover {
@@ -430,15 +451,18 @@ h3 {
 }
 
 .breaking-item p {
-  margin: 9px 0 0;
+  margin: 12px 0 0;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 
 .breaking-item small {
-  display: block;
-  margin-top: 10px;
+  display: inline-block;
+  margin-top: 14px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--surface-soft, rgba(0,0,0,0.03));
   color: var(--muted);
   font-size: 12px;
 }

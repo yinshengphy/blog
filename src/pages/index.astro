@@ -9,11 +9,15 @@ const categories = ['每日早报', '每日技术推送', '技术学习', '知�
 const latestDate = posts[0]?.data.date;
 
 function formatDate(date: Date) {
-  return date.toLocaleDateString('zh-CN', {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit'
-  });
+  const d = new Date(date);
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const year = d.getFullYear();
+  const month = pad(d.getMonth() + 1);
+  const day = pad(d.getDate());
+  const hours = pad(d.getHours());
+  const minutes = pad(d.getMinutes());
+  const seconds = pad(d.getSeconds());
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 ---
 
