@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0d627317ab220813",
+  "title" : "尼泊尔特大泥石流致近百名中国公民失联 中方敦促尼方全力搜救",
+  "summary" : "尼泊尔强降雨引发的特大泥石流灾情进一步恶化，灾区现场通信与道路严重受损。据媒体报道，受灾区域有近百名中国公民处于失联状态。中方相关部门已介入并紧急敦促尼泊尔政府加大搜救力度，全力排查失联人员下落并保障被困人员安全。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-03T11:49:54.147226+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRmZwMTR0NDZySlVVUnhFWVdVMDJpbTdDMHFfWUVCaV9xdVFoU2xjNXNWQXBWNzAwVFNULUpPV1FPV1dEZ0ptWDhVemlmNTZmNFZBYk1IZkhsTzBvWXFKY1Z0Uk4wNkk5SFdtN05tWlJSOFRNVFBwaXdBcEtLYVVOQUxxaEc?oc=5"
+}, {
   "fingerprint" : "513c39dff83708ab",
   "title" : "美伊爆发数月来最大规模军事互袭 国际社会担忧中东局势全面升级",
   "summary" : "美军与伊朗及其相关武装势力近期爆发自7月以来的最大规模军事互袭行动。随着双方打击规模与报复行动升级，中东地缘对抗风险骤然加剧，国际社会高度担忧该地区滑向更大规模的直接军事冲突，对区域稳定与全球能源供应链构成严重威胁。",
@@ -246,20 +254,4 @@
   "discoveredAt" : "2026-08-31T12:29:51.895237+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://apnews.com/article/iran-lamerd-us-prsm-lockheed-martin-b4a37c59bcf5d1a11eb87aa79f153648"
-}, {
-  "fingerprint" : "03035cd228d61547",
-  "title" : "尼泊尔特大泥石流灾害中约590名外国公民失联",
-  "summary" : "新华网报道，尼泊尔近期持续强降雨引发严重泥石流与山洪灾害，造成约590名外国公民失联。目前灾区多处道路交通与通信中断，尼泊尔搜救部门正会同多方力量在恶劣天气条件下紧急搜寻受困人员及遇难者。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-08-31T11:27:59.001657+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QVXloQTBiYkRaMUU3bEtLN3hidVhTWG1Bazdhb2dKWTFUM3BzLXRmLXUzSDdMTjBfTXN3V0UzQmx6RE9DazlzQUM0R0NocjA0cTd6OHl0QkEwbzJxNDBVRFhab2hraDJwN3cwRVJzcFZGa01nMXBzNDQ5ajhDc3c?oc=5"
-}, {
-  "fingerprint" : "4ceaff30925bbcf7",
-  "title" : "伊拉克首都巴格达一炼油厂发生不明原因爆炸并引发火灾",
-  "summary" : "据半岛电视台报道，伊拉克首都巴格达南部的多拉（Al-Dora）炼油厂及发电厂突发不明原因爆炸并引发大火。多拉设施为巴格达重要能源与电力枢纽，当前中东地缘冲突加剧背景下，事件起因及伤亡损失正待官方进一步通报。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-08-31T10:52:13.180612+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad?traffic_source=rss"
 } ]
