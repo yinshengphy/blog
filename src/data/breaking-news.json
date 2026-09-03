@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "f9ff031695c139bb",
+  "title" : "索马里西南州重镇拜多阿遭武装突袭 现场爆炸枪声密集官方称已击退进攻",
+  "summary" : "据半岛电视台报道，索马里西南州政治局势持续紧张之际，首府拜多阿突遭武装组织袭击，市区传出密集爆炸与枪声。索马里安全部队随后与袭击者爆发激烈交火并宣布击退攻势。目前具体伤亡情况尚待官方进一步核实。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-03T14:19:44.702778+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/9/3/somalia-repels-armed-assault-on-baidoa-amid-regional-political-tensions?traffic_source=rss"
+}, {
   "fingerprint" : "03f4cec03fd478aa",
   "title" : "四川绵阳江油市发生5.4级地震 震中周边震感强烈",
   "summary" : "据美国地质调查局（USGS）速报，北京时间2026年9月3日19时39分，中国四川省绵阳市江油市西北偏西21公里处发生5.4级地震。该震中处于川西北地震多发构造带，周边人口聚集区震感显著，目前尚无人员伤亡与建筑物损毁的官方报告。",
@@ -254,12 +262,4 @@
   "discoveredAt" : "2026-08-31T17:50:13.362639+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FNExWZzMxLVpZWnZDeEJrUTNiSHNEQVBfQ1d5T2tqNnAxenBja2lTZjF5LWxMTFhQQUUyUTJzajIwSkNhaDljSHFEeThpQ0U1bTJIU05hQUE1VE5mTHdxUVBqLUxJM0JFTW5KelJQZHJ6VF82NnZVUUdBMU0xdkU?oc=5"
-}, {
-  "fingerprint" : "a2db6f4b450b804f",
-  "title" : "美联社报道称美军新型导弹在伊朗城市造成严重破坏与大范围人员伤亡",
-  "summary" : "据美联社报道，相关调查与报告显示，美军使用的新型导弹在伊朗某城市造成了大范围的严重破坏和人员伤亡。该事件表明美伊军事对抗烈度进一步升级，或将引发伊朗方面的强烈报复行动，加剧中东整体局势动荡。",
-  "source" : "AP News World",
-  "discoveredAt" : "2026-08-31T12:29:51.895237+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://apnews.com/article/iran-lamerd-us-prsm-lockheed-martin-b4a37c59bcf5d1a11eb87aa79f153648"
 } ]
