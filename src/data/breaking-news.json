@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5d92a4e1c5a25e4f",
+  "title" : "以军无人机空袭黎巴嫩南部曼苏里镇引发多次剧烈爆炸",
+  "summary" : "半岛电视台报道，以色列军用无人机向黎巴嫩南部城镇曼苏里投掷爆炸装置，现场传出多次剧烈爆炸声。在黎以边境对峙持续升级的背景下，此次袭击进一步加剧了前线交火态势，目前伤亡与具体受损情况仍在核实统计中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-04T20:08:40.098610+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-israel-drone-bombs-mansouri-lb-fm?traffic_source=rss"
+}, {
   "fingerprint" : "a710310257e27135",
   "title" : "乌军袭击俄民用设施 普京警告俄军将发起大规模反击回应",
   "summary" : "针对乌军袭击俄罗斯本土及民用设施的行为，俄罗斯总统普京公开发表严厉警告，将其定性为恐怖袭击，并表态俄武装力量将展开大规模反击予以回应。该表态释放了战事显著升级的危险信号，乌克兰多地基础设施和军事目标或将面临新一轮集中精确打击。",
@@ -278,20 +286,4 @@
   "discoveredAt" : "2026-09-01T20:44:51.814374+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://apnews.com/article/iran-us-strikes-ad84a64884aedbbd1e5914182bb3cd8d"
-}, {
-  "fingerprint" : "e9e34a823352a323",
-  "title" : "伊朗半官方媒体称伊朗正发射无人机和导弹反击美军袭击",
-  "summary" : "据美联社援引伊朗半官方媒体消息，为回应美军此前发动的多轮军事打击，伊朗方面正在发射无人机和导弹实施报复性反击。美伊军事对抗进入直接交火升级阶段，中东局势极度紧张，多方正密切关注拦截与战损情况。",
-  "source" : "AP News Top Headlines",
-  "discoveredAt" : "2026-09-01T19:06:07.098991+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://apnews.com/live/trump-dan-driscoll-white-house-ballroom-updates-09-01-2026"
-}, {
-  "fingerprint" : "e689d6f6b6f987d6",
-  "title" : "美军对伊朗目标发起新一轮军事打击 伊朗官方媒体证实多地传出爆炸声",
-  "summary" : "据BBC报道，美军中央司令部对伊朗目标发起了新一轮军事打击，伊朗官方媒体随后报道境内多地传出剧烈爆炸声。美方指责伊朗对区域内商业船只及部署美军构成直接威胁。此轮袭击标志着美伊直接军事对抗进一步扩大升级，引发全球对中东全面冲突的极度担忧。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-01T18:59:34.123138+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
 } ]
