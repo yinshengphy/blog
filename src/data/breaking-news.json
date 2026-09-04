@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "389eaecf740d67b6",
+  "title" : "印度尼西亚加里曼丹林火持续蔓延 浓烈有毒烟霾席卷东南亚多国",
+  "summary" : "半岛电视台报道，印度尼西亚加里曼丹省森林及泥炭地火灾持续肆虐，产生的浓烈有毒烟霾跨境蔓延席卷东南亚多国。干旱天气加剧火势扩散，导致区域多国空气质量指数严重超标，引发跨国公共卫生与环境安全危机。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-04T18:08:13.433236+00:00",
+  "severity" : "重大自然灾害",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-indonesia-kalimantan-haze-borneo-wildfires-haze-id?traffic_source=rss"
+}, {
   "fingerprint" : "dd80f4cc8f9ac361",
   "title" : "尼泊尔极端强降雨引发特大山洪与泥石流 建筑遭吞没致严重人员伤亡",
   "summary" : "尼泊尔近日遭遇极端暴雨袭击，多地爆发破坏性山洪和泥石流。现场影像显示滚滚洪流直接冲垮并吞没沿河建筑，多地灾情极其严峻。灾害已造成大规模人员伤亡与失联，当地正全力展开应急救援和灾后疏散工作。",
@@ -278,52 +286,4 @@
   "discoveredAt" : "2026-09-01T18:59:34.123138+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "166bb7ec7b79bcf4",
-  "title" : "以军对黎巴嫩南部曼苏里发动新一轮空袭引爆强烈震动 大批居民紧急逃离",
-  "summary" : "据半岛电视台报道，当地时间周二，以色列军队对黎巴嫩南部城镇曼苏里展开新一轮空袭，袭击现场引发巨大爆炸与强烈震动。随着以军打击行动持续，当地大量居民再次被迫逃离家园避险。目前具体人员伤亡及财产损失情况正在进一步核实中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-01T15:57:51.142489+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/1/mansouri-rocked-by-israeli-strikes-as-residents-flee-again?traffic_source=rss"
-}, {
-  "fingerprint" : "4638a7a07897016e",
-  "title" : "尼泊尔特大泥石流灾害已致1068人遇难逾4600人失联",
-  "summary" : "据官方及权威媒体通报，尼泊尔近期因持续强降雨引发特大规模泥石流及山洪灾害，截至目前已确认造成1068人死亡，另有4606人失联。灾害导致全国多地基础设施瘫痪、大量村落被埋，多国及当地救援力量正全力搜救。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-01T15:47:40.790088+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JUGVqQU5RWEZPMThIcDExRGxRUUNRWmVYbVJHa2JKWDgxaTNXRFpBdi1LbkRJT1E5YloyMGszNTNRTXd4a25LaWNNUkRScWx1SHV0cE5TODc3NHBYeThhWVo0Z2ptSVlXdEdF?oc=5"
-}, {
-  "fingerprint" : "275546b6537be3f1",
-  "title" : "特大泥石流冲毁中尼边境西藏吉隆口岸 两国两侧数百名外国旅客失联",
-  "summary" : "受近期强降雨影响，连接中国西藏与尼泊尔的核心陆路贸易通道吉隆口岸突遭毁灭性泥石流冲击，口岸设施严重受损。据外媒报道，泥石流发生时冲垮关键通道，导致中国与尼泊尔两侧各有数百名外国旅客失联，目前跨境救援行动正在紧急展开。",
-  "source" : "BBC Chinese (中文要闻)",
-  "discoveredAt" : "2026-09-01T12:04:11.607651+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.bbc.com/zhongwen/articles/cp802gnj5kmo/trad?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "cd8efe64f5615ffa",
-  "title" : "俄罗斯对乌克兰基辅发动大规模导弹与无人机袭击 遇难人数升至至少12人",
-  "summary" : "半岛电视台报道，俄罗斯对乌克兰首都基辅发动新一轮大规模导弹与无人机联合空袭，遇难人数已攀升至至少12人。袭击发生之际，欧盟国防部长正于爱尔兰举行会议，紧急商讨乌克兰目前面临的严重防空武器短缺问题。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-01T09:16:56.884078+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv?traffic_source=rss"
-}, {
-  "fingerprint" : "4943643deaf16c14",
-  "title" : "美军空袭伊朗拉腊克岛造成2人死亡多人受伤",
-  "summary" : "新华网客户端报道称，美军袭击伊朗拉腊克岛，造成2人死亡、多人受伤。拉腊克岛位于霍尔木兹海峡附近，具有重要海上交通与军事地理意义。若袭击事实及伤亡得到更多信源确认，意味着美伊冲突范围进一步扩大，海湾航运、能源供应及地区安全风险均可能上升。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-01T09:13:36.009992+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjRMa3J2V29PakRHLVYzS2dSOGUwLUJXSDRNYkxDNnVtbFJ0dE1kNjBHeFhNUXdkazZibmVONGpscm1JTGRrQzFnSXZzLWI2MF9BaWdWbTM5VFBBWkowbU5nWVFpbHdHLWNmaTROWDlpMjljZmdPYUpSdTdyNkR0VG16dlEzOVdBMWM3X1FBTEtmN2FVTXAydG5R?oc=5"
-}, {
-  "fingerprint" : "e466d5e75c37335d",
-  "title" : "尼泊尔特大泥石流洪灾遇难人数突破1000人 救援人员正紧急搜救被困隧道工人",
-  "summary" : "据BBC报道，尼泊尔强降雨引发的严重洪灾和泥石流已导致超过1000人遇难，目前仍有数千人失踪。搜救人员正在充满泥浆的隧道中紧急搜救受困工人。同时，灾情已波及临近的中国西藏地区，官方通报西藏已有16人遇难。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-01T07:39:50.515588+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
 } ]
