@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "a7447889545f54ab",
+  "title" : "以色列空袭黎巴嫩南部造成至少5人死亡 边境紧张局势加剧",
+  "summary" : "据中国经济网及海外主流媒体消息，以色列军队对黎巴嫩南部多处目标发动空袭，目前已确认造成至少5人死亡。随着黎以边境跨境交火与空袭烈度持续上升，该地区安全形势愈发严峻，停火前景与平民安全面临严重威胁。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-05T00:09:38.238536+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSV0Q0aXI5WVFQVkNfS3RTY0dMVEktSFBaU2lIdi1BLTNncnlnQllVTUxpODlfR2Y1OGFKVzhCQUZWbkZMV1BucEpmbUpUQjNZRXRwNVU1UFdaek4xS2dESUk2TQ?oc=5"
+}, {
   "fingerprint" : "37ceb9759b291bb9",
   "title" : "俄军无人机突袭乌克兰安全局总部 泽连斯基称局长办公室沦为打击目标",
   "summary" : "乌克兰国家安全局位于首都基辅市中心的总部遭到俄罗斯无人机袭击。乌克兰总统泽连斯基随后证实，此次袭击的直接目标是该局高层领导人的办公室。这是俄乌冲突中针对乌克兰核心指挥中枢极具威慑性的突发空袭行动。",
@@ -278,12 +286,4 @@
   "discoveredAt" : "2026-09-02T00:22:47.306192+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FX1dYSTdSN2xwdWlNUDV0Y3AxckkzVVRLdkdkZ1lOOEJWa20xNV9sendDajlxTGdSYkthMDFXRmFNME1iTFpZZmMyTzQ1T1ZMQ084Y2dlOWRoMC1HVWVpenVBdXR0Uk1v?oc=5"
-}, {
-  "fingerprint" : "22de5ae4074d406a",
-  "title" : "委内瑞拉主要国际机场在致死性地震后部分恢复商业航班运营",
-  "summary" : "据美联社报道，在遭遇造成人员伤亡的地震袭击后，委内瑞拉主要国际机场迈克蒂亚西蒙·玻利瓦尔机场已部分恢复商业航班运营。地震此前对当地空中交通和基础设施造成严重影响，目前救援与灾后恢复工作仍在持续推进。",
-  "source" : "AP News Top Headlines",
-  "discoveredAt" : "2026-09-01T23:53:46.592499+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://apnews.com/article/venezuela-airport-simon-bolivar-flights-resume-earthquakes-74144da8c39b41ba7f3559ff3bd264d7"
 } ]
