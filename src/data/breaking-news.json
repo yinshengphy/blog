@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "70b1fc79408e6c00",
+  "title" : "尼泊尔特大泥石流灾害持续恶化 遇难人数升至1342人近5000人失联",
+  "summary" : "据媒体报道，受极端强降雨影响，尼泊尔境内引发特大泥石流及山洪灾害。最新官方统计显示，遇难人数已急剧升至1342人，另有4898人处于失联状态，大批民房遭滑坡掩埋，基础设施受损极其严重，搜救工作正在极端艰难的条件下全面展开。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-05T01:54:53.133147+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WUHNzcU9hYURSczg0U2NHWUhwaHNqVlBQQzNDcGpybmh0ZldKendqTW1DQkdhNW9qRXVBT0ktTW13NzdpMUJ6bmRHUzkwZE0?oc=5"
+}, {
   "fingerprint" : "ea798e0933b77562",
   "title" : "西藏日喀则吉隆县突发特大泥石流灾害 已致31人遇难531人失联",
   "summary" : "西藏日喀则市吉隆县发生严重泥石流自然灾害，截至目前已导致31人不幸遇难、531人失联。灾害发生后，应急、消防及当地救援力量紧急赶赴现场抢险救援，安置受灾人员，相关搜救核查工作正全力进行中。",
@@ -270,12 +278,4 @@
   "discoveredAt" : "2026-09-02T04:30:11.173524+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRNWpHdG9CX2hma1RicjBpY1pXQmVzUEVCdWRPNHFWZWpEb3BsWklhdEdmWGtjM3UtOEVoV28zVVVUOUUzY1U2R0h6U2JacWlMV1RON1daTS1ET0VHMXc?oc=5"
-}, {
-  "fingerprint" : "93c147556c9bf3be",
-  "title" : "伊朗南部锡里克一婚礼现场遭美军袭击 已致至少4人死亡50人受伤",
-  "summary" : "据媒体报道，伊朗南部霍尔木兹甘省锡里克市的一处婚礼现场遭遇美军袭击。袭击目前已导致至少4人死亡、50人受伤。随着美伊双方军事行动持续升级，本次袭击造成的平民重大伤亡恐将进一步推高地区对抗烈度。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-02T01:04:21.970247+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jSXpEU2RjUUhUai12bExMYkoxekNGV1BESDJYSnZKa1BCZ0pRWnc5WnJIOXpNc1VYYzZod2p1SVNSN2pPU1dwMk1IWHZEaURGTjRZRFBaeDNmbWdoSDBiV25IeVlYdW12SXNISjF3T3Z0UkxRX0JLRl9TR1I?oc=5"
 } ]
