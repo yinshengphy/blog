@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d2ed5186b019db9a",
+  "title" : "伊朗哈尔克岛附近传出爆炸声 消息称伊朗油轮疑似遭美军导弹袭击",
+  "summary" : "据媒体报道，伊朗主要原油出口码头哈尔克岛附近海域突发剧烈爆炸，有消息称一艘伊朗油轮疑似遭遇美军导弹袭击。哈尔克岛是伊朗石油命脉，该突发事件引发全球高度关注，目前伤亡及受损情况尚在进一步核实中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-05T11:31:48.824965+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41SGEzTHVWdi1zdl95YlhIZzZNRkdncDk0ajVuc3pFTGQyUHJkN2h6OXNtZUpQazRneDZoS3FralQ0eVYyckV5cEtlSWxubGtmRXZB?oc=5"
+}, {
   "fingerprint" : "cf1160ac6432fa44",
   "title" : "中国江西遂川县暴雨引发泥石流灾害 已致1人遇难11人失联",
   "summary" : "受热带气旋连日强降雨影响，中国江西省吉安市遂川县于9月5日凌晨突发泥石流灾害。灾害目前已造成1人遇难、11人失联。当地已启动应急响应开展搜救与险情处置工作，具体灾情仍在进一步排查核实中。",
@@ -262,20 +270,4 @@
   "discoveredAt" : "2026-09-02T12:55:43.242325+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzMwOWxfR0trc0lXTTVkR0tJeXVSTzV4c0t5LWxOZEpjLXl5MEljeHZJeUVOLUY5cFhyampHY0k5blRKWmdUc3B1V0twQmJYQTNwRXZSRG1aSzUyZjRXOGo2ZUJKLS00VXZnU3dtSlJ3dkoweXhYRHR5MGkwZGhwWlNmUzZPUkowNWJodHp6UlVrbmpkT2UteFVR?oc=5"
-}, {
-  "fingerprint" : "4c33b7d7f9df8494",
-  "title" : "德国政府正式指控俄罗斯为莱比锡机场无人机未遂袭击幕后主使",
-  "summary" : "据德国之声报道，德国政府正式定调并公开宣布，俄罗斯莫斯科当局是此前8月4日德国莱比锡机场无人机未遂袭击事件的幕后主使。此举标志着德国官方直接指控俄方在北约本土关键基础设施实施混合破坏行动，欧洲安全局势与德俄外交关系面临进一步激化。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-09-02T10:52:07.453388+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.dw.com/zh/官宣：莫斯科是莱比锡机场无人机未遂袭击的幕后主使/a-78726525?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "ec041f4012b5f63d",
-  "title" : "伊朗伊斯兰革命卫队证实：4名士兵在美军袭击中身亡",
-  "summary" : "据新华网报道，伊朗伊斯兰革命卫队发布声明证实，共有4名士兵在美军的袭击行动中身亡。美伊两军在波斯湾及周边区域直接交火并造成正规军伤亡，标志着双方军事冲突进一步升级，中东地缘局势急剧紧绷。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-02T08:23:38.917869+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jbjVEdU9SLVA1dFhxOHAzdXJ5TDRVTy1mekIyWGJfS0FBQVVOUnU3V3NTYUVZMzJQelhhajlyRmlfQlZCSEt1clhtemlfQ0ctUWxIbVpTcGh5Nkd3WjJ5ZVhQOHFDMGpEbTlDWXJ3NllaRE9iSjJaeVIwWU5wNGc?oc=5"
 } ]
