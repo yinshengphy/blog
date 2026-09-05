@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "db61fb92d946d66e",
+  "title" : "普京下令暂停对基辅空袭三天并将会见美国特使",
+  "summary" : "新华网报道称，普京已下令暂停对基辅空袭三天，并将与美国特使会面。此举可能释放有限降温和推动谈判信号，但目前尚不清楚暂停是否涵盖其他乌克兰地区、由谁监督执行，以及乌方是否作出对等安排，俄乌战场局势仍存在快速反复风险。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-05T15:01:42.960556+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DcXdtTHpQVW1yN1dySDc5dmhTMFVCR0RoTXBCVi1qR3ZrRWVYOEkzUEZ1d2hBaDc4Z3ctUHQ1VGNVZnhRVFY4eVVZOXkzM1ozMEpsUkphaXRYVTQxblhsNzBFam16U1JjMHdmUnBOUWdiZ3FOa0V2d29jUXNuSjQ?oc=5"
+}, {
   "fingerprint" : "66edc32c0784cb3e",
   "title" : "美军袭击3艘伊朗油轮 此前称军舰遭导弹攻击",
   "summary" : "美联社报道称，美军在伊朗附近海域袭击3艘伊朗油轮，行动背景是美方指称其海军军舰遭伊朗方面导弹攻击。该事件较此前单一油轮遇袭信息显示冲突范围扩大，伤亡和具体海域仍待官方确认，可能对霍尔木兹海峡航运、国际油价及中东安全形势造成显著冲击。",
@@ -262,20 +270,4 @@
   "discoveredAt" : "2026-09-02T15:56:01.549228+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QQjd0bzZUbmxvNmRBSVF2SEtzd1VHWnZyWDhDMmpsaXU1WGM2N2FqWFJiYmdQekpYZ2J4OHV0QTRQYTBMVWJUcEFjSnJyVlBReU03RGJBblFoUUs5ZXRSVXBLVjNPT3N6djdZ?oc=5"
-}, {
-  "fingerprint" : "2b96bd0369471bb2",
-  "title" : "西藏日喀则吉隆发生“8·26”泥石流灾害 自治区召开官方新闻发布会通报灾情",
-  "summary" : "新华网发布西藏自治区吉隆“8·26”泥石流灾害新闻发布会实录。西藏官方就日喀则吉隆县遭遇突发泥石流灾害的人员搜救、受灾群众安置、边境通道及道路抢修、次生灾害防范等应急处置工作进行了权威通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-02T14:53:40.925593+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcEd5RkxCZzdTbmRTeHEyWi16eUhQckZIbEZPSkNacnB4U2ZvMmlkMGJpUzdnd05oZ1NTdjhYdUlZdUx6bF8zLTBwUUFMcHNDODZhZjUzS0NTUTlUR1pUSXRJX2oyaTI3RDktT1VaNUdBVjgyYTdXVDgzSDAzMW5iMnpBZw?oc=5"
-}, {
-  "fingerprint" : "272221af374c0834",
-  "title" : "美伊冲突急剧升级：伊朗向美军在中东多处军事基地发动反击",
-  "summary" : "据德国之声报道，在美国对伊朗境内目标发动空袭并波及平民婚礼后，中东局势严重恶化。德黑兰方面于周三对美军在中东的多个军事基地发起直接军事打击行动，美伊直接冲突波及海湾多国，地区安全态势进入高危状态。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-09-02T14:14:38.664391+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss"
 } ]
