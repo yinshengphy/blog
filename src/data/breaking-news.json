@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "04edcf01158def78",
+  "title" : "也门塔伊兹附近胡塞导弹袭击致至少4名平民死亡",
+  "summary" : "半岛电视台报道，也门塔伊兹附近一条繁忙道路遭胡塞武装导弹袭击，至少4名平民死亡。当前塔伊兹与荷台达多地战斗激烈，局势恶化正推动新一轮平民撤离，交通安全和人道救援面临进一步压力。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-05T13:25:42.616183+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/9/5/at-least-four-killed-in-houthi-missile-strike-near-yemens-taiz?traffic_source=rss"
+}, {
   "fingerprint" : "d2ed5186b019db9a",
   "title" : "伊朗哈尔克岛附近传出爆炸声 消息称伊朗油轮疑似遭美军导弹袭击",
   "summary" : "据媒体报道，伊朗主要原油出口码头哈尔克岛附近海域突发剧烈爆炸，有消息称一艘伊朗油轮疑似遭遇美军导弹袭击。哈尔克岛是伊朗石油命脉，该突发事件引发全球高度关注，目前伤亡及受损情况尚在进一步核实中。",
@@ -262,12 +270,4 @@
   "discoveredAt" : "2026-09-02T14:14:38.664391+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.dw.com/zh/美伊冲突再度升级-海湾多国受波及/a-78765320?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "cda6402c645666af",
-  "title" : "中东局势骤紧：沙特官方严正谴责伊朗在霍尔木兹海峡袭击其船只",
-  "summary" : "据新华网客户端消息，沙特阿拉伯官方发表声明，强烈谴责伊朗在国际关键能源航道霍尔木兹海峡对其船只发动袭击。该事件标志着中东海上航运安全与海湾地缘局势进一步紧张升级，引发国际社会对波斯湾战略航道畅通与国际能源供应安全的严重关切。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-02T12:55:43.242325+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzMwOWxfR0trc0lXTTVkR0tJeXVSTzV4c0t5LWxOZEpjLXl5MEljeHZJeUVOLUY5cFhyampHY0k5blRKWmdUc3B1V0twQmJYQTNwRXZSRG1aSzUyZjRXOGo2ZUJKLS00VXZnU3dtSlJ3dkoweXhYRHR5MGkwZGhwWlNmUzZPUkowNWJodHp6UlVrbmpkT2UteFVR?oc=5"
 } ]
