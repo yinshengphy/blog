@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5aa3ed8e6eba3879",
+  "title" : "二战后首次：德国极右翼选择党在州选举中夺冠引发全欧政治震荡",
+  "summary" : "德国东部图林根州举行议会选举，右翼政党德国选择党（AfD）以近三分之一的得票率拔得头筹，并在萨克森州紧追基民盟位列第二。这是二战后极右翼政党首次登顶德国州议会，被德媒及欧洲舆论普遍视作“政治地震”，沉重打击了朔尔茨内阁执政联盟，令未来联合组阁陷入僵局。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-07T02:36:14.445806+00:00",
+  "severity" : "顶级政经与科技震荡",
+  "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE90amJxRUhtU0NzZHlpMzY0ZTItcXRBaWJJTmwwRndwenZiMmJBQkViRE1wMXZ1b2VBNk9ERmxnMFpmdmZuS1FvaXJVaTgzOXJ6NlZ2M2cwYnRCYUlNcEEzU0R0cUhhaWJYN2c?oc=5"
+}, {
   "fingerprint" : "21d96b581930a289",
   "title" : "西藏吉隆县发生严重泥石流灾害 已致43人遇难",
   "summary" : "据新京报等官方权威媒体报道，西藏自治区日喀则市吉隆县发生严重泥石流灾害，截至目前已确认造成43人遇难。灾情发生后当地迅速启动应急响应展开搜救与抢险抢通，严防次生灾害发生。",
@@ -294,12 +302,4 @@
   "discoveredAt" : "2026-09-04T02:37:52.683448+00:00",
   "severity" : "重大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNYXhTTUNzel80LTdLX0pSLXhlWi1WNzJGYUh3Q0I5YTF6emxuOVdIQU5pTkZxay1Gek9tTjY0WWpRcGdxQndWUFNvYTVGT1pVdVplbUU0azJlYTd4eER1amRnNDlYZnRueEtHamJuTQ?oc=5"
-}, {
-  "fingerprint" : "eb12ddd886869b5d",
-  "title" : "美军近期袭击已致伊朗境内18人死亡142人受伤",
-  "summary" : "据中新网援引权威通报，美国近期针对伊朗实施的军事打击行动已导致伊朗境内18人死亡、142人受伤。这是美伊冲突升级以来伊方首次通报的大规模伤亡汇总数据。伤员已全面送医救治，中东局势正面临全面失控的极高风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-04T00:30:15.334457+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81djVERGFSOXduY1VPYzAtM0VxbHJLZ3hHYjFJNEpULVM1T3ZvNUY3SWtNZTJmZ29JLTV4VUZmM0JBeWwxM3lfbHhtNC04VTc2c3hScEh4NTE1VWxrQmVmd2syaElxclhU?oc=5"
 } ]
