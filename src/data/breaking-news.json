@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "2b62dc0ab22c1e4a",
+  "title" : "美国迈阿密机场一架波音767冲出跑道 撞击地面车辆致5人遇难",
+  "summary" : "据BBC报道，一架波音767-300客机在迈阿密机场降落时冲出跑道。事故调查人员形容现场遭受“彻底毁灭”，并证实遇难的5人当时均在机场地面的两辆汽车内。目前美国航空安全调查部门已介入，事故具体原因正在进一步调查中。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-09-08T09:35:07.067373+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "ed3f36e952b7b0e2",
   "title" : "江西遂川高坪镇发生泥石流灾害 已致5人遇难7人失联",
   "summary" : "江西吉安遂川县高坪镇发生严重泥石流灾害。据官方权威通报，灾害已确认导致5人遇难，另有7人处于失联状态。当地应急救援、消防、医疗等多方力量已紧急赶赴现场，搜救失联人员并排查次生灾害隐患。",
@@ -278,12 +286,4 @@
   "discoveredAt" : "2026-09-05T11:31:48.824965+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41SGEzTHVWdi1zdl95YlhIZzZNRkdncDk0ajVuc3pFTGQyUHJkN2h6OXNtZUpQazRneDZoS3FralQ0eVYyckV5cEtlSWxubGtmRXZB?oc=5"
-}, {
-  "fingerprint" : "cf1160ac6432fa44",
-  "title" : "中国江西遂川县暴雨引发泥石流灾害 已致1人遇难11人失联",
-  "summary" : "受热带气旋连日强降雨影响，中国江西省吉安市遂川县于9月5日凌晨突发泥石流灾害。灾害目前已造成1人遇难、11人失联。当地已启动应急响应开展搜救与险情处置工作，具体灾情仍在进一步排查核实中。",
-  "source" : "RFI 法国国际广播",
-  "discoveredAt" : "2026-09-05T08:11:17.857527+00:00",
-  "severity" : "重大自然灾害",
-  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260905-%E4%B8%AD%E5%9B%BD%E6%B1%9F%E8%A5%BF%E9%81%82%E5%B7%9D%E5%8E%BF%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81-%E5%AF%BC%E8%87%B4%E4%B8%80%E4%BA%BA%E9%81%87%E9%9A%BE-11%E4%BA%BA%E5%A4%B1%E8%81%94"
 } ]
