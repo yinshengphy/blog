@@ -2,7 +2,7 @@
 title: "技术深潜｜2026年09月06日"
 date: "2026-09-06"
 description: "围绕Linux / DevOps / Kubernetes的生产级技术推演、排障思路与 AI 应用项目推荐。"
-tags: ["Linux / DevOps / Kubernetes", "Java", "系统设计", "AI 工程"]
+tags: ["Linux、DevOps 与 Kubernetes", "Java", "系统设计", "AI 工程"]
 categories: ["每日技术推送"]
 ---
 
