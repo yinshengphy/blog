@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0775df1d20b2fa91",
+  "title" : "外媒称伊朗一婚礼现场遭袭致大量平民伤亡 现场疑现美制武器残骸",
+  "summary" : "据媒体转引报道，伊朗境内一处婚礼现场突遭猛烈袭击，导致大量平民伤亡。搜救与调查人员在现场废墟中发现了疑似美制武器的残骸部件。该事件引发对袭击发起方及中东对抗直接升级的高度关切，目前具体伤亡人数及官方定性仍在进一步核实中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-08T01:31:33.645405+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYZ2FqNFRuSkgtNmxIcHhKU201UHFEUzYwdjFxVHZDR1B1cWlDRUZlcVp5RjY0am9PWHFfYjBwTkNEb0VrZ0lGalV4cHFjSVEzemd5SGJuNDZRdDVHQWFFZDE3N1FyWDNZX1RYUkRvTTc?oc=5"
+}, {
   "fingerprint" : "67462311bd1e986e",
   "title" : "吉隆发生特大泥石流灾害 已致43人遇难519人失联",
   "summary" : "据媒体援引官方通报，吉隆地区发生特大泥石流灾害，目前已造成43人遇难、519人失联。搜救人员在灾害现场已发现遗物993件。受灾区域基础设施遭到严重损毁，救援力量正克服极端恶劣条件全力展开搜救排查与善后安置工作。",
@@ -262,52 +270,4 @@
   "discoveredAt" : "2026-09-05T01:54:53.133147+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WUHNzcU9hYURSczg0U2NHWUhwaHNqVlBQQzNDcGpybmh0ZldKendqTW1DQkdhNW9qRXVBT0ktTW13NzdpMUJ6bmRHUzkwZE0?oc=5"
-}, {
-  "fingerprint" : "ea798e0933b77562",
-  "title" : "西藏日喀则吉隆县突发特大泥石流灾害 已致31人遇难531人失联",
-  "summary" : "西藏日喀则市吉隆县发生严重泥石流自然灾害，截至目前已导致31人不幸遇难、531人失联。灾害发生后，应急、消防及当地救援力量紧急赶赴现场抢险救援，安置受灾人员，相关搜救核查工作正全力进行中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-05T00:54:09.259325+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMifEFVX3lxTFByeUZSbDZZNU1hUk41enVPeXZZNWM3UGdHcGY0YmlkTHFaUS0tc2lPMjlYcXZULWpxQTE4UHdYZGh4M0VvTzU1azFPNDgzTklaam9GdUNVeWJadWNqVllkTk1NbWtlVFhOZDNLdFdWN3Z2QjVmb0VQbFNENVU?oc=5"
-}, {
-  "fingerprint" : "a7447889545f54ab",
-  "title" : "以色列空袭黎巴嫩南部造成至少5人死亡 边境紧张局势加剧",
-  "summary" : "据中国经济网及海外主流媒体消息，以色列军队对黎巴嫩南部多处目标发动空袭，目前已确认造成至少5人死亡。随着黎以边境跨境交火与空袭烈度持续上升，该地区安全形势愈发严峻，停火前景与平民安全面临严重威胁。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-05T00:09:38.238536+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSV0Q0aXI5WVFQVkNfS3RTY0dMVEktSFBaU2lIdi1BLTNncnlnQllVTUxpODlfR2Y1OGFKVzhCQUZWbkZMV1BucEpmbUpUQjNZRXRwNVU1UFdaek4xS2dESUk2TQ?oc=5"
-}, {
-  "fingerprint" : "37ceb9759b291bb9",
-  "title" : "俄军无人机突袭乌克兰安全局总部 泽连斯基称局长办公室沦为打击目标",
-  "summary" : "乌克兰国家安全局位于首都基辅市中心的总部遭到俄罗斯无人机袭击。乌克兰总统泽连斯基随后证实，此次袭击的直接目标是该局高层领导人的办公室。这是俄乌冲突中针对乌克兰核心指挥中枢极具威慑性的突发空袭行动。",
-  "source" : "RFI 法国国际广播",
-  "discoveredAt" : "2026-09-04T21:46:17.905985+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260904-%E4%BF%84%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%A2%AD%E5%87%BB%E4%B9%8C%E5%85%8B%E5%85%B0%E5%AE%89%E5%85%A8%E5%B1%80%E6%80%BB%E9%83%A8-%E5%9F%BA%E8%BE%85%E7%A7%B0%E5%B1%80%E9%95%BF%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%88%90%E4%B8%BA%E7%9B%AE%E6%A0%87"
-}, {
-  "fingerprint" : "5d92a4e1c5a25e4f",
-  "title" : "以军无人机空袭黎巴嫩南部曼苏里镇引发多次剧烈爆炸",
-  "summary" : "半岛电视台报道，以色列军用无人机向黎巴嫩南部城镇曼苏里投掷爆炸装置，现场传出多次剧烈爆炸声。在黎以边境对峙持续升级的背景下，此次袭击进一步加剧了前线交火态势，目前伤亡与具体受损情况仍在核实统计中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-04T20:08:40.098610+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-israel-drone-bombs-mansouri-lb-fm?traffic_source=rss"
-}, {
-  "fingerprint" : "a710310257e27135",
-  "title" : "乌军袭击俄民用设施 普京警告俄军将发起大规模反击回应",
-  "summary" : "针对乌军袭击俄罗斯本土及民用设施的行为，俄罗斯总统普京公开发表严厉警告，将其定性为恐怖袭击，并表态俄武装力量将展开大规模反击予以回应。该表态释放了战事显著升级的危险信号，乌克兰多地基础设施和军事目标或将面临新一轮集中精确打击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-04T18:46:27.951826+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTE5scnZqVkpPckluT1Z4ZjZMZnBGME9aY3VTTmdIQUEzTFFLeHRMblY5MFBWNmYtaHg5NEExdG0xRkQ1ZF94eXQwNHJ5MElrZmlDLVVMWFg2eENpcUVUWnpTTnE5RUczWmh4NXRhWmFwNDQ?oc=5"
-}, {
-  "fingerprint" : "389eaecf740d67b6",
-  "title" : "印度尼西亚加里曼丹林火持续蔓延 浓烈有毒烟霾席卷东南亚多国",
-  "summary" : "半岛电视台报道，印度尼西亚加里曼丹省森林及泥炭地火灾持续肆虐，产生的浓烈有毒烟霾跨境蔓延席卷东南亚多国。干旱天气加剧火势扩散，导致区域多国空气质量指数严重超标，引发跨国公共卫生与环境安全危机。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-04T18:08:13.433236+00:00",
-  "severity" : "重大自然灾害",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/4/04-09-sv-indonesia-kalimantan-haze-borneo-wildfires-haze-id?traffic_source=rss"
 } ]
