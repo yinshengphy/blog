@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "a20b8cd0774b3dff",
+  "title" : "玻利维亚一处军营发生剧烈爆炸 已造成至少9人死亡",
+  "summary" : "据半岛电视台报道，玻利维亚一处军营突发强烈爆炸，已导致至少9人遇难。周边目击者称爆炸产生强劲冲击波，房屋剧烈晃动。目前应急救援和搜救工作正在展开，军方及当地政府尚未公布爆炸具体起因，详情仍在调查中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-08T04:33:39.115745+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/8/aje-onl-nf_nine-killed-in-bolivia-military-base-explosion-080926?traffic_source=rss"
+}, {
   "fingerprint" : "0775df1d20b2fa91",
   "title" : "外媒称伊朗一婚礼现场遭袭致大量平民伤亡 现场疑现美制武器残骸",
   "summary" : "据媒体转引报道，伊朗境内一处婚礼现场突遭猛烈袭击，导致大量平民伤亡。搜救与调查人员在现场废墟中发现了疑似美制武器的残骸部件。该事件引发对袭击发起方及中东对抗直接升级的高度关切，目前具体伤亡人数及官方定性仍在进一步核实中。",
@@ -254,20 +262,4 @@
   "discoveredAt" : "2026-09-05T08:11:17.857527+00:00",
   "severity" : "重大自然灾害",
   "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260905-%E4%B8%AD%E5%9B%BD%E6%B1%9F%E8%A5%BF%E9%81%82%E5%B7%9D%E5%8E%BF%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81-%E5%AF%BC%E8%87%B4%E4%B8%80%E4%BA%BA%E9%81%87%E9%9A%BE-11%E4%BA%BA%E5%A4%B1%E8%81%94"
-}, {
-  "fingerprint" : "82cfec753b94ff42",
-  "title" : "玻利维亚一处军营突发爆炸 已造成数十人死伤",
-  "summary" : "据中新网援引报道，玻利维亚一处军营突发剧烈爆炸，目前已造成数十人死伤。当地紧急救援力量与军警部门已赶赴现场展开处置和伤员救治工作，爆炸发生的具体原因及确切伤亡人数正在进一步核查中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-05T02:36:25.092161+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52SGVWRkI5MmJNYXJYQ3JoYTRINlM4Ymhabk1xQkxMd05lbmJoQXhTZkZ2OTdUaEJzbi1mUG5LcFp3NUFKaDB6azhzZy1xckdscWtqb2NBTVNjTUd2YW5ZYWFnWEdHU3BX?oc=5"
-}, {
-  "fingerprint" : "70b1fc79408e6c00",
-  "title" : "尼泊尔特大泥石流灾害持续恶化 遇难人数升至1342人近5000人失联",
-  "summary" : "据媒体报道，受极端强降雨影响，尼泊尔境内引发特大泥石流及山洪灾害。最新官方统计显示，遇难人数已急剧升至1342人，另有4898人处于失联状态，大批民房遭滑坡掩埋，基础设施受损极其严重，搜救工作正在极端艰难的条件下全面展开。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-05T01:54:53.133147+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WUHNzcU9hYURSczg0U2NHWUhwaHNqVlBQQzNDcGpybmh0ZldKendqTW1DQkdhNW9qRXVBT0ktTW13NzdpMUJ6bmRHUzkwZE0?oc=5"
 } ]
