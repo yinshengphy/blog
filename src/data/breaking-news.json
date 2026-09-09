@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5a9f040a79a9423a",
+  "title" : "中尼边境爆发特大泥石流灾害 尼方通报已致超1400人死亡近6000人失联",
+  "summary" : "中国与尼泊尔边境地区遭遇罕见特大泥石流灾害。尼泊尔官方最新公布数据显示，灾害已导致尼方境内至少1401人死亡、5845人失联；中方此前公布中方境内43人遇难、519人失联。灾区搜救面临极端恶劣条件，边境通讯与交通严重受阻。",
+  "source" : "DW Chinese (德国之声)",
+  "discoveredAt" : "2026-09-09T13:41:53.631923+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.dw.com/zh/尼泊尔持续更新灾情-中国限制记者报道/a-79202612?maca=chi-rss-chi-all-1127-xml-mrss"
+}, {
   "fingerprint" : "a13a987a37569a59",
   "title" : "胡塞武装称也门一监狱遭空袭 死亡人数升至23人另有7人失踪",
   "summary" : "据美联社报道，也门胡塞武装通报称，也门境内一处监狱设施此前遭遇空袭，目前现场搜救发现死亡人数已升至23人，另有7人处于失踪状态。该起针对关押设施的空袭导致严重人员伤亡，使也门战事及地区安全风险再度升级。",
@@ -246,36 +254,4 @@
   "discoveredAt" : "2026-09-06T16:17:55.591474+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxb2diQ2hiTG9SMTgxNThmOFlLTmpaWjRHRTU0aDVMSFoxMUFCam4xT0lpZUp4WHdzWGZra1AzUU8td1ZOM2M0VW1NVjZZeFNBYzRPRm5YQ1JHSTJzTWc?oc=5"
-}, {
-  "fingerprint" : "27775fb40da3cc3f",
-  "title" : "美特使会晤普京后抵基辅 俄乌宣布暂停空袭三日为和谈铺路",
-  "summary" : "美国总统特朗普特使库什纳及威特科夫在莫斯科与俄总统普京就结束俄乌战争方案会谈后，于周日抵达基辅推进斡旋。与此同时，俄乌双方宣布暂停部分空袭三日，为新一轮和平谈判创造外部条件，显示美方穿梭外交取得实质性降级进展。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-09-06T13:17:29.645492+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.dw.com/zh/美特使会晤普京后抵达基辅-俄乌暂停空袭三日/a-79055504?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "40d908d075927b96",
-  "title" : "美伊中东冲突再升级：德黑兰宣布袭击一艘美军无人艇报复美袭油轮",
-  "summary" : "据法广等外媒报道，在美军袭击三艘伊朗油轮后，伊朗德黑兰方面宣布采取报复性军事打击，袭击了一艘美国海军无人艇。美伊双方在霍尔木兹海峡及周边海域的直接军事交火与摩擦显著升级，中东海上航运安全局势高度紧绷。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-06T13:14:10.930955+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMirwNBVV95cUxQVTVSZ0NySmM1RXprTHFlLWFpTzZya0toOUlkZDBxMFZteTd0SFlQSHFYdWNmOEM1cjRwMDFiWUFyOEtUNkF6ZkFWX01IYVVneGRqTVZUdDUyNmFQMDJ0b3JzMllXb1h2MGs4LVM0NHNmckNvaFphZEk0WVR4bVBwLTkyNXpZbi1ZeHFRV0Q3RW1pYlZ1Qm85dGxuMEJRcjhnUEpqSjFTemRUS0N1R05zMGR5azl4UTZCNE0xLVNtVHhqbnlDREg0SUZ6Q1FMVVRoVFZTV0RLQmFWM3hvYWNxQzROakY0YzNIRkI1MEFQanhPMEVIcXRWUzI5SUhKQzZkdHhRREI1YXA4ckt1aW1fRDNqTEpGVUxPY3I2cTZKcFZ4b3Z4bkE4anFnLWFmamt2b19CY1QydDRrX242ZGM3ZTVQTXN2eW1vcHh0OTNSTXdybXBPMDZyR01sd1E5NjUta3pNbkR0NjIzWFp5ZGwxN3dqT283V0NYdGV5d3ZlSVNvdy04MUFkRDNCNE9MdmNwaEpwbV85WHo1blBzd0F2S2xnUGQzdFNSOWRZZF9fYw?oc=5"
-}, {
-  "fingerprint" : "1f3f660d8faf0594",
-  "title" : "西藏洪水泥石流灾情伤亡剧变：已致43人遇难、519人失踪",
-  "summary" : "据法广援引官方最新通报，中国西藏洪水泥石流灾害伤亡人数发生重大变化，目前已确认43人遇难，另有519人失踪。相较此前通报，失联与伤亡规模急剧上升。目前多方救援力量正全力开展搜救与受灾群众安置。",
-  "source" : "Google News China Breaking",
-  "discoveredAt" : "2026-09-06T13:07:32.681674+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMitwNBVV95cUxQbWhRdHc1TEc4c3hoeThZQXJ5RVFKVzV4b3pVT2VKdkZUSnZ1cWFMM1QwTXNiYmh4ZjRnUmdzZm9xN1lxWXdRX1g2NmZfeWtxd2MxVDFMVUM1VFlmM3M3MlVTa2U2VGNYbUhDcS04Vk9JTGIxWFZBM293eFJKaHVHS2QwVVZSM2hfcF82WHR1M2ZhSDU1Y3hLeFk4UVdRMTBKMDF6X3lqUExKWVVuWFpDdmU3MmZ2eEszLWNlX2gyeTZ3cE94U0phTzBLUENpeHpFQnZQNmJnbG9xYlpfSVJLOUhUTUFTU2p6RFpSSWVzX2pTWWhrY3RMdnhMXy1zaDZxMjJTakpuVWRyNUk1MWFoem1aNWZwUDR6d3k4SXhITGlBZVF6YXNFUWMyVTJtRnZpSlpidVZRME13eFhYdHFsbGoyUG5aZ2NkV28yckNVeHI3TWNRcjg1aVJTYVFoX1VWWm5ieG44ZEE5NGFqSVZOakpTS1AyWEV1S1RDR3cyY1I2aHBuNUZhZlE4N05Uc19JSWowM2pHRnptTzd5SDk2d01NTWxaYXEzRFVhTUhOWTZOWnpxMkpV?oc=5"
-}, {
-  "fingerprint" : "f78ebd37eb7a1dd8",
-  "title" : "刚果（金）婚礼突发火灾事故 官方通报遇难人数更正为12人",
-  "summary" : "据央广网援引相关通报，刚果（金）发生一起婚礼现场火灾重大伤亡事故。当地官方最新修正通报显示，火灾已导致12人遇难。目前搜救与核查工作已告一段落，伤员救治及事故确切起火原因正在进一步调查处理中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-06T12:12:18.055330+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRUG51aEJDUnU5dGd0VnpzLU1mU1lUOHhYZnpGdC1uRHBYY3dNWGFfMkJ0MzlYOVd2WFZTWF9QTzRkZnVEZmNIRkdCZEpYdl9QUWJHMWIxa2p5d2dGX0ZOclNPSHZMcnIx?oc=5"
 } ]
