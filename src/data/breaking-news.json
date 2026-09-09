@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "f1850353f453f6c8",
+  "title" : "美军空袭伊朗油轮及哈尔克岛传出爆炸声 国际油价逼近百元关口",
+  "summary" : "据市场消息，美军再次对伊朗油轮发起打击行动，伊朗最大原油出口终端所在地哈尔克岛附近传出剧烈爆炸声。该事件引发对中东原油供应中断的严重恐慌，国际油价迅速攀升逼近每桶100美元大关，地缘军事冲突全面升级风险极剧增加。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-09T07:29:47.319119+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tN2QwNTVDZFRkZ1VpV2lJUThNLUNDRzNTVXhueHh2a25lUjV3a04wOFFNNWpuemM1dWtRSWFSOUpmcGd4c2lDYlJSYXU3amM?oc=5"
+}, {
   "fingerprint" : "32f1eb1f54e7736f",
   "title" : "俄罗斯恢复对乌克兰空袭 已致基辅地区至少7人死亡",
   "summary" : "据中新网援引消息，俄罗斯近期恢复对乌克兰境内多地的大规模袭击行动。空袭已导致基辅地区至少7人死亡，多处建筑与设施受损。目前当地救援工作仍在进行，防空警报频发，冲突烈度再度呈现激化态势。",
@@ -270,12 +278,4 @@
   "discoveredAt" : "2026-09-06T10:25:11.044024+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VUXJfOXdraXBfNWVsWGZ0ZU5zNXo0MnpPdkFTWWtxWkVuODRVc0hFVEpXQ2JtbXl1Y3JDYUdNNDU2Y3AyU1Q1Slp2OVE5TkhuUFc4dnpJVFRXZWtqMHBsUzVtMVBTanc3NXlTVjlKeTA1QU43azNjMG9sbEZ1aEk?oc=5"
-}, {
-  "fingerprint" : "21a5a05aae4356ba",
-  "title" : "霍尔木兹海峡局势急剧升级：伊朗革命卫队与美军激烈交火并袭击多艘油轮",
-  "summary" : "据半岛电视台报道，霍尔木兹海峡军事对峙急剧升级。伊朗伊斯兰革命卫队向美军水面战舰发射导弹后发起新一轮突击，双方在海峡水域发生直接交火，并袭击了多艘油轮。关键能源通道受军事冲突直接冲击，地区局势滑向全面冲突边缘。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-06T07:16:40.247713+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
 } ]
