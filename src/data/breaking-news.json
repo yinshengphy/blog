@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fab06317e5710a85",
+  "title" : "也门胡塞武装袭击沙特四座城市致73人受伤 中东战事面临升级风险",
+  "summary" : "据媒体报道，也门胡塞武装对沙特阿拉伯境内四座城市发动袭击，目前已导致至少73人受伤。外界评估指出，此轮跨境打击标志着中东多线交火局势可能迎来新一轮重大外溢与升级，红海及海湾周边地缘安全风险显著加剧，后续动态待各方官方通报确认。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-09T04:52:01.830568+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibDJ5T3M1dzB0cjFLYlR3VFBTY011MlBTUDFmM1ZXc2VDTTR3eURHNWx6cTlHa0lkOGJDM2dFWXYwMGR4WDZ0dHJ1OUhOOEIxcS16UHVRSjF0ZmJMUXZVY3ZqTmhnS19GWWR0S2NtQQ?oc=5"
+}, {
   "fingerprint" : "fe22c4fbb5e45e85",
   "title" : "中东局势极度升级：约旦防空系统紧急拦截密集伊朗弹道导弹",
   "summary" : "据半岛电视台报道，目击者拍摄到约旦防空系统在其领空拦截大批伊朗弹道导弹的现场画面。伊朗疑似正发动大规模饱和弹道导弹打击，约旦防空力量紧急开火实施拦截。这表明冲突已波及周边第三国领空，中东军事对抗严重升级。",
@@ -262,20 +270,4 @@
   "discoveredAt" : "2026-09-06T06:28:14.607512+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://apnews.com/article/iran-road-accident-death-toll-90148bfbc4007e09d4ad5130aecd1ed6"
-}, {
-  "fingerprint" : "217974b23c31c56b",
-  "title" : "俄乌罕见达成首都停火降级：普京暂停打击基辅三天 泽连斯基宣布停袭莫斯科",
-  "summary" : "据吉网等媒体报道，俄罗斯总统普京宣布将暂停对乌克兰首都基辅实施空袭3天。随后乌克兰总统泽连斯基作出对等回应，宣布乌方即刻起至9月7日期间停止对俄罗斯首都莫斯科的无人机及导弹袭击。这一罕见的首都级临时降级举措标志着双方在激烈战事中出现有限缓和迹象。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-06T04:50:29.965111+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtMExOZXNrT2N0cHlKYThld2JvSnF3cTJoRHhNT1BEV3d0VzU3d0JJM00xeXFielJvYzhXSlE0cVVQcl9vbUs3am1xYlNaaTIySGNtNXVsQnMxX19i?oc=5"
-}, {
-  "fingerprint" : "d7a9365fd32ce45c",
-  "title" : "江西遂川突发泥石流灾害 已致2人遇难10人失联",
-  "summary" : "据新华网报道，江西省吉安市遂川县发生泥石流自然灾害。截至目前，灾害已造成2人遇难，另有10人失联。灾情发生后，当地有关部门已启动应急响应，迅速组织消防、应急及医疗力量赶赴现场全力展开搜救与善后处置工作。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-06T02:54:03.212036+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yUWp5UmhxT0x0ZTJIM29hNy00WGJXYTEtOGdMU05ELVFkQW9pUW5jRTB3TnRDUDhGTlNSNFlNTlk1ajVoTlJvZ0ktM1hjZFhDd2t5S3lTdTVrREc5YWo0VmRkdkhqMERfaHdrMzRuTDlhcGJFMEowR1VUNUUzZjA?oc=5"
 } ]
