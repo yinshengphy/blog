@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "1fb46f1bc2dd2eab",
+  "title" : "中国东部海域一货轮突发火灾致重大人员伤亡 搜救工作紧急展开",
+  "summary" : "据BBC报道，中国东部海域一艘货船突发火灾，导致重大人员伤亡。国家主席习近平已作出指示，要求全力以赴开展紧急搜救行动，尽最大努力减少人员伤亡，并做好善后及事故原因调查工作。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-09-10T09:59:36.423182+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "ff940cb3e4fa4246",
   "title" : "叙利亚一武器弹药仓库突发剧烈爆炸 已致至少14人死亡",
   "summary" : "据相关媒体报道，叙利亚境内一处武器仓库发生剧烈爆炸事故，目前已导致至少14人死亡。现场损毁严重，爆炸具体诱因（弹药殉爆或外部打击）及遇难者具体身份仍待叙利亚官方进一步通报确认。",
@@ -238,28 +246,4 @@
   "discoveredAt" : "2026-09-07T10:52:25.960136+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xc1paOG1aYzc0UmFUN3Jud0gyNmIxM0FtVlViQ3VxUXk4MWZtb2pySDlNUzNCOGNlMmlYX1VqdEx4b2tnZ2F2NXlwVGJ1dm8?oc=5"
-}, {
-  "fingerprint" : "93a8ebcaabaab170",
-  "title" : "美国迈阿密机场一货机冲出跑道撞车起火 已致5人遇难5人受伤",
-  "summary" : "据BBC报道，美国迈阿密国际机场发生一起致命坠机事故，一架货机在降落过程中冲出跑道，随后撞上地面车辆并燃起大火。官方通报事故已造成5人遇难、5人受伤。消防与紧急救援部门已赶赴现场控制火势，相关部门正对其失事原因展开全面调查。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-07T09:57:16.107324+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "4884bdbfbd24ebb1",
-  "title" : "以军空袭黎巴嫩南部一村庄造成至少9人死亡13人受伤",
-  "summary" : "据美联社报道，以色列对黎巴嫩南部的一个村庄实施了空袭，造成至少9人死亡、13人受伤。黎以边境冲突近期持续升温，双方跨境打击频发，本次伤亡事件进一步加剧了中东局势的紧张与外溢风险。",
-  "source" : "AP News Top Headlines",
-  "discoveredAt" : "2026-09-07T08:35:06.782729+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://apnews.com/article/lebanon-israel-airstrikes-kfar-rumman-fc3f8c5ac5e09c93232b3a9841afb9f4"
-}, {
-  "fingerprint" : "54c4fb4efe17c86b",
-  "title" : "也门政府军与胡塞武装持续激烈交火 战事致逾300名战斗人员丧生",
-  "summary" : "据中新网援引外媒报道，也门政府军与胡塞武装近日持续爆发激烈武装冲突，交火已导致逾300名战斗人员丧生。冲突双方在前线阵地激烈拉锯，伤亡人数急剧上升，战火重燃令原本脆弱的和平进程与中东区域安全局势面临严峻考验。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-07T06:34:49.733365+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00Wm53TG1KbFU2MzJBTkFqU0g0YVpZd0ZENFQyaXgyeUwwWlRQWmFabE5uTjdFYTlCVUtLYUVfaTlmMlRlZ0xtcEcyZC1rOG1US3FpMVRDUHFOemdBMmtLRWQ2eGh2dlJM?oc=5"
 } ]
