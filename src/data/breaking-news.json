@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3c56750adb1591a8",
+  "title" : "乌克兰无人机突袭俄罗斯达吉斯坦里海港口 现场传出剧烈爆炸并引发火灾",
+  "summary" : "据半岛电视台报道，乌克兰无人机突袭了俄罗斯达吉斯坦共和国的里海港口，现场传出剧烈爆炸声并燃起火灾。达吉斯坦位于俄高加索地区东部，驻有俄里海分舰队重要力量，此次远程跨境打击凸显冲突范围进一步向俄腹地纵深扩展。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-10T04:49:13.305740+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/10/aje-onl-nf_suspected-ukrainian-drones-strike-dagestan-100926?traffic_source=rss"
+}, {
   "fingerprint" : "88c0ac25bc5ac346",
   "title" : "江西遂川强降雨引发泥石流 救援力量深入核心区展开精细化搜救",
   "summary" : "受强降雨影响，江西省吉安市遂川县发生泥石流灾害。搜救队伍目前已进入灾害核心区域，采取人机协同作业模式，运用生命探测仪及无人机等专业设备展开精细化网格搜寻，全力核实人员被困情况并排查次生灾害隐患。",
@@ -238,20 +246,4 @@
   "discoveredAt" : "2026-09-07T06:34:49.733365+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00Wm53TG1KbFU2MzJBTkFqU0g0YVpZd0ZENFQyaXgyeUwwWlRQWmFabE5uTjdFYTlCVUtLYUVfaTlmMlRlZ0xtcEcyZC1rOG1US3FpMVRDUHFOemdBMmtLRWQ2eGh2dlJM?oc=5"
-}, {
-  "fingerprint" : "27a3a9b4ef288b45",
-  "title" : "佛得角福古岛发生特大交通事故致25人遇难 全国宣布哀悼两天",
-  "summary" : "佛得角政府宣布举行为期两天的全国哀悼，以悼念在福古岛特大交通事故中遇难的25名死者。此次事故伤亡惨重，目前官方正全力开展善后处置与事故原因调查，全国降半旗以示哀悼。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-07T02:59:07.526520+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WOXE2b3hNWlZoNVljanZKUWZxbmRqWWVZbTRydTJhUEZ1WlpNZksxZU93dF9wVTRPbnM4Y2t0Q1VaTmJRVkJ2RkJGaEdPWVRIN280YXhuUHd0elJyVXdXLXBIWU1zTmps?oc=5"
-}, {
-  "fingerprint" : "5aa3ed8e6eba3879",
-  "title" : "二战后首次：德国极右翼选择党在州选举中夺冠引发全欧政治震荡",
-  "summary" : "德国东部图林根州举行议会选举，右翼政党德国选择党（AfD）以近三分之一的得票率拔得头筹，并在萨克森州紧追基民盟位列第二。这是二战后极右翼政党首次登顶德国州议会，被德媒及欧洲舆论普遍视作“政治地震”，沉重打击了朔尔茨内阁执政联盟，令未来联合组阁陷入僵局。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-07T02:36:14.445806+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE90amJxRUhtU0NzZHlpMzY0ZTItcXRBaWJJTmwwRndwenZiMmJBQkViRE1wMXZ1b2VBNk9ERmxnMFpmdmZuS1FvaXJVaTgzOXJ6NlZ2M2cwYnRCYUlNcEEzU0R0cUhhaWJYN2c?oc=5"
 } ]
