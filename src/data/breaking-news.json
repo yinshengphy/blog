@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "b1b060ca6b59ecaf",
+  "title" : "山东青岛北海造船厂一货轮突发火灾事故 已确认造成25人遇难",
+  "summary" : "据媒体及权威渠道通报，位于山东青岛的北海造船厂内一艘停泊货轮发生严重火灾事故。现场救援处置结束后，经核实确认火灾已造成25人遇难。目前善后处置与火灾事故原因调查正在全面展开。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-10T15:26:53.561561+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEV3pqM1ZQODc3UnVlelFFVFAxbVFQX05OakJ6dEZQLTM4ZzF3SnVZRF9WWlRBcG5zeWNrQm4tREhKTTBJYUt1RHRJeGJhX1Q0VXFwUXY5OEc0V24tWVJTWDNKVTY2LXYw?oc=5"
+}, {
   "fingerprint" : "f5b48ec41e8d552f",
   "title" : "江西遂川县突发地质灾害 官方确认已造成16人遇难",
   "summary" : "据新华网最新消息，江西省吉安市遂川县发生的地质灾害搜救工作取得最新核实，目前灾害已造成16人遇难。事发后当地正全力组织力量开展现场排险、善后处置及次生灾害防范工作。",
@@ -246,12 +254,4 @@
   "discoveredAt" : "2026-09-07T17:11:07.583506+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxNTNpVlBlRXpfZlAwdkxHMzNWZjVwYmxJcUI0Z1dCdjV2bnB3Nlp1dXYyMWltOXJfajhKVEZBMWl5TXpnSTNCOHNIYjBIb2VxeEZxZ2FrNjFmRFA5aDBkSA?oc=5"
-}, {
-  "fingerprint" : "f0616b1fcf8dcaec",
-  "title" : "尼泊尔强降雨引发特大泥石流灾害 遇难人数已升至1355人",
-  "summary" : "据媒体报道，受极端强降雨影响，尼泊尔境内暴发罕见特大山体滑坡与泥石流灾害。灾情波及多处居民区与关键交通线，造成毁灭性破坏。最新数据显示遇难人数已攀升至1355人，当地救援力量正全力开展搜救排险工作。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-07T10:52:25.960136+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xc1paOG1aYzc0UmFUN3Jud0gyNmIxM0FtVlViQ3VxUXk4MWZtb2pySDlNUzNCOGNlMmlYX1VqdEx4b2tnZ2F2NXlwVGJ1dm8?oc=5"
 } ]
