@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6b8b1cf13e1ccc29",
+  "title" : "胡塞武装指称沙特对也门多地发动64次空袭",
+  "summary" : "也门胡塞武装对外宣称，沙特近期对也门多地发动了总计64次空袭打击。目前沙特官方及多国联军尚未就此指控作出正式回应，具体袭击目标及人员伤亡损失仍有待多源独立核实。若空袭属实，脆弱的也门缓和局势恐面临再度升级风险。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-10T17:20:20.781513+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxd1pyVWhNMjg3MG5qR2JmNGpOaUFmVWhnN2xoa3R3ZHpwUmJ1SHRnSzV0S0kwMzhsTWhzcXk0TXZ1alhOeWJqdkJSeWtka2VvMTdTXzlrdzB0TGoyUmVZZQ?oc=5"
+}, {
   "fingerprint" : "b1b060ca6b59ecaf",
   "title" : "山东青岛北海造船厂一货轮突发火灾事故 已确认造成25人遇难",
   "summary" : "据媒体及权威渠道通报，位于山东青岛的北海造船厂内一艘停泊货轮发生严重火灾事故。现场救援处置结束后，经核实确认火灾已造成25人遇难。目前善后处置与火灾事故原因调查正在全面展开。",
@@ -246,12 +254,4 @@
   "discoveredAt" : "2026-09-07T17:46:34.099531+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uR18td3dLYThYanowbFpwbjFJcVlHY212Uk9VNWlGc3paUFJvakQ0Q0FrdUNWbi0zVUY5LWROTE1hQnA0R05DRFBWXzFxeldjM2NuRzl6TlZ5ZEhNSkE?oc=5"
-}, {
-  "fingerprint" : "721d3a843a991603",
-  "title" : "以色列猛烈空袭黎巴嫩南部多地 已致27人死亡69人受伤",
-  "summary" : "黎巴嫩官方发布最新通报，以色列军队对黎巴嫩南部多个城镇和村落发动大规模空袭，截至目前已造成至少27人死亡、69人受伤。当地医疗机构正全力救治大批伤员，黎以边境军事对抗持续加剧，区域安全危机面临失控风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-07T17:11:07.583506+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxNTNpVlBlRXpfZlAwdkxHMzNWZjVwYmxJcUI0Z1dCdjV2bnB3Nlp1dXYyMWltOXJfajhKVEZBMWl5TXpnSTNCOHNIYjBIb2VxeEZxZ2FrNjFmRFA5aDBkSA?oc=5"
 } ]
