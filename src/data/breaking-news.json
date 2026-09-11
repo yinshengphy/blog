@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3e6c0e3be3d4e8e4",
+  "title" : "以色列宣布摧毁黎巴嫩真主党大型地下基地 巨大爆炸引发4.1级地震当量",
+  "summary" : "据BBC报道，以色列军方宣布已彻底摧毁黎巴嫩真主党的一处大型地下军事基地。美国地质调查局监测显示，拆除与引爆该地下工事产生的强烈爆炸威力相当于4.1级地震。此举标志着以军针对真主党深层地下掩体网络实施了重大破袭，中东冲突战火进一步扩散加剧。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-09-11T11:39:59.836619+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "c673cd42376c7508",
   "title" : "也门胡塞武装称红海西海岸交火停止 国际油价应声重挫金价异动",
   "summary" : "也门胡塞武装近日对外宣称红海西海岸交火已停止。作为全球关键航道的地缘冲突呈现降温预期，受此影响，国际原油市场避险溢价迅速收窄导致油价大幅下挫，国际金价及相关金融市场同步产生剧烈波动。",
@@ -230,12 +238,4 @@
   "discoveredAt" : "2026-09-08T11:59:52.256227+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Xd3Y2TG9NWjRJX0FQdUJHaGNiTm05SzAxb050dkZZOUlfQWhCcnhNQ2YwSzZJUndhakgtWVlmdml4aUE2djd3TWFhVlRabTc4OVpiUF81ZllGTUV1NGtWYU40VHppSGRJQ1E?oc=5"
-}, {
-  "fingerprint" : "2b62dc0ab22c1e4a",
-  "title" : "美国迈阿密机场一架波音767冲出跑道 撞击地面车辆致5人遇难",
-  "summary" : "据BBC报道，一架波音767-300客机在迈阿密机场降落时冲出跑道。事故调查人员形容现场遭受“彻底毁灭”，并证实遇难的5人当时均在机场地面的两辆汽车内。目前美国航空安全调查部门已介入，事故具体原因正在进一步调查中。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-08T09:35:07.067373+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss"
 } ]
