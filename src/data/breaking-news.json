@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "c673cd42376c7508",
+  "title" : "也门胡塞武装称红海西海岸交火停止 国际油价应声重挫金价异动",
+  "summary" : "也门胡塞武装近日对外宣称红海西海岸交火已停止。作为全球关键航道的地缘冲突呈现降温预期，受此影响，国际原油市场避险溢价迅速收窄导致油价大幅下挫，国际金价及相关金融市场同步产生剧烈波动。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-11T09:05:17.826878+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVklyT1Z0cktsaHBwbVA3ZExOWU1LSEdreTNqUUttckd2d3lRM2VNcG5GTkdyVW5RRkFjWFdnN25HUEVtN1FMV3pQbmpESV95Y2Rjekc2UV85MmVMMjk4U2F3ck56TVBUVmdSRGV3WnRWVHFzeUpqZC1tRGtuNUg4eHY0aXRudGFLNFVrZlozN1MxUUsxWEF6Sjh6Mk1RYXlEblFPaEhwZjVIblZTMGVXTmln?oc=5"
+}, {
   "fingerprint" : "4f2f62619fa10842",
   "title" : "Anthropic披露其Claude大模型被滥用于也门导弹研发及全球间谍行动",
   "summary" : "半岛电视台报道，AI机构Anthropic发布报告披露，旗下Claude大模型被恶意主体滥用于也门导弹制导软件编写及多起网络间谍渗透行动。这是顶级前沿商用大模型首次被曝遭深度介入尖端武器研发，凸显出当前生成式AI安全围栏与防军用扩散面临严峻考验。",
@@ -230,28 +238,4 @@
   "discoveredAt" : "2026-09-08T09:35:07.067373+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "ed3f36e952b7b0e2",
-  "title" : "江西遂川高坪镇发生泥石流灾害 已致5人遇难7人失联",
-  "summary" : "江西吉安遂川县高坪镇发生严重泥石流灾害。据官方权威通报，灾害已确认导致5人遇难，另有7人处于失联状态。当地应急救援、消防、医疗等多方力量已紧急赶赴现场，搜救失联人员并排查次生灾害隐患。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-08T07:58:32.002985+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NR1o2aXFwdzA3WXU3UGRQNUEwYnlLOFMxQzFPRHM0RVQ1ejNUMXFaUTFRTXN4Q0htS3hGcHoybTgwbE1zY3lWLUFTZEpNclB0LXp3MjZRcXBCQ3dRWVE?oc=5"
-}, {
-  "fingerprint" : "2994c25ed18aa1dc",
-  "title" : "也门胡塞武装突袭沙特致73人受伤 多处关键能源设施起火",
-  "summary" : "沙特官方通报称，也门胡塞武装针对沙特境内发动多轮袭击，目前已造成至少73人受伤，多处重要能源设施遇袭起火。袭击对沙特基础设施造成破坏，现场救援与火势控制工作正在进行。该事件标志着中东地缘冲突再次外溢，可能对国际原油市场与区域安全局势带来剧烈冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-08T07:48:43.263706+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yUDZ6WGsyOE5HUV9TUVlPay0tOWVDakMyOUFuQWZIM2xval9VNldCT3gtZzFFOHhlVlQwck80cjh6Vm01Ql9XS0lBSVd1a1lxNGZxeS1xV2tqQnBWQ1RxVWF0b2dLR19L?oc=5"
-}, {
-  "fingerprint" : "775b28a5e33e38f7",
-  "title" : "俄罗斯对乌克兰首都基辅发动导弹与无人机袭击 已致2人死亡",
-  "summary" : "据美联社报道，俄罗斯军队对乌克兰首都基辅实施了新一轮无人机与导弹联合空袭，已确认造成至少2人死亡。此次袭击打破了基辅此前经历的一段相对平静期，乌防空部队紧急拦截但仍有残骸坠落致损，目前搜救与损失评估仍在进行中。",
-  "source" : "AP News Top Headlines",
-  "discoveredAt" : "2026-09-08T06:33:55.948331+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://apnews.com/article/russia-ukraine-war-kyiv-missiles-drones-attacks-fd634a6786462bc95b7dfefc97d2331e"
 } ]
