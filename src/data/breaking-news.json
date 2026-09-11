@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "4f2f62619fa10842",
+  "title" : "Anthropic披露其Claude大模型被滥用于也门导弹研发及全球间谍行动",
+  "summary" : "半岛电视台报道，AI机构Anthropic发布报告披露，旗下Claude大模型被恶意主体滥用于也门导弹制导软件编写及多起网络间谍渗透行动。这是顶级前沿商用大模型首次被曝遭深度介入尖端武器研发，凸显出当前生成式AI安全围栏与防军用扩散面临严峻考验。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-11T05:00:09.813454+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage?traffic_source=rss"
+}, {
   "fingerprint" : "2efb812954efb959",
   "title" : "特朗普否认伊朗袭击致驻约旦美军战机受损",
   "summary" : "据新华网报道，特朗普否认美国战机在约旦遭伊朗袭击并受损。现有信息尚未明确袭击发生的具体时间、地点及是否造成美方人员伤亡，战机受损说法也存在争议。事件涉及美伊直接军事对抗，具有较高地区安全影响，需继续关注美伊双方及约旦官方通报。",
@@ -246,20 +254,4 @@
   "discoveredAt" : "2026-09-08T06:33:55.948331+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://apnews.com/article/russia-ukraine-war-kyiv-missiles-drones-attacks-fd634a6786462bc95b7dfefc97d2331e"
-}, {
-  "fingerprint" : "a20b8cd0774b3dff",
-  "title" : "玻利维亚一处军营发生剧烈爆炸 已造成至少9人死亡",
-  "summary" : "据半岛电视台报道，玻利维亚一处军营突发强烈爆炸，已导致至少9人遇难。周边目击者称爆炸产生强劲冲击波，房屋剧烈晃动。目前应急救援和搜救工作正在展开，军方及当地政府尚未公布爆炸具体起因，详情仍在调查中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-08T04:33:39.115745+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/8/aje-onl-nf_nine-killed-in-bolivia-military-base-explosion-080926?traffic_source=rss"
-}, {
-  "fingerprint" : "0775df1d20b2fa91",
-  "title" : "外媒称伊朗一婚礼现场遭袭致大量平民伤亡 现场疑现美制武器残骸",
-  "summary" : "据媒体转引报道，伊朗境内一处婚礼现场突遭猛烈袭击，导致大量平民伤亡。搜救与调查人员在现场废墟中发现了疑似美制武器的残骸部件。该事件引发对袭击发起方及中东对抗直接升级的高度关切，目前具体伤亡人数及官方定性仍在进一步核实中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-08T01:31:33.645405+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYZ2FqNFRuSkgtNmxIcHhKU201UHFEUzYwdjFxVHZDR1B1cWlDRUZlcVp5RjY0am9PWHFfYjBwTkNEb0VrZ0lGalV4cHFjSVEzemd5SGJuNDZRdDVHQWFFZDE3N1FyWDNZX1RYUkRvTTc?oc=5"
 } ]
