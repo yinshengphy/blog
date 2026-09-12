@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fb94e9e8f06417dc",
+  "title" : "韩国军方称朝鲜向东部海域发射弹道导弹 美日韩正紧密共享情报",
+  "summary" : "据半岛电视台援引韩国军方消息，朝鲜于其东部海岸方向发射了弹道导弹。韩国方面表示正密切监视相关动态，并与美国和日本紧密共享此次发射的情报数据。目前韩军正分析导弹的具体型号、飞行距离和高度等详细参数。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-12T02:49:20.672571+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss"
+}, {
   "fingerprint" : "344ca0b164cd453f",
   "title" : "菲律宾一客船突发火灾已致35人遇难、54人失联，搜救行动紧急进行中",
   "summary" : "据多家媒体报道，菲律宾一艘客运船只在航行过程中突发大火，火势迅速蔓延导致大量乘客受困跳海。截至目前，事故已造成35人死亡，另有54人处于失联状态。当地搜救部门已调派海警船艇与直升机全力展开搜救，死伤人数可能进一步上升。",
@@ -230,20 +238,4 @@
   "discoveredAt" : "2026-09-09T04:52:01.830568+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibDJ5T3M1dzB0cjFLYlR3VFBTY011MlBTUDFmM1ZXc2VDTTR3eURHNWx6cTlHa0lkOGJDM2dFWXYwMGR4WDZ0dHJ1OUhOOEIxcS16UHVRSjF0ZmJMUXZVY3ZqTmhnS19GWWR0S2NtQQ?oc=5"
-}, {
-  "fingerprint" : "fe22c4fbb5e45e85",
-  "title" : "中东局势极度升级：约旦防空系统紧急拦截密集伊朗弹道导弹",
-  "summary" : "据半岛电视台报道，目击者拍摄到约旦防空系统在其领空拦截大批伊朗弹道导弹的现场画面。伊朗疑似正发动大规模饱和弹道导弹打击，约旦防空力量紧急开火实施拦截。这表明冲突已波及周边第三国领空，中东军事对抗严重升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-09T01:33:50.530648+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/9/jordanian-air-defences-intercept-iranian-missile-barrage?traffic_source=rss"
-}, {
-  "fingerprint" : "3515d124e3fac9a2",
-  "title" : "苏丹北科尔多凡州遭无人机袭击 致13人死亡22人受伤",
-  "summary" : "据中新网报道，苏丹北科尔多凡州近日遭遇无人机袭击事件，造成至少13人死亡、22人受伤。受苏丹武装冲突持续影响，该地区安全形势严峻，伤者已被送往附近医疗机构救治，事件进一步加剧了当地的人道主义危机。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T01:14:25.264385+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NMS1wMno2RFFvQ1V1dGdWemowUFRvTUVrR0tzWHBOXzhBVnpRbkJ0UGYwLWxLTHBoMEJ2enJxWjR0ZVNJSk44VTVEdWdLMjNhOGNuQmhvdnJxSnlRZlBTNFJRb1g4eXNp?oc=5"
 } ]
