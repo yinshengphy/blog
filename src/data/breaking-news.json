@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "72d5ee7fb7f16ee9",
+  "title" : "智利中南部一养老院突发重大火灾 导致至少16名老人遇难",
+  "summary" : "据BBC报道，智利中南部阿劳卡尼亚大区的一家养老院突发火灾，导致至少16名老人遇难。救援人员在火灾发生后紧急疏散了10名人员。目前当地消防和应急部门已控制现场，并对火灾的具体发生原因及养老院安全隐患展开深入调查。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-09-12T19:40:15.303317+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "fb94e9e8f06417dc",
   "title" : "韩国军方称朝鲜向东部海域发射弹道导弹 美日韩正紧密共享情报",
   "summary" : "据半岛电视台援引韩国军方消息，朝鲜于其东部海岸方向发射了弹道导弹。韩国方面表示正密切监视相关动态，并与美国和日本紧密共享此次发射的情报数据。目前韩军正分析导弹的具体型号、飞行距离和高度等详细参数。",
@@ -182,60 +190,4 @@
   "discoveredAt" : "2026-09-09T22:59:09.753168+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mWnVnRmxYdTd1LXllb3h1SDZaWHNnMjJlMEptdkdNY3VSYXdvRlZPUlpaU0tiQ1hpcXZhQ25nd0w3RExwRmVwQm1mNlpLR1dSZmJsZndxajNSdVdib2c?oc=5"
-}, {
-  "fingerprint" : "a9a5436472135ee2",
-  "title" : "叙利亚西北部一战时遗留武器库突发剧烈爆炸 已致至少14人死亡",
-  "summary" : "据半岛电视台报道，叙利亚西北部萨尔马达附近一处存放叙利亚内战遗留武器的临时军火库突发剧烈爆炸。爆炸威力巨大，造成严重破坏，目前已确认至少14人死亡。当地搜救工作正在展开，具体爆炸原因仍在进一步调查中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-09T19:01:58.643870+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/9/explosion-at-depot-storing-weapons-left-from-syria-war-kills-14?traffic_source=rss"
-}, {
-  "fingerprint" : "5a9f040a79a9423a",
-  "title" : "中尼边境爆发特大泥石流灾害 尼方通报已致超1400人死亡近6000人失联",
-  "summary" : "中国与尼泊尔边境地区遭遇罕见特大泥石流灾害。尼泊尔官方最新公布数据显示，灾害已导致尼方境内至少1401人死亡、5845人失联；中方此前公布中方境内43人遇难、519人失联。灾区搜救面临极端恶劣条件，边境通讯与交通严重受阻。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-09-09T13:41:53.631923+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.dw.com/zh/尼泊尔持续更新灾情-中国限制记者报道/a-79202612?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "a13a987a37569a59",
-  "title" : "胡塞武装称也门一监狱遭空袭 死亡人数升至23人另有7人失踪",
-  "summary" : "据美联社报道，也门胡塞武装通报称，也门境内一处监狱设施此前遭遇空袭，目前现场搜救发现死亡人数已升至23人，另有7人处于失踪状态。该起针对关押设施的空袭导致严重人员伤亡，使也门战事及地区安全风险再度升级。",
-  "source" : "AP News World",
-  "discoveredAt" : "2026-09-09T10:53:18.027895+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://apnews.com/article/yemen-saudi-arabia-war-prison-strike-red-sea-ede975f78a1d014092e43d0f2d682b9a"
-}, {
-  "fingerprint" : "f1850353f453f6c8",
-  "title" : "美军空袭伊朗油轮及哈尔克岛传出爆炸声 国际油价逼近百元关口",
-  "summary" : "据市场消息，美军再次对伊朗油轮发起打击行动，伊朗最大原油出口终端所在地哈尔克岛附近传出剧烈爆炸声。该事件引发对中东原油供应中断的严重恐慌，国际油价迅速攀升逼近每桶100美元大关，地缘军事冲突全面升级风险极剧增加。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T07:29:47.319119+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tN2QwNTVDZFRkZ1VpV2lJUThNLUNDRzNTVXhueHh2a25lUjV3a04wOFFNNWpuemM1dWtRSWFSOUpmcGd4c2lDYlJSYXU3amM?oc=5"
-}, {
-  "fingerprint" : "32f1eb1f54e7736f",
-  "title" : "俄罗斯恢复对乌克兰空袭 已致基辅地区至少7人死亡",
-  "summary" : "据中新网援引消息，俄罗斯近期恢复对乌克兰境内多地的大规模袭击行动。空袭已导致基辅地区至少7人死亡，多处建筑与设施受损。目前当地救援工作仍在进行，防空警报频发，冲突烈度再度呈现激化态势。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T07:13:32.061375+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nN0RmMmpjRGMzRmtEaTY2MUFTaklaM0dKdmNKYll5V3hTc0tydHR2aEkwUG5RTnFvYjJIcWlwZDNuWU9yUjBXQUxQYnNKbFBNZFcyNGxuaWdCRzVPelBtN0dFUlVmMlBu?oc=5"
-}, {
-  "fingerprint" : "3e47a1c342151627",
-  "title" : "也门胡塞武装称沙特空袭也门多处据点 双方报复性交火全面升级",
-  "summary" : "据媒体报道，也门胡塞武装指控沙特主导的联军针对也门多地目标实施了空袭行动。此前胡塞武装刚对沙特多座城市发动袭击致数十人受伤，沙特此轮空袭被视为直接军事报复，标志着双方战事显著升级，中东安全局势持续严峻，具体伤亡情况正在核实中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T06:44:36.666681+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmN0JQdDNqdV9TU0lXbmtxUXdxSUdlbGk4b3plaDYxNWx0MzRuT2Y1cG1IRmtaV0JEQnVOelBKMTRleElzSndyWFBFSlNnSzZTSWNn?oc=5"
-}, {
-  "fingerprint" : "fab06317e5710a85",
-  "title" : "也门胡塞武装袭击沙特四座城市致73人受伤 中东战事面临升级风险",
-  "summary" : "据媒体报道，也门胡塞武装对沙特阿拉伯境内四座城市发动袭击，目前已导致至少73人受伤。外界评估指出，此轮跨境打击标志着中东多线交火局势可能迎来新一轮重大外溢与升级，红海及海湾周边地缘安全风险显著加剧，后续动态待各方官方通报确认。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T04:52:01.830568+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibDJ5T3M1dzB0cjFLYlR3VFBTY011MlBTUDFmM1ZXc2VDTTR3eURHNWx6cTlHa0lkOGJDM2dFWXYwMGR4WDZ0dHJ1OUhOOEIxcS16UHVRSjF0ZmJMUXZVY3ZqTmhnS19GWWR0S2NtQQ?oc=5"
 } ]
