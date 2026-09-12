@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "344ca0b164cd453f",
+  "title" : "菲律宾一客船突发火灾已致35人遇难、54人失联，搜救行动紧急进行中",
+  "summary" : "据多家媒体报道，菲律宾一艘客运船只在航行过程中突发大火，火势迅速蔓延导致大量乘客受困跳海。截至目前，事故已造成35人死亡，另有54人处于失联状态。当地搜救部门已调派海警船艇与直升机全力展开搜救，死伤人数可能进一步上升。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-12T00:44:34.696537+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUODBtQ2c2cHRVLVh3VW5yZzRaQVRhLWxxY0pDX2JFWVVGMTVZZUpwSXhicmdySWZMWFFxUmRINDBEbm9xdko5QXMwLVZWQQ?oc=5"
+}, {
   "fingerprint" : "9ef475debbb73224",
   "title" : "沙特能源部称东西战略输油管道遭数次袭击，目前已被暂时关闭",
   "summary" : "沙特能源部证实，位于利雅得和麦地那地区的东西输油管道在周四遭到数次袭击后已被暂时关闭。该管道是沙特连接东部油田与红海港口延布的核心能源大动脉，直接承担规避霍尔木兹海峡风险的外运重任，停运将对国际原油供应安全构成重大冲击。",
@@ -238,12 +246,4 @@
   "discoveredAt" : "2026-09-09T01:14:25.264385+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NMS1wMno2RFFvQ1V1dGdWemowUFRvTUVrR0tzWHBOXzhBVnpRbkJ0UGYwLWxLTHBoMEJ2enJxWjR0ZVNJSk44VTVEdWdLMjNhOGNuQmhvdnJxSnlRZlBTNFJRb1g4eXNp?oc=5"
-}, {
-  "fingerprint" : "497d84500c0c4db5",
-  "title" : "马来西亚发生直升机坠毁事故 造成5人死亡",
-  "summary" : "据央广网等权威媒体报道，马来西亚境内发生一起严重的直升机坠毁事故。搜救与应急部门迅速赶赴现场处置，目前已确认事故造成5人不幸遇难。相关部门已对坠机原因、机型信息及遇难者身份展开进一步调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T00:11:05.151423+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53dnFZdUhRUklkVFk4bjlnNHBtV3dPb2MtSlFvNnFoOVJ4YTFzd3FUUms5OXpveVU3V195WFRaWU83MjFOUFhjeEN0b28xVmk5a3ZkUEFOUVBJLUlRRG5iaDYwUUNZWlhx?oc=5"
 } ]
