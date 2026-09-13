@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "76e75adfc5e3791b",
+  "title" : "也门局势再度升温：胡塞武装与沙特互相发动袭击 伊朗表态未与沙特交战",
+  "summary" : "也门局势骤然升温，胡塞武装与沙特阿拉伯展开新一轮相互军事袭击，中东地缘对抗风险显著加剧。针对外界对战事外溢的担忧，伊朗官方表态称其与沙特“并不处于战争状态”，试图为直接对抗降温。目前相关各方军事行动正引发国际社会对能源通道安全的高度警惕。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-13T06:33:29.800019+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LbFdaZXNLMjFIbFJ2dVE2RXBvLTJkUXNIYVR6UWVuWmtRenVXLVRORUN4RDVpbW9VTWpDOEJrdnd1SEdFcXdKQWNWbEhKZDhRckM0?oc=5"
+}, {
   "fingerprint" : "072ef20bf97342b7",
   "title" : "印度尼西亚一艘载有243人的客轮在相关海域突发失联",
   "summary" : "据央广网报道，印度尼西亚一艘载有243名乘客和船员的客轮在航行途中突然失联。事件发生后，印尼当地搜救机构已调集海上巡逻与救援力量赶赴失联海域展开搜寻排查，具体失联原因及人员搜救进展正在进一步核实中。",
@@ -142,28 +150,4 @@
   "discoveredAt" : "2026-09-10T09:59:36.423182+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "ff940cb3e4fa4246",
-  "title" : "叙利亚一武器弹药仓库突发剧烈爆炸 已致至少14人死亡",
-  "summary" : "据相关媒体报道，叙利亚境内一处武器仓库发生剧烈爆炸事故，目前已导致至少14人死亡。现场损毁严重，爆炸具体诱因（弹药殉爆或外部打击）及遇难者具体身份仍待叙利亚官方进一步通报确认。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-10T05:18:21.442072+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoY2Z3NlE2bi1UdGlGa1RLTXYxYVlfS0J6b0NEc3hpVHVHaExTTXlnR1gzTkoxcE50enl5MEttNk5lR3ZNUlZNVjF6ZTdBU01MVXNsT0hfTk9EVzdua0ZXcHNVaEx3ajA?oc=5"
-}, {
-  "fingerprint" : "bfde4f77a5835b35",
-  "title" : "消息称多架美军军机在伊朗对约旦基地的袭击中受损",
-  "summary" : "据央视新闻援引消息人士报道，在针对约旦境内基地的袭击中，有多架美军军机遭受不同程度损伤。美军关键战备资产在中东基地遇袭受损，标志着地区冲突与对峙态势进一步外溢并加剧，美方后续防御调整与报复动向引发高度关注。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-10T05:18:14.274716+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SdllMNmVydkU5SmZUbVYtOXpORWItV0d0azF3SGJVN082R1dMb0RKcFZRSUpoREhLM1lyM2ZiUkFIYUstakdJRFU0bXU3eHZtVkIyLTlRUVhwWmQtZU5FMTUxcWFRQ01wZDlxX19WekVHMlRkZGtTQQ?oc=5"
-}, {
-  "fingerprint" : "3c56750adb1591a8",
-  "title" : "乌克兰无人机突袭俄罗斯达吉斯坦里海港口 现场传出剧烈爆炸并引发火灾",
-  "summary" : "据半岛电视台报道，乌克兰无人机突袭了俄罗斯达吉斯坦共和国的里海港口，现场传出剧烈爆炸声并燃起火灾。达吉斯坦位于俄高加索地区东部，驻有俄里海分舰队重要力量，此次远程跨境打击凸显冲突范围进一步向俄腹地纵深扩展。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-10T04:49:13.305740+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/10/aje-onl-nf_suspected-ukrainian-drones-strike-dagestan-100926?traffic_source=rss"
 } ]
