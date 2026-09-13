@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "072ef20bf97342b7",
+  "title" : "印度尼西亚一艘载有243人的客轮在相关海域突发失联",
+  "summary" : "据央广网报道，印度尼西亚一艘载有243名乘客和船员的客轮在航行途中突然失联。事件发生后，印尼当地搜救机构已调集海上巡逻与救援力量赶赴失联海域展开搜寻排查，具体失联原因及人员搜救进展正在进一步核实中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-13T03:51:35.945719+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjNk42bTFBZ2RYbzJPZjBIZVJoU3pWNDVkWXFlek1uc0NaREdyOEdyeHlKV0JEMFpqVkpnTkNGampIQ2dncndKdzR1dUdBWkY4UlJtdWNtaUx1X0VYNHRLdTJUYkpkMkhzSVAtTDJrVDdpNVJCeWFKdzI4S3U?oc=5"
+}, {
   "fingerprint" : "66b5b290bac55b72",
   "title" : "也门胡塞武装称沙特联军在过去48小时内密集发动129次空袭",
   "summary" : "据新华社报道，也门胡塞武装发布声明称，沙特主导的多国联军在过去两天内对也门境内目标发动了129次密集空袭，空袭范围涉及多个省份。此轮大规模空袭显示双方军事冲突剧烈升级，具体伤亡与财产损失情况仍在进一步统计核实中。",
@@ -158,44 +166,4 @@
   "discoveredAt" : "2026-09-10T04:49:13.305740+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/10/aje-onl-nf_suspected-ukrainian-drones-strike-dagestan-100926?traffic_source=rss"
-}, {
-  "fingerprint" : "88c0ac25bc5ac346",
-  "title" : "江西遂川强降雨引发泥石流 救援力量深入核心区展开精细化搜救",
-  "summary" : "受强降雨影响，江西省吉安市遂川县发生泥石流灾害。搜救队伍目前已进入灾害核心区域，采取人机协同作业模式，运用生命探测仪及无人机等专业设备展开精细化网格搜寻，全力核实人员被困情况并排查次生灾害隐患。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-10T02:15:10.900080+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc2VKRG40cXFSZU5MbFB3LVk2TFBvYWhOelZXdDcyeEp0czdHWUNYaXpaMEl5ejZnc3NtQTh3aUZWRDl4R3ZDQ2VWUVJ5QXVLTVM5aWJoUHpvNjVVZklhZHozTGQ4TWg2Zk1Wbzl6ekFPQXljV19paWtpbDBGckNDS0hXSjNMaDdkTWxRSA?oc=5"
-}, {
-  "fingerprint" : "0c9856f922b7b8f1",
-  "title" : "菲律宾一客轮突发火灾事故 已致5人死亡87人失联",
-  "summary" : "据新华网客户端消息，菲律宾一艘客轮发生严重起火事故。截至目前，事故已确认造成5人遇难，另有87人处于失联状态。相关部门和搜救力量已赶赴现场全力搜寻幸存者，事故具体原因及船上总人数仍在进一步核实排查中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-10T01:52:36.609251+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa1hUc3lqTS05aUsyZjBQYk5XcUFISlpBakhtM3dzLVRycG5sdnhtT25ubExEb0s0X2liUlBFTTEzaUZIamprajlzeDY1cy1qeVdYQU1sNXFfM003WTE3MXRlTGFVbVU3dmdYcHFLOHdGQmhJMU9kYXNsaWpDM0JBS2tGeTBTTWNLcWQyVTRFN05uYWVyeHRLamp3?oc=5"
-}, {
-  "fingerprint" : "1bf02ab0a87f6a63",
-  "title" : "沙特主导的多国联军通报也门胡塞武装再次对沙特境内多地发动袭击",
-  "summary" : "据新华社及多国联军消息，沙特主导的多国联军通报也门胡塞武装再次对沙特境内多处地点发起袭击。联军防空部队正对来袭目标展开拦截应对，目前正密切评估袭击造成的具体损毁情况及潜在安全风险，区域军事对峙再度升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T23:53:49.696597+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRUhObVVCaksxWjBUa0hTaXc3c3Awc2MxQjBtUk9JZVg3TkMwWkRNb0RnLWlmV3lhNEN4Rlh2Uy1ST0tULWdQQUtTQ2ZqcGRxcnRQYWVjdDVJUXBCM3V6WmRaSUxsNWxmRG5GY1B6R0pvTE1wOEZiMVZuMEtmQVlhZHdFTjZOcUJKeEJvZ3dvWWRFWmtRY1RRbDdn?oc=5"
-}, {
-  "fingerprint" : "7385d8dd888e76f4",
-  "title" : "霍尔木兹海峡局势升级：伊朗战略要地格什姆岛突发爆炸声",
-  "summary" : "据伊朗方面消息，位于霍尔木兹海峡关键咽喉位置的格什姆岛突发爆炸声。在美伊波斯湾海上对抗持续升级的敏感时刻，该战略岛屿传出爆炸引发各方高度戒备，目前具体袭击源、伤亡及设施损毁情况正进一步核实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T23:12:04.557228+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yN2RsSWVBeXFpcDBlZU1OSW8zWTlTWndUYUFXc1g3WXFSb0tJWUpQY3QwZDNWbnlwcVk5VmVOODM5NlM5VzJHQ0pvU3EzcDZZZlRIRldTb0RkanljVlk4TDE2Yw?oc=5"
-}, {
-  "fingerprint" : "4ed854de8608e1f8",
-  "title" : "伊朗强烈谴责美军袭击其船只并宣布已对美实施对等军事打击",
-  "summary" : "据同花顺财经援引消息，伊朗官方就美军袭击伊朗船只事件予以强烈谴责，并明确表示已回以直接打击行动。美伊两国近期在相关战略海域的直接摩擦显著升级，互施军事打击令波斯湾航运与中东地缘对抗面临进一步失控风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-09T22:59:09.753168+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mWnVnRmxYdTd1LXllb3h1SDZaWHNnMjJlMEptdkdNY3VSYXdvRlZPUlpaU0tiQ1hpcXZhQ25nd0w3RExwRmVwQm1mNlpLR1dSZmJsZndxajNSdVdib2c?oc=5"
 } ]
