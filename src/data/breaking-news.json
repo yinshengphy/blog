@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fea65693b7ce9d99",
+  "title" : "沙特重要输油管道遭无人机袭击关闭 全球能源供应链面临严重断供危机",
+  "summary" : "据外媒及财经资讯平台报道，沙特阿拉伯一条核心输油管道在遭遇无人机袭击后被迫关闭。此前霍尔木兹海峡通行已承受重压，此番管道中断可能导致沙特在数日内面临石油输出枯竭的极端局面。国际原油期货市场剧烈震荡，全球能源供应链面临严峻断供考验。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-14T16:20:06.363114+00:00",
+  "severity" : "顶级政经与科技震荡",
+  "link" : "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSTUtWExtWEJOV05vOGN6N000eUJZVFZlbUtNblRBZUxfU1g0Qm9rRjFVS2ZVRkFQelR5VmhMVGYzZGFwcnh6ZEtEal9KWmNBRTdfcW9UX1VSUmJKLUg5eVVndF91RGh0WEliVnI0Q0dUaHBCUWJJaUgzcTMwUnRVWlRjOTlvUm5fU1RITnMxVmpNLUU1ZWFXbG16TFpJdUgyX3l1M2lqRDJadTZfbGRIWXQzNkg3RVk?oc=5"
+}, {
   "fingerprint" : "62a125d623ff7abb",
   "title" : "也门胡塞武装宣称对沙特境内空军基地发动军事袭击",
   "summary" : "据新华网报道，也门胡塞武装公开宣称对沙特阿拉伯境内的空军基地发动了军事袭击。此举为胡塞武装针对沙特主导的多国联军的最新跨境反击行动，进一步加剧了也门战事及红海、海湾周边地区的安全紧张局势。",
@@ -134,28 +142,4 @@
   "discoveredAt" : "2026-09-11T21:44:49.887692+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk"
-}, {
-  "fingerprint" : "68da010fb9cf85e2",
-  "title" : "缅甸第二大航空枢纽曼德勒国际机场突遭无人机袭击",
-  "summary" : "据缅甸媒体及多方消息，位于缅甸第二大城市的曼德勒国际机场遭到无人机袭击。作为该国重要航空枢纽及关键交通要道，机场遇袭反映出缅甸局势动荡加剧，反政府武装与军方对抗正持续波及核心民用及军民合用基础设施。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-11T11:43:25.397468+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oeVdvWldFUXhEbW5CRk04WEpMYXM5dVhmTEE1dUlmSG43N0pnSXdXNGx4V1hvNEQ2bllYT2cydkpDV0pfY096ZjZlNDg5RGM3NlRaVS1vZTM2d2tnN2EtaXZpMA?oc=5"
-}, {
-  "fingerprint" : "3e6c0e3be3d4e8e4",
-  "title" : "以色列宣布摧毁黎巴嫩真主党大型地下基地 巨大爆炸引发4.1级地震当量",
-  "summary" : "据BBC报道，以色列军方宣布已彻底摧毁黎巴嫩真主党的一处大型地下军事基地。美国地质调查局监测显示，拆除与引爆该地下工事产生的强烈爆炸威力相当于4.1级地震。此举标志着以军针对真主党深层地下掩体网络实施了重大破袭，中东冲突战火进一步扩散加剧。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-11T11:39:59.836619+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "c673cd42376c7508",
-  "title" : "也门胡塞武装称红海西海岸交火停止 国际油价应声重挫金价异动",
-  "summary" : "也门胡塞武装近日对外宣称红海西海岸交火已停止。作为全球关键航道的地缘冲突呈现降温预期，受此影响，国际原油市场避险溢价迅速收窄导致油价大幅下挫，国际金价及相关金融市场同步产生剧烈波动。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-11T09:05:17.826878+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVklyT1Z0cktsaHBwbVA3ZExOWU1LSEdreTNqUUttckd2d3lRM2VNcG5GTkdyVW5RRkFjWFdnN25HUEVtN1FMV3pQbmpESV95Y2Rjekc2UV85MmVMMjk4U2F3ck56TVBUVmdSRGV3WnRWVHFzeUpqZC1tRGtuNUg4eHY0aXRudGFLNFVrZlozN1MxUUsxWEF6Sjh6Mk1RYXlEblFPaEhwZjVIblZTMGVXTmln?oc=5"
 } ]
