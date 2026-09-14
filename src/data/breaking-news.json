@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "258078f3cae387be",
+  "title" : "尼泊尔一侧突发冰岩崩引发泥石流 多国外籍人员失联 中方正全力开展搜救",
+  "summary" : "外交部长王毅同拉脱维亚外长布拉泽通电话。针对尼泊尔一侧突发冰岩崩引发泥石流灾害、导致外籍人员受灾失联，王毅表示拉脱维亚是失联人数最多的欧洲国家，中方对受灾人员表示慰问，正克服恶劣自然条件尽最大努力搜救拉方等外籍失联人员。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-14T22:34:51.015826+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01blRzZ2o1SGxwN082SWNveG1XXzBDN0JhRXpHV1dEdVA0dlhPM3QtSTVjdnFiWkZaNXpSS05uMDFsS05QUkRWY01JeW1ZREc4cEpXOHFaMVZ0cmc?oc=5"
+}, {
   "fingerprint" : "ddcc5cc85e4c9494",
   "title" : "伊朗革命卫队通报一艘油轮穿越霍尔木兹海峡时触雷爆炸",
   "summary" : "据新华网客户端援引伊朗革命卫队消息，一艘油轮在试图穿越海峡时触发水雷发生爆炸。作为全球最关键的石油运输咽喉要道，该触雷事件证实海峡水域已布设水雷或存在高度爆炸风险，全球能源海上运输通道面临严重中断威胁。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-09-11T22:49:07.796506+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTDRmSnRoZXFOVFJiVVlLMkRndGwxT1JsQlgxNGVxNnhzWXZjQWIxdFdWTnQ5aXFsa0lnYVNzbFp0V2o5bHhuZGNjQ1dYMVhEaGN6OHFVQmFnVFRZNkFmUw?oc=5"
-}, {
-  "fingerprint" : "8a3696a15eb4d7fb",
-  "title" : "尼泊尔发生严重泥石流灾害 遇难人数据报升至1385人",
-  "summary" : "据媒体报道，尼泊尔近期遭遇强降雨引发的特大泥石流灾害，遇难人数已急剧上升至1385人。灾害导致多地基础设施严重受损、通信交通大面积受阻，搜救行动正在艰难推进中，具体受灾范围及伤亡核实工作仍在持续。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-11T22:20:14.546020+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wMXJJb2pvckZSeGFHTUdBY0FDX0tSVzdBUGdmZ19wU0p5VEIyRTFSZ2hWTzhHNHdUbTJpcWk0QnFfMUhBOWtqVko5bzdPcUc2TS1oSG9YcWl3b1dGUWQ5LVFqT1lnQ0F3Z2RMVU1VYTBLekNJZm5F?oc=5"
 } ]
