@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "cc2b2d179c11ac03",
+  "title" : "海湾地区发生新袭击事件冲击石油供应 阿曼宣布推迟地区会议",
+  "summary" : "据观察者网报道，海湾地区发生新一轮袭击事件，已直接波及该地区石油供应与外运安全。受骤然紧张的安全局势影响，阿曼方面宣布推迟原定举行的地区会议。在中东地缘冲突外溢背景下，关键航道与能源设施持续面临威胁，加剧了国际能源市场的震荡预期。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-14T06:51:17.458847+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE51c1pERVJMSFZNbHlWci05TVpZWTVDZHQtTmVXRVE3YVJaWWl0YnZCN3RZcncwWF84cjVYbGJHemxlUXdVR2t3VzdOLXhMdXRiQnF6M2laV24zU29vNG92ZDVHWUZqNkpUeVEwQ1l1TG9zQzg?oc=5"
+}, {
   "fingerprint" : "888e985b6712fe93",
   "title" : "胡塞武装指责沙特多国联军对也门发动58次密集空袭，局势剧烈升温",
   "summary" : "据每日经济新闻等媒体报道，也门胡塞武装发布消息称，沙特领导的多国联军对也门境内多处目标发起了58次空袭行动。这一大规模军事打击显示也门前线战火与边境对抗态势急剧升温，可能引发胡塞武装的报复性袭击。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-09-11T09:05:17.826878+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVklyT1Z0cktsaHBwbVA3ZExOWU1LSEdreTNqUUttckd2d3lRM2VNcG5GTkdyVW5RRkFjWFdnN25HUEVtN1FMV3pQbmpESV95Y2Rjekc2UV85MmVMMjk4U2F3ck56TVBUVmdSRGV3WnRWVHFzeUpqZC1tRGtuNUg4eHY0aXRudGFLNFVrZlozN1MxUUsxWEF6Sjh6Mk1RYXlEblFPaEhwZjVIblZTMGVXTmln?oc=5"
-}, {
-  "fingerprint" : "4f2f62619fa10842",
-  "title" : "Anthropic披露其Claude大模型被滥用于也门导弹研发及全球间谍行动",
-  "summary" : "半岛电视台报道，AI机构Anthropic发布报告披露，旗下Claude大模型被恶意主体滥用于也门导弹制导软件编写及多起网络间谍渗透行动。这是顶级前沿商用大模型首次被曝遭深度介入尖端武器研发，凸显出当前生成式AI安全围栏与防军用扩散面临严峻考验。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-11T05:00:09.813454+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage?traffic_source=rss"
 } ]
