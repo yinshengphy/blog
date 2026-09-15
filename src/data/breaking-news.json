@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d44b8a7febb46804",
+  "title" : "沙特联军称胡塞武装袭击致13人受伤",
+  "summary" : "沙特主导的联军发布消息称，也门胡塞武装近日发动袭击，造成13人受伤，但目前尚无关于袭击方式、具体地点、受袭目标及伤者身份的更多细节。该事件与近期胡塞针对沙特目标的袭击相互关联，表明地区冲突风险仍处于高位，后续需关注沙特及胡塞方面是否发布更完整信息。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-15T05:34:30.666066+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iRDYyMEUxSGlWUkJ0ei1Hdkt5UkplTVlOanJ5dlo4NkJQODlwSXRuMFhEeFVnWVRoZmtsSGVscHdRaHUyZDRTS0hUY2I4UzlzdnYtRHZ4MzRDVEhQU01rSlVuZlUtY3RhS1ZFZkt1RkZubWg0ajhoOWZISWdINTA?oc=5"
+}, {
   "fingerprint" : "258078f3cae387be",
   "title" : "尼泊尔一侧突发冰岩崩引发泥石流 多国外籍人员失联 中方正全力开展搜救",
   "summary" : "外交部长王毅同拉脱维亚外长布拉泽通电话。针对尼泊尔一侧突发冰岩崩引发泥石流灾害、导致外籍人员受灾失联，王毅表示拉脱维亚是失联人数最多的欧洲国家，中方对受灾人员表示慰问，正克服恶劣自然条件尽最大努力搜救拉方等外籍失联人员。",
@@ -126,28 +134,4 @@
   "discoveredAt" : "2026-09-12T19:40:15.303317+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "fb94e9e8f06417dc",
-  "title" : "韩国军方称朝鲜向东部海域发射弹道导弹 美日韩正紧密共享情报",
-  "summary" : "据半岛电视台援引韩国军方消息，朝鲜于其东部海岸方向发射了弹道导弹。韩国方面表示正密切监视相关动态，并与美国和日本紧密共享此次发射的情报数据。目前韩军正分析导弹的具体型号、飞行距离和高度等详细参数。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-12T02:49:20.672571+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss"
-}, {
-  "fingerprint" : "344ca0b164cd453f",
-  "title" : "菲律宾一客船突发火灾已致35人遇难、54人失联，搜救行动紧急进行中",
-  "summary" : "据多家媒体报道，菲律宾一艘客运船只在航行过程中突发大火，火势迅速蔓延导致大量乘客受困跳海。截至目前，事故已造成35人死亡，另有54人处于失联状态。当地搜救部门已调派海警船艇与直升机全力展开搜救，死伤人数可能进一步上升。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-12T00:44:34.696537+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUODBtQ2c2cHRVLVh3VW5yZzRaQVRhLWxxY0pDX2JFWVVGMTVZZUpwSXhicmdySWZMWFFxUmRINDBEbm9xdko5QXMwLVZWQQ?oc=5"
-}, {
-  "fingerprint" : "9ef475debbb73224",
-  "title" : "沙特能源部称东西战略输油管道遭数次袭击，目前已被暂时关闭",
-  "summary" : "沙特能源部证实，位于利雅得和麦地那地区的东西输油管道在周四遭到数次袭击后已被暂时关闭。该管道是沙特连接东部油田与红海港口延布的核心能源大动脉，直接承担规避霍尔木兹海峡风险的外运重任，停运将对国际原油供应安全构成重大冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-11T22:49:07.796506+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTDRmSnRoZXFOVFJiVVlLMkRndGwxT1JsQlgxNGVxNnhzWXZjQWIxdFdWTnQ5aXFsa0lnYVNzbFp0V2o5bHhuZGNjQ1dYMVhEaGN6OHFVQmFnVFRZNkFmUw?oc=5"
 } ]
