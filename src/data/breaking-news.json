@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3334c31facbf9998",
+  "title" : "苏丹金矿发生坍塌事故至少67名矿工遇难",
+  "summary" : "据第一财经援引相关消息，苏丹一处金矿发生坍塌事故，已造成至少67名矿工遇难。由于当地矿业安全条件和救援能力有限，仍需关注是否存在被困或失联人员，以及最终死亡人数、事故具体地点和坍塌原因。该事件属于重大矿难，可能引发对苏丹非正规采矿安全状况的进一步关注。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-17T04:41:15.908134+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EZ0RsQkJTWGk0R0VxbjNzZ1B1QXVJSnc5SVlzT1FWbXZwWlBjQWVBdDhVQTJfUnk3YTlMU0YyU1pNY2c5Z0o1SmNDLWt4a1FLLXJz?oc=5"
+}, {
   "fingerprint" : "b0c63dbbb0893d29",
   "title" : "查理·柯克遇刺身亡 家属指控犹他官员存在重大失误",
   "summary" : "BBC报道，美国保守派活动人士查理·柯克在犹他谷大学校园向数千人演讲时，被一名据称从屋顶开枪的枪手击中并死亡。其家属称犹他州官员存在“惊人失误”，事件或引发对现场安保部署、枪手预警及政府责任的调查，并进一步加剧美国政治暴力与社会撕裂风险。",
@@ -102,36 +110,4 @@
   "discoveredAt" : "2026-09-14T08:34:58.806730+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rU2NLaEg1VnhrV1Y0dVJxa2F2a1ZTLXZOeGRDSjBzQ19qQjZ6N1FJbXlIVk1KSTFuTFBxY19FZXFZZ1FNRG5IYXBtY1hqYl90aG1fSnNVSXgtTmUwdGNfSW51cHpiZlNrM0lrQUFzQ3NDQ29BM1l6a25vbmw0emM?oc=5"
-}, {
-  "fingerprint" : "cc2b2d179c11ac03",
-  "title" : "海湾地区发生新袭击事件冲击石油供应 阿曼宣布推迟地区会议",
-  "summary" : "据观察者网报道，海湾地区发生新一轮袭击事件，已直接波及该地区石油供应与外运安全。受骤然紧张的安全局势影响，阿曼方面宣布推迟原定举行的地区会议。在中东地缘冲突外溢背景下，关键航道与能源设施持续面临威胁，加剧了国际能源市场的震荡预期。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T06:51:17.458847+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE51c1pERVJMSFZNbHlWci05TVpZWTVDZHQtTmVXRVE3YVJaWWl0YnZCN3RZcncwWF84cjVYbGJHemxlUXdVR2t3VzdOLXhMdXRiQnF6M2laV24zU29vNG92ZDVHWUZqNkpUeVEwQ1l1TG9zQzg?oc=5"
-}, {
-  "fingerprint" : "888e985b6712fe93",
-  "title" : "胡塞武装指责沙特多国联军对也门发动58次密集空袭，局势剧烈升温",
-  "summary" : "据每日经济新闻等媒体报道，也门胡塞武装发布消息称，沙特领导的多国联军对也门境内多处目标发起了58次空袭行动。这一大规模军事打击显示也门前线战火与边境对抗态势急剧升温，可能引发胡塞武装的报复性袭击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T01:49:24.218544+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMSkpna0xwQ0ktd1FIQ0ZpN3c5Y21kN0NnSlcxVjVXdTlQV2liTlJRSGJOQzhQMmxaV1ZlWlJwUkc5OFdUNWdzLWtfTmtJSncwNExzMHFxVVJxWlJLcDNHU1NhYWJXUQ?oc=5"
-}, {
-  "fingerprint" : "3a6cc4f9603e11ec",
-  "title" : "伊朗境内突发爆炸引发地缘局势担忧 全球核心资产与大宗商品剧烈震荡",
-  "summary" : "据媒体报道，伊朗境内今日清晨突发爆炸，具体发生地点、伤亡情况及事故性质尚待官方进一步证实。受突发地缘风险扰动，市场避险情绪迅速蔓延，美股期指、黄金与白银等主要资产早盘出现集体下挫，国际市场正高度关注各方最新官方通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-13T23:44:10.842105+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pRnFWM0wyR2xiSHl5UFVaMkFUTFg5cWhteU9XZFJPdmowSWJNZWUxNFNGNFZxQ2piMVhkdzJVbTUzV0liaktJMnZTU1dKVmVLanA3bDRNSzBHbFh5WFMweg?oc=5"
-}, {
-  "fingerprint" : "88ad536bc3a1703d",
-  "title" : "也门战事剧烈升级：政府军称胡塞武装发起大规模攻势已致双方伤亡数千人",
-  "summary" : "据新华网报道，也门政府军近日通报，也门胡塞武装在前线多个战线发起大规模军事攻势，引发双方激烈交火。政府军方面表示，此轮攻势及交火已造成双方数千人死伤。战事骤然升级使也门人道主义危机再度加剧，中东地区和平停火努力面临严峻考验。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-13T20:19:28.841000+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4a1FjMEdEWkZrYmdjZ2VfeS1ZTEtOZ3pXWHdsM2pvbHpfWEVXOHlnMVJ4Q3h5Y21Bc05kdkNIN0sxRDAwSGNmcmJMUXRWQlNxQlhfWVVYNGxYdUszTU1lZ1dDZWlOaGRjY0Q5QkxuU3Y0aC1lb0dlVmhzT29MbmM?oc=5"
 } ]
