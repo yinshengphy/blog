@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "84712fb8c2b53ad1",
+  "title" : "沙特阿拉伯与也门胡塞武装边境爆发致命交火 打破相对平静局势",
+  "summary" : "据法广（RFI）等媒体报道，沙特阿拉伯军队与也门胡塞武装在边境地区再次爆发致命交火。这是此前双方维持相对停火及开展缓和接触以来罕见的直接军事冲突，引发外界对也门和平进程可能受挫以及地区冲突再升级的严重担忧。目前伤亡与交火细节仍在进一步核实中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-17T23:08:34.272684+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMizwJBVV95cUxQOEZmMHFkaHBrcGNJSU5Cel9BQjhjTjJpV1BaS0lGT3hOVWc1b2lPdW12QU1yWVp1YVBJclM0czZmb0gxRmJOc2ROb2w1R0dMNjdJOXQ3bm9ibERQbXhaTmpoNlBwc0UxT0pLSm9jQnBPeDdHS1JTdFN0YzVEaUpndEloSklYMjhfOUdhNEpHRUI4eDg0c2J6WVhlQ0pnemdvcVB3SF9NNmlQdFdwTzgwR3FPRnJEc241RzRVWWNKenBzVno4bzBUNy1hUDRuTlNzRzVmdmVwbWdHVGtLRWpiSUpJTnpwUVNnWG02bDlIaUVndkZZc05abVM4c3ZoNFdIS3RkY0pzcHBkQXdfMWZhXzI2dEl1WF9KRTZ4azg0Qy1TYUhERVFySC1PQVpEcWRZaDdoUDhqcUdEZnpLN3lKZmQ5anJ2bVlWamVES2FVcw?oc=5"
+}, {
   "fingerprint" : "c3209db49691dc5b",
   "title" : "俄军空袭乌克兰首都基辅传剧烈爆炸 乌军反击袭击俄境内大型炼油厂",
   "summary" : "据法广等媒体报道，俄罗斯军方对乌克兰首都基辅发动新一轮空袭，市内接连传出巨大爆炸声，防空警报全面拉响。与此同时，乌克兰方面展开远程反击，成功袭击俄罗斯境内一处大型炼油厂。双方互袭首都与核心能源基础设施，战事烈度持续上升。",
@@ -86,28 +94,4 @@
   "discoveredAt" : "2026-09-15T05:34:30.666066+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iRDYyMEUxSGlWUkJ0ei1Hdkt5UkplTVlOanJ5dlo4NkJQODlwSXRuMFhEeFVnWVRoZmtsSGVscHdRaHUyZDRTS0hUY2I4UzlzdnYtRHZ4MzRDVEhQU01rSlVuZlUtY3RhS1ZFZkt1RkZubWg0ajhoOWZISWdINTA?oc=5"
-}, {
-  "fingerprint" : "258078f3cae387be",
-  "title" : "尼泊尔一侧突发冰岩崩引发泥石流 多国外籍人员失联 中方正全力开展搜救",
-  "summary" : "外交部长王毅同拉脱维亚外长布拉泽通电话。针对尼泊尔一侧突发冰岩崩引发泥石流灾害、导致外籍人员受灾失联，王毅表示拉脱维亚是失联人数最多的欧洲国家，中方对受灾人员表示慰问，正克服恶劣自然条件尽最大努力搜救拉方等外籍失联人员。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T22:34:51.015826+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01blRzZ2o1SGxwN082SWNveG1XXzBDN0JhRXpHV1dEdVA0dlhPM3QtSTVjdnFiWkZaNXpSS05uMDFsS05QUkRWY01JeW1ZREc4cEpXOHFaMVZ0cmc?oc=5"
-}, {
-  "fingerprint" : "ddcc5cc85e4c9494",
-  "title" : "伊朗革命卫队通报一艘油轮穿越霍尔木兹海峡时触雷爆炸",
-  "summary" : "据新华网客户端援引伊朗革命卫队消息，一艘油轮在试图穿越海峡时触发水雷发生爆炸。作为全球最关键的石油运输咽喉要道，该触雷事件证实海峡水域已布设水雷或存在高度爆炸风险，全球能源海上运输通道面临严重中断威胁。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T21:59:58.969168+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVDk4MG84MjNuaHJiWkhONC1lVi01Y3FPa1BSMlFxT1BiRk1TSWk3UFNoY1lKNlNKQ1BGV3BQN0xXQXZjejZsM1hQTjVLYUNVekdQMW1JSWtMVnlEekN6WFhKaUtIeVFPc3IyejhmZXZZcGtKX3BiSHRZZE0wamRxRXlxdzd6a2h5czA0OVJLLXphU0NYOE1oSnRB?oc=5"
-}, {
-  "fingerprint" : "a85ab61863b637b6",
-  "title" : "特朗普称俄乌已同意停止相互袭击能源基础设施",
-  "summary" : "据美国之音报道，特朗普公开宣称俄罗斯与乌克兰已同意停止相互袭击对方的能源基础设施。此前双方对炼油厂、电网等能源目标的持续打击对战局及全球能源供应造成深远影响。目前该表态具体实施细则及俄乌官方确认情况仍有待进一步观察。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T18:36:15.781235+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMUtXeS1CT05YMldWQlFjNjFVSm1sVms2Q3ZrUlBFVXVURml1elJobGFDZTBfMUI2RUFaSnVOY2UybzJmZ3dkdUYxOXdidUxSLUJLVkUtSnFHdDdTeWdLbmFfa0J1eHZzT0pQam9HcUkyRzNHWXIxSEhtM2h4eEdWcWx1dkFJTG1VVEFBRU8xNDdTQlM4V21VY1RNaGJTa3ZzWFdlT2kxTnVPZS1FVURtWHVvOHRGdUd2XzBTaGF30gHAAUFVX3lxTFBuOUtHbm9xQ0pKZjNGSk03N0xhUTZnOUJQU2QyQVRUYktJN0t2aUl0UWtWdkRIVjRVMDdHVmdqMnBOYkdKTy1LZ1Q4b1E4dUlPUVRXUENTUVdIRmtfemRRWU9aQ2V0MWZ1Q1kyc2hDVm9WdHNwV1d4QmhsZ3lFVVBTaG5PMm5OMFp3ZGk5M2FMdklkd1ZGTmU1VzhiYzZ1OUVMVXNmNG54WTIxaE13a0Zsay1YOW5zSGJNOS1RMHRaYg?oc=5"
 } ]
