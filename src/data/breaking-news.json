@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5e02fffe33717623",
+  "title" : "阿拉斯加尼科尔斯基西南偏西发生6.4级地震",
+  "summary" : "USGS报告称，阿拉斯加州尼科尔斯基西南偏西163公里处于2026年9月17日14时19分53秒（UTC）发生6.4级地震。震中位于偏远地区，目前暂无人员伤亡和重大财产损失信息，相关部门仍需持续监测余震及潜在海啸风险。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-09-17T14:33:54.598804+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026slmipb"
+}, {
   "fingerprint" : "3334c31facbf9998",
   "title" : "苏丹金矿发生坍塌事故至少67名矿工遇难",
   "summary" : "据第一财经援引相关消息，苏丹一处金矿发生坍塌事故，已造成至少67名矿工遇难。由于当地矿业安全条件和救援能力有限，仍需关注是否存在被困或失联人员，以及最终死亡人数、事故具体地点和坍塌原因。该事件属于重大矿难，可能引发对苏丹非正规采矿安全状况的进一步关注。",
@@ -102,12 +110,4 @@
   "discoveredAt" : "2026-09-14T16:20:06.363114+00:00",
   "severity" : "顶级政经与科技震荡",
   "link" : "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSTUtWExtWEJOV05vOGN6N000eUJZVFZlbUtNblRBZUxfU1g0Qm9rRjFVS2ZVRkFQelR5VmhMVGYzZGFwcnh6ZEtEal9KWmNBRTdfcW9UX1VSUmJKLUg5eVVndF91RGh0WEliVnI0Q0dUaHBCUWJJaUgzcTMwUnRVWlRjOTlvUm5fU1RITnMxVmpNLUU1ZWFXbG16TFpJdUgyX3l1M2lqRDJadTZfbGRIWXQzNkg3RVk?oc=5"
-}, {
-  "fingerprint" : "62a125d623ff7abb",
-  "title" : "也门胡塞武装宣称对沙特境内空军基地发动军事袭击",
-  "summary" : "据新华网报道，也门胡塞武装公开宣称对沙特阿拉伯境内的空军基地发动了军事袭击。此举为胡塞武装针对沙特主导的多国联军的最新跨境反击行动，进一步加剧了也门战事及红海、海湾周边地区的安全紧张局势。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-14T08:34:58.806730+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rU2NLaEg1VnhrV1Y0dVJxa2F2a1ZTLXZOeGRDSjBzQ19qQjZ6N1FJbXlIVk1KSTFuTFBxY19FZXFZZ1FNRG5IYXBtY1hqYl90aG1fSnNVSXgtTmUwdGNfSW51cHpiZlNrM0lrQUFzQ3NDQ29BM1l6a25vbmw0emM?oc=5"
 } ]
