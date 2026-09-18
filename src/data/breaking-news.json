@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "45f6b24bbc478095",
+  "title" : "伊朗伊斯兰革命卫队称在霍尔木兹海峡对一艘多哥籍油轮发动袭击行动",
+  "summary" : "据法广（RFI）报道，伊朗伊斯兰革命卫队宣布在关键咽喉通道霍尔木兹海峡袭击并拦截了一艘悬挂多哥国旗的油轮。作为全球最重要的石油运输走廊，该海域再次发生针对商船的军事行动，引发国际社会对中东海上安全通道及原油供应链安全的担忧。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-18T08:41:54.504100+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNZGthcGNOcVp5MEVPblhZWFpWV2JGaERCR0ZrWFVkU0Jxc2ZEemJZSXlYTDM5WHJTUlVfY081NzZPeEFIc1NWaklORlR2WTd3OVY2S3BLMDBsekRoWE5NZWdXX1RIbWRvRzdvNDJBWUZjZHFyNFduWXM4eEJvd1FnMXNCSm1vRXhqS3NkU1pGb0h4cnFXa3g3VFEwV1JLWDVUUno4UDl5Qm1rWjY3aXVvMFZMaE9rS0tDNFIwQ2hYV3JjSURVM3dlTEtmTGhobTczYU4xRFFlWnVPS2xZUnRIZ2RFQjlUVGFKRWtyMWkzTnV0QzRlV1E4Zm0xdHZ3eUFmbWRWUVRJc3EwdkdKUlpZUXBiRVpKNFEyZk0yVk8wV2NvQllQT0RldnF1UnZKZjByRWhKRjhvdV9JRS1CSWliQWVST3dHYUxnaVhGWnBuVTJZR2xuOXhYTjNsWU1HRDNCUGJKNktoZw?oc=5"
+}, {
   "fingerprint" : "84712fb8c2b53ad1",
   "title" : "沙特阿拉伯与也门胡塞武装边境爆发致命交火 打破相对平静局势",
   "summary" : "据法广（RFI）等媒体报道，沙特阿拉伯军队与也门胡塞武装在边境地区再次爆发致命交火。这是此前双方维持相对停火及开展缓和接触以来罕见的直接军事冲突，引发外界对也门和平进程可能受挫以及地区冲突再升级的严重担忧。目前伤亡与交火细节仍在进一步核实中。",
@@ -78,20 +86,4 @@
   "discoveredAt" : "2026-09-15T12:20:04.279456+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CREVGdlhSY2NVeXZXYi1faTJhb2N0dmJxNkJnaUU5X0RXMmVjUXA0aGVQMWZKdEtQYy1ZckJ0SzZrSWtJUEdLMTJkNndOeVhaeVNmaFdvNEt2eTE2UlZjcW9CbkQ1V1cxaFFsNDRqdHc?oc=5"
-}, {
-  "fingerprint" : "e5cd9edc236a1eed",
-  "title" : "日本一架全球鹰无人机失去联系，原因尚待确认",
-  "summary" : "据观察者网援引相关报道，日本一架全球鹰无人机疑似失去联系，具体机型状态、失联时间、所在空域及原因均待进一步核实。现阶段尚无人员伤亡或坠毁信息，也未见日本官方正式通报。若确认发生坠毁或被干扰，可能引发对日本周边空域安全及美日军事侦察活动的关注。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-15T07:18:50.589458+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwaUxuLTIxSHhXbEIyS2dDUEdEN255V3EwUzNncDhDRHZseTRCaHp5MWZTRnM2M0pZUVVhVG9mWThzckg1QzJ2VTdRYUFORzVMSXVaT0hLZE5icjY1RGR1dWc3QQ?oc=5"
-}, {
-  "fingerprint" : "d44b8a7febb46804",
-  "title" : "沙特联军称胡塞武装袭击致13人受伤",
-  "summary" : "沙特主导的联军发布消息称，也门胡塞武装近日发动袭击，造成13人受伤，但目前尚无关于袭击方式、具体地点、受袭目标及伤者身份的更多细节。该事件与近期胡塞针对沙特目标的袭击相互关联，表明地区冲突风险仍处于高位，后续需关注沙特及胡塞方面是否发布更完整信息。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-15T05:34:30.666066+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iRDYyMEUxSGlWUkJ0ei1Hdkt5UkplTVlOanJ5dlo4NkJQODlwSXRuMFhEeFVnWVRoZmtsSGVscHdRaHUyZDRTS0hUY2I4UzlzdnYtRHZ4MzRDVEhQU01rSlVuZlUtY3RhS1ZFZkt1RkZubWg0ajhoOWZISWdINTA?oc=5"
 } ]
