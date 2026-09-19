@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "97d5d06f3aa8fa25",
+  "title" : "胡塞武装称袭击沙特敏感目标及设施，局势升级",
+  "summary" : "胡塞武装发布声明称已对沙特境内敏感目标及设施发动袭击。当前缺乏沙特官方或独立消息源证实，具体目标、袭击规模及是否造成人员伤亡均不明。鉴于近期沙特首都出现爆炸声、也门战事相关空袭指控持续增加，该消息可能意味着冲突外溢和报复行动升级，需重点关注沙特拦截通报、能源设施运行及后续多源影像证据。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-19T19:45:56.378210+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0NWJlNmxBRUliNVpQcjhGNEQwLS1nS09KYUhITUE1X0I0T0NRbXlqQUk2b01RLTdHLUljc196aVo4bmlCTHdrdg?oc=5"
+}, {
   "fingerprint" : "494f2e2ec672283a",
   "title" : "俄罗斯袭击乌克兰致8人死亡并攻击黑海两艘船只",
   "summary" : "据半岛电视台报道，乌克兰空军称俄罗斯夜间对乌克兰发动新一轮大规模空袭，使用数十架无人机及两枚反舰导弹，造成至少8人死亡，并攻击黑海两艘船只。事件显示俄乌冲突外溢至海上航运领域，区域安全风险进一步上升。",
@@ -102,20 +110,4 @@
   "discoveredAt" : "2026-09-17T04:41:15.908134+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EZ0RsQkJTWGk0R0VxbjNzZ1B1QXVJSnc5SVlzT1FWbXZwWlBjQWVBdDhVQTJfUnk3YTlMU0YyU1pNY2c5Z0o1SmNDLWt4a1FLLXJz?oc=5"
-}, {
-  "fingerprint" : "b0c63dbbb0893d29",
-  "title" : "查理·柯克遇刺身亡 家属指控犹他官员存在重大失误",
-  "summary" : "BBC报道，美国保守派活动人士查理·柯克在犹他谷大学校园向数千人演讲时，被一名据称从屋顶开枪的枪手击中并死亡。其家属称犹他州官员存在“惊人失误”，事件或引发对现场安保部署、枪手预警及政府责任的调查，并进一步加剧美国政治暴力与社会撕裂风险。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-16T16:46:56.734891+00:00",
-  "severity" : "重大国家安全/政治暴力事件",
-  "link" : "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "fabae6adca108758",
-  "title" : "也门胡塞武装宣称对沙特境内石油设施与空军基地发动打击",
-  "summary" : "据新华网客户端消息，也门胡塞武装发表声明，宣称针对沙特阿拉伯境内的多处关键石油设施及空军基地实施了军事打击。此次行动再次引发对红海及海湾地区能源设施安全的高度担忧，具体损毁及人员伤亡情况沙特官方尚未详细证实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-16T14:38:03.297255+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdUtWWXBlWFNhNFV6alQ3cm5IaGlKNjF6RXV5YUkyUnpHNzZGMmxXeldFMnROd001ZjZ4UUNwQ0s3bFJudkxYQ1hMS3VoQmNNbkpELWpiOVRaQXdqeC1QTFlMLU5VMXVIdkpYcklnUlpjLVd3TzZvdjB5bXo3NGNhWW9mb2FZbVNlcUhnODd5eU1XVG0wU0hRbkJR?oc=5"
 } ]
