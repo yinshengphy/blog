@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "ba3f28999a71ece3",
+  "title" : "澳大利亚悉尼西部发生持刀袭击造成4人死伤",
+  "summary" : "据新华网援引相关消息，澳大利亚悉尼西部发生持刀袭击事件，造成4人死伤。现有信息尚未明确死亡与受伤人数构成、袭击动机及嫌疑人是否被控制。当地警方预计将开展现场调查和风险排查，事件影响目前主要集中在案发区域。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-20T07:43:58.205533+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GSTFoQXpZa1BCeXJvWjF4OU5rYU9fWnpsVmVQUFd6YlVhMDYxM3g5WE5hem0wZWxXS0U3a3ZxMHRjNkpRMm5rdEJ1TUJsSWhaUmlnZ25WLW1RRHZBWDFqWVQwVURxeEFDcWNtV2FtV0JlU2pxMXplaW9MTmJJZFE?oc=5"
+}, {
   "fingerprint" : "ed8e762fcf427703",
   "title" : "四川攀枝花盐边县泥石流致2人遇难、3人失联",
   "summary" : "四川攀枝花市盐边县突发泥石流，官方通报显示已造成2人遇难、3人失联。当地正组织搜救、人员核查和灾情处置，后续伤亡及受灾范围仍可能进一步明确。该消息是此前泥石流事件的重大伤亡进展，因出现明确死亡和失联人数，具有较高突发性与持续关注价值。",
@@ -110,12 +118,4 @@
   "discoveredAt" : "2026-09-17T14:33:54.598804+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026slmipb"
-}, {
-  "fingerprint" : "3334c31facbf9998",
-  "title" : "苏丹金矿发生坍塌事故至少67名矿工遇难",
-  "summary" : "据第一财经援引相关消息，苏丹一处金矿发生坍塌事故，已造成至少67名矿工遇难。由于当地矿业安全条件和救援能力有限，仍需关注是否存在被困或失联人员，以及最终死亡人数、事故具体地点和坍塌原因。该事件属于重大矿难，可能引发对苏丹非正规采矿安全状况的进一步关注。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-17T04:41:15.908134+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EZ0RsQkJTWGk0R0VxbjNzZ1B1QXVJSnc5SVlzT1FWbXZwWlBjQWVBdDhVQTJfUnk3YTlMU0YyU1pNY2c5Z0o1SmNDLWt4a1FLLXJz?oc=5"
 } ]
