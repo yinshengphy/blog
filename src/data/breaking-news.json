@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0c45b823f80a80ff",
+  "title" : "气候变化加剧尼泊尔毁灭性山洪灾害",
+  "summary" : "德国之声报道称，尼泊尔8月26日突发山洪，灾害持续时间极短但破坏性极强，已造成上千人死亡、数千人失踪。科学家指出，气候变暖导致极端降雨风险上升，是灾害演变的重要驱动因素，并警告类似极端事件未来可能更加频繁。由于报道缺乏明确年份及尼泊尔官方数据支持，伤亡规模和灾区范围仍需进一步核实。",
+  "source" : "DW Chinese (德国之声)",
+  "discoveredAt" : "2026-09-22T05:14:37.411710+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.dw.com/zh/毁灭性的七分钟：气候变化如何一步步酿成尼泊尔山洪/a-79311007?maca=chi-rss-chi-all-1127-xml-mrss"
+}, {
   "fingerprint" : "1eae38ed9fef4a7a",
   "title" : "乌克兰袭击俄罗斯大型炼油厂或加剧全球柴油供应紧张",
   "summary" : "据媒体报道，乌克兰袭击俄罗斯大型炼油厂，相关设施受损情况、停产规模及袭击责任尚待俄乌官方确认。事件若导致炼油能力持续下降，可能扰动俄罗斯成品油出口并推高国际柴油价格；全球柴油短缺是否延续至2027年，取决于后续袭击频率、替代产能及市场库存，现阶段不宜视为确定结论。",
@@ -110,28 +118,4 @@
   "discoveredAt" : "2026-09-19T09:10:35.153910+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwZXVuRkREVmRYWEpJY3Y0Ukc5eUhuYU00ZjZEMnFaVlIxMU9QenZKanRoRVhxSTlyaVFJb3c3bzh1SjI3cjVLYlBMTmlCN2lwS0VFV01UUHBYRUEwZmZ4Y0VYb1pJTUs3dTdz?oc=5"
-}, {
-  "fingerprint" : "5cec0d0353f58de0",
-  "title" : "胡塞称沙特本周对也门发动约300次空袭",
-  "summary" : "据每日经济新闻援引相关消息，胡塞武装声称沙特本周对也门发动约300次空袭。该数字规模较大，若得到证实，意味着沙特与胡塞冲突显著升温，并可能对也门人道局势、红海航运及海湾地区安全造成进一步冲击。目前暂无沙特官方确认及独立来源交叉验证，伤亡情况不明。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-19T04:30:25.027897+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pZTJjbmRQREN6ZkJ4UWJ1WjBqYjZiT2tmblhiNkxnOXBacXh5RHR2LXZMYnlmRWRFN0tVeXBGMUJPbGdMalpBZGp0UG1SeHZjSGJPWlE4aDhLOHkyd01Bb2ZhUlZwQQ?oc=5"
-}, {
-  "fingerprint" : "3ba058d47da4036f",
-  "title" : "四川攀枝花盐边县突发泥石流 省应急管理厅派工作组驰援",
-  "summary" : "据四川新闻报道，攀枝花市盐边县突发泥石流，四川省应急管理厅已派工作组赶赴现场开展应急处置和灾情核查。目前官方尚未公布人员伤亡、失联人数及基础设施受损情况，事件影响范围和灾害规模仍待现场进一步确认。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-19T04:04:27.920315+00:00",
-  "severity" : "重大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xNnpvSlJINEJyWnBFNW5md1lhcUMySnZPRGE3SFA0R0RNcGRWaFNmM19GUy1CWTFUa3A2NkxDcnFMNzhzUmdNb1Z6YWp6NUd2dFFJMk1qYi03emNGdVdOaUwtNA?oc=5"
-}, {
-  "fingerprint" : "14ca8f0e52a36ff1",
-  "title" : "沙特利雅得传出爆炸声 民防部门称危险已解除",
-  "summary" : "沙特首都利雅得发生不明爆炸声，引发外界对导弹、无人机袭击或防空拦截的关注。沙特民防总局称危险已解除，但截至目前未披露具体原因、袭击来源及伤亡情况。鉴于沙特与也门胡塞武装及地区冲突背景，事件仍需等待军方或政府进一步通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-19T02:05:29.329001+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxNclZhalJqUzktOXB2QnB2X2dmNzBDdmlqWXNiNUFkZ3RZX0J6enFyS0NkWjViSXFrTHBnaEVQRVNUTHBlWXVpRWluZUd6UmI2Q2E4N0k2bjY3N19yUEMwb3dpTnd1a2JSZ1Y1bjk5VktkWkhSdHVKQU94blpkaUpfOGhOOFM4WkFOX3ZleTItaFBsMkVCcTZ3ZVRn?oc=5"
 } ]
