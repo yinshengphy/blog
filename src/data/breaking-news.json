@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fb3764b67bad1b6f",
+  "title" : "强台风“杜鹃”侵袭日本已造成至少9人死亡4人失联",
+  "summary" : "据人民网援引相关通报，受强台风“杜鹃”持续侵袭影响，日本多地出现严重狂风骤雨及次生灾害。截至目前，灾害已造成至少9人死亡、4人失联。灾区救援力量正在对失联人员展开搜救，相关损失排查工作持续推进。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-23T14:45:11.981635+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HZ1djQTFVLUI2TkdrX09qX2haNnhKeGdJbkhqMkpHeFdzMU5oNWtBTjQxMU9jTWxQM04wYW1Gc3YzR3A2YVFPcm9KRFl5TkVOTFZTaklXTG9IeW0wS2oxeTBfR1lhWWllRDJjbg?oc=5"
+}, {
   "fingerprint" : "c3da38a1b714e558",
   "title" : "南非一民宅突发恶性大规模枪击事件 已致11人死亡含一名孕妇",
   "summary" : "据BBC援引南非警方消息，南非一处民宅内突发严重的大规模枪击事件，已造成11人死亡。警方证实遇害者中包括一名孕妇。目前警方正对枪案动机展开紧急调查，并全力搜捕涉案在逃嫌疑人。",
@@ -94,36 +102,4 @@
   "discoveredAt" : "2026-09-21T03:29:37.330505+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX1U1ckthYlRoLXlFalJTRHpqV2VBd2NFRk5fbHVjb2lodzFQQnJMMWtYZ1A1blgwZ1FBdWRrQlBLNmhwZ2FBc1hzMDNXZFdhb25mY2JpTV9tNzVpMXZnTnotSVowb0N2TDg3SmNIbjFTZG0wcl9XVkxOWkdNeDVqQ0I5UnJtQzBnTV9FcWlxTmFkVlFQQUpzcThn?oc=5"
-}, {
-  "fingerprint" : "fb18f33edbbb5718",
-  "title" : "巴布亚新几内亚发生6.4级强震 震中位于凯南图东北方向",
-  "summary" : "据美国地质调查局（USGS）测定，UTC时间2026年9月20日09时17分（北京时间17时17分），巴布亚新几内亚凯南图（Kainantu）北东北约49公里处发生6.4级地震。该区域地质构造活跃，强震可能诱发山体滑坡等次生灾害，目前暂未发布海啸预警。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-09-20T09:35:47.926757+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc"
-}, {
-  "fingerprint" : "450ee8e5ad5dfb99",
-  "title" : "莫斯科遭乌方大规模无人机突袭 俄军同步空袭基辅等多地目标",
-  "summary" : "俄罗斯首都莫斯科遭遇乌克兰大规模无人机跨境突袭，俄防空系统启动拦截并击落多架无人机，莫斯科部分机场一度实施管制。作为回应，俄军亦对乌克兰首都基辅等多地目标发动新一轮导弹与无人机打击，双方交火范围持续扩大。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-20T09:25:23.102608+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wU3RELTQwaUxlekhiQXlLaUtRSEo3S0sxVEFGM1RjM2RQcHZrTW1UaFRrc1huaHczMVJJMGFOODh2VkR4enNqdjM3QUEwNXF0Y2g3clFCaGlKLXhaRms1M1B2bXNyOXBC?oc=5"
-}, {
-  "fingerprint" : "6c19fd64a23e9874",
-  "title" : "沙特首都拉响防空警报且机场附近起火升烟 多方回应胡塞武装袭击",
-  "summary" : "沙特阿拉伯首都利雅得突发拉响防空警报，机场周边区域出现火情并升起滚滚黑烟。也门胡塞武装宣称对沙特敏感目标发动袭击。沙特军方启动防空反导系统拦截，多方对袭击事件紧急作出回应，红海与海湾安全局势进一步升温。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-20T07:47:34.394210+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41Q2tRUmlpOTVGeWh1NGNfRm5Rc3k3OTFUbzFnUDlrUFRBRzJyZkhUdVB1SmVjMVRLMkNTN3ljeF81MEZQdXJyQjhFYTRVZURTUDNnWG1nSnh2SFdNYXV3OA?oc=5"
-}, {
-  "fingerprint" : "ba3f28999a71ece3",
-  "title" : "澳大利亚悉尼西部发生持刀袭击造成4人死伤",
-  "summary" : "据新华网援引相关消息，澳大利亚悉尼西部发生持刀袭击事件，造成4人死伤。现有信息尚未明确死亡与受伤人数构成、袭击动机及嫌疑人是否被控制。当地警方预计将开展现场调查和风险排查，事件影响目前主要集中在案发区域。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-20T07:43:58.205533+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GSTFoQXpZa1BCeXJvWjF4OU5rYU9fWnpsVmVQUFd6YlVhMDYxM3g5WE5hem0wZWxXS0U3a3ZxMHRjNkpRMm5rdEJ1TUJsSWhaUmlnZ25WLW1RRHZBWDFqWVQwVURxeEFDcWNtV2FtV0JlU2pxMXplaW9MTmJJZFE?oc=5"
 } ]
