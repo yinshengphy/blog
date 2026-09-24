@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "a6ad7d842c7a320b",
+  "title" : "沙特主导的联军宣布击落胡塞武装发射的6枚弹道导弹 目标瞄准主要城市与工业区",
+  "summary" : "据半岛电视台报道，沙特主导的多国联军宣布成功拦截并击落了也门胡塞武装发射的6枚弹道导弹。据悉导弹目标直指沙特战略港口与石化中心延布以及西部重镇塔伊夫。目前胡塞武装尚未对此公开回应，拦截未造成报告的人员伤亡，但加剧了红海及海湾周边地缘冲突烈度。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-24T15:20:00.005655+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis?traffic_source=rss"
+}, {
   "fingerprint" : "30b995a9b26713b7",
   "title" : "埃塞俄比亚军方称击退新一轮武装袭击 外界担忧该国或重燃全面内战",
   "summary" : "埃塞俄比亚军方首次就最新爆发的武装冲突公开发表评论，证实军方部队已成功击退多起袭击并重创敌方武装力量。随着战火重燃，国际社会对该国可能重新陷入全面内战的担忧急剧上升，区域稳定再度面临重大威胁。",
@@ -94,12 +102,4 @@
   "discoveredAt" : "2026-09-22T05:14:37.411710+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://www.dw.com/zh/毁灭性的七分钟：气候变化如何一步步酿成尼泊尔山洪/a-79311007?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "1eae38ed9fef4a7a",
-  "title" : "乌克兰袭击俄罗斯大型炼油厂或加剧全球柴油供应紧张",
-  "summary" : "据媒体报道，乌克兰袭击俄罗斯大型炼油厂，相关设施受损情况、停产规模及袭击责任尚待俄乌官方确认。事件若导致炼油能力持续下降，可能扰动俄罗斯成品油出口并推高国际柴油价格；全球柴油短缺是否延续至2027年，取决于后续袭击频率、替代产能及市场库存，现阶段不宜视为确定结论。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-21T14:30:51.051822+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QNWVGQ0YzVU9HZEp5N2lsekJ5WmZ1YjBhbXVPam1IYVloeHVqVmd0RmwxRDdpWmRZR2dIU3lzblh3NVg2cWZ5Yg?oc=5"
 } ]
