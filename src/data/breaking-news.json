@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "046254e4c4125a03",
+  "title" : "希腊米科诺斯岛海域一大型渡轮突发大火 官方紧急组织人员疏散",
+  "summary" : "半岛电视台报道，希腊爱琴海米科诺斯岛以北海域一艘名为“Blue Carrier 2”的载车渡轮突发重大火情，现场浓烟滚滚。希腊海事与救援部门已启动紧急重大响应，全力开展大规模人员疏散与海上灭火行动，暂无确切伤亡通报。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-25T21:24:04.549636+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss"
+}, {
   "fingerprint" : "8b61af5622a18678",
   "title" : "俄军动用无人机与导弹突袭基辅等多地 造成至少8人死亡多人受伤",
   "summary" : "据外媒报道，俄军出动大量无人机及导弹对乌克兰首都基辅等多个重点区域发动密集空袭。袭击导致部分建筑物损毁并引发火灾，目前已造成至少8人死亡、多人受伤。乌防空部队实施了拦截作业，紧急救援部门已赶赴现场展开伤员救治与废墟搜救。",
@@ -94,12 +102,4 @@
   "discoveredAt" : "2026-09-23T07:08:43.824576+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "ded2b6731e3b4c81",
-  "title" : "也门胡塞武装称沙特主导联军空袭也门一处监狱导致至少9人死亡",
-  "summary" : "也门胡塞武装发布声明称，沙特主导的多国联军对也门境内一处监狱发动空袭，已造成至少9人丧生。这是近期胡塞武装声称袭击沙特首都利雅得之后，双方军事对抗的进一步加剧，也门及周边区域安全局势面临恶化风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-22T13:12:51.870252+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5najRpdFlQa2dVaGNRVVpIVkF4bE9fNXg4WFJrM1djRVVoTnZ0VGs4ZlNLd2JxUXdpYXdxc2NwY1JVaDhTdWl2VldqeHJHckxoajVFMVFTY2tYWHc0cGc?oc=5"
 } ]
