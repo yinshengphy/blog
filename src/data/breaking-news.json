@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "e5e7cb241ba9e651",
+  "title" : "哈萨克斯坦里海军演突发事故致14人遇难 搜救行动现已结束",
+  "summary" : "据中新网援引官方消息，哈萨克斯坦军方在里海海域举行军事演习期间突发严重安全事故，不幸造成14人遇难。随着搜救行动正式结束，相关部门正全面开展善后工作，并就演习现场环境、装备状况及操作流程等事故深层原因展开深入调查。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-25T11:07:20.002420+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FTVdDWlU2QTYyVjBhcHNXVWtiQ1ZsWXN4bzAzeUdIcW9MMC1rZU9kSFRrTWs2VlZxWVpDMlFJaHUyUlJQcVIxUjc1dTAtOVppaXZvSnJ6VFBiWlY2ZTFRbHRhYkhPVFlS?oc=5"
+}, {
   "fingerprint" : "3e28cd2fb86aa974",
   "title" : "也门胡塞武装宣称袭击沙特境内多处目标 包括沙特阿美石油设施",
   "summary" : "也门胡塞武装宣布对沙特阿拉伯发动新一轮袭击，声称针对沙特阿美石油公司等多处重要设施进行了精准打击。该行动导致沙特防空系统紧急响应，中东地区安全局势再度升温，或对国际原油供应链及市场预期造成冲击。",
@@ -86,28 +94,4 @@
   "discoveredAt" : "2026-09-22T13:12:51.870252+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5najRpdFlQa2dVaGNRVVpIVkF4bE9fNXg4WFJrM1djRVVoTnZ0VGs4ZlNLd2JxUXdpYXdxc2NwY1JVaDhTdWl2VldqeHJHckxoajVFMVFTY2tYWHc0cGc?oc=5"
-}, {
-  "fingerprint" : "c94983af675552da",
-  "title" : "土耳其一所高中突发枪击事件致至少11人受伤 嫌疑人已被警方抓获",
-  "summary" : "据BBC报道，土耳其一所高中发生恶性枪击事件，目前已导致至少11人受伤。现场视频显示一名男子在学校附近持枪活动。当地官方随后证实，嫌疑人已被成功抓获并拘留，现场危机已解除，伤者已被送往附近医院救治，案件具体起因与伤员情况仍在进一步核查中。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-22T09:09:34.963518+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "8e7b8fb6c8b6480c",
-  "title" : "加拿大不列颠哥伦比亚省就校园枪击案起诉OpenAI，指控其未预警危险交互",
-  "summary" : "加拿大不列颠哥伦比亚省政府正式对OpenAI提起诉讼。检方指控称，在坦布勒岭校园枪击案发生前，涉案枪手曾与ChatGPT进行过多次涉及暴力的危险交互，但OpenAI未能及时向执法部门预警并采取干预措施，致使悲剧发生。此案将直接考验AI平台对极端暴力行为的法律与监管责任边界。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-22T07:33:26.147813+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "eb89d145ff68b9e1",
-  "title" : "强台风杜鹃袭击日本 数百万人被敦促撤离",
-  "summary" : "BBC报道称，强台风杜鹃正在袭击或逼近日本，日本当局此前以生命安全受到迫在眉睫威胁为由，敦促数百万人撤离，随后相关警报等级下调。当前尚缺日本气象厅、消防及地方政府关于登陆地点、伤亡和基础设施损失的权威通报，但鉴于影响范围广、潜在灾害链条复杂，事件具备重大自然灾害突发新闻价值。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-22T05:26:31.362541+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss"
 } ]
