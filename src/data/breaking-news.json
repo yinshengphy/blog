@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "370f702202c424b3",
+  "title" : "希腊雅典卫城附近建筑物突发剧烈爆炸 造成至少1人死亡5人失踪",
+  "summary" : "希腊首都雅典市中心著名地标卫城附近一处建筑物突发剧烈爆炸被夷为平地。据当地媒体报道，事发建筑包含度假租赁民宿，爆炸目前已造成至少1人死亡、5人失踪，失踪人员中包含美国和英国籍游客。搜救力量已封锁现场展开紧急救援，爆炸具体原因尚在调查中。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-09-26T10:00:45.260309+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "e66c19dbb41191c7",
   "title" : "刚果（金）一架军机坠毁于居民区 造成包括高级军官在内至少14人遇难",
   "summary" : "据半岛电视台报道，刚果民主共和国（刚果金）发生一起严重军机坠毁事故。一架军机坠入当地居民区，造成包括多名高级军官及地面平民在内的至少14人遇难。事故具体原因及详细伤亡情况仍在进一步核实中。",
@@ -118,12 +126,4 @@
   "discoveredAt" : "2026-09-23T14:45:11.981635+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HZ1djQTFVLUI2TkdrX09qX2haNnhKeGdJbkhqMkpHeFdzMU5oNWtBTjQxMU9jTWxQM04wYW1Gc3YzR3A2YVFPcm9KRFl5TkVOTFZTaklXTG9IeW0wS2oxeTBfR1lhWWllRDJjbg?oc=5"
-}, {
-  "fingerprint" : "c3da38a1b714e558",
-  "title" : "南非一民宅突发恶性大规模枪击事件 已致11人死亡含一名孕妇",
-  "summary" : "据BBC援引南非警方消息，南非一处民宅内突发严重的大规模枪击事件，已造成11人死亡。警方证实遇害者中包括一名孕妇。目前警方正对枪案动机展开紧急调查，并全力搜捕涉案在逃嫌疑人。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-23T07:08:43.824576+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss"
 } ]
