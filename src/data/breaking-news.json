@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "804a16875911f689",
+  "title" : "南非突发大规模恶性枪击事件致至少17人死亡 警方全力追捕8名嫌犯",
+  "summary" : "据半岛电视台突发新闻，南非发生一起大规模枪击事件，目前已造成至少17人死亡。当地警方已介入调查并展开紧急追捕，全力搜寻与该起恶性袭击有关的8名嫌疑人。事件具体发生地点及作案动机仍在进一步核实中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-27T06:10:01.674732+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting?traffic_source=rss"
+}, {
   "fingerprint" : "370f702202c424b3",
   "title" : "希腊雅典卫城附近建筑物突发剧烈爆炸 造成至少1人死亡5人失踪",
   "summary" : "希腊首都雅典市中心著名地标卫城附近一处建筑物突发剧烈爆炸被夷为平地。据当地媒体报道，事发建筑包含度假租赁民宿，爆炸目前已造成至少1人死亡、5人失踪，失踪人员中包含美国和英国籍游客。搜救力量已封锁现场展开紧急救援，爆炸具体原因尚在调查中。",
@@ -110,20 +118,4 @@
   "discoveredAt" : "2026-09-24T06:47:10.751035+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/9/24/pakistan-says-it-launches-air-strikes-on-afghanistan-after-drone-attacks?traffic_source=rss"
-}, {
-  "fingerprint" : "354c747c6656b57a",
-  "title" : "俄罗斯对乌克兰首都基辅发动大规模无人机袭击 造成至少2死22伤",
-  "summary" : "当地时间，俄罗斯军方对乌克兰首都基辅发动新一轮大规模无人机袭击。乌克兰军方与地方当局通报，空袭及防空拦截残骸已造成至少2人死亡、22人受伤，多处建筑物与民用设施遭损毁。目前搜救及伤员救治正在进行。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-23T21:35:26.420882+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ScEpUa2VYTGo0WUtGeVlZTUJQWXZJNEZONFRuZEFHYjcyVDNZZTlPUGxnUGVpRU5HSG9TZmU2bDF5QzZRT0laUmlZU1hZYmdkZ1BESzdVeXNoZU4xQk80VEkxcGZMMGV1Ykwzaw?oc=5"
-}, {
-  "fingerprint" : "fb3764b67bad1b6f",
-  "title" : "强台风“杜鹃”侵袭日本已造成至少9人死亡4人失联",
-  "summary" : "据人民网援引相关通报，受强台风“杜鹃”持续侵袭影响，日本多地出现严重狂风骤雨及次生灾害。截至目前，灾害已造成至少9人死亡、4人失联。灾区救援力量正在对失联人员展开搜救，相关损失排查工作持续推进。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-23T14:45:11.981635+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HZ1djQTFVLUI2TkdrX09qX2haNnhKeGdJbkhqMkpHeFdzMU5oNWtBTjQxMU9jTWxQM04wYW1Gc3YzR3A2YVFPcm9KRFl5TkVOTFZTaklXTG9IeW0wS2oxeTBfR1lhWWllRDJjbg?oc=5"
 } ]
