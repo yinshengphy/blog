@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "af4fcf1b23fea10c",
+  "title" : "刚果（金）埃博拉疫情累计确诊超8000例 死亡逼近4000人并现耐药毒株",
+  "summary" : "据半岛电视台报道，刚果（金）埃博拉疫情持续恶化，累计感染病例已突破8000例，死亡人数逼近4000例。医护人员在应对严峻疫情的同时，还面临严重的社区冲突以及对现有疫苗产生抗性的新型毒株威胁，疫情防控形势高度严峻。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-09-28T16:40:02.086666+00:00",
+  "severity" : "重大公共卫生危机",
+  "link" : "https://www.aljazeera.com/news/2026/9/28/ebola-cases-surpass-8000-as-drc-struggles-to-control-outbreak?traffic_source=rss"
+}, {
   "fingerprint" : "8e0980241a89fbad",
   "title" : "索马里拜多阿爆发敌对武装与联邦军队激烈交火 已致人员伤亡",
   "summary" : "据半岛电视台报道，索马里西南部重镇拜多阿发生严重武装冲突。敌对武装力量对该市发动突袭，并与索马里联邦政府军展开激烈交火。现场初步报告已造成人员伤亡，具体死伤规模与冲突起因仍在进一步调查确认中。",
@@ -78,12 +86,4 @@
   "discoveredAt" : "2026-09-25T21:24:04.549636+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss"
-}, {
-  "fingerprint" : "8b61af5622a18678",
-  "title" : "俄军动用无人机与导弹突袭基辅等多地 造成至少8人死亡多人受伤",
-  "summary" : "据外媒报道，俄军出动大量无人机及导弹对乌克兰首都基辅等多个重点区域发动密集空袭。袭击导致部分建筑物损毁并引发火灾，目前已造成至少8人死亡、多人受伤。乌防空部队实施了拦截作业，紧急救援部门已赶赴现场展开伤员救治与废墟搜救。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-25T12:20:26.996952+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHRsRWIyNTg5UzVOdTJGT1Q2T2NGS0VJaGN1YXo2Yk56QnFEb0MzbktxYWk0cVhIWklMRUxwcTlBdkVVOEJNOEhOaVdMeEZDaWZlYm1QUmx5NkNUV3FTYmlBckV3b1R4Rm8yc3ZpV3ktVG8zQ1ZLZnJvaV90UldhMWxRTTJ5S3E5c2dpbzVkS1JlMGU1UF9MbUJnTE5tNTQ?oc=5"
 } ]
