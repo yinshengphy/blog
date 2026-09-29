@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6a80069eade68a0d",
+  "title" : "俄军一架图-95战略轰炸机发生坠毁事故 造成机上6人身亡",
+  "summary" : "据媒体报道，俄罗斯军方一架图-95战略轰炸机在飞行过程中突发事故坠毁，造成机上6名机组人员遇难。图-95作为俄军战略威慑与空基打击的核心机型，此次坠毁事故造成重大装备与专业人员损失，具体失事原因正展开调查。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-29T16:13:30.015223+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01NXNveFpjN190WWFiem5UYUJrM1I0akVNX1VEOHFXSm40VmUxcG9HN0RqaWJxTE9oSnRRRERKeUFTaDd6b08wcXc5c2RrV3JJeG4zTEFvc0kzb05JT2hhcVl3MTJUNDkx?oc=5"
+}, {
   "fingerprint" : "c3e90add18a083ab",
   "title" : "俄军大规模空袭乌克兰多地 击中加油站与数据中心造成至少7死50余伤",
   "summary" : "俄罗斯对乌克兰境内多个目标发动新一轮袭击，导致至少7人丧生、50多人受伤。袭击波及加油站与数据中心等关键基础设施，引发火灾与局部损毁。乌克兰紧急部门已在现场展开搜救与排险，具体损失仍在进一步统计中。",
@@ -70,12 +78,4 @@
   "discoveredAt" : "2026-09-27T06:10:01.674732+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting?traffic_source=rss"
-}, {
-  "fingerprint" : "370f702202c424b3",
-  "title" : "希腊雅典卫城附近建筑物突发剧烈爆炸 造成至少1人死亡5人失踪",
-  "summary" : "希腊首都雅典市中心著名地标卫城附近一处建筑物突发剧烈爆炸被夷为平地。据当地媒体报道，事发建筑包含度假租赁民宿，爆炸目前已造成至少1人死亡、5人失踪，失踪人员中包含美国和英国籍游客。搜救力量已封锁现场展开紧急救援，爆炸具体原因尚在调查中。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-09-26T10:00:45.260309+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss"
 } ]
