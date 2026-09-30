@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "c2cd1e0479181dbc",
+  "title" : "乌克兰多地遭俄军密集空袭 泽连斯基称两艘外国商船在港口遇袭受损",
+  "summary" : "乌克兰总统泽连斯基通报称，乌克兰多地遭到俄军新一轮密集空袭，导致多处基础设施受损。袭击期间，停靠在黑海港口的两艘外国民用货船遭到波及受损。乌方强烈谴责针对民用航运走廊的军事打击，该事件引发各方对黑海粮食运输通道安全的高度关注。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-09-30T10:53:46.026528+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSUDJPODdFcUlkUFRVQlg5MWZmQ3Q2eEtoWjZxSWpxMXJ0Z2EyRUNNLWdZb0tHZGJwLVE5NWtVeG5KaDdnUkFoU3pRWnVCMVFtTEJLVmQ4VzRaNmVUTllSQU9ZVkxtYnNyQzJkYzhNQm8?oc=5"
+}, {
   "fingerprint" : "ec9f99dff18ecb3c",
   "title" : "乌克兰全境多地拉响警报 首都基辅等多处重镇遭新一轮空袭",
   "summary" : "当地时间相关监测与媒体通报显示，乌克兰首都基辅及境内多个重要城市遭新一轮导弹与无人机空袭打击，防空部队紧急展开拦截作业。多地已发布防空警报，救援部门正对受袭区域及潜在基础设施受损和人员伤亡情况进行核实评估。",
@@ -70,20 +78,4 @@
   "discoveredAt" : "2026-09-27T12:23:15.057937+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://www.aljazeera.com/news/2026/9/27/floods-and-landslides-kill-at-least-56-people-in-india-12-in-nepal?traffic_source=rss"
-}, {
-  "fingerprint" : "7e21a6ec2cf250be",
-  "title" : "南非接连发生恶性枪击事件已致27人死亡 警方正全力追捕在逃枪手",
-  "summary" : "南非近日接连突发两起严重枪击事件，武装枪手闯入酒馆及烧烤餐饮场所向人群开火，目前已造成至少27人遇难。袭击发生后多名嫌疑人潜逃，南非执法部门已展开大规模追捕行动，并对相关区域实施紧急戒备。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-27T10:22:24.284701+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43UmZqZHRVOElLZFpUalY2YWxDRG14MjJNbVdLcFNNSFc1Tnh3el9Tdlg4bGFQYXJpcmRtWGFmSFhqbHlBQ3BOM1Q3dkxRcUZGNHVkUzJkRGR3dw?oc=5"
-}, {
-  "fingerprint" : "804a16875911f689",
-  "title" : "南非突发大规模恶性枪击事件致至少17人死亡 警方全力追捕8名嫌犯",
-  "summary" : "据半岛电视台突发新闻，南非发生一起大规模枪击事件，目前已造成至少17人死亡。当地警方已介入调查并展开紧急追捕，全力搜寻与该起恶性袭击有关的8名嫌疑人。事件具体发生地点及作案动机仍在进一步核实中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-27T06:10:01.674732+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting?traffic_source=rss"
 } ]
