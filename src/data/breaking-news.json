@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3a92026ab4026b67",
+  "title" : "阿富汗塔利班指责巴基斯坦发动越境空袭 称已致9名平民丧生",
+  "summary" : "阿富汗塔利班方面指责巴基斯坦军机越境轰炸阿富汗东部边境省份，袭击已造成包括平民在内的9人死亡。巴阿边境近来频繁发生摩擦，此次跨国军事打击使两国紧张关系进一步升级，极易引发边境报复性武装交火。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-01T09:06:55.576178+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMi0gJBVV95cUxONXNYSWJnX3FDWlJsSm03cUxNZGthZ002SndvY0tKMXB4bGJkbzFCVEJOQktNcUtpczFVX0hQdjMtSWYwaEtqQUVZSG9GNEdYOUtZYUNEQlJIN3BuUGhyR3ZRS19mUjZUUnZxdzNVWmIxVUtGbkN1ZGhKTGkxbDdBQ0g0NGdpalZMVVdCcWV0bTljb2ZQQld0Vko3bkpiVGYtTkxHdUJuQTNNTTBmV3NST3dFVjZtRWdET01jWlR4VjVIOXFjOS1LbERpOERwdVhaVzhMRmhHZUxUZFBWbHZYVWtoOUNtT1JhelZnLThUcm5sNXdfTmNQNzRRcGtveXMxbHpzOUtwS0JYWXpEend5NzNnUVhZQVlGYmUzbWkxOU11SG9fWU5MWWZ2OWV1RklKLUZoT2xtQ2gzOVplZmFFdk1KQW1YOHF3QXowU2xGeTZzdw?oc=5"
+}, {
   "fingerprint" : "59542173fb2128ad",
   "title" : "叙利亚霍姆斯省客车遭武装袭击致7死 管道爆炸致大马士革3座电厂瘫痪",
   "summary" : "当地时间叙利亚发生系列安全危机。霍姆斯省一辆载客巴士遭武装分子开枪扫射，造成7人死亡；而在该袭击发生前数小时，大马士革附近一条关键输气管道发生剧烈爆炸，直接波及并导致周边三座主要发电厂瘫痪，引发大范围电力中断，安全形势骤然紧张。",
@@ -94,12 +102,4 @@
   "discoveredAt" : "2026-09-28T12:04:00.089953+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/28/fighting-between-rival-forces-in-somalias-baidoa?traffic_source=rss"
-}, {
-  "fingerprint" : "857f3b0742675530",
-  "title" : "台风“杜鹃”重创日本已致13人遇难 另有30余人受伤",
-  "summary" : "据媒体报道，台风“杜鹃”给日本多地带来严重风雨灾害并伴随次生灾害。截至目前，灾害已造成至少13人遇难，另有30多人不同程度受伤。当地救援力量正持续开展抢险救援与灾情核查工作，防灾部门呼吁警惕后续次生风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-28T01:56:25.445925+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xM05nREt1aXkySUlSbVBLLU01bUt1ODZ0MENlMlNHaXpXOGh2Z21wWV9MSmx0Um5wbl9RNG1jbXFVSEhUSjdEdGU0NnExZWNFUGMyTjBtTU5aQklPdGd3djBUcUJQVlBT?oc=5"
 } ]
