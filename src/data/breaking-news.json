@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "e8309fdf9178b82e",
+  "title" : "苏丹中部一所大学遭无人机袭击 造成50余人死伤",
+  "summary" : "据多家媒体报道，苏丹中部一所大学遭到无人机突发袭击，导致50余人伤亡。苏丹武装部队与快速支援部队的冲突持续延烧，袭击已多次波及医院与学校等民用设施，当地安全局势严重恶化。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-02T03:57:28.005974+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jeDEyVlc3MzdEUHpsY2ZnRmJwaFJYajhBUW5hRDEyX01OMVo0N2s4Uko2NHF0T2doUUxMVzM3QUZ3ZGllWkRVVXlFNVhTb2VoQ3pvdmUzNjByb2pzb21wVUR5X3FEUQ?oc=5"
+}, {
   "fingerprint" : "3fa0685f6aeff337",
   "title" : "埃塞俄比亚首都亚的斯亚贝巴传出剧烈爆炸声 政府此前已紧急禁飞无人机",
   "summary" : "据BBC报道，埃塞俄比亚首都亚的斯亚贝巴传出剧烈爆炸声。此前一周，政府军刚与反政府武装新联盟在首都以北地区爆发激烈战斗，埃塞当局随后紧急实施民用无人机禁飞令。目前具体伤亡及损毁情况尚待官方进一步核实。",
@@ -78,36 +86,4 @@
   "discoveredAt" : "2026-09-29T09:37:31.160468+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZEVIOWZuTW9YSkVmME1kbk1ZdXZCWWRETmQ4Q05MQXRUbWdPdjhpRkhRdHg4aGZGX0I3bjBNdDBwUmUwaFZvSl9pWUVwNHJDcWtTSzFJdkVkQXB6djV6T1NHR3pBcEI5NU5WN2JKakZxSmd4RGFZeTIyNWliVmxmTGlOdk9WckN5ZXBMNEhPX2ZtOFZ6Q01FRy1hYzZXcERILVhSeGZzM0J6TElEY2JOdm1VWGdMQVp2b1pFb3U1clpTelg1Y0dFaGM1V2loUUYxc0dBNkx6ai1HVFdMckFsN0tZdkt0MlItNWfSAewBQVVfeXFMTUlpa29hR2d3anVXX3d2cmFsc05rSFdtc3AydGVORTBuS0E2dEJJRWRvZHVFN2owdDYxY01FeHZfcHFzcFhmRUxuanV5Nno3LTRNbks2Q0p6WXhvTUtxV2hLc1RnYWJPcW04RGM3R2VNV1VqTlp0aUxvTUd4dmFUNGZVTHZGamZUczFnWE5CMnB6SEQ4S295OVk0V01jcGxwZmRjc1JjcFJvZWVNWHVKRlk0cDF3LUhHYmhvZXZFRjZMR2pCTklCSDg4bHEyYzlKUWwxVE95UDdJdmxNZUw3STloTFFDQVNRTmZDM2I?oc=5"
-}, {
-  "fingerprint" : "f6a62978fbf2d425",
-  "title" : "尼泊尔遭遇强降雨引发山洪滑坡与雪崩 造成多人遇难且12名工人失联",
-  "summary" : "据半岛电视台报道，暴雨在尼泊尔全境引发致命洪水和滑坡泥石流灾害，多地受灾严重。此外，高海拔地区发生雪崩导致至少12名工人失联，搜救工作正在复杂恶劣的天气条件下持续展开。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-28T20:10:34.322018+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_nepal-hit-by-deadly-floods-landslides-avalanche-280926?traffic_source=rss"
-}, {
-  "fingerprint" : "273a681f3e67e44c",
-  "title" : "韩国军方指责朝鲜在非军事区埋设地雷引发爆炸 朝韩边境局势面临升级风险",
-  "summary" : "据半岛电视台报道，韩国针对朝韩非军事区（DMZ）爆炸事件发布调查报告，怀疑爆炸系朝鲜方面埋设地雷所致。该事件及其调查结论恐将打破当前局势平衡，进一步激化朝韩之间的军事互信危机与边境对峙风险。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-28T16:56:11.431240+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/9/28/south-korea-suspects-north-korean-mines-behind-dmz-blast?traffic_source=rss"
-}, {
-  "fingerprint" : "af4fcf1b23fea10c",
-  "title" : "刚果（金）埃博拉疫情累计确诊超8000例 死亡逼近4000人并现耐药毒株",
-  "summary" : "据半岛电视台报道，刚果（金）埃博拉疫情持续恶化，累计感染病例已突破8000例，死亡人数逼近4000例。医护人员在应对严峻疫情的同时，还面临严重的社区冲突以及对现有疫苗产生抗性的新型毒株威胁，疫情防控形势高度严峻。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-28T16:40:02.086666+00:00",
-  "severity" : "重大公共卫生危机",
-  "link" : "https://www.aljazeera.com/news/2026/9/28/ebola-cases-surpass-8000-as-drc-struggles-to-control-outbreak?traffic_source=rss"
-}, {
-  "fingerprint" : "8e0980241a89fbad",
-  "title" : "索马里拜多阿爆发敌对武装与联邦军队激烈交火 已致人员伤亡",
-  "summary" : "据半岛电视台报道，索马里西南部重镇拜多阿发生严重武装冲突。敌对武装力量对该市发动突袭，并与索马里联邦政府军展开激烈交火。现场初步报告已造成人员伤亡，具体死伤规模与冲突起因仍在进一步调查确认中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-09-28T12:04:00.089953+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/9/28/fighting-between-rival-forces-in-somalias-baidoa?traffic_source=rss"
 } ]
