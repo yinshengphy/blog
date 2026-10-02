@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d4e546febc11b45c",
+  "title" : "叙利亚西北部伊德利卜省一军用机场附近发生连续爆炸 浓烟升空",
+  "summary" : "据半岛电视台快讯，叙利亚西北部伊德利卜省塔夫塔纳兹军用机场附近发生两起剧烈爆炸，现场升起滚滚黑烟。该机场地处叙利亚前沿军事敏感地带，目前尚不明确爆炸系空袭、无人机打击还是弹药库事故，具体人员伤亡情况仍待确认。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-02T11:35:34.901738+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss"
+}, {
   "fingerprint" : "e8309fdf9178b82e",
   "title" : "苏丹中部一所大学遭无人机袭击 造成50余人死伤",
   "summary" : "据多家媒体报道，苏丹中部一所大学遭到无人机突发袭击，导致50余人伤亡。苏丹武装部队与快速支援部队的冲突持续延烧，袭击已多次波及医院与学校等民用设施，当地安全局势严重恶化。",
@@ -78,12 +86,4 @@
   "discoveredAt" : "2026-09-29T16:13:30.015223+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01NXNveFpjN190WWFiem5UYUJrM1I0akVNX1VEOHFXSm40VmUxcG9HN0RqaWJxTE9oSnRRRERKeUFTaDd6b08wcXc5c2RrV3JJeG4zTEFvc0kzb05JT2hhcVl3MTJUNDkx?oc=5"
-}, {
-  "fingerprint" : "c3e90add18a083ab",
-  "title" : "俄军大规模空袭乌克兰多地 击中加油站与数据中心造成至少7死50余伤",
-  "summary" : "俄罗斯对乌克兰境内多个目标发动新一轮袭击，导致至少7人丧生、50多人受伤。袭击波及加油站与数据中心等关键基础设施，引发火灾与局部损毁。乌克兰紧急部门已在现场展开搜救与排险，具体损失仍在进一步统计中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-09-29T09:37:31.160468+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZEVIOWZuTW9YSkVmME1kbk1ZdXZCWWRETmQ4Q05MQXRUbWdPdjhpRkhRdHg4aGZGX0I3bjBNdDBwUmUwaFZvSl9pWUVwNHJDcWtTSzFJdkVkQXB6djV6T1NHR3pBcEI5NU5WN2JKakZxSmd4RGFZeTIyNWliVmxmTGlOdk9WckN5ZXBMNEhPX2ZtOFZ6Q01FRy1hYzZXcERILVhSeGZzM0J6TElEY2JOdm1VWGdMQVp2b1pFb3U1clpTelg1Y0dFaGM1V2loUUYxc0dBNkx6ai1HVFdMckFsN0tZdkt0MlItNWfSAewBQVVfeXFMTUlpa29hR2d3anVXX3d2cmFsc05rSFdtc3AydGVORTBuS0E2dEJJRWRvZHVFN2owdDYxY01FeHZfcHFzcFhmRUxuanV5Nno3LTRNbks2Q0p6WXhvTUtxV2hLc1RnYWJPcW04RGM3R2VNV1VqTlp0aUxvTUd4dmFUNGZVTHZGamZUczFnWE5CMnB6SEQ4S295OVk0V01jcGxwZmRjc1JjcFJvZWVNWHVKRlk0cDF3LUhHYmhvZXZFRjZMR2pCTklCSDg4bHEyYzlKUWwxVE95UDdJdmxNZUw3STloTFFDQVNRTmZDM2I?oc=5"
 } ]
