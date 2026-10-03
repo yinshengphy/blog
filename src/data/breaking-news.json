@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "9dd5045beddfc849",
+  "title" : "韩国军方称朝鲜从元山向东部海域发射弹道导弹",
+  "summary" : "据半岛电视台及韩国联合参谋本部消息，朝鲜于东部港口城市元山一带向半岛东部海域发射了一枚弹道导弹。韩国军方表示已提升警戒级别，并正与美方密切合作，深入分析该导弹的具体飞行参数、型号及落点。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-03T00:13:01.933958+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss"
+}, {
   "fingerprint" : "e8d64039ed330152",
   "title" : "朝鲜半岛非军事区发生爆炸引发对峙 首尔要求朝方道歉 平壤驳斥“可悲”",
   "summary" : "据法广（RFI）报道，朝鲜半岛非军事区（DMZ）发生爆炸事件。韩国首尔军方及政府就爆炸事件对朝鲜提出强烈交涉并要求其正式道歉，而平壤方面则强硬驳斥首尔的要求十分“可悲”。事件导致半岛边境安全局势进一步升温，引发外界对DMZ摩擦升级的高度关注。",
