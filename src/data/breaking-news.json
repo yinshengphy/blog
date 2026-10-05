@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "1efb83097c0c8e67",
+  "title" : "也门胡塞武装宣称对沙特阿美石油设施发动突发袭击",
+  "summary" : "也门胡塞武装宣称对沙特阿美石油公司设施实施了袭击行动。沙特阿美作为全球核心能源供应中枢，其设施遇袭直接牵动国际能源安全与地缘政治神经。目前沙特官方尚未正式公布受损程度及人员伤亡评估，事态仍在持续发展中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-05T05:58:25.751419+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jU1BGM012ejM3MFBYZ2hLUk5IYmdvbWx3S2RoRjRoQ2IySVlSZWVpOVdBbE56blEySzE0OHFzdUlOLXFxdFd1QkRNaGpKdWJXWDZGdXplRTY3dWFUWTdSZS10aWFOczlqdmc?oc=5"
+}, {
   "fingerprint" : "2f946c49a20dce44",
   "title" : "百慕大飞往波士顿失联飞机残骸带已被发现 搜救工作全力展开",
   "summary" : "一架从百慕大飞往美国波士顿的飞机在飞行途中失联。最新消息显示，搜寻队伍已在大西洋相关海域定位到该飞机的残骸带，确认飞机坠海。目前多方救援力量正在事故水域全力开展搜救，机上人员伤亡详情待进一步通报。",
@@ -158,12 +166,4 @@
   "discoveredAt" : "2026-10-02T11:35:34.901738+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss"
-}, {
-  "fingerprint" : "e8309fdf9178b82e",
-  "title" : "苏丹中部一所大学遭无人机袭击 造成50余人死伤",
-  "summary" : "据多家媒体报道，苏丹中部一所大学遭到无人机突发袭击，导致50余人伤亡。苏丹武装部队与快速支援部队的冲突持续延烧，袭击已多次波及医院与学校等民用设施，当地安全局势严重恶化。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-02T03:57:28.005974+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jeDEyVlc3MzdEUHpsY2ZnRmJwaFJYajhBUW5hRDEyX01OMVo0N2s4Uko2NHF0T2doUUxMVzM3QUZ3ZGllWkRVVXlFNVhTb2VoQ3pvdmUzNjByb2pzb21wVUR5X3FEUQ?oc=5"
 } ]
