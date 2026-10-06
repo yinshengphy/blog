@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "ff893a6d68f478bc",
+  "title" : "美国纽约州因麻疹疫情蔓延正式宣布进入灾难紧急状态",
+  "summary" : "据央视网报道，鉴于近期麻疹疫情风险显著上升并出现扩散迹象，美国纽约州宣布针对麻疹疫情进入灾难紧急状态。该政令旨在打破常规行政限制，允许药剂师等更多医护人员协助施打疫苗，加快病例排查和资源调配，严防疫情造成更大规模社区传播。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-06T03:12:18.705445+00:00",
+  "severity" : "重大突发公共卫生事件",
+  "link" : "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ERWZGdklHMnJHNlh0TXNIdUhWX1FxbUNVOG5VeWxNcWMxY3ZVOF9PVDB0WjVJazRaR0tDMVVZZzZsMVdHenhremFEVXhQT05nTzItYzgyM1NUUFZ1aEQtRFlTN1pGb2tuRTVMVUpCanFRZXlzVVdlWQ?oc=5"
+}, {
   "fingerprint" : "841c95f3a5f9e33d",
   "title" : "油轮在霍尔木兹海峡遭不明物体撞击致机舱起火 暂无伤亡报告",
   "summary" : "英国海上贸易行动办公室（UKMTO）发布报告称，一艘油轮在霍尔木兹海峡航行时遭不明物体撞击，导致机舱起火。目前船员正全力扑救火灾，暂未报告人员伤亡或造成海洋环境污染。由于事发地点为全球关键石油运输咽喉，各方正密切关注航道安全态势。",
@@ -190,12 +198,4 @@
   "discoveredAt" : "2026-10-03T04:05:47.149357+00:00",
   "severity" : "重大国家安全/突发恶性事件",
   "link" : "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MNHBtYThfYlRzNGtuWW1LM3F6cTdqUWQ1ai1pNy11dGprMTkybGZCcVF0MkhnbEF1Vzk4eHIwUXJVdVZ3aE10aGtzaEVzWndCVXg0OFdGYWlNWXA2RWN1NnpOMUVnMkFPYWZFMjMtN19tZmJUeDlzYg?oc=5"
-}, {
-  "fingerprint" : "4ce8739c6dc2534f",
-  "title" : "尼日利亚东北部遭疑似极端组织袭击 致至少15人死亡",
-  "summary" : "据中新网援引相关消息，尼日利亚东北部地区近日遭遇疑似极端组织（如“博科圣地”或“伊斯兰国西非省”）武装分子袭击，目前已造成至少15人死亡。该地区长期面临恐怖主义与暴力冲突威胁，袭击进一步加剧了当地严峻的安全局势。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-03T02:43:07.743740+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QSkdaN29BX3BuNWpmczZZMUViTHFRb1dLaExBNXJFR093ZEd2ZEFlTGRXd0RIN2syMTJUel9rUXlHZ3UwYmR2bC00UmhZTlRXZ293WmxHWEQ0ZXVmajY5aXpHRFp4WFV4?oc=5"
 } ]
