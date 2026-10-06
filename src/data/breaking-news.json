@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fa97e4f1d1efcf93",
+  "title" : "俄罗斯莫斯科州遭乌克兰无人机袭击 已致1死6伤",
+  "summary" : "据媒体及官方消息，俄罗斯莫斯科州遭到乌克兰无人机袭击，目前已造成至少1人死亡、6人受伤。俄方防空部队紧急拦截多架无人机，袭击波及民用建筑。该事件标志着针对俄首都及周边核心区域的空袭风险再度加剧。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-06T05:47:33.980146+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pdlZvVi1CTEMxUGdmek9MVHcyZ1NiUXdwa0d6Z1d6dU1DNTAwV0NzUThrbUdKSW5Xd0FFeUpraWE0d3ljUGIxa0VjNG9sdTVfM3dF?oc=5"
+}, {
   "fingerprint" : "ff893a6d68f478bc",
   "title" : "美国纽约州因麻疹疫情蔓延正式宣布进入灾难紧急状态",
   "summary" : "据央视网报道，鉴于近期麻疹疫情风险显著上升并出现扩散迹象，美国纽约州宣布针对麻疹疫情进入灾难紧急状态。该政令旨在打破常规行政限制，允许药剂师等更多医护人员协助施打疫苗，加快病例排查和资源调配，严防疫情造成更大规模社区传播。",
@@ -190,12 +198,4 @@
   "discoveredAt" : "2026-10-03T09:04:53.797009+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss"
-}, {
-  "fingerprint" : "1338938bf7ff80f7",
-  "title" : "迪拜航空客机持刀行凶案新进展：涉事副驾驶承认企图蓄意坠机",
-  "summary" : "据央视新闻等权威信源披露，此前在迪拜航空航班飞行途中持刀刺伤机长的副驾驶已承认，其行凶意图是蓄意让飞机坠毁。事件发生时机组人员成功制服嫌疑人并紧急备降，避免了一场重大空难，目前有关部门正对其恐怖主义关联及个人动机展开全面深入调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-03T04:05:47.149357+00:00",
-  "severity" : "重大国家安全/突发恶性事件",
-  "link" : "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MNHBtYThfYlRzNGtuWW1LM3F6cTdqUWQ1ai1pNy11dGprMTkybGZCcVF0MkhnbEF1Vzk4eHIwUXJVdVZ3aE10aGtzaEVzWndCVXg0OFdGYWlNWXA2RWN1NnpOMUVnMkFPYWZFMjMtN19tZmJUeDlzYg?oc=5"
 } ]
