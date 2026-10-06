@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fa90cf1ed047ac69",
+  "title" : "沙特首都利雅得再次传出爆炸声 疑似防空拦截或遭空中袭击",
+  "summary" : "据多家媒体突发消息，沙特阿拉伯首都利雅得再次传出巨大爆炸声。当前中东安全局势持续紧张，此前利雅得曾多次遭遇来自跨境导弹或无人机袭击威胁并启动防空拦截。目前沙特官方尚未正式公布爆炸具体原因、是否有伤亡及设施损毁情况。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-06T11:26:20.881299+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85eUI1cDU1YWE1XzNFa0JZR19hSElheHBTQTBwekRiVGxNT0QteFFfV1BoLVBkODByWmJ2UUVsQXNGQ0NDSjdONkZQbVFDX284QXN0cFJ5MF8xaXl4Zl9xYloxSERjUQ?oc=5"
+}, {
   "fingerprint" : "04daa2379afb56f3",
   "title" : "尼日利亚军机坠毁事故确认致32人遇难 总统提努布深切哀悼",
   "summary" : "据BBC报道，尼日利亚一架载有32人的军用飞机发生严重坠毁事故，官方已确认机上32人全数遇难。尼日利亚总统博拉·提努布发表声明表示深切哀悼，称此次坠机对尼日利亚军方和整个国家而言都是一个“极其沉痛的时刻”，相关调查正在进行中。",
@@ -198,12 +206,4 @@
   "discoveredAt" : "2026-10-03T12:04:45.914928+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xa0tZa3llSDk2UmUydkl5VWhpSjRWRWwya0h0RWF3Tm1VQlk1bF9LdWFkSkFpQUJsazBDRUZya1RhbFJZUWs4MjhXeDRENzl4RGVhTFEwejJPYUdCN1RieE1kaw?oc=5"
-}, {
-  "fingerprint" : "baab15af225a4181",
-  "title" : "也门战火骤然升级：也门政府军称胡塞武装单日伤亡逾1500人，塔伊兹关键陆路通道被封闭",
-  "summary" : "半岛电视台报道，也门政府军宣称在过去24小时的激烈交火中造成胡塞武装超过1500人伤亡。与此同时，也门政府军已全面关闭连接胡塞武装控制的霍班地区与政府军控制的塔伊兹市的核心通道，标志着也门地面战事出现重大战况升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-03T09:04:53.797009+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss"
 } ]
