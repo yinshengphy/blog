@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fbd1c15348aeb51c",
+  "title" : "俄军对乌克兰全境发动大规模联合袭击发射近180架无人机与导弹 造成至少11人死亡",
+  "summary" : "据半岛电视台报道，乌克兰空军通报俄军夜间对乌全境发动“大规模”袭击，共出动130架无人机并向多地发射48枚巡航导弹和弹道导弹。袭击已造成至少11人丧生，多地民用建筑和关键基础设施遭受破坏，乌防空力量展开全面拦截。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-07T09:17:03.880234+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine?traffic_source=rss"
+}, {
   "fingerprint" : "57549e8c4fe2e640",
   "title" : "一艘油轮在霍尔木兹海峡遇袭致12人受伤 阿曼已展开紧急撤离救援",
   "summary" : "据半岛电视台报道，一艘名为“On Peace”号的油轮在霍尔木兹海峡遭到袭击，阿曼当局已对船上受伤船员展开紧急撤离救援。印度外交部证实，船上12名伤员中有11人为印度公民。事件加剧了全球核心原油咽喉航道的安全担忧。",
@@ -206,12 +214,4 @@
   "discoveredAt" : "2026-10-04T09:33:11.342096+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNRmtBN2wwcGVWM0o3SnhzZHlQMklFMjFoSEZzQmRydkxpbnpPNUhoYklNN25nUUJLdVRkYko1V0xYNnN4MEhNTzV4b2Z0VGhuRUtpSEpWQ01wTDJ1SlBVMGpqNDQyN0diVmR3eG1BUmtyb0hfNTZJZWJrdkhIUTl5bjNjMzJTLTIyeVFSY2NBenJZV3FMSjd3RU90SnNpM1doQXM1VWlUdERqVlRZVEszYXM0RWZDeW5qQkk2bGxpSC0zTUxlR2lPUkQxYmMxMFJMc0NQSWdJRExtUHBNUkpQQlJndWpXQms1dEpQU2RKWjZPYmRXY3Fyb3RmWTd4SE1sNU1fUEJPQzVSZ21EdTJPejdVUFdyamgxNjV4RWUxN1R3V2xxOE1HSG1R?oc=5"
-}, {
-  "fingerprint" : "7e9faf109063a703",
-  "title" : "也门胡塞武装宣称袭击沙特首都利雅得石油设施",
-  "summary" : "新华网报道，也门胡塞武装宣称对沙特首都利雅得的石油设施实施了打击。此次越境袭击针对核心能源基础设施，标志着也门战事外溢风险与地区冲突烈度显著上升，国际能源市场及红海周边安全局势面临新一轮不确定性。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-04T03:42:11.173409+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWU4ZUZKUm0zbkw1WFZCMENjOGFQaDBNZkF4bHFFSFVYSWhlbEdkcFMtNF9TVWRUNEl0TXZpUDgzXzRPWEFKMWpER3ZkdHNHUlhPSktBdnNLcXBNYlZudTEzbTZwNDRYYTBqUDFiVHNwbWJnZDlsYUp4TWVmUlAwMjVtb3ZMVkhxVXczTTR5NG56bHg0Yl9kdWh3?oc=5"
 } ]
