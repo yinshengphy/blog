@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "4fa35a1cb38b2ce4",
+  "title" : "南太平洋岛国瓦努阿图附近海域发生6.6级强震 暂无海啸预警发布",
+  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月8日09时00分，南太平洋岛国瓦努阿图诺尔苏普东北约105公里海域突发6.6级强震。震中周边岛屿有明显震感，目前相关机构尚未发布破坏性海啸预警，详细人员伤亡及财产损失情况正在进一步核实评估中。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-10-08T09:09:49.093772+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/pt26281001"
+}, {
   "fingerprint" : "70f693b4faeed2f6",
   "title" : "沙特主导多国联军宣布摧毁胡塞武装企图袭击利雅得的导弹设施",
   "summary" : "沙特主导的多国联军发布战报，宣布通过精确打击摧毁了也门胡塞武装企图用于向沙特首都利雅得发射导弹的有关设施与阵地。联军表示将继续采取必要措施消除针对平民与关键基础设施的威胁。当前也门各方军事对抗态势持续紧张。",
@@ -158,44 +166,4 @@
   "discoveredAt" : "2026-10-05T12:18:32.584455+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "bcbf2ce777228eb3",
-  "title" : "一艘油轮在也门西南部海域航行时周边发生多次爆炸",
-  "summary" : "据海事安全监测机构及媒体报道，一艘油轮在途经也门西南部海域时，其周边水域发生多次爆炸。初步报告显示该船暂未遭受直接致命击中，未见严重人员伤亡。事件再度引发对曼德海峡与红海水域关键国际原油运输通道安全的担忧。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-05T06:05:08.795434+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wNjJCU3g1Y1BBN0doVERBY0c5WmxwWWtFbGtJLWNYSVVKYzE5cE1VMm1MOXhDX2J3ZnNXQkQ1LTA0TWlHMEV3R2N5MERZaldrWGk3eTYzT25FT2M?oc=5"
-}, {
-  "fingerprint" : "1efb83097c0c8e67",
-  "title" : "也门胡塞武装宣称对沙特阿美石油设施发动突发袭击",
-  "summary" : "也门胡塞武装宣称对沙特阿美石油公司设施实施了袭击行动。沙特阿美作为全球核心能源供应中枢，其设施遇袭直接牵动国际能源安全与地缘政治神经。目前沙特官方尚未正式公布受损程度及人员伤亡评估，事态仍在持续发展中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-05T05:58:25.751419+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jU1BGM012ejM3MFBYZ2hLUk5IYmdvbWx3S2RoRjRoQ2IySVlSZWVpOVdBbE56blEySzE0OHFzdUlOLXFxdFd1QkRNaGpKdWJXWDZGdXplRTY3dWFUWTdSZS10aWFOczlqdmc?oc=5"
-}, {
-  "fingerprint" : "2f946c49a20dce44",
-  "title" : "百慕大飞往波士顿失联飞机残骸带已被发现 搜救工作全力展开",
-  "summary" : "一架从百慕大飞往美国波士顿的飞机在飞行途中失联。最新消息显示，搜寻队伍已在大西洋相关海域定位到该飞机的残骸带，确认飞机坠海。目前多方救援力量正在事故水域全力开展搜救，机上人员伤亡详情待进一步通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-05T03:53:01.026369+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rT1VGYnpocjZPT0JhZFV0dlRYWVE2c01lNUJnY3FRNGNzXzgzRWdmMzMtVDBpZnBudkN3c1dUWDlpbEVPWm5XaEtSWGdVOXpiR1E2d2NfS0NmajF0dmdQNHZ5SkloNjdjUE4tNWFsN08?oc=5"
-}, {
-  "fingerprint" : "2ebc7562981f4cd7",
-  "title" : "迪拜航空客机发生机组袭击事件：副驾驶系“独狼式”作案刺伤机长",
-  "summary" : "据多方通报，迪拜航空一起机组恶性暴力袭击事件调查结果公布，行凶副驾驶被定性为“独狼式”单独作案，其在行动中持刀刺伤机长。该起机组内部严重袭击事件暴露了极罕见的空防安全隐患，目前相关部门已介入深入调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-05T01:54:20.381964+00:00",
-  "severity" : "重大突发安全事故",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtZnZjQVNObHF1VlBBU1hFNHR0bkxORUpzOHhsOVB2X0FmVkZrTnFXNUxKUGhlcXRld0EyYTQtQnFkUEZHMTJhekNfTWZpY1hxVDRDd2lvcVlDRmRuUV9nR0ZULV9qRDBpRnBIM0REdUE?oc=5"
-}, {
-  "fingerprint" : "79b055095b90519d",
-  "title" : "也门胡塞武装称沙特联军在过去24小时内发动逾百次空袭与导弹打击",
-  "summary" : "据新华网援引也门胡塞武装消息，沙特主导的多国联军在过去24小时内对也门境内多个目标发动了密集军事行动，包含上百次空袭与导弹袭击。此次大规模袭击标志着该区域军事对抗再次显著升温，胡塞武装随时可能展开针对沙特目标的报复还击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-04T23:58:07.022350+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaDNKSEdVRmdlV3RMRFpmQ3JrX0FzWE1ZTXlVSC1UdUJjSEx5YUpaVFduOE1jcGM0MzRpQ1czX3dSd0d5SFlGcHFZSVcyMDBmbGxCeklqQjFCREpJQjBSTHFaZjI0ellNMExxU1Y3aWFENjM4MDhNT08wRkJNeTl3MjZCdUFvTlVodlZSNnk4aXlzSWlqWkhZXzVn?oc=5"
 } ]
