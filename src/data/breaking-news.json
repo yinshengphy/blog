@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "9f0e3af54cec8396",
+  "title" : "乌克兰称俄军空袭致首都基辅多处断电 公共交通系统大面积受阻",
+  "summary" : "据乌克兰方面通报，俄罗斯军队对首都基辅发动袭击，导致市内多处关键基础设施受损并造成大面积断电，公共交通网络运行严重受阻。当地应急抢修力量已紧急介入处置，相关具体受损规模及人员伤亡情况仍在进一步核实统计中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-09T12:51:58.875835+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqLTlHMVBNVk9tcmJNMmdCaXhoN0lVSkJ3RmluQUI5aVJyNFRDeW15clJQY21tYTNPRk1XQ09NR2RaQ3JtTGpOTQ?oc=5"
+}, {
   "fingerprint" : "79854d3cfd33a8f6",
   "title" : "也门胡塞武装导弹袭击沙特利雅得机场，已致3名沙特公民死亡",
   "summary" : "据英国广播公司（BBC）报道，也门胡塞武装对沙特阿拉伯首都利雅得机场发动导弹袭击，目前已确认造成3名沙特公民死亡。此次袭击发生在该伊朗支持的武装组织与沙特联军冲突升级之际，标志着也门战事外溢与红海及中东区域安全局势进一步恶化。",
@@ -110,20 +118,4 @@
   "discoveredAt" : "2026-10-06T14:13:23.633576+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CdkJkNHlhVTc1Y0RNWG5GMzZadFBGeVhWMUdnZlZLWk4zWmV5UlBTbC0tU0ZGbnhKVEs5VWZLNVdlTFpFYnVaVm5uNGgxSUJuMWpF?oc=5"
-}, {
-  "fingerprint" : "243a8e7240aa127a",
-  "title" : "乌克兰首都基辅一重要数据中心遭俄军袭击后停止运行",
-  "summary" : "据媒体报道，乌克兰首都基辅的一处数据中心遭到俄军空袭打击后损毁，目前已完全停止运行。此次袭击标志着俄军持续将目标锁定在乌克兰关键基础设施上，预计将对当地部分政企数字化业务及通信网络造成直接冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-06T12:40:01.105611+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56X2lWaXV4b0JWZC04WWsxNFhxTExXWUhENlBFODF5ZF82emlkNkliWVBESGlsTzhJenVuTDd1UjBoR05ERXFpSmZ4b1puNkFQbDJydlFHaVV4WHhvR042cDBNUQ?oc=5"
-}, {
-  "fingerprint" : "fa90cf1ed047ac69",
-  "title" : "沙特首都利雅得再次传出爆炸声 疑似防空拦截或遭空中袭击",
-  "summary" : "据多家媒体突发消息，沙特阿拉伯首都利雅得再次传出巨大爆炸声。当前中东安全局势持续紧张，此前利雅得曾多次遭遇来自跨境导弹或无人机袭击威胁并启动防空拦截。目前沙特官方尚未正式公布爆炸具体原因、是否有伤亡及设施损毁情况。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-06T11:26:20.881299+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85eUI1cDU1YWE1XzNFa0JZR19hSElheHBTQTBwekRiVGxNT0QteFFfV1BoLVBkODByWmJ2UUVsQXNGQ0NDSjdONkZQbVFDX284QXN0cFJ5MF8xaXl4Zl9xYloxSERjUQ?oc=5"
 } ]
