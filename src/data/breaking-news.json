@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "306de7a52c3dab25",
+  "title" : "乌方称俄军袭击扎波罗热地区造成至少8人死亡多人受伤",
+  "summary" : "据新华网援引乌克兰官方消息，俄罗斯军队对乌克兰南部扎波罗热地区发动袭击，已造成至少8人死亡，另有多人受伤。袭击导致当地民用设施不同程度受损，救援人员正在现场开展搜救与废墟清理工作。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-10T13:23:14.712582+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT3pFNzhOdmVSWmc1OUljR2FEMlBfRkp5Nk1ZTWFoOUFWSmZRZjJzdDBtZjJBMjA0ZnJtSUR1Ynk0aGlKWEo1Vk1BTG12ZEFtWm9oWGpQUFBpQVhRTmdBWHE4aHNVTWttUTNHTnBpdkJKa3J3enY5QTk3RWZwWHRCSjI1NWV4WHkwVUw2S0lDRnVGNndrU1BKbHlR?oc=5"
+}, {
   "fingerprint" : "1be17b9addbce931",
   "title" : "阿联酋检方通报客机恐袭图谋：迪拜航空一副驾驶策划自杀式袭击被捕",
   "summary" : "阿联酋检方通报一起严重客机恐袭图谋。通报显示，迪拜航空一名副驾驶企图在执行飞行任务期间策划自杀式袭击破坏客机。阿联酋国家安全机关提前锁定线索并在图谋得逞前将其抓捕归案，目前案件已移交司法机关，未造成人员伤亡。",
@@ -134,36 +142,4 @@
   "discoveredAt" : "2026-10-07T18:14:47.456580+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "fbd1c15348aeb51c",
-  "title" : "俄军对乌克兰全境发动大规模联合袭击发射近180架无人机与导弹 造成至少11人死亡",
-  "summary" : "据半岛电视台报道，乌克兰空军通报俄军夜间对乌全境发动“大规模”袭击，共出动130架无人机并向多地发射48枚巡航导弹和弹道导弹。袭击已造成至少11人丧生，多地民用建筑和关键基础设施遭受破坏，乌防空力量展开全面拦截。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-07T09:17:03.880234+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine?traffic_source=rss"
-}, {
-  "fingerprint" : "57549e8c4fe2e640",
-  "title" : "一艘油轮在霍尔木兹海峡遇袭致12人受伤 阿曼已展开紧急撤离救援",
-  "summary" : "据半岛电视台报道，一艘名为“On Peace”号的油轮在霍尔木兹海峡遭到袭击，阿曼当局已对船上受伤船员展开紧急撤离救援。印度外交部证实，船上12名伤员中有11人为印度公民。事件加剧了全球核心原油咽喉航道的安全担忧。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-07T03:30:10.651182+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz?traffic_source=rss"
-}, {
-  "fingerprint" : "7deb4ef764d4a8ae",
-  "title" : "委内瑞拉第二大炼油厂突发爆炸并全面暂停运营",
-  "summary" : "据半岛电视台报道，委内瑞拉第二大炼油厂突发爆炸事故，导致该炼油设施被迫全面暂停生产运营。目前官方尚未公布具体的伤亡人数及事故起因。作为委内瑞拉核心能源基础设施，该炼油厂停运或对该国燃料供应造成严重冲击。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-07T02:55:22.930413+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/7/explosion-shutters-venezuelas-second-largest-oil-refinery?traffic_source=rss"
-}, {
-  "fingerprint" : "4f0c8e4afe61588b",
-  "title" : "也门亚丁国际机场遭胡塞武装两枚导弹袭击并传出爆炸声",
-  "summary" : "据半岛电视台报道，也门沙特支持的政府通报称，胡塞武装向也门临时首都亚丁国际机场发射了两枚导弹，机场周边区域随即传出剧烈爆炸声。目前具体伤亡人数及设施损毁情况仍在进一步核查评估中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-07T02:10:43.114184+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/7/two-houthi-missiles-target-yemens-aden-international-airport?traffic_source=rss"
 } ]
