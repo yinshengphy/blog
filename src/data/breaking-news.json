@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "a38b348e3df6b4c0",
+  "title" : "沙特利雅得国际机场遇袭致12死309伤 特朗普称美军或加入行动",
+  "summary" : "沙特首都利雅得哈立德国王国际机场周六遭遇袭击，已造成12人死亡、309人受伤，系沙特十多年来境内伤亡最惨重的袭击。沙特主导的多国联军将此归咎于也门胡塞武装并誓言坚决回应，美国总统特朗普随后表示美国可能加入对胡塞武装的军事行动。",
+  "source" : "DW Chinese (德国之声)",
+  "discoveredAt" : "2026-10-11T09:38:49.356157+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.dw.com/zh/利雅得机场遇袭12死309伤-特朗普称可能加入军事行动/a-79632299?maca=chi-rss-chi-all-1127-xml-mrss"
+}, {
   "fingerprint" : "0a19658ff58c56d5",
   "title" : "五角大楼上调美军针对伊朗相关作战伤亡数据 已致21人死亡865人负伤",
   "summary" : "美国国防部最新通报再次上调美军在涉及伊朗军事行动及中东相关冲突中的伤亡人数，目前已累计导致美军人员21人死亡、865人受伤。该数据更新凸显出中东地区针对美军基地的袭扰对抗激烈程度加剧，恐进一步推升美伊紧张局势。",
@@ -158,12 +166,4 @@
   "discoveredAt" : "2026-10-08T10:04:18.247181+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02d2dMM3pvdldteVFqX01vMk0yX241YVlRb3ZSeDdSV2NXeXgtZkxTamJ1bXYzSmNidnRGR0JxOXVpTjl0WmNpajZNT2Zsb0tDVHE5WHctVE5yeEtPT3c?oc=5"
-}, {
-  "fingerprint" : "4fa35a1cb38b2ce4",
-  "title" : "南太平洋岛国瓦努阿图附近海域发生6.6级强震 暂无海啸预警发布",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月8日09时00分，南太平洋岛国瓦努阿图诺尔苏普东北约105公里海域突发6.6级强震。震中周边岛屿有明显震感，目前相关机构尚未发布破坏性海啸预警，详细人员伤亡及财产损失情况正在进一步核实评估中。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-08T09:09:49.093772+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/pt26281001"
 } ]
