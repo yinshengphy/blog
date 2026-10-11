@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d7f9512082a4ef4e",
+  "title" : "吉布提沿海发生严重移民船倾覆事故 致109人死亡数百人失踪",
+  "summary" : "据多家媒体报道，一艘载有大量人员的移民船在吉布提沿岸海域发生严重倾覆事故。目前已确认造成至少109人遇难，数百人伤亡或下落不明。当地搜救工作正在持续推进，该海域为非法跨海前往中东的重要通道，屡现群死群伤惨剧。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-11T13:58:02.726280+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSOVAyOXQ1LUZoNnpVMmRCS0VYNUpXNEh5bVpGX2xDdDVNQnpNNlhWUDUtMXZ0Z3puNjlLUjJGbU4tRmI4Q0lTNC1RdndKbnAzUUxKOXA0SldnbWlmc0ZVbHdUY0FsY1E2ckhHbTBHLWk?oc=5"
+}, {
   "fingerprint" : "a38b348e3df6b4c0",
   "title" : "沙特利雅得国际机场遇袭致12死309伤 特朗普称美军或加入行动",
   "summary" : "沙特首都利雅得哈立德国王国际机场周六遭遇袭击，已造成12人死亡、309人受伤，系沙特十多年来境内伤亡最惨重的袭击。沙特主导的多国联军将此归咎于也门胡塞武装并誓言坚决回应，美国总统特朗普随后表示美国可能加入对胡塞武装的军事行动。",
@@ -150,20 +158,4 @@
   "discoveredAt" : "2026-10-08T16:33:57.930708+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOXV2V0w3b2RkcHpYck9ZNFdEY1dxS1hsRndCMk5DWW5iVlYzOUpQZE5MYW42eXBhVTZPS0VjZFNXOWVTTHY5cEdwWW1OOEFhQWRIZkJQc21lOWY3U2l5MFhYNzItYzFoc1RmaDN6R1NyeW80cUMwcGtDcm1DWHpLRXFIX2hWSGpROUpmT1NiUTdueF9iNGVuMHVB?oc=5"
-}, {
-  "fingerprint" : "bd1102d3d2df93d7",
-  "title" : "一艘油轮在卡塔尔附近波斯湾海域遭多枚发射物袭击致人员伤亡",
-  "summary" : "据BBC援引海事机构消息，一艘名为Acers的油轮兼化学品船在卡塔尔附近的波斯湾海域遭多枚发射物击中，海事机构已确认船上报告有人亡。目前尚无组织宣布负责，该海域为全球核心能源航道，事件恐加剧中东海上冲突局势。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-08T10:20:42.653467+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "740b19da3b85243c",
-  "title" : "也门胡塞武装再次袭击沙特机场 沙特联军宣布将发起大规模军事反击",
-  "summary" : "也门胡塞武装宣称再次针对沙特民用机场目标实施袭击，沙特主导的多国联军随后表态，指责其严重威胁民航安全与平民生命，宣布将针对胡塞武装控制区域展开大规模军事行动以瓦解其攻击能力，局势面临进一步升级风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-08T10:04:18.247181+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02d2dMM3pvdldteVFqX01vMk0yX241YVlRb3ZSeDdSV2NXeXgtZkxTamJ1bXYzSmNidnRGR0JxOXVpTjl0WmNpajZNT2Zsb0tDVHE5WHctVE5yeEtPT3c?oc=5"
 } ]
