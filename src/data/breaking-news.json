@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0a19658ff58c56d5",
+  "title" : "五角大楼上调美军针对伊朗相关作战伤亡数据 已致21人死亡865人负伤",
+  "summary" : "美国国防部最新通报再次上调美军在涉及伊朗军事行动及中东相关冲突中的伤亡人数，目前已累计导致美军人员21人死亡、865人受伤。该数据更新凸显出中东地区针对美军基地的袭扰对抗激烈程度加剧，恐进一步推升美伊紧张局势。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-11T00:44:31.140064+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tZnZ6YWFrOFQ2c05EWFF6bWI3ZjB4cy15VjZFOW54T0prT3hsY1VfMWp2SldWaGdIU0NmbGlVUGFnYmlTTG5jeTYtUS10ZzNpYzNiWTdwM1dNTFdVN3BXZU56aEx4OVpscURnVTZZTko5Q0k?oc=5"
+}, {
   "fingerprint" : "47a4d9bdb7bc8660",
   "title" : "巴拿马发生7.6级强烈地震 中方外交部就抗震救灾及人员情况表态",
   "summary" : "巴拿马发生7.6级强震，震级极高且破坏力显著。中国外交部发言人就此答记者问，对灾情表达关注与慰问，并核实当地中国公民安全状况。目前当地相关部门已展开震后紧急排查与抢险救灾工作。",
@@ -158,20 +166,4 @@
   "discoveredAt" : "2026-10-08T09:09:49.093772+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/pt26281001"
-}, {
-  "fingerprint" : "70f693b4faeed2f6",
-  "title" : "沙特主导多国联军宣布摧毁胡塞武装企图袭击利雅得的导弹设施",
-  "summary" : "沙特主导的多国联军发布战报，宣布通过精确打击摧毁了也门胡塞武装企图用于向沙特首都利雅得发射导弹的有关设施与阵地。联军表示将继续采取必要措施消除针对平民与关键基础设施的威胁。当前也门各方军事对抗态势持续紧张。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-07T21:23:59.754873+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1NJVVM0dG9zemt3WEtVNjdzNVFjZTRhQ0c1eloxNVF6a2N5SVRONzFDMFd1Q0p6RGViMFpoajdkSFVkWkpVOXdpd3pZV2NLaE1kdEtrUy1TcEp5enQzVl9hdktDLTZPMElqajFjbmprRW1IbmRGbjZlZUVWWUxUeGF6VHYtQjJTZDlRTjFTMkRVLXF3ZmFib2VR?oc=5"
-}, {
-  "fingerprint" : "adbe985be6af6690",
-  "title" : "俄军导弹夜袭乌克兰北部居民楼致19人死亡 包括5名儿童",
-  "summary" : "据BBC报道，乌克兰北部一处居民公寓楼夜间遭俄军导弹袭击，导致至少19人死亡，其中包括5名在睡梦中遇难的儿童。袭击直接摧毁了该楼栋的30套公寓，造成大量平民伤亡和严重损毁，现场搜救工作正在进行。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-07T18:14:47.456580+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
 } ]
