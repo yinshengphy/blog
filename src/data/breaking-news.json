@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "4b45e910fe522e82",
+  "title" : "中东局势恶化推动布油突破105美元 伊朗公布霍尔木兹油轮触雷画面",
+  "summary" : "受沙特机场持续遭袭及霍尔木兹海峡油轮触雷爆炸画面公布影响，中东能源通道安全风险急剧升级。国际原油市场应声暴涨，布伦特原油突破105美元/桶关口，现货黄金回调整理，地缘冲突对全球金融与能源供应造成重大冲击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-12T00:14:53.353002+00:00",
+  "severity" : "顶级政经与科技震荡",
+  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0o3T2ZXZE52RUpwOXdtZGkxZGRoV1ZueHhJaTRJOEhhTUFzdThXWVpGNW1xNklXcjFwaXFsUDUwQUxSc3VJM1RHMUwxaS1feTUxLWF2TkdxOENsUkFoaGx4RkZITE5jeEhzRFhLQ3B1VEZPYlAtYmdYcVJXeVRHMlpMeGJJanhMdnBSQQ?oc=5"
+}, {
   "fingerprint" : "434884c106b483cd",
   "title" : "突发军事行动：也门首都萨那国际机场遭沙特联军空袭袭击",
   "summary" : "据央广网报道，也门首都萨那国际机场遭到沙特方面空袭袭击。萨那机场作为胡塞武装控制的核心枢纽设施，遇袭导致机场相关设施受损，现场局势高度紧张。此前中东地区冲突频发，此次袭击标志着红海及也门战事进一步激化。",
@@ -150,12 +158,4 @@
   "discoveredAt" : "2026-10-09T10:33:44.962185+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "88c1e32b565ae597",
-  "title" : "伊朗媒体称霍尔木兹海峡南部发生剧烈爆炸，涉及全球能源核心通道",
-  "summary" : "据半岛电视台援引伊朗法尔斯通讯社等媒体报道，霍尔木兹海峡南部海域发生剧烈爆炸，消息引自未具名军方人士。霍尔木兹海峡承担全球近两成原油海运，突发爆炸事件引发国际航运与能源市场高度警惕，具体伤亡、受损设施及爆炸原因尚待官方进一步证实。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-09T00:08:55.420125+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss"
 } ]
