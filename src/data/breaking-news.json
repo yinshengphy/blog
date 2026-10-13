@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "f8779f86fd2da1e6",
+  "title" : "也门萨那遭空袭传出爆炸声 胡塞武装威胁报复打击沙特阿美设施与机场",
+  "summary" : "据半岛电视台报道，在沙特主导的多国联军发布疏散指令后不久，也门首都萨那报告发生剧烈爆炸。胡塞武装随后公开发出威胁，誓言将对沙特阿拉伯境内的阿美石油公司关键能源设施及主要机场实施“严厉”报复性袭击，地区冲突与能源安全风险骤然升级。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-13T15:31:15.713623+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss"
+}, {
   "fingerprint" : "ae8bd986423b725b",
   "title" : "泽连斯基表态乌克兰已停止袭击俄罗斯能源设施，俄乌冲突或现局部降温信号",
   "summary" : "据媒体报道，乌克兰总统泽连斯基表示乌方已停止对俄罗斯能源设施实施袭击。此前外界持续关注卡塔尔等国斡旋双方停止互袭能源设施的谈判。该表态若正式确立，将成为俄乌战事关键转折点，有助于缓解区域能源危机并为缓和局势创造空间。",
@@ -150,12 +158,4 @@
   "discoveredAt" : "2026-10-10T15:57:15.465578+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMXFOTUxtbkY3U0Jia0RzSjdrbHg0NWV6T25ua2RTRklEYlhkeDRVcURRVFVWS3RuTkVRLS1PdXVvVXBNSGUycW5kUlBpSWF6bU00LW9IUk9WcHV5a2kyR1Q2c2swcXB5?oc=5"
-}, {
-  "fingerprint" : "adf8a532177aadb6",
-  "title" : "沙特首都利雅得哈立德国王国际机场附近传出剧烈爆炸声",
-  "summary" : "据媒体报道，沙特阿拉伯首都利雅得国际机场附近传出爆炸声。由于近期沙特主导的多国联军与也门胡塞武装冲突激化，此次爆炸疑似为防空系统拦截无人机或弹道导弹所致，目前伤亡及设施损毁情况正在核实中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-10T15:05:59.002516+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qNXZtTV8wRUJITTQ2OG1FbjlCbVJVaV9sZzhUWi1ucTBpMHFrVTZORWhhaEVWbzNuZnQxZ1RyNUpnSzgxLXFHYVFBdFlpSEU?oc=5"
 } ]
