@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3d07bf2f784cea8e",
+  "title" : "也门胡塞武装袭击沙特阿美总部大楼，全球核心能源枢纽安全局势骤然升级",
+  "summary" : "据华尔街日报报道，也门胡塞武装对位于沙特宰赫兰的沙特阿美总部大楼发动袭击。作为全球核心石油枢纽与沙特经济支柱，沙特阿美总部直接成为打击目标标志着冲突显著升级，将对国际原油供应安全及中东地缘政治带来重大冲击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-14T09:40:17.793575+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnQzaXFlNHdRc2s3Zm1SaHlVYlZpcFlBRDhlSFR3aFZYY3JTZWR6cWM3cWNCc1loQ3BWcnpkS3E2RjZpa19KR3h2OWRPYUNTMXlkZnNGeVhEdnJwWDlhUFlzQnpaUlNYUmt4Y3NPNVFKS3hpLTdvcTY5bnoyYmdSOGpReVZJRWRheVd5TldKSHpiN3YwZEd2WQ?oc=5"
+}, {
   "fingerprint" : "c2dd959adcdfc97f",
   "title" : "沙特利雅得与宰赫兰拦截多枚胡塞武装导弹 坠落弹片致人受伤",
   "summary" : "据半岛电视台消息，沙特防空部队在首都利雅得及东部重要石油工业中心宰赫兰上空成功拦截多枚也门胡塞武装发射的导弹。拦截过程中产生的坠落碎片导致地面人员受伤。随着也门战事再度激化，胡塞武装扩大了针对沙特核心城市与能源重镇的纵深打击，中东地缘对抗面临进一步升级风险。",
@@ -190,12 +198,4 @@
   "discoveredAt" : "2026-10-11T13:58:02.726280+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSOVAyOXQ1LUZoNnpVMmRCS0VYNUpXNEh5bVpGX2xDdDVNQnpNNlhWUDUtMXZ0Z3puNjlLUjJGbU4tRmI4Q0lTNC1RdndKbnAzUUxKOXA0SldnbWlmc0ZVbHdUY0FsY1E2ckhHbTBHLWk?oc=5"
-}, {
-  "fingerprint" : "a38b348e3df6b4c0",
-  "title" : "沙特利雅得国际机场遇袭致12死309伤 特朗普称美军或加入行动",
-  "summary" : "沙特首都利雅得哈立德国王国际机场周六遭遇袭击，已造成12人死亡、309人受伤，系沙特十多年来境内伤亡最惨重的袭击。沙特主导的多国联军将此归咎于也门胡塞武装并誓言坚决回应，美国总统特朗普随后表示美国可能加入对胡塞武装的军事行动。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-10-11T09:38:49.356157+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.dw.com/zh/利雅得机场遇袭12死309伤-特朗普称可能加入军事行动/a-79632299?maca=chi-rss-chi-all-1127-xml-mrss"
 } ]
