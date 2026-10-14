@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "917907250c75b6dd",
+  "title" : "胡塞武装宣称对沙特机场及石油设施发动袭击并引发火灾",
+  "summary" : "也门胡塞武装宣称使用无人机和导弹对沙特境内的机场及重要石油基础设施实施了协同打击，并称袭击引发火灾。目前沙特官方尚未公布具体伤亡及损毁程度，中东能源通道安全与红海地缘局势持续紧张升级。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-14T15:14:42.976817+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBHTmdUajNHa1d1aDhfVzZGS2l1eHdpYW9kMVB3ZWtWSnhXYl9kNEJCdlh4eWZ3REM5eWJlMlA1SDhQcjFMYm9neldTSUY?oc=5"
+}, {
   "fingerprint" : "25533826dd29da83",
   "title" : "伊朗证实一艘集装箱船在霍尔木兹海峡触雷沉没 国际咽喉航道安全风险剧烈升级",
   "summary" : "据伊朗方面通报，一艘集装箱船在国际航运咽喉霍尔木兹海峡触雷爆炸后沉没。霍尔木兹海峡作为全球核心原油与物流枢纽出现水雷袭击事件，表明该海域对抗态势严重恶化，预计将对国际海运安全、航运保险及全球原油市场造成重大冲击。",
@@ -198,20 +206,4 @@
   "discoveredAt" : "2026-10-11T23:14:31.719475+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBMmxyUUhzNGktYVZ5Q1B6aFBubHlmQ0VSQmIzWU1lSUptQndUSzgzYjZobWNIR1dXNkdyd2dYM2NMTG1uX0swWGVMMzFIVXJ3cFlVVnBVc244YktYWGF0VzdtWV9LX2p6?oc=5"
-}, {
-  "fingerprint" : "6a8ac95b46ba03a2",
-  "title" : "巴布亚新几内亚潘古纳东南沿海发生6.2级地震 震源机制正持续监测",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月11日14时07分，巴布亚新几内亚潘古纳东南偏南方约79公里处发生6.2级强震。该区域地处环太平洋火山地震带，震源参数已确认，目前暂无即时海啸预警或严重灾损报告。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-11T14:26:37.527468+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv"
-}, {
-  "fingerprint" : "d7f9512082a4ef4e",
-  "title" : "吉布提沿海发生严重移民船倾覆事故 致109人死亡数百人失踪",
-  "summary" : "据多家媒体报道，一艘载有大量人员的移民船在吉布提沿岸海域发生严重倾覆事故。目前已确认造成至少109人遇难，数百人伤亡或下落不明。当地搜救工作正在持续推进，该海域为非法跨海前往中东的重要通道，屡现群死群伤惨剧。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-11T13:58:02.726280+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSOVAyOXQ1LUZoNnpVMmRCS0VYNUpXNEh5bVpGX2xDdDVNQnpNNlhWUDUtMXZ0Z3puNjlLUjJGbU4tRmI4Q0lTNC1RdndKbnAzUUxKOXA0SldnbWlmc0ZVbHdUY0FsY1E2ckhHbTBHLWk?oc=5"
 } ]
