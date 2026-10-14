@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6aa84eddb69fcc43",
+  "title" : "乌克兰指控马斯克旗下SpaceX限制星链终端 削弱乌军防空与无人机拦截能力",
+  "summary" : "在基辅连续第二晚遭受俄军弹道导弹袭击之际，乌克兰官员公开指控埃隆·马斯克旗下的SpaceX公司限制（降速）其在乌境内的“星链”终端服务。乌方表示，此举严重削弱了军方拦截俄军无人机和应对空袭的关键防空指挥能力。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-14T17:20:44.450010+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
+}, {
   "fingerprint" : "11c6a1f6bcc71120",
   "title" : "两艘新加坡籍船只在霍尔木兹海峡遭袭致一艘沉没",
   "summary" : "据媒体报道，两艘新加坡籍船只在国际关键航运咽喉霍尔木兹海峡遭袭，其中一艘货轮沉没。此前伊朗军方通报称该船企图强行通过未经授权的危险航道触雷爆炸。该事件标志着波斯湾海域商船安全风险大幅上升，引发全球航运界及能源市场高度紧张。",
