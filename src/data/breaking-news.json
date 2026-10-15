@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "b7e39d918f713cc6",
+  "title" : "美国一小学发生枪击事件 致至少4人死亡包括3名儿童 枪手已被击毙",
+  "summary" : "据半岛电视台报道，美国一所小学发生严重枪击事件，目前已导致至少4人丧生，其中包括3名儿童。当地执法部门表示，涉案枪手已在交火中被击毙。目前袭击的具体动机及案件细节仍在进一步调查与通报中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-15T23:04:09.907696+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss"
+}, {
   "fingerprint" : "d0032b9c94d5a702",
   "title" : "泽连斯基宣布乌克兰不再遵守能源停火协议 俄通报多处炼油厂再遭袭",
   "summary" : "据美国之音等报道，乌克兰总统泽连斯基正式表态乌方不再遵守此前涉及能源设施的停火约定。俄方随后通报境内炼油厂再度遭袭并引发火灾。此番政策表态标志着俄乌在能源维度的打击彻底解禁，战事进入针对关键能源中枢的全面升级周期。",
@@ -222,12 +230,4 @@
   "discoveredAt" : "2026-10-12T23:37:40.768217+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn"
-}, {
-  "fingerprint" : "dd4fef1d28dbf8ef",
-  "title" : "胡塞武装宣称再次袭击沙特民用机场及空军基地",
-  "summary" : "东方财富及多方消息显示，也门胡塞武装宣布再次对沙特境内的机场和空军基地发动袭击。此举为近期双方互相空袭的升级行动，紧随此前沙特空袭也门北部之后，恐进一步推高地区冲突烈度并引发国际大宗商品市场波动。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-12T20:17:04.203275+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JX1NHUTJ4RE0yWVhNSGdSYXZyTk9qbUNLa24zVm5XSlZteVkzZV9JbzJKQ0tTN2l6Y2x4dEpETjJVdzlsVjdtcnUyMjNYVnV1SWFOZjBRRmxHdzQ3czJZSA?oc=5"
 } ]
