@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0b502bfc6d4dd986",
+  "title" : "沙特官方称胡塞武装袭击利雅得机场已致17死333伤",
+  "summary" : "据沙特官方通报，也门胡塞武装针对沙特首都利雅得国际机场发动的袭击造成极其严重的人员伤亡，目前已致17人遇难、333人受伤。这是近期该地区针对民航交通枢纽伤亡最惨重的一次袭击事件，标志着也门胡塞武装对沙特目标的打击行动出现重大烈度升级。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-15T16:13:33.342683+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TUUMwVW5fNlFSQjhlMENGd1NsVl9jc0t1VUpSdUNsVU4xX082ZnAyVUxRcVlMNEd2cFN2MWZYUm9fdmU5VmR3Q212b0YyOHpUSTliOHdIb25RbUJLeC1sNzc1cGQ?oc=5"
+}, {
   "fingerprint" : "bf27be42f58f2a22",
   "title" : "也门胡塞武装宣称再次对沙特首都机场发动袭击",
   "summary" : "据媒体消息，也门胡塞武装宣称再次针对沙特阿拉伯首都利雅得的机场目标发动袭击。目前沙特防空部队与官方部门尚未公布拦截细节或受损伤亡情况，相关设施运营与区域安全局势引发高度关注。",
@@ -214,12 +222,4 @@
   "discoveredAt" : "2026-10-12T16:42:59.284247+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PUHEzcXVkcFRaTjBYMllfVXNHR0Nza2Q0UUhfZ29KN1FDWldhY01vOXl1Uy1iNFl6QjlHODZfbzh6R1RYdy12X0ZJVVpLOE94OFJkbDRLR3JyclM4S1E?oc=5"
-}, {
-  "fingerprint" : "edfe56542e053f5c",
-  "title" : "以色列北部突发未爆弹药爆炸 约20名师生受伤送医",
-  "summary" : "据半岛电视台援引以色列警方初步调查消息，以色列北部发生一起爆炸事件，初步迹象显示系遗留未爆弹药（UXO）引爆所致。爆炸造成约20名学生和教师受伤，目前伤者已被紧急送医救治，当地安全部门已对事发区域展开排查。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-12T13:24:11.612023+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.aljazeera.com/news/2026/10/12/explosion-in-northern-israel-students-and-teachers-injured?traffic_source=rss"
 } ]
