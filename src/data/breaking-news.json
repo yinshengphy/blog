@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "df296e4805759d29",
+  "title" : "俄罗斯梁赞州一大型炼油厂遭乌克兰无人机袭击起火",
+  "summary" : "俄罗斯官方及媒体通报，俄梁赞州一家大型炼油厂遭到乌克兰无人机袭击并起火。该厂为俄重要炼油基地之一，袭击导致部分原油加工设施受损。目前应急部门正在现场扑救，火势及具体产能损失仍在进一步评估中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-15T08:09:42.831172+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jLVNTOXdxZG5hVHo2d0tlb0ZqcHVuYmZMQzJFOVlId0NlMll6ZXFWS09jNHN6a0x4aDNtbVBlVktWWjVodkluSmcyM3NJcV9iQ1lZ?oc=5"
+}, {
   "fingerprint" : "fa97191a9ae55ae5",
   "title" : "朝鲜宣布成功试射两枚潜射导弹 官方称展示区域战争威慑能力",
   "summary" : "据半岛电视台援引朝中社报道，朝鲜官方证实已成功试射两枚潜射导弹。朝方表示，此次试验旨在展示朝鲜在该地区的战争威慑能力。潜射武器测试标志着其二次打击能力的持续演进，半岛防务对抗及地区紧张态势面临进一步升级。",
@@ -206,20 +214,4 @@
   "discoveredAt" : "2026-10-12T13:24:11.612023+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.aljazeera.com/news/2026/10/12/explosion-in-northern-israel-students-and-teachers-injured?traffic_source=rss"
-}, {
-  "fingerprint" : "470739ecf1bf839a",
-  "title" : "特朗普宣布俄乌达成能源设施停火 乌克兰称多处电厂仍遭空袭",
-  "summary" : "美国总统特朗普公开宣布俄乌双方同意就能源基础设施实施停火。然而乌克兰官方随后通报，境内多座发电厂及关键能源设施仍持续遭到俄军空袭，能源网络破坏加剧。事件表明美方推动的停火斡旋与战场实际局势存在严重落差，俄乌能源战博弈仍在持续。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-12T07:33:19.185964+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOcDE2MkVXZFlfNl9meU40UThsVWpsbDVuMFpmOFZxQURWNEZ0dlhHeDZBejRhbFRtVWxmWmUwNUFQYUMxdm1YRWJON1RTVUVDVmQ5c04yMHhjTDdBSUNJM25wbkVFRHpzVGRxd3VFUkxxRG1BVzJYQ3JITlJKNzVZa09vUlBsWGQ5TXg3S3Y1emxZN01TaUxUa25XaEZ2UXcwbjZpRXVBMnUxRW9tNnlwQmtfRUxTbnliR1VFQ0NybmI0M19VcXJTLU9IbXJQMTAtQWRYeGVNZ05pNGxGZzlBSU12TXdMdjljbkNsT25TajB3VWgwaC1VMEl4cmhUZWZDZWo3aWg4d2hnMTJ2aFRUSE1lblpCTjJ2emxWcHAxV1FvUGJKUmlFOHRzdXlBVkdrR0JvTTk1R01uU3RiZThnd201dnR3US1tN1Z2Q09PV0hUMlpxNWdURU1KYmc4ekRZRm5V?oc=5"
-}, {
-  "fingerprint" : "0cd8141777210471",
-  "title" : "朝鲜向东部海域发射多枚弹道导弹 韩国军方密切监视提升警戒",
-  "summary" : "据半岛电视台援引韩国军方消息，朝鲜向其东部海域发射了多枚弹道导弹。首尔方面表示，此次发射疑似针对韩国近期高超音速导弹试射的武力示威。韩国联合参谋本部已加强监视与戒备态势，正与美日军方紧密协调并分析导弹具体参数。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-12T03:58:48.417190+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss"
 } ]
