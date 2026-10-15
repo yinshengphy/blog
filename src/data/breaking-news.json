@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "fa97191a9ae55ae5",
+  "title" : "朝鲜宣布成功试射两枚潜射导弹 官方称展示区域战争威慑能力",
+  "summary" : "据半岛电视台援引朝中社报道，朝鲜官方证实已成功试射两枚潜射导弹。朝方表示，此次试验旨在展示朝鲜在该地区的战争威慑能力。潜射武器测试标志着其二次打击能力的持续演进，半岛防务对抗及地区紧张态势面临进一步升级。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-15T03:47:42.797058+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss"
+}, {
   "fingerprint" : "4ffc845b418fb3a1",
   "title" : "沙特首都传出剧烈爆炸声 胡塞武装宣称对沙特阿美发动新一轮袭击",
   "summary" : "据法广（RFI）等媒体报道，沙特阿拉伯首都利雅得再传剧烈爆炸声。也门胡塞武装宣称对沙特阿美公司发动了新一轮导弹与无人机袭击。目前沙特官方尚未正式公布伤亡及防空拦截损毁详情，中东安全局势与原油供应链风险显著升级。",
@@ -214,20 +222,4 @@
   "discoveredAt" : "2026-10-12T03:58:48.417190+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss"
-}, {
-  "fingerprint" : "4b45e910fe522e82",
-  "title" : "中东局势恶化推动布油突破105美元 伊朗公布霍尔木兹油轮触雷画面",
-  "summary" : "受沙特机场持续遭袭及霍尔木兹海峡油轮触雷爆炸画面公布影响，中东能源通道安全风险急剧升级。国际原油市场应声暴涨，布伦特原油突破105美元/桶关口，现货黄金回调整理，地缘冲突对全球金融与能源供应造成重大冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-12T00:14:53.353002+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0o3T2ZXZE52RUpwOXdtZGkxZGRoV1ZueHhJaTRJOEhhTUFzdThXWVpGNW1xNklXcjFwaXFsUDUwQUxSc3VJM1RHMUwxaS1feTUxLWF2TkdxOENsUkFoaGx4RkZITE5jeEhzRFhLQ3B1VEZPYlAtYmdYcVJXeVRHMlpMeGJJanhMdnBSQQ?oc=5"
-}, {
-  "fingerprint" : "434884c106b483cd",
-  "title" : "突发军事行动：也门首都萨那国际机场遭沙特联军空袭袭击",
-  "summary" : "据央广网报道，也门首都萨那国际机场遭到沙特方面空袭袭击。萨那机场作为胡塞武装控制的核心枢纽设施，遇袭导致机场相关设施受损，现场局势高度紧张。此前中东地区冲突频发，此次袭击标志着红海及也门战事进一步激化。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-11T23:14:31.719475+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBMmxyUUhzNGktYVZ5Q1B6aFBubHlmQ0VSQmIzWU1lSUptQndUSzgzYjZobWNIR1dXNkdyd2dYM2NMTG1uX0swWGVMMzFIVXJ3cFlVVnBVc244YktYWGF0VzdtWV9LX2p6?oc=5"
 } ]
