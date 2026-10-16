@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "0307cc3f2d2df424",
+  "title" : "胡塞武装指责沙特近期军事行动已致也门境内419人伤亡",
+  "summary" : "据第一财经报道，也门胡塞武装声称沙特近期针对也门展开的军事行动已造成多达419人伤亡。目前沙特方面尚未对此指控及具体死伤数据作出正式回应，双方持续的相互袭击正使地区安全形势与人道主义危机进一步加剧。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-16T15:30:39.518745+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWSGpmQnUwYU9tXzVkNllBdWpGZ3RzcGRxT2hpLWNzdjhxRzZWNjNZYUItMng1R2xja1FBUEpyTEZfUUNIOUZDTDcyRUlUUlY5NS00?oc=5"
+}, {
   "fingerprint" : "cdd7eb457c48959b",
   "title" : "俄罗斯堪察加半岛南部发生6.9级强震 暂无人员伤亡与损失报告",
   "summary" : "据美国地质调查局（USGS）测定，UTC时间2026年10月16日03时35分，俄罗斯远东堪察加边疆区奥泽尔诺夫斯基东北约76公里处发生6.9级强震。震区地处环太平洋地震带，目前暂未收到人员伤亡或基础设施受损报告，有关部门正严密监测余震。",
@@ -182,52 +190,4 @@
   "discoveredAt" : "2026-10-13T16:23:44.842568+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80dXFUZGlEMWZtTFJDa2F1aTJSVmFIeWplcERHZ09PWjhvTFhGVklVTXU0T3d4SEpUUVZKQUxRUk9majU2ajNtLXUtY21PSjc5RUFMUmMzMnZXN2pqUGc?oc=5"
-}, {
-  "fingerprint" : "f8779f86fd2da1e6",
-  "title" : "也门萨那遭空袭传出爆炸声 胡塞武装威胁报复打击沙特阿美设施与机场",
-  "summary" : "据半岛电视台报道，在沙特主导的多国联军发布疏散指令后不久，也门首都萨那报告发生剧烈爆炸。胡塞武装随后公开发出威胁，誓言将对沙特阿拉伯境内的阿美石油公司关键能源设施及主要机场实施“严厉”报复性袭击，地区冲突与能源安全风险骤然升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-13T15:31:15.713623+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports?traffic_source=rss"
-}, {
-  "fingerprint" : "ae8bd986423b725b",
-  "title" : "泽连斯基表态乌克兰已停止袭击俄罗斯能源设施，俄乌冲突或现局部降温信号",
-  "summary" : "据媒体报道，乌克兰总统泽连斯基表示乌方已停止对俄罗斯能源设施实施袭击。此前外界持续关注卡塔尔等国斡旋双方停止互袭能源设施的谈判。该表态若正式确立，将成为俄乌战事关键转折点，有助于缓解区域能源危机并为缓和局势创造空间。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-13T14:19:53.867267+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOUlhmNDk0VVI5TGFHSWNwUEtheEhySXl4YV9qcVIyV0lMREE4VFVlSjJYQlZYWGdKOXV3cGlUNG5jSWFvM2ZxM21wTkQ5OUdodk1vVFI1dHoweUxrQk9rZw?oc=5"
-}, {
-  "fingerprint" : "ee01df74d3dcc917",
-  "title" : "印尼受厄尔尼诺影响林火迅速蔓延 烧毁近300栋民宅致数百人疏散",
-  "summary" : "当地时间周二，受厄尔尼诺现象引发的严重干旱影响，印尼苏门答腊及邦加-勿里洞省一带林火失控蔓延。风向突变导致火势迅速吞噬居民点，近300栋房屋被彻底烧毁，数百名居民被迫紧急撤离，目前当地应急部门正全力组织灭火与安置工作。",
-  "source" : "The Guardian World",
-  "discoveredAt" : "2026-10-13T12:53:45.129519+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.theguardian.com/world/2026/oct/13/indonesia-wildfire-el-nino-razes-300-homes-bankga-belitung"
-}, {
-  "fingerprint" : "17e992d424433089",
-  "title" : "中大西洋海岭中部发生6.9级强震，震源深处大洋中脊",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月13日12时23分，中大西洋海岭中部发生里氏6.9级强震。该海域数小时前曾发生6.7级地震，显示板块构造活动活跃。因震中深处大西洋海盆内部，暂无人员伤亡及海啸威胁报告。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-13T12:40:34.492235+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
-}, {
-  "fingerprint" : "6c0bc2dd675d5d89",
-  "title" : "俄罗斯首都莫斯科及周边地区遭大规模无人机突发袭击 俄防空系统紧急拦截",
-  "summary" : "据俄媒及多家主流媒体报道，俄罗斯首都莫斯科及莫斯科州遭遇大规模无人机袭击，俄防空系统紧急启动并击落多架来袭无人机。受突发袭击影响，莫斯科多处枢纽机场临时暂停航班起降，当地已启动应急响应机制，具体受损与人员伤亡情况正进一步排查核实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-13T09:16:08.775919+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBESmNaNTFlSXFWZEFKSklpZUxuVlBKUVB6LXJnX1RDc19oZlNqckZNQVFLeHowM0ZiSmJsYkZxcWFKUklvaGdFcmVWVDE0eVFQdE9KaS1CLWQzLWFIZmo0MA?oc=5"
-}, {
-  "fingerprint" : "95fc57c379667f96",
-  "title" : "中大西洋海岭中部发生6.7级强烈地震 震源位于深海区域",
-  "summary" : "据美国地质调查局（USGS）测定，UTC时间2026年10月13日05时44分，中大西洋海岭中部海域发生M 6.7级地震。该震中处于大西洋板块生长边界深海区域，远离陆地及人口居住岛屿，目前无海啸预警发布及人员财产损失报告。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-13T06:06:39.961322+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1z5"
 } ]
