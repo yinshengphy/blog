@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "220e36ef4e789d9a",
+  "title" : "也门政府指控胡塞武装向亚丁国际机场发射两枚导弹",
+  "summary" : "据半岛电视台报道，也门政府指控胡塞武装向亚丁国际机场发射了两枚导弹。此次袭击正值也门政府军宣称在马里卜战线取得进展、并在24小时内消灭430名胡塞武装人员之际，也门战局呈现新一轮升级态势。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-16T22:09:02.239382+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss"
+}, {
   "fingerprint" : "0307cc3f2d2df424",
   "title" : "胡塞武装指责沙特近期军事行动已致也门境内419人伤亡",
   "summary" : "据第一财经报道，也门胡塞武装声称沙特近期针对也门展开的军事行动已造成多达419人伤亡。目前沙特方面尚未对此指控及具体死伤数据作出正式回应，双方持续的相互袭击正使地区安全形势与人道主义危机进一步加剧。",
@@ -158,36 +166,4 @@
   "discoveredAt" : "2026-10-13T22:26:55.744645+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdXdOV3F6a2g0UVhZZUtBNjZadUdoZ1c4aDlaWUViaDVUTUs2dll4d3lkaElZeUtfVi14UGFRTFRvSk85dmtOWHpSTkNianlFMnNLQlZOWmI0MGFPSXJKcWJ3VXJqV3RVQU1iV3JyUEZqNnI2T1ZsUFZacUw5MWxISTljUzdnak5nd0U0MFgzak1Sc2RNbmRJSzFUaFFOZnFWN0FEREtWN0tuMG04VXlmYWkyVnBhVS03XzJ0eVM1SVQ0M3VJ?oc=5"
-}, {
-  "fingerprint" : "52cf86d74dc3ee68",
-  "title" : "莫斯科一夜遭417架无人机大规模突袭，俄乌冲突战火骤升级且能源停火陷入僵局",
-  "summary" : "俄罗斯莫斯科及相关地区一夜之间遭到多达417架无人机的大规模空袭，创下战时单日受袭纪录。俄军防空部队紧急拦截并对乌克兰境内目标展开反制打击。此次大规模突袭令美方力推的俄乌‘能源设施相互停火’构想严重受挫，战局再度陷入剧烈升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-13T19:54:15.997962+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nUkE0eUNlby1jWkdwUTh4M3h0ZDh4RENSRGZsbXhtM2hsM3FJaTBfaC1OTHhsd2lPLUQ3ZHJVQ1kxYzEyLTFrOTVwdk80NDVKX1pr?oc=5"
-}, {
-  "fingerprint" : "3f873357f1442402",
-  "title" : "沙特联军空袭也门萨那油库后 利雅得附近拦截多枚来袭导弹",
-  "summary" : "据BBC报道，沙特领导的多国联军对也门首都萨那附近一处胡塞武装控制的燃料库实施空袭。袭击发生后不久，沙特防空系统在首都利雅得附近拦截了多枚来袭弹道导弹。目前暂无人员伤亡及地面损毁报告，地区冲突呈现直接跨国交火升级态势。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-13T19:54:07.085274+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "508dffede188a1cb",
-  "title" : "巴布亚新几内亚科科波以南海域发生6.0级强震",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月13日18时45分，巴布亚新几内亚科科波以南约126公里处发生6.0级地震。当地地处活跃构造带，周边沿海及岛屿震感明显，目前尚未触发破坏性海啸预警，伤亡及损失情况正在排查评估中。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-13T19:05:17.874207+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
-}, {
-  "fingerprint" : "ab563301652467ca",
-  "title" : "保加利亚黑海海域一商船遇袭沉没，致5人获救11人失踪",
-  "summary" : "据媒体报道，一艘商船在保加利亚黑海海域遭到袭击并沉没。截至目前，救援人员已成功救起5人，另有11人失踪，搜救行动正在持续进行。该事件再次敲响黑海海域商业航运安全警钟，相关遇袭细节和责任方正在进一步核实调查中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-13T16:23:44.842568+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80dXFUZGlEMWZtTFJDa2F1aTJSVmFIeWplcERHZ09PWjhvTFhGVklVTXU0T3d4SEpUUVZKQUxRUk9majU2ajNtLXUtY21PSjc5RUFMUmMzMnZXN2pqUGc?oc=5"
 } ]
