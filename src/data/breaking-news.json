@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "f3cc7556654d0cbc",
+  "title" : "美国南加州突发山火吞噬多栋民宅 强风助推火势逼停社区下达紧急撤离令",
+  "summary" : "受强劲暖风与反常高温影响，美国南加州橙县突发“诺特山火”并迅速蔓延失控。大火已逼近居民区并吞噬多栋房屋，当地消防及应急部门已向受威胁区域居民发布紧急疏散令，多支消防力量正全力展开扑救与阻截。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-17T03:37:27.487962+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss"
+}, {
   "fingerprint" : "87cce44130b799b3",
   "title" : "伊朗革命卫队通报：一艘油轮在霍尔木兹海峡触雷爆炸",
   "summary" : "据新华网援引伊朗伊斯兰革命卫队消息，一艘油轮在霍尔木兹海峡水域触碰水雷发生剧烈爆炸。作为全球最关键的石油运输咽喉通道，该起突发事件令波斯湾航运安全风险急剧升级，恐引发国际能源市场震荡与地缘局势恶化。",
@@ -142,20 +150,4 @@
   "discoveredAt" : "2026-10-14T09:40:17.793575+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnQzaXFlNHdRc2s3Zm1SaHlVYlZpcFlBRDhlSFR3aFZYY3JTZWR6cWM3cWNCc1loQ3BWcnpkS3E2RjZpa19KR3h2OWRPYUNTMXlkZnNGeVhEdnJwWDlhUFlzQnpaUlNYUmt4Y3NPNVFKS3hpLTdvcTY5bnoyYmdSOGpReVZJRWRheVd5TldKSHpiN3YwZEd2WQ?oc=5"
-}, {
-  "fingerprint" : "c2dd959adcdfc97f",
-  "title" : "沙特利雅得与宰赫兰拦截多枚胡塞武装导弹 坠落弹片致人受伤",
-  "summary" : "据半岛电视台消息，沙特防空部队在首都利雅得及东部重要石油工业中心宰赫兰上空成功拦截多枚也门胡塞武装发射的导弹。拦截过程中产生的坠落碎片导致地面人员受伤。随着也门战事再度激化，胡塞武装扩大了针对沙特核心城市与能源重镇的纵深打击，中东地缘对抗面临进一步升级风险。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-14T03:21:14.448477+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss"
-}, {
-  "fingerprint" : "9eb3fde0cfa58d65",
-  "title" : "俄军连续第二天发射弹道导弹突袭乌克兰基辅，防空系统未及预警",
-  "summary" : "据半岛电视台报道，俄罗斯军队连续第二天对乌克兰首都基辅发动弹道导弹袭击。报道指出，由于弹道导弹飞行速度极快且弹道陡峭，基辅在遭遇打击前未能及时触发防空警报，显示俄军对乌核心目标的战术打击手段进一步升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-14T03:08:18.174974+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss"
 } ]
