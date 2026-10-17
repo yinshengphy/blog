@@ -76,6 +76,7 @@ function formatDate(date: Date) {
 </BaseLayout>
 
 <script>
+  document.addEventListener('astro:page-load', () => {
   const tabs = Array.from(
     document.querySelectorAll<HTMLButtonElement>('.category-nav [role="tab"]')
   );
@@ -106,5 +107,6 @@ function formatDate(date: Date) {
         emptyState.hidden = visibleCount > 0;
       }
     });
+  });
   });
 </script>

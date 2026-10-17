@@ -114,6 +114,9 @@ const titleSlug = title.normalize('NFKC')
 </BaseLayout>
 
 <script>
+  document.addEventListener('astro:page-load', () => {
+  const lifecycle = new AbortController();
+  const { signal } = lifecycle;
   const tocLinks = Array.from(
     document.querySelectorAll<HTMLAnchorElement>('.toc-link')
   );
@@ -134,7 +137,11 @@ const titleSlug = title.normalize('NFKC')
   };
 
   syncTocDisclosure();
-  mobileQuery.addEventListener('change', syncTocDisclosure);
+  mobileQuery.addEventListener('change', syncTocDisclosure, { signal });
+  document.addEventListener('astro:before-swap', () => {
+    lifecycle.abort();
+    if (manualTargetTimer) window.clearTimeout(manualTargetTimer);
+  }, { once: true });
 
   const setActiveHeading = (id: string) => {
     tocLinks.forEach((link) => {
@@ -211,8 +218,8 @@ const titleSlug = title.normalize('NFKC')
       });
     };
 
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', syncActiveHeading);
+    window.addEventListener('scroll', onScroll, { passive: true, signal });
+    window.addEventListener('resize', syncActiveHeading, { signal });
 
     window.addEventListener('hashchange', () => {
       const hashId = decodeHash();
@@ -221,7 +228,7 @@ const titleSlug = title.normalize('NFKC')
       } else {
         syncActiveHeading();
       }
-    });
+    }, { signal });
 
     tocLinks.forEach((link) => {
       link.addEventListener('click', (event) => {
@@ -240,4 +247,5 @@ const titleSlug = title.normalize('NFKC')
       }
     });
   }
+  });
 </script>

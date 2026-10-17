@@ -1,4 +1,4 @@
-<div class="chat-widget" data-chat-widget>
+<div class="chat-widget" data-chat-widget transition:persist="blog-chat">
   <button class="chat-fab" type="button" aria-label="和我聊聊吧~" data-chat-toggle>
     <svg class="chat-bot-icon" viewBox="0 0 64 64" aria-hidden="true">
       <path class="chat-bot-antenna" d="M32 17V10" />
@@ -47,6 +47,7 @@
 
 <script>
   import katex from "katex";
+  import { navigate } from "astro:transitions/client";
 
   type SsePayload = any;
   type SseHandlers = Record<string, (data: SsePayload) => void>;
@@ -95,8 +96,6 @@
     if (open) input?.focus();
   }
 
-  history.replaceState({ yinshengSoftNav: true }, "", window.location.href);
-
   toggle?.addEventListener("click", () => setOpen(panel?.hidden ?? true));
   closeButton?.addEventListener("click", () => setOpen(false));
   clearButton?.addEventListener("click", clearConversation);
@@ -112,10 +111,6 @@
 
     event.preventDefault();
     await navigateInPlace(url, true, link.dataset.chatCiteSnippet || "");
-  });
-
-  window.addEventListener("popstate", () => {
-    navigateInPlace(new URL(window.location.href), false);
   });
 
   messages?.addEventListener("click", (event) => {
@@ -519,24 +514,7 @@
         return;
       }
 
-      const response = await fetch(url.pathname + url.search, {
-        headers: { "Accept": "text/html" }
-      });
-      if (!response.ok) throw new Error("navigation failed");
-
-      const html = await response.text();
-      const nextDocument = new DOMParser().parseFromString(html, "text/html");
-      const nextMain = nextDocument.querySelector("main");
-      const currentMain = document.querySelector("main");
-      if (!nextMain || !currentMain) throw new Error("main not found");
-
-      currentMain.replaceChildren(
-        ...Array.from(nextMain.childNodes).map((node) => document.importNode(node, true))
-      );
-      document.title = nextDocument.title;
-      updateMetaDescription(nextDocument);
-
-      if (push) history.pushState({ yinshengSoftNav: true }, "", url.href);
+      await navigate(url.href, { history: push ? "push" : "replace" });
       scrollToHash(url.hash, snippet);
       setOpen(true);
     } catch {
@@ -649,12 +627,6 @@
     });
     target.classList.add("chat-citation-focus");
     window.setTimeout(() => target.classList.remove("chat-citation-focus"), 2200);
-  }
-
-  function updateMetaDescription(nextDocument: Document) {
-    const current = document.querySelector<HTMLMetaElement>('meta[name="description"]');
-    const next = nextDocument.querySelector<HTMLMetaElement>('meta[name="description"]');
-    if (current && next?.content) current.content = next.content;
   }
 
   async function readSse(stream: ReadableStream<Uint8Array>, handlers: SseHandlers) {

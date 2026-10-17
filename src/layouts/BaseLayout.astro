@@ -2,6 +2,7 @@
 import 'katex/dist/katex.min.css';
 import '../styles/global.css';
 import ChatWidget from '../components/ChatWidget.astro';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title?: string;
@@ -30,6 +31,7 @@ const isTrendingPage = Astro.url.pathname.startsWith('/trending');
     <link rel="icon" type="image/jpeg" href="/assets/profile/author.jpg" />
     <link rel="apple-touch-icon" href="/assets/profile/author.jpg" />
     <title>{pageTitle}</title>
+    <ClientRouter />
   </head>
   <body>
     <header class="site-header">
