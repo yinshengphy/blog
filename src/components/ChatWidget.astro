@@ -76,8 +76,10 @@
   const sessionKey = "yinsheng-chat-session-id-v2";
   const stateKey = "yinsheng-chat-state-v2";
   const stateTtlMs = 2 * 60 * 60 * 1000;
-  let sessionId = localStorage.getItem(sessionKey) || crypto.randomUUID();
-  localStorage.setItem(sessionKey, sessionId);
+  const tabMemory = window as Window & { __blogChat?: { sessionId: string; state: ChatState } };
+  let sessionId = tabMemory.__blogChat?.sessionId || crypto.randomUUID();
+  localStorage.removeItem(sessionKey);
+  localStorage.removeItem(stateKey);
   sessionStorage.removeItem("yinsheng-chat-session-id");
   let chatState = loadChatState();
 
@@ -185,6 +187,9 @@
       });
       if (!response.ok || !response.body) throw new Error("stream failed");
       await readSse(response.body, {
+        meta(data) {
+          if (!rawAnswer && typeof data.status === "string") answerText.textContent = data.status;
+        },
         delta(data) {
           rawAnswer += data.text || "";
           answerText.textContent = rawAnswer;
@@ -238,9 +243,8 @@
 
   function loadChatState(): ChatState {
     try {
-      const value = localStorage.getItem(stateKey);
-      if (!value) return { messages: [], open: false, updatedAt: Date.now() };
-      const parsed = JSON.parse(value) as ChatState;
+      const parsed = tabMemory.__blogChat?.state;
+      if (!parsed) return { messages: [], open: false, updatedAt: Date.now() };
       if (!Array.isArray(parsed.messages) || Date.now() - Number(parsed.updatedAt || 0) > stateTtlMs) {
         localStorage.removeItem(stateKey);
         return { messages: [], open: false, updatedAt: Date.now() };
@@ -259,7 +263,7 @@
   function saveChatState() {
     chatState.messages = chatState.messages.slice(-20);
     chatState.updatedAt = Date.now();
-    localStorage.setItem(stateKey, JSON.stringify(chatState));
+    tabMemory.__blogChat = { sessionId, state: chatState };
   }
 
   function rememberMessage(message: StoredMessage) {
@@ -267,7 +271,7 @@
     chatState.messages.push({
       ...message,
       text: message.text.slice(0, 4000),
-      citations: message.citations?.slice(0, 3),
+      citations: message.citations?.slice(0, 30),
       suggestedQuestions: message.suggestedQuestions?.slice(0, 3)
     });
     saveChatState();
@@ -300,7 +304,6 @@
     currentController?.abort();
     currentController = null;
     sessionId = crypto.randomUUID();
-    localStorage.setItem(sessionKey, sessionId);
     chatState = { messages: [], open: true, updatedAt: Date.now() };
     saveChatState();
     if (!messages) return;
