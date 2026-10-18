@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d3b537b8366ce9a3",
+  "title" : "俄罗斯第二大城市圣彼得堡疑遭乌克兰无人机蜂群袭击 现场传出多起爆炸",
+  "summary" : "据半岛电视台英文网报道，社交媒体流传的视频显示，俄罗斯第二大城市圣彼得堡在遭遇疑似乌克兰无人机蜂群袭击后发生多起爆炸。圣彼得堡距离俄乌前线近千公里，此次罕见的大规模无人机突袭引发外界对俄战略纵深防空与局势升级的高度关注。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-18T05:24:25.991557+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
+}, {
   "fingerprint" : "841102a5c1508137",
   "title" : "加拿大一军事基地突发致命火灾造成人员伤亡 总理定调为严重事件",
   "summary" : "据BBC报道，加拿大一处军事基地突发致命火灾。加拿大国防部门官员已证实火灾造成人员伤亡，加拿大总理定调此为一起“严重事件”。目前现场救援及事故原因调查正在紧急展开，具体死伤规模与设施受损情况待进一步公布。",
@@ -134,12 +142,4 @@
   "discoveredAt" : "2026-10-15T08:09:42.831172+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jLVNTOXdxZG5hVHo2d0tlb0ZqcHVuYmZMQzJFOVlId0NlMll6ZXFWS09jNHN6a0x4aDNtbVBlVktWWjVodkluSmcyM3NJcV9iQ1lZ?oc=5"
-}, {
-  "fingerprint" : "fa97191a9ae55ae5",
-  "title" : "朝鲜宣布成功试射两枚潜射导弹 官方称展示区域战争威慑能力",
-  "summary" : "据半岛电视台援引朝中社报道，朝鲜官方证实已成功试射两枚潜射导弹。朝方表示，此次试验旨在展示朝鲜在该地区的战争威慑能力。潜射武器测试标志着其二次打击能力的持续演进，半岛防务对抗及地区紧张态势面临进一步升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-15T03:47:42.797058+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss"
 } ]
