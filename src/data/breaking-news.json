@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "8acdbc5a40e53b96",
+  "title" : "印度加尔各答宗教节庆活动发生严重踩踏 造成至少17人死亡多人受伤",
+  "summary" : "据德国之声援引印度当地媒体报道，印度加尔各答在一场大型印度教节庆集会活动中突发严重踩踏事故。截至目前，事故已造成至少17人死亡，另有多人受伤送医，当地救援力量已赶赴现场处置并展开调查。",
+  "source" : "DW Chinese (德国之声)",
+  "discoveredAt" : "2026-10-18T09:17:14.246512+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.dw.com/zh/印度发生严重踩踏事件-已有多人伤亡/a-79691690?maca=chi-rss-chi-all-1127-xml-mrss"
+}, {
   "fingerprint" : "4456735b263b22cb",
   "title" : "沙特军方证实一直升机坠毁致2人死亡 也门胡塞武装宣称击落",
   "summary" : "沙特军方通报称，一架军用直升机在执勤期间坠毁，导致机上两名机组成员死亡，事故原因初判为技术故障。也门胡塞武装随后发布声明，宣称该架沙特直升机是在也门边境领空遭其防空导弹击落。双方各执一词，事件引发对也门战事重燃及区域冲突升级的担忧。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-15T11:58:33.050654+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX0dRR0ltcDBzNmdsLVhQOWh4aXB6VVQ5bzA1aUl2YXVIRE5rWE5scmFNYlpwaVFyOHRhMVRyUXc0NUlTaDM1Z2s3T1RvUVhyZXQ1SDdKbUNPZllaR05kMncxSVdsdjVPa0pBTy00dWJmdW1DeG8xZVM4bmxsNjlsSDc1N1RzQzE4MTdrZA?oc=5"
-}, {
-  "fingerprint" : "df296e4805759d29",
-  "title" : "俄罗斯梁赞州一大型炼油厂遭乌克兰无人机袭击起火",
-  "summary" : "俄罗斯官方及媒体通报，俄梁赞州一家大型炼油厂遭到乌克兰无人机袭击并起火。该厂为俄重要炼油基地之一，袭击导致部分原油加工设施受损。目前应急部门正在现场扑救，火势及具体产能损失仍在进一步评估中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-15T08:09:42.831172+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jLVNTOXdxZG5hVHo2d0tlb0ZqcHVuYmZMQzJFOVlId0NlMll6ZXFWS09jNHN6a0x4aDNtbVBlVktWWjVodkluSmcyM3NJcV9iQ1lZ?oc=5"
 } ]
