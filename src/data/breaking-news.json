@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "c36eaffcc6744b47",
+  "title" : "伊朗称一艘违规油轮在霍尔木兹海峡南部触雷爆炸起火",
+  "summary" : "据伊朗方面消息，一艘违规航行的油轮在霍尔木兹海峡南部海域触雷爆炸并引发大火。霍尔木兹海峡作为全球关键的原油运输咽喉要道，该起水雷爆炸事件严重威胁国际航道安全，可能迅速推升波斯湾航运保险费率及国际油价，并激化地区对立情绪。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-18T21:46:28.544519+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPTWtpMmk2cEd1UVdza25YV1Q4SG5jb2VsNFNnVV9xRlFGZjUwV0pjenZwU2kyUzJsa0Y1dkJnOEU0YXV5NkU2SmhMNGo1N0FkMDNjR2pIXzBpcl81bDV0Wks0dXBZZw?oc=5"
+}, {
   "fingerprint" : "8acdbc5a40e53b96",
   "title" : "印度加尔各答宗教节庆活动发生严重踩踏 造成至少17人死亡多人受伤",
   "summary" : "据德国之声援引印度当地媒体报道，印度加尔各答在一场大型印度教节庆集会活动中突发严重踩踏事故。截至目前，事故已造成至少17人死亡，另有多人受伤送医，当地救援力量已赶赴现场处置并展开调查。",
@@ -118,36 +126,4 @@
   "discoveredAt" : "2026-10-15T23:04:09.907696+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss"
-}, {
-  "fingerprint" : "d0032b9c94d5a702",
-  "title" : "泽连斯基宣布乌克兰不再遵守能源停火协议 俄通报多处炼油厂再遭袭",
-  "summary" : "据美国之音等报道，乌克兰总统泽连斯基正式表态乌方不再遵守此前涉及能源设施的停火约定。俄方随后通报境内炼油厂再度遭袭并引发火灾。此番政策表态标志着俄乌在能源维度的打击彻底解禁，战事进入针对关键能源中枢的全面升级周期。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-15T18:14:22.509393+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMmZHQTg3MGxYVjdfSUJMaEE1eXBkd2ZYQVR3U1I1ai1tUTRJSFMwbmpJSVhLT3lsU1F3OGRxc0RFMHdYOHJYUzBWdUJoX2dxMGRER2JKcW45NExPR1JubDA5VUdQdV82cG9aVFBMYWpINVRvU1BNNUNqT3dLNlFwQ2x4T0VNeTFEdlFFNVVpb19UYXFVYlczelNQeldVd1VKc19maTZjSHZCUXB6OEpzdHlOOGMxUDl1LVpBb0Q3RjMyZ2d3UUNRUEFDdmdiWlVfWmt5Vk1lLS1JMU9vUHR1UNIB4wFBVV95cUxPZ3Q5enZVOTZPaFpRZDY4cXJxQS14dWp1OGpsdF92ZXZaZWdONDVEclRob2J5MlJzVHpKNWttR2NWNm9ZWlF5SmZsVkpZZTIzcUduZnVrOElQeW95dEctZzkwMzRVVUhtbkd3M01jc0VxWlBLSzY0LUVnTTVCSzRoeFROX25LVFFILWZnbzhZTEV5NmVrU2JmUzFNMk5iZlVOd252bmF0XzNLbGxRbzhmVl84LXgtNVFYRWkxX3BWa1loZGNwMHAwMFJ1cWxLNFdyZVdQM2VreU1LNkZWaTNrU3dxWQ?oc=5"
-}, {
-  "fingerprint" : "618b3eef4dc05994",
-  "title" : "也门胡塞武装发射导弹袭击亚丁总统府，沙特联军指责其受区域势力支持",
-  "summary" : "半岛电视台报道，也门胡塞武装对位于亚丁的总统府发动了导弹袭击。沙特主导的多国联军随后谴责此次袭击，并指责胡塞武装持续从地区相关国家获取导弹及武器零部件，也门安全局势与战事面临进一步激化风险。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-15T17:08:06.037197+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss"
-}, {
-  "fingerprint" : "0b502bfc6d4dd986",
-  "title" : "沙特官方称胡塞武装袭击利雅得机场已致17死333伤",
-  "summary" : "据沙特官方通报，也门胡塞武装针对沙特首都利雅得国际机场发动的袭击造成极其严重的人员伤亡，目前已致17人遇难、333人受伤。这是近期该地区针对民航交通枢纽伤亡最惨重的一次袭击事件，标志着也门胡塞武装对沙特目标的打击行动出现重大烈度升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-15T16:13:33.342683+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TUUMwVW5fNlFSQjhlMENGd1NsVl9jc0t1VUpSdUNsVU4xX082ZnAyVUxRcVlMNEd2cFN2MWZYUm9fdmU5VmR3Q212b0YyOHpUSTliOHdIb25RbUJLeC1sNzc1cGQ?oc=5"
-}, {
-  "fingerprint" : "bf27be42f58f2a22",
-  "title" : "也门胡塞武装宣称再次对沙特首都机场发动袭击",
-  "summary" : "据媒体消息，也门胡塞武装宣称再次针对沙特阿拉伯首都利雅得的机场目标发动袭击。目前沙特防空部队与官方部门尚未公布拦截细节或受损伤亡情况，相关设施运营与区域安全局势引发高度关注。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-15T11:58:33.050654+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX0dRR0ltcDBzNmdsLVhQOWh4aXB6VVQ5bzA1aUl2YXVIRE5rWE5scmFNYlpwaVFyOHRhMVRyUXc0NUlTaDM1Z2s3T1RvUVhyZXQ1SDdKbUNPZllaR05kMncxSVdsdjVPa0pBTy00dWJmdW1DeG8xZVM4bmxsNjlsSDc1N1RzQzE4MTdrZA?oc=5"
 } ]
