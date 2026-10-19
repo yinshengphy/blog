@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "544817264431a5b4",
+  "title" : "泽连斯基称乌克兰哈尔科夫州一公园遭俄无人机袭击致6死14伤",
+  "summary" : "据中国新闻网报道，乌克兰总统泽连斯基证实，乌克兰哈尔科夫州一处公园遭到俄军无人机袭击，目前已导致6人死亡、14人受伤。救援人员已抵达现场展开搜救与救治，遇袭区域周边设施受损严重，当地空袭威胁与安全防范进一步收紧。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-19T22:23:04.700860+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LUUFiRVFxZURfZThpXzlmaVhjeW9oZU5faHl5dmRWc2hieEppd3hNVy04VkM0QkhEZXFrM2VpSzhZOFFBUUtsNXJ5QWdMaXlBS2d1RjBXcktkaDB2NXBpX1V5cFl1X0lD?oc=5"
+}, {
   "fingerprint" : "c55c0671c7a97d9c",
   "title" : "美国俄亥俄州哥伦布市一清真寺突发枪击事件 联邦执法机构紧急介入处置",
   "summary" : "据半岛电视台突发快讯，美国俄亥俄州哥伦布市一座清真寺发生枪击事件，美国联邦执法当局已紧急介入并赶赴现场展开处置行动。目前事件造成的人员伤亡情况、枪手动机及现场具体态势仍在核实调查中。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-17T02:43:14.387540+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jSmMzNXpxUzI2ZWVsZEJqbF9nNVh1SWVCRE4yY0NSOVdTdXZkMzMtbWdPZl9ZcFpFOGdOYlBHMWtrcXMyemhTOVJFU2RfYUNYY3RKblhEYU5vMmhfLXR0Rm1tdHRZaklHREJMdERZblFua2p4MXZwUldydGU5NXM?oc=5"
-}, {
-  "fingerprint" : "220e36ef4e789d9a",
-  "title" : "也门政府指控胡塞武装向亚丁国际机场发射两枚导弹",
-  "summary" : "据半岛电视台报道，也门政府指控胡塞武装向亚丁国际机场发射了两枚导弹。此次袭击正值也门政府军宣称在马里卜战线取得进展、并在24小时内消灭430名胡塞武装人员之际，也门战局呈现新一轮升级态势。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-16T22:09:02.239382+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss"
 } ]
