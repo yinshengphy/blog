@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "098a13cadfbea1d7",
+  "title" : "俄罗斯关键石油码头遭乌克兰无人机远程袭击 油库起火且数据中心受损",
+  "summary" : "据多家媒体报道，俄罗斯境内一处关键石油码头遭到乌克兰无人机纵深突袭。袭击引发油库剧烈起火，现场浓烟滚滚，同时造成码头配套的数据中心受损。乌方正加大对俄能源物流核心节点的精准打击，俄方消防与应急部门已介入处置。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-20T03:25:03.617628+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOX2tFWVVDTGZELXVlRnF1ODExbUcwX3gwNVNiUXZPNENwWWprRW5TNFdqc054bnhDQ284UDBXR095Y19aR1MxSnNHd1hoa2plajVJbFItWEJuSmFzNWlOVGthWkY4LXIyNXduZXl5dWM?oc=5"
+}, {
   "fingerprint" : "544817264431a5b4",
   "title" : "泽连斯基称乌克兰哈尔科夫州一公园遭俄无人机袭击致6死14伤",
   "summary" : "据中国新闻网报道，乌克兰总统泽连斯基证实，乌克兰哈尔科夫州一处公园遭到俄军无人机袭击，目前已导致6人死亡、14人受伤。救援人员已抵达现场展开搜救与救治，遇袭区域周边设施受损严重，当地空袭威胁与安全防范进一步收紧。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-17T03:37:27.487962+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss"
-}, {
-  "fingerprint" : "87cce44130b799b3",
-  "title" : "伊朗革命卫队通报：一艘油轮在霍尔木兹海峡触雷爆炸",
-  "summary" : "据新华网援引伊朗伊斯兰革命卫队消息，一艘油轮在霍尔木兹海峡水域触碰水雷发生剧烈爆炸。作为全球最关键的石油运输咽喉通道，该起突发事件令波斯湾航运安全风险急剧升级，恐引发国际能源市场震荡与地缘局势恶化。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-17T02:43:14.387540+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jSmMzNXpxUzI2ZWVsZEJqbF9nNVh1SWVCRE4yY0NSOVdTdXZkMzMtbWdPZl9ZcFpFOGdOYlBHMWtrcXMyemhTOVJFU2RfYUNYY3RKblhEYU5vMmhfLXR0Rm1tdHRZaklHREJMdERZblFua2p4MXZwUldydGU5NXM?oc=5"
 } ]
