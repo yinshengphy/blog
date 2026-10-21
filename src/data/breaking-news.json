@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "87aa1f727fb4fedd",
+  "title" : "也门临时首都亚丁遭胡塞武装弹道导弹袭击 军营周边浓烟滚滚传出巨响",
+  "summary" : "据半岛电视台报道，也门临时首都亚丁发生剧烈爆炸，靠近机场的军营附近升起滚滚浓烟。也门胡塞武装随后宣称对此次袭击负责，称其使用弹道导弹精准打击了该处军营。目前具体伤亡及设施损毁情况正在核实中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-21T09:21:32.632352+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/21/blast-heard-in-yemens-aden-as-houthis-claim-attack-on-military-camp?traffic_source=rss"
+}, {
   "fingerprint" : "bffe519aa57ce63a",
   "title" : "联合国儿基会：苏丹发生两起暴力袭击事件 致至少12名儿童遇难",
   "summary" : "联合国儿童基金会发布通报称，苏丹境内发生的两起武装袭击事件已造成至少12名儿童死亡。当前苏丹武装冲突持续延宕，针对平民和居民区的暴力事件频发，导致当地人道主义灾难进一步恶化，联合国等国际组织再次呼吁交战各方立即停止针对平民尤其是儿童的暴力袭击。",
@@ -110,12 +118,4 @@
   "discoveredAt" : "2026-10-18T21:46:28.544519+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPTWtpMmk2cEd1UVdza25YV1Q4SG5jb2VsNFNnVV9xRlFGZjUwV0pjenZwU2kyUzJsa0Y1dkJnOEU0YXV5NkU2SmhMNGo1N0FkMDNjR2pIXzBpcl81bDV0Wks0dXBZZw?oc=5"
-}, {
-  "fingerprint" : "8acdbc5a40e53b96",
-  "title" : "印度加尔各答宗教节庆活动发生严重踩踏 造成至少17人死亡多人受伤",
-  "summary" : "据德国之声援引印度当地媒体报道，印度加尔各答在一场大型印度教节庆集会活动中突发严重踩踏事故。截至目前，事故已造成至少17人死亡，另有多人受伤送医，当地救援力量已赶赴现场处置并展开调查。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-10-18T09:17:14.246512+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.dw.com/zh/印度发生严重踩踏事件-已有多人伤亡/a-79691690?maca=chi-rss-chi-all-1127-xml-mrss"
 } ]
