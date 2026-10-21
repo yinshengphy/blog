@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "bffe519aa57ce63a",
+  "title" : "联合国儿基会：苏丹发生两起暴力袭击事件 致至少12名儿童遇难",
+  "summary" : "联合国儿童基金会发布通报称，苏丹境内发生的两起武装袭击事件已造成至少12名儿童死亡。当前苏丹武装冲突持续延宕，针对平民和居民区的暴力事件频发，导致当地人道主义灾难进一步恶化，联合国等国际组织再次呼吁交战各方立即停止针对平民尤其是儿童的暴力袭击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-21T09:08:23.924625+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Id19oWUxWUGNFbUdSSlZ5aFpTYTNNajRyRUJYcWZCQkZrQjd5TnZGYmdLTWFSVWxHZkRfNUFxSkRNOEFjX0FPVERHNzV0M3FtbjZnQ2VCN2d1VU5sdThEWDQyRkhKdzRj?oc=5"
+}, {
   "fingerprint" : "aad105c1be4f3c2e",
   "title" : "胡塞武装称也门境内在过去24小时内遭沙特主导联军空袭93次",
   "summary" : "据也门胡塞武装官方渠道发布消息，在过去24小时内，沙特主导的军事力量对也门境内发起密集空袭，累计达93次。近期红海航道危机及外部势力增援加剧了区域对峙，此次大规模空袭指控显示也门冲突各方停火协议面临严峻考验。",
@@ -110,52 +118,4 @@
   "discoveredAt" : "2026-10-18T09:17:14.246512+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.dw.com/zh/印度发生严重踩踏事件-已有多人伤亡/a-79691690?maca=chi-rss-chi-all-1127-xml-mrss"
-}, {
-  "fingerprint" : "4456735b263b22cb",
-  "title" : "沙特军方证实一直升机坠毁致2人死亡 也门胡塞武装宣称击落",
-  "summary" : "沙特军方通报称，一架军用直升机在执勤期间坠毁，导致机上两名机组成员死亡，事故原因初判为技术故障。也门胡塞武装随后发布声明，宣称该架沙特直升机是在也门边境领空遭其防空导弹击落。双方各执一词，事件引发对也门战事重燃及区域冲突升级的担忧。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-18T07:45:59.405435+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ic1NMQ1M2WW91aUQzVUt4Y3hlNFhWZHJ1aU5LSTI0UEVyX1RwQWNwb3ZhQVhBQjN6X3E1cjV3dFNjUHJNcjlQZWJHX2lzN0hCN21sR2JyQ0VNeDJmR2wtelBla1N4WlRfWlNnTV9ZM3I?oc=5"
-}, {
-  "fingerprint" : "d3b537b8366ce9a3",
-  "title" : "俄罗斯第二大城市圣彼得堡疑遭乌克兰无人机蜂群袭击 现场传出多起爆炸",
-  "summary" : "据半岛电视台英文网报道，社交媒体流传的视频显示，俄罗斯第二大城市圣彼得堡在遭遇疑似乌克兰无人机蜂群袭击后发生多起爆炸。圣彼得堡距离俄乌前线近千公里，此次罕见的大规模无人机突袭引发外界对俄战略纵深防空与局势升级的高度关注。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-18T05:24:25.991557+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
-}, {
-  "fingerprint" : "841102a5c1508137",
-  "title" : "加拿大一军事基地突发致命火灾造成人员伤亡 总理定调为严重事件",
-  "summary" : "据BBC报道，加拿大一处军事基地突发致命火灾。加拿大国防部门官员已证实火灾造成人员伤亡，加拿大总理定调此为一起“严重事件”。目前现场救援及事故原因调查正在紧急展开，具体死伤规模与设施受损情况待进一步公布。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-18T03:33:41.069640+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "40ebb4bcca532c23",
-  "title" : "也门胡塞武装称沙特空袭塔伊兹省造成至少9人死亡",
-  "summary" : "新华社援引也门胡塞武装控制媒体消息报道，沙特主导的多国联军对也门塔伊兹省发动空袭，已造成至少9人死亡。此次空袭事件或将进一步激化也门前线安全局势，破坏区域缓和进程。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-17T23:55:57.568551+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zQjJDNFNLaEJKQ1ZWVktvSWNMM2FxLVJMZW4tcG9mQWhDbHdXUXhINzc5OXdvaW1yYlo0V0o3X0lMRldybzVaY04tNGs2ajNuNzR1anoyUDhmMTVqYmpURzdJd0J0ZDRXTGhSUzAxSTZnWlF1YXhBbm8tXy1YbFU?oc=5"
-}, {
-  "fingerprint" : "0d989786b43d39cd",
-  "title" : "欧洲多国外交人员在约旦河西岸考察期间遭以色列犹太定居者袭击",
-  "summary" : "据新华网等多家官方媒体报道，欧洲外交人员在约旦河西岸地区进行考察期间遭到以色列犹太定居者的暴力袭击。袭击西方国家外交使团事件在当地极为罕见，恐将引发欧盟与以色列之间的新一轮严峻外交交涉与对抗升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-17T23:24:39.353144+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WQnprUjhhTVJ2R2c0M1RiSEFYa0VxUDNONHQ5cFd4WDZxbWlrYmxEaURlUlR3d1psWU11dFNoS2hzSkhmSEdYX2NVRzBjMHlfc2EtaElLTkZyVFlaZUhDNzVLS2lSSHRmRzVoNGljM25JemtDTlJNSFVmOUlSNjg?oc=5"
-}, {
-  "fingerprint" : "073699828b13144c",
-  "title" : "苏丹首都圈一处军事基地突发剧烈爆炸 战局或迎新一轮升级",
-  "summary" : "据媒体报道，苏丹首都圈地区一处重要军事基地突发剧烈爆炸。当前苏丹武装部队与快速支援部队在首都圈及多地的交火持续胶着，本次基地爆炸事件进一步加剧了当地安全局势恶化，具体伤亡及原因正待进一步官方通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-17T23:11:41.345317+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WVy1qQzM1V29hbGNyS0xoMUNzeVVCVERsei1BaXN5aVRCeEQ0T2VIU2xlYXYySkFjU2FYc0d1VTBMbnptNjdXTHE4YldxM2ZSdXZ3aC1Rcy1USm02ZGdoYnNySWRvdVFL?oc=5"
 } ]
