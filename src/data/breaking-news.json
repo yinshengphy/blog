@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "2a6e1e28307efc62",
+  "title" : "西藏那曲巴青县7.0级地震已致16人遇难32人受损 数百间房屋倒塌",
+  "summary" : "据外媒报道，西藏那曲市巴青县22日晚发生7.0级强烈地震。灾情已造成至少16人遇难、32人受伤，另有300多间房屋发生倒塌，县城部分电力与通信服务中断受阻。当地应急消防搜救人员已紧急开赴震区展开拉网式搜救与生命通道抢通工作。",
+  "source" : "RFI 法国国际广播",
+  "discoveredAt" : "2026-10-22T21:16:50.094522+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261022-%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B27%E7%BA%A7%E5%BC%BA%E9%9C%87%E8%87%B3%E5%B0%9116%E4%BA%BA%E6%AD%BB-32%E4%BA%BA%E4%BC%A4-%E6%95%B0%E7%99%BE%E6%88%BF%E5%B1%8B%E5%80%92%E5%A1%8C-%E9%80%9A%E4%BF%A1%E5%8F%97%E6%89%B0"
+}, {
   "fingerprint" : "ef426d809b30e2b5",
   "title" : "西藏那曲市东北方向发生7.0级强烈地震 震中周边面临较大灾害风险",
   "summary" : "据美国地质调查局（USGS）速报，北京时间2026年10月22日22时33分，中国西藏自治区那曲市东北偏东约183公里区域发生7.0级强烈地震。该震级具备较强破坏性，震中周边藏东北高海拔区域震感强烈，目前具体受灾程度及人员伤亡情况正密切关注中。",
@@ -110,28 +118,4 @@
   "discoveredAt" : "2026-10-19T22:23:04.700860+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LUUFiRVFxZURfZThpXzlmaVhjeW9oZU5faHl5dmRWc2hieEppd3hNVy04VkM0QkhEZXFrM2VpSzhZOFFBUUtsNXJ5QWdMaXlBS2d1RjBXcktkaDB2NXBpX1V5cFl1X0lD?oc=5"
-}, {
-  "fingerprint" : "c55c0671c7a97d9c",
-  "title" : "美国俄亥俄州哥伦布市一清真寺突发枪击事件 联邦执法机构紧急介入处置",
-  "summary" : "据半岛电视台突发快讯，美国俄亥俄州哥伦布市一座清真寺发生枪击事件，美国联邦执法当局已紧急介入并赶赴现场展开处置行动。目前事件造成的人员伤亡情况、枪手动机及现场具体态势仍在核实调查中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-19T20:06:14.170243+00:00",
-  "severity" : "重大国家安全/突发公共安全事件",
-  "link" : "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss"
-}, {
-  "fingerprint" : "a145dc89d6c8487f",
-  "title" : "也门一军事基地突遭导弹袭击 已造成53人死亡200余人受伤",
-  "summary" : "新华网报道，也门一处军事基地突遭导弹袭击，导致惨重人员伤亡。截至目前，袭击已造成53人死亡、200余人受伤。现场设施严重损毁，救援工作正在紧急进行中。此次袭击标志着也门战火再度急剧加剧，地区安全局势持续恶化。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-19T19:06:45.761227+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nd1EtQnZOb2g5c1RqTkU3V0NRRDZZVkJWM0NENFRiYzVObkFQNGg2bkRzVmRhVDFINjRyNTRYN29UcXZLbk9DdlBfZEloZGtjTEpVSnBZRmROVGM1VS1tel9MVGdGWHJ4UktNWFFfSTZBLXlkS29xbnJRSjZ4QW8?oc=5"
-}, {
-  "fingerprint" : "2198441154e977a4",
-  "title" : "也门胡塞武装称遭沙特空袭 致北部地区10人死亡23人受伤",
-  "summary" : "也门胡塞武装发布消息称，沙特方面对其也门北部控制区域发动了猛烈空袭，目前已造成至少10人死亡、23人受伤，伤者已被送往附近医疗机构抢救。目前沙特官方尚未就此次袭击作出公开回应。近期双方交火频次显著上升，红海及边境局势面临进一步外溢风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-19T17:38:28.969365+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zMGV6Z0cxYnhPOUtEWEh3QVNoSlMza2xqZVhmbmRHZmtYWlUwU3hRd21Wa0RTajd3QTFzYnJIaC1UMXpMenlVaWI5OThJQWVCeE5jXzNzUFVPTWd5NURQdWlmQVotZw?oc=5"
 } ]
