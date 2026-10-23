@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "896eea795b4e868b",
+  "title" : "伊朗称两艘超级油轮在霍尔木兹海峡南部海域触雷发生爆炸",
+  "summary" : "据东方财富援引伊朗方面消息，两艘超级油轮在霍尔木兹海峡南部海域航行期间发生水雷爆炸。霍尔木兹海峡承担全球约五分之一的原油海上运输量，此事件对国际能源供应链及中东海域通航安全构成严峻冲击，目前具体伤亡及船损情况仍在进一步核实中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-23T23:03:22.219035+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91SFVJSi10VGp1NUdvRWNLRTVwSTIwWDRmc1ZxLWlCQVFsSHRiRWd4UndyaVBzTlhCUmpvTnVlejFjS3BpOHFvUkIwUnAybHI5SDMtQlM4d3l3R21ILXUteEVQWQ?oc=5"
+}, {
   "fingerprint" : "a212df4fa97d2b8d",
   "title" : "枪击事件后以色列总理内塔尼亚胡下令对约旦河西岸实施全面封锁",
   "summary" : "据半岛电视台报道，在发生袭击枪击事件后，以色列总理内塔尼亚胡下令对被占领的约旦河西岸地区实施‘全面封锁’。以军随后收紧各检查站与通道通行限制，大幅强化安全戒备，区域紧张对峙局面再度升级。",
@@ -110,12 +118,4 @@
   "discoveredAt" : "2026-10-21T09:08:23.924625+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Id19oWUxWUGNFbUdSSlZ5aFpTYTNNajRyRUJYcWZCQkZrQjd5TnZGYmdLTWFSVWxHZkRfNUFxSkRNOEFjX0FPVERHNzV0M3FtbjZnQ2VCN2d1VU5sdThEWDQyRkhKdzRj?oc=5"
-}, {
-  "fingerprint" : "aad105c1be4f3c2e",
-  "title" : "胡塞武装称也门境内在过去24小时内遭沙特主导联军空袭93次",
-  "summary" : "据也门胡塞武装官方渠道发布消息，在过去24小时内，沙特主导的军事力量对也门境内发起密集空袭，累计达93次。近期红海航道危机及外部势力增援加剧了区域对峙，此次大规模空袭指控显示也门冲突各方停火协议面临严峻考验。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-20T20:57:34.534330+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45YmJtTW1LUk1ycFJEQ0VKNzBtWk1XcFA2MTh1OW0yRlVaZlpSaG9Dc2NxWlp5S3R6MzlnSnRhODhzWE5sNjhySE85M2VRZ3EzVGl6UWNHV3ZlUUxXNDZlaA?oc=5"
 } ]
