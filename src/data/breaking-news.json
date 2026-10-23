@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "8a615916dbff2970",
+  "title" : "约旦一教堂遭蒙面枪手袭击至少7人遇难 枪手在葬礼现场突然开火",
+  "summary" : "据半岛电视台报道，约旦一所教堂突发恶性枪击事件。幸存者称，事发时数十人正聚集在教堂参加葬礼游行，两名蒙面枪手突然开枪扫射，目前已造成至少7人遇难，死伤人数可能进一步增加，当地安全部门已展开搜捕与调查。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-23T14:05:13.667033+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss"
+}, {
   "fingerprint" : "c074a56db27388fb",
   "title" : "俄方称原则上同意和谈数小时后 乌克兰多地遭三轮导弹密集袭击",
   "summary" : "据BBC报道，俄罗斯在公开表示“原则上准备好”与美国和乌克兰恢复和平谈判后仅数小时，便向乌克兰境内目标发动了三轮密集的导弹袭击。多地拉响防空警报并传出巨大爆炸声，关键基础设施受到威胁。此次袭击突显出俄乌前线战事依然剧烈，双方在军事行动与外交表态上形成剧烈反差，和平谈判前景极为脆弱复杂。",
@@ -102,12 +110,4 @@
   "discoveredAt" : "2026-10-20T14:13:17.257732+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMifkFVX3lxTE9UWE10czRJeWxxZXhLSVQzSllLR1l6WXNGLUlnUTFyYWd3MTVzS0VFRGlwbkpMRXQ3Z3k5bEZzbnNMNnBpTU5XU1djaXZJU2Z3WXJQYndsRmZHd2FjbTlEc0tTM1lxc0lUc3RZbU50U1RTcjNZTWxNSkpVZmQtZw?oc=5"
-}, {
-  "fingerprint" : "26bf95675c07ec25",
-  "title" : "法国因物价危机爆发全国暴力骚乱 巴黎等地实施局部宵禁并波及欧洲多国",
-  "summary" : "受物价飞涨影响，法国抗议示威迅速升级为全国性暴力骚乱。法国政府周一宣布在巴黎及多个地区实施局部宵禁，并表示不排除进入紧急状态。与此同时，暴力抗议正蔓延至欧洲多国，对欧洲整体社会治理与公共安全造成严重冲击。",
-  "source" : "DW Chinese (德国之声)",
-  "discoveredAt" : "2026-10-20T14:00:11.626535+00:00",
-  "severity" : "重大国家安全/突发公共安全事件",
-  "link" : "https://www.dw.com/zh/法国宣布实施局部宵禁-暴力骚乱蔓延至欧洲多国/a-79714138?maca=chi-rss-chi-all-1127-xml-mrss"
 } ]
