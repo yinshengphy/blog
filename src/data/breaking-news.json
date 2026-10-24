@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "04f497397ac5f01b",
+  "title" : "约旦罕见发生基督教堂致命枪击事件 凶手在逃当局展开紧急调查",
+  "summary" : "据半岛电视台报道，约旦近日罕见发生一起针对基督教堂的致命枪击事件，已造成人员死亡。目前袭击者身份尚未查明且仍在逃，约旦安全与司法当局已就该恶性事件展开紧急调查。该袭击在长期政局相对平稳的约旦引发社会各界高度震动与安保警惕。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-24T13:59:15.870265+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss"
+}, {
   "fingerprint" : "d0bc2b4cd63451a0",
   "title" : "南太平洋岛国瓦努阿图附近海域发生6.9级强震 当局密切防范海啸风险",
   "summary" : "据权威地震监测机构及新华社消息，南太平洋岛国瓦努阿图附近海域发生6.9级强烈地震。震中位于海域，震感波及周边岛屿。目前暂未收到重大人员伤亡或建筑物受损报告，有关部门正密切监控是否有局地海啸波动及次生灾害发生。",
@@ -118,28 +126,4 @@
   "discoveredAt" : "2026-10-21T21:29:04.526175+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "0194ae6d1ad3574a",
-  "title" : "苏丹与南苏丹争议地区一市场遭无人机袭击 造成逾150人死亡",
-  "summary" : "据多家媒体报道，苏丹与南苏丹边境争议地区的一处繁忙市场遭遇无人机袭击，导致现场发生剧烈爆炸并引发严重人员伤亡，目前已确认逾150人死亡。该事件突显出苏丹冲突外溢及争议区域安全防范极度脆弱，恐进一步激化边境紧张局势。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-21T11:09:16.617211+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbjR0WGFGSElOenU5T3NxU1pIRHhkQTZtWm5uUndfaHN4UzZmNV9YakEwMXNCZVFLcVBNdks2NzJoeHJiT2NCcXpNNTRxVDNTblp3ZDlESjVvQ2I0REFEWEdlUWhSMHRWcTVqTWowRmtqN2VHWjNpVW5sVlpmaUlJRVpSb2FNNU51VVE?oc=5"
-}, {
-  "fingerprint" : "87aa1f727fb4fedd",
-  "title" : "也门临时首都亚丁遭胡塞武装弹道导弹袭击 军营周边浓烟滚滚传出巨响",
-  "summary" : "据半岛电视台报道，也门临时首都亚丁发生剧烈爆炸，靠近机场的军营附近升起滚滚浓烟。也门胡塞武装随后宣称对此次袭击负责，称其使用弹道导弹精准打击了该处军营。目前具体伤亡及设施损毁情况正在核实中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-21T09:21:32.632352+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/21/blast-heard-in-yemens-aden-as-houthis-claim-attack-on-military-camp?traffic_source=rss"
-}, {
-  "fingerprint" : "bffe519aa57ce63a",
-  "title" : "联合国儿基会：苏丹发生两起暴力袭击事件 致至少12名儿童遇难",
-  "summary" : "联合国儿童基金会发布通报称，苏丹境内发生的两起武装袭击事件已造成至少12名儿童死亡。当前苏丹武装冲突持续延宕，针对平民和居民区的暴力事件频发，导致当地人道主义灾难进一步恶化，联合国等国际组织再次呼吁交战各方立即停止针对平民尤其是儿童的暴力袭击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-21T09:08:23.924625+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Id19oWUxWUGNFbUdSSlZ5aFpTYTNNajRyRUJYcWZCQkZrQjd5TnZGYmdLTWFSVWxHZkRfNUFxSkRNOEFjX0FPVERHNzV0M3FtbjZnQ2VCN2d1VU5sdThEWDQyRkhKdzRj?oc=5"
 } ]
