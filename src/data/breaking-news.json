@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "e02bc4f250deed60",
+  "title" : "日本小笠原群岛附近海域突发6.5级地震 暂无海啸威胁及伤亡报告",
+  "summary" : "据美国地质调查局（USGS）官方测定，协调世界时2026年10月25日02时09分，日本小笠原群岛（Bonin Islands）附近海域发生6.5级地震。震中位于离岛海域，目前日本气象厅及相关机构正持续监测海面波动，暂未收到伤亡及灾损报告。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-10-25T02:28:29.183857+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9"
+}, {
   "fingerprint" : "f328f8fc47c28845",
   "title" : "也门胡塞武装宣称对沙特机场及石油设施等多处目标发动袭击",
   "summary" : "据新华网援引外媒报道，也门胡塞武装发布声明称，已针对沙特阿拉伯境内的机场和石油设施等多个关键战略目标发动了袭击。沙特方面暂未就受损及伤亡情况发布官方回应，事件或引发中东安全与全球能源市场新一轮震荡。",
@@ -134,20 +142,4 @@
   "discoveredAt" : "2026-10-22T02:40:17.262331+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kY0ZGOTg1ZVpDSlRYTU9HRFVoZWdtNG1YemJWUHBkMkxyZFZaUWx2TTY5ZkVFSExFWU5PMm9iajFEUE1rdTNEYkpjckRyTHA3NXFxQVVXUkROU1VGTGNEalFPbDJlYkI0clBXeGo2MEtKWUE?oc=5"
-}, {
-  "fingerprint" : "d646c58140bda803",
-  "title" : "伊朗南部战略要地锡里克县连续传出数次爆炸声 原因待查",
-  "summary" : "据新华社援引伊朗媒体报道，伊朗南部霍尔木兹甘省锡里克县境内突发传出数次剧烈爆炸声。该县濒临霍尔木兹海峡战略航道，区位安全敏感度极高。目前伊朗官方尚未就爆炸具体诱因（防空测试、袭击或事故）及人员伤亡损毁情况发布权威通报，事件正处于紧急核实阶段。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-21T23:51:23.351158+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ncWhBQWNTcm41Wmx3aVNXS2dpOEg5TVM2Z2lUeEYxbTBXcXhVMzFqZzJaT2FTbjctZVd0ck9zNXUwV096SDBwbzhsUHJQU0Z3Q1d0NzdVWGhGTVJpU1Vuald5bmtkWUc1R0FvMk95bDFFWGF1T0MtN2x5QzBrSXc?oc=5"
-}, {
-  "fingerprint" : "586f8fabc83c83d9",
-  "title" : "俄方原则同意重启和谈之际 乌克兰首都基辅突遭多枚导弹袭击",
-  "summary" : "据BBC报道，在俄罗斯表态‘原则上准备好’响应美国呼吁重启和平谈判，且美国总统特朗普声称当前‘最接近结束战争’之际，乌克兰首都基辅突遭多枚导弹袭击。在和平接触信号初现的关键窗口期突发军事打击，反映出战场博弈与停火谈判交织下的高度复杂性与不确定性。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-21T21:29:04.526175+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
 } ]
