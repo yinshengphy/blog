@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "49f51d4b872bb584",
+  "title" : "沙特联军空袭也门首都萨那 称摧毁胡塞武装导弹发射装置及隧道",
+  "summary" : "半岛电视台报道，在也门胡塞武装向沙特首都利雅得国际机场发动袭击后，沙特主导的多国联军对也门首都萨那展开军事打击。联军表示，空袭精准摧毁了胡塞武装设在萨那的弹道导弹发射架和地下掩体隧道，也门战局面临新一轮报复循环。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-26T04:32:29.692427+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss"
+}, {
   "fingerprint" : "3cdbe4c6a4e6d336",
   "title" : "美国地质调查局测定：中国西藏那曲东北偏东方向发生5.8级地震",
   "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月25日11时25分（北京时间19时25分），中国西藏那曲东北偏东约209公里处发生5.8级地震。震区位于青藏高原高海拔地带，周边多地有明显震感，相关部门正在核查灾情与人员物资受损状况。",
@@ -118,36 +126,4 @@
   "discoveredAt" : "2026-10-23T05:05:07.534701+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "22c81e5a499ce696",
-  "title" : "俄乌爆发新一轮大规模互袭：莫斯科遭多架无人机突袭，基辅多处设施严重受损",
-  "summary" : "俄乌战事再度升级，双方通报发生新一轮大规模相互袭击。俄罗斯首都莫斯科遭遇乌方无人机突袭，俄防空部队展开拦截；与此同时，乌克兰首都基辅及多地基础设施遭到俄方导弹及无人机密集打击，多处关键设施受损并引发火灾。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-23T01:01:12.787188+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMihgFBVV95cUxOejE1R1VUYUtHVjdBaFI5alJTME9PU0diVy1NVW9KTlQ5Q1duQklOSUVzaEpIWGhpU0hkbjhFZE1RcEp0RWlUZVM1RC1pM0NQYi1JU2hOTUJILXpxS0RrSTg3RVlRSGl3NXhZZnFlbXZfamc5c2oyOVU5VTM3WHg0eXVDa1ZKdw?oc=5"
-}, {
-  "fingerprint" : "2a6e1e28307efc62",
-  "title" : "西藏那曲巴青县7.0级地震已致16人遇难32人受损 数百间房屋倒塌",
-  "summary" : "据外媒报道，西藏那曲市巴青县22日晚发生7.0级强烈地震。灾情已造成至少16人遇难、32人受伤，另有300多间房屋发生倒塌，县城部分电力与通信服务中断受阻。当地应急消防搜救人员已紧急开赴震区展开拉网式搜救与生命通道抢通工作。",
-  "source" : "RFI 法国国际广播",
-  "discoveredAt" : "2026-10-22T21:16:50.094522+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261022-%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B27%E7%BA%A7%E5%BC%BA%E9%9C%87%E8%87%B3%E5%B0%9116%E4%BA%BA%E6%AD%BB-32%E4%BA%BA%E4%BC%A4-%E6%95%B0%E7%99%BE%E6%88%BF%E5%B1%8B%E5%80%92%E5%A1%8C-%E9%80%9A%E4%BF%A1%E5%8F%97%E6%89%B0"
-}, {
-  "fingerprint" : "ef426d809b30e2b5",
-  "title" : "西藏那曲市东北方向发生7.0级强烈地震 震中周边面临较大灾害风险",
-  "summary" : "据美国地质调查局（USGS）速报，北京时间2026年10月22日22时33分，中国西藏自治区那曲市东北偏东约183公里区域发生7.0级强烈地震。该震级具备较强破坏性，震中周边藏东北高海拔区域震感强烈，目前具体受灾程度及人员伤亡情况正密切关注中。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-22T14:56:04.194476+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g"
-}, {
-  "fingerprint" : "231d70b48e7ae938",
-  "title" : "也门胡塞武装宣称对沙特国防部等敏感目标发动4次军事打击",
-  "summary" : "新华网消息，也门胡塞武装发言人宣布，该武装使用多架无人机及弹道导弹，对沙特阿拉伯境内包括沙特国防部、空军基地在内的关键军事目标发动了4次袭击。此举标志着胡塞武装对沙特本土打击烈度显著升级，中东安全局势持续紧张。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-22T13:00:52.957907+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrWGloLS1oVk5nV1R2M0cyY1M1ekJ0Q0d6eDVtNHlseGd2Z2xYQ3VqUkVpWU44V1JvUmdIT0F0bUdDaEk0Qjl2S0FyOEVmYTVpdXM0VU8tdi14ZzVCemF1dDhvODZMczExOWJwQ1dGYmlZMkNSZVE1eWV2OEtXcTg?oc=5"
 } ]
