@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3725bde5638f6afc",
+  "title" : "美国佛罗里达州一体育场附近突发枪击致12人受伤 一名涉案青少年已被捕",
+  "summary" : "当地时间周六晚，美国佛罗里达州一美式橄榄球场附近发生大规模枪击事件，造成包括儿童在内的12人受伤。事发时球赛刚刚散场，周边人员密集。当地警方迅速介入处置并当场控制局势，目前已逮捕一名涉案青少年，具体开枪动机及案件细节正在进一步调查中。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-10-26T16:19:03.484441+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "49f51d4b872bb584",
   "title" : "沙特联军空袭也门首都萨那 称摧毁胡塞武装导弹发射装置及隧道",
   "summary" : "半岛电视台报道，在也门胡塞武装向沙特首都利雅得国际机场发动袭击后，沙特主导的多国联军对也门首都萨那展开军事打击。联军表示，空袭精准摧毁了胡塞武装设在萨那的弹道导弹发射架和地下掩体隧道，也门战局面临新一轮报复循环。",
@@ -102,28 +110,4 @@
   "discoveredAt" : "2026-10-23T17:57:13.308679+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss"
-}, {
-  "fingerprint" : "501a154f8b902fba",
-  "title" : "巴黎近郊突发连环袭击致1死5伤 法国内政部证实按恐怖主义罪行立案调查",
-  "summary" : "据BBC报道，法国巴黎近郊发生连环袭击事件，造成1人死亡、5人受伤。法国内政部长表示，涉案枪手已被执法部门抓获，目前反恐司法部门已正式将此案作为“恐怖主义罪行”展开全面调查，相关区域安保警戒已同步提升。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-23T14:18:14.389118+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "8a615916dbff2970",
-  "title" : "约旦一教堂遭蒙面枪手袭击至少7人遇难 枪手在葬礼现场突然开火",
-  "summary" : "据半岛电视台报道，约旦一所教堂突发恶性枪击事件。幸存者称，事发时数十人正聚集在教堂参加葬礼游行，两名蒙面枪手突然开枪扫射，目前已造成至少7人遇难，死伤人数可能进一步增加，当地安全部门已展开搜捕与调查。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-23T14:05:13.667033+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss"
-}, {
-  "fingerprint" : "c074a56db27388fb",
-  "title" : "俄方称原则上同意和谈数小时后 乌克兰多地遭三轮导弹密集袭击",
-  "summary" : "据BBC报道，俄罗斯在公开表示“原则上准备好”与美国和乌克兰恢复和平谈判后仅数小时，便向乌克兰境内目标发动了三轮密集的导弹袭击。多地拉响防空警报并传出巨大爆炸声，关键基础设施受到威胁。此次袭击突显出俄乌前线战事依然剧烈，双方在军事行动与外交表态上形成剧烈反差，和平谈判前景极为脆弱复杂。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-23T05:05:07.534701+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss"
 } ]
