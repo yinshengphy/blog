@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "cf31d1fb0cdead65",
+  "title" : "叙利亚境内一处武器弹药库突发剧烈爆炸 伤亡及原因尚在核实中",
+  "summary" : "据半岛电视台突发报道，叙利亚境内一处武器弹药库发生剧烈爆炸。事发区域腾起巨大烟柱，目前人员伤亡情况及爆炸起因（是否由外部空袭打击或内部意外引发）尚待官方通报，叙利亚及周边地缘安全局势再度面临紧张考验。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-26T21:07:47.527165+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/26/huge-explosion-at-a-weapons-depot-in-syria?traffic_source=rss"
+}, {
   "fingerprint" : "3725bde5638f6afc",
   "title" : "美国佛罗里达州一体育场附近突发枪击致12人受伤 一名涉案青少年已被捕",
   "summary" : "当地时间周六晚，美国佛罗里达州一美式橄榄球场附近发生大规模枪击事件，造成包括儿童在内的12人受伤。事发时球赛刚刚散场，周边人员密集。当地警方迅速介入处置并当场控制局势，目前已逮捕一名涉案青少年，具体开枪动机及案件细节正在进一步调查中。",
@@ -102,12 +110,4 @@
   "discoveredAt" : "2026-10-23T23:03:22.219035+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91SFVJSi10VGp1NUdvRWNLRTVwSTIwWDRmc1ZxLWlCQVFsSHRiRWd4UndyaVBzTlhCUmpvTnVlejFjS3BpOHFvUkIwUnAybHI5SDMtQlM4d3l3R21ILXUteEVQWQ?oc=5"
-}, {
-  "fingerprint" : "a212df4fa97d2b8d",
-  "title" : "枪击事件后以色列总理内塔尼亚胡下令对约旦河西岸实施全面封锁",
-  "summary" : "据半岛电视台报道，在发生袭击枪击事件后，以色列总理内塔尼亚胡下令对被占领的约旦河西岸地区实施‘全面封锁’。以军随后收紧各检查站与通道通行限制，大幅强化安全戒备，区域紧张对峙局面再度升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-23T17:57:13.308679+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss"
 } ]
