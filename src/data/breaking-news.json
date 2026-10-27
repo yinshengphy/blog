@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5ed322af1eff38ab",
+  "title" : "基辅南桥据报遭俄军空袭，桥梁通行暂时中断",
+  "summary" : "据同花顺援引相关消息报道，乌克兰首都基辅南桥疑遭俄军空袭，桥梁通行已暂停。该桥是基辅重要跨河交通设施，事件可能对当地通勤、物流和城市交通组织造成影响。目前尚无可靠伤亡数据及官方完整通报，空袭具体时间、破坏程度和是否存在后续袭击仍待核实。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-27T14:27:39.869046+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aeW9BQjRLMXVHUHRPTl9Ua2g2YVJIakZpeWMxUHJRM2dQWXAyVHdCSm0tQkdqajZXRDNBbnRURWVVSEgtajg4NmlBRVZBQlpmb3pQODVWYXdlQlVfWWc?oc=5"
+}, {
   "fingerprint" : "0d29ece525e17551",
   "title" : "“特强气旋风暴”阿纳布逼近印度 官方启动40万人大规模紧急疏散",
   "summary" : "据半岛电视台报道，特强气旋风暴“阿纳布”正快速逼近印度沿海，预计将于周三正式登陆。印度防灾部门已全面启动应急预案并展开数万人的先期疏散，预计转移总人数将达40万人，沿海地区正全力防范强风暴潮及引发的次生灾害。",
@@ -102,12 +110,4 @@
   "discoveredAt" : "2026-10-24T14:47:03.668590+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54VzRRME1uN0RCZ0hMUEF3bjJDTWlPTGRQVjhXREVqdGVreGxhMkJhb3Jmd0MyeUNmTWJFdEVzb0VqNUNlSUl3Zm8xTkVVSkdwUGlWSVd0S2RPOV9lRHFRZg?oc=5"
-}, {
-  "fingerprint" : "04f497397ac5f01b",
-  "title" : "约旦罕见发生基督教堂致命枪击事件 凶手在逃当局展开紧急调查",
-  "summary" : "据半岛电视台报道，约旦近日罕见发生一起针对基督教堂的致命枪击事件，已造成人员死亡。目前袭击者身份尚未查明且仍在逃，约旦安全与司法当局已就该恶性事件展开紧急调查。该袭击在长期政局相对平稳的约旦引发社会各界高度震动与安保警惕。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-24T13:59:15.870265+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss"
 } ]
