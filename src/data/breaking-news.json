@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d21710b6fc8cdc23",
+  "title" : "俄罗斯暂停对乌克兰赫尔松空袭 奥列什基局部停火协议正式生效",
+  "summary" : "据半岛电视台报道，随着一项局部停火协议正式生效，俄罗斯已停止对乌克兰赫尔松地区的打击行动。该协议由美国第一夫人梅拉尼娅·特朗普促成，停火期间将允许对奥列什基地区开展人员紧急疏散并运送人道主义救援物资。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-27T03:00:04.475019+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/27/russia-halts-strikes-on-ukraines-kherson-as-oleshky-ceasefire-takes-effect?traffic_source=rss"
+}, {
   "fingerprint" : "9b089af6fe7e57d1",
   "title" : "约旦对叙利亚境内多地发动报复性空袭 造成至少7人死亡",
   "summary" : "据半岛电视台报道，约旦针对此前发生的教堂致命枪击事件对叙利亚境内两个省份发动报复性跨境空袭，已造成至少7人死亡。叙利亚官方否认此前与约旦方面存在行动协调，并强烈谴责该侵犯主权的军事打击，周边安全局势进一步紧绷。",
@@ -94,20 +102,4 @@
   "discoveredAt" : "2026-10-24T06:03:54.045981+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcEd5VWc5UFI1QVprQVFCTGdfMjkyWV9XaGJxLWdodDBxeXVyejNsbzd4NXpWU01pMTFqS1haUVVnX1AwMjNJUE5za25WRmVQeU04LV83Y3ZFQXFHTnA1Z0NTMWpPVVFpMmJfRGRraXhSMUJRYkQ5bzh5ZzAtS1JBNUE3eUhpM0I1elFweDFITllHMkEzS1h4VzBn?oc=5"
-}, {
-  "fingerprint" : "5193b754c4e81488",
-  "title" : "也门胡塞武装发射弹道导弹袭击沙特首都利雅得 沙特联军称已成功拦截",
-  "summary" : "据半岛电视台快讯，沙特阿拉伯主导的多国联军表示，其防空系统成功拦截并摧毁了一枚由也门胡塞武装发射、直接瞄准沙特首都利雅得的弹道导弹。目前尚无人员伤亡报告。针对主权国家首都的远程导弹突袭显示中东地缘对抗风险急剧升级。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-24T02:06:56.903840+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss"
-}, {
-  "fingerprint" : "f46b36664a2b3f7f",
-  "title" : "西藏那曲市巴青县发生7.0级地震 解放军与武警部队迅速展开紧急救援",
-  "summary" : "据国防部发布消息，西藏那曲市巴青县发生7.0级地震。灾情发生后，解放军和武警部队官兵、民兵迅速启动应急救援机制投入一线，重点开展人员搜救、伤员转运和灾情排查工作，全力协助地方政府做好抢险救灾与群众安置。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-24T01:09:11.003025+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Mbzdua2g0OHpVa3ROa3R1bGtLaTZ0aVpsWFV4V1NwQ2FucmpuMkJMQlhKSW0xVDAzdlVnc0d6ZjlGLVh6T3BnZWVzd0dmaVFIazhPMWhqRVA?oc=5"
 } ]
