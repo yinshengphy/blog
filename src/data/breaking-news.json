@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "9b089af6fe7e57d1",
+  "title" : "约旦对叙利亚境内多地发动报复性空袭 造成至少7人死亡",
+  "summary" : "据半岛电视台报道，约旦针对此前发生的教堂致命枪击事件对叙利亚境内两个省份发动报复性跨境空袭，已造成至少7人死亡。叙利亚官方否认此前与约旦方面存在行动协调，并强烈谴责该侵犯主权的军事打击，周边安全局势进一步紧绷。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-27T00:12:06.056706+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss"
+}, {
   "fingerprint" : "cf31d1fb0cdead65",
   "title" : "叙利亚境内一处武器弹药库突发剧烈爆炸 伤亡及原因尚在核实中",
   "summary" : "据半岛电视台突发报道，叙利亚境内一处武器弹药库发生剧烈爆炸。事发区域腾起巨大烟柱，目前人员伤亡情况及爆炸起因（是否由外部空袭打击或内部意外引发）尚待官方通报，叙利亚及周边地缘安全局势再度面临紧张考验。",
@@ -102,12 +110,4 @@
   "discoveredAt" : "2026-10-24T01:09:11.003025+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Mbzdua2g0OHpVa3ROa3R1bGtLaTZ0aVpsWFV4V1NwQ2FucmpuMkJMQlhKSW0xVDAzdlVnc0d6ZjlGLVh6T3BnZWVzd0dmaVFIazhPMWhqRVA?oc=5"
-}, {
-  "fingerprint" : "896eea795b4e868b",
-  "title" : "伊朗称两艘超级油轮在霍尔木兹海峡南部海域触雷发生爆炸",
-  "summary" : "据东方财富援引伊朗方面消息，两艘超级油轮在霍尔木兹海峡南部海域航行期间发生水雷爆炸。霍尔木兹海峡承担全球约五分之一的原油海上运输量，此事件对国际能源供应链及中东海域通航安全构成严峻冲击，目前具体伤亡及船损情况仍在进一步核实中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-23T23:03:22.219035+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91SFVJSi10VGp1NUdvRWNLRTVwSTIwWDRmc1ZxLWlCQVFsSHRiRWd4UndyaVBzTlhCUmpvTnVlejFjS3BpOHFvUkIwUnAybHI5SDMtQlM4d3l3R21ILXUteEVQWQ?oc=5"
 } ]
