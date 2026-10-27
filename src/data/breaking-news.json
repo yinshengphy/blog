@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "121c3c8a5e152740",
+  "title" : "韩国首尔最后棚户区九龙村突发严重大火 逾百人紧急疏散撤离",
+  "summary" : "据半岛电视台报道，韩国首尔最后的贫民窟“九龙村”突发严重火灾，大火迅速吞噬密集的棚户区建筑，已迫使100多名当地居民紧急疏散。九龙村房屋多由易燃板材搭建，火灾隐患极高。首尔消防部门已调集力量进行扑救，目前伤亡情况尚待官方进一步核实。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-27T17:41:58.688379+00:00",
+  "severity" : "安全事故",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss"
+}, {
   "fingerprint" : "5ed322af1eff38ab",
   "title" : "基辅南桥据报遭俄军空袭，桥梁通行暂时中断",
   "summary" : "据同花顺援引相关消息报道，乌克兰首都基辅南桥疑遭俄军空袭，桥梁通行已暂停。该桥是基辅重要跨河交通设施，事件可能对当地通勤、物流和城市交通组织造成影响。目前尚无可靠伤亡数据及官方完整通报，空袭具体时间、破坏程度和是否存在后续袭击仍待核实。",
@@ -94,20 +102,4 @@
   "discoveredAt" : "2026-10-24T19:14:53.611376+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE45MFBOU1dCS3lIRkY0d1JucFA1eFhISVJKWV9YdWozRHJoUUdvZDE5VUQ1ck9Uc0tHdHhXZFhLVlBiaGk1RkN5QWpaNmNLYkNIWGlDaURTMnpqdjc0SEhTeWlxLWNyZXAyYTVjRkpXcThjZWktaWtNTko0NlBxTms?oc=5"
-}, {
-  "fingerprint" : "910ba6c4f9c7bf76",
-  "title" : "也门临时首都亚丁突遭导弹袭击 官方正紧急核查伤亡与受损情况",
-  "summary" : "当地时间获悉，也门政府官员证实临时首都亚丁遭遇导弹袭击。袭击发生前该国萨那、穆哈等地刚经历空袭，本次亚丁遇袭显示也门战局呈现新一轮对抗升级态势。目前袭击来源及造成的伤亡、损毁情况仍在进一步调查评估中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-24T16:17:09.469077+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wa216Y2EtQk81V2pORTNJRnY2X2dVdDhEdzlvbTRXRUo2ZUZMclJDSzRnMHVKR1duY1o5WlctZXMxNnJnOHVfNHczSElaRlhVSTBN?oc=5"
-}, {
-  "fingerprint" : "4350b0d9f4d375d9",
-  "title" : "也门胡塞武装称沙特空袭萨那和穆哈造成多人伤亡",
-  "summary" : "据也门胡塞武装发布消息，沙特空军对也门首都萨那以及沿海重要据点穆哈市展开了空袭打击，目前已导致多人伤亡。这是近期双方对抗升级后的又一次大规模空袭行动，令中东及红海周边紧张局势进一步加剧。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-24T14:47:03.668590+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54VzRRME1uN0RCZ0hMUEF3bjJDTWlPTGRQVjhXREVqdGVreGxhMkJhb3Jmd0MyeUNmTWJFdEVzb0VqNUNlSUl3Zm8xTkVVSkdwUGlWSVd0S2RPOV9lRHFRZg?oc=5"
 } ]
