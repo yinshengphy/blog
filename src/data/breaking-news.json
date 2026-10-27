@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "8786278f347a5ae0",
+  "title" : "沙特联军宣布击落多枚也门胡塞武装射向沙特境内的导弹与无人机",
+  "summary" : "据半岛电视台报道，沙特主导的多国联军宣布拦截并摧毁了胡塞武装瞄准沙特境内目标发射的数枚导弹与无人机。此次跨境袭击发生在沙特、土耳其、巴基斯坦与伊朗高级别代表在德黑兰举行地区安全降温会谈之际，令刚刚出现缓和势头的中东地缘局势再度面临考验。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-27T07:56:41.669556+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones?traffic_source=rss"
+}, {
   "fingerprint" : "d21710b6fc8cdc23",
   "title" : "俄罗斯暂停对乌克兰赫尔松空袭 奥列什基局部停火协议正式生效",
   "summary" : "据半岛电视台报道，随着一项局部停火协议正式生效，俄罗斯已停止对乌克兰赫尔松地区的打击行动。该协议由美国第一夫人梅拉尼娅·特朗普促成，停火期间将允许对奥列什基地区开展人员紧急疏散并运送人道主义救援物资。",
@@ -94,12 +102,4 @@
   "discoveredAt" : "2026-10-24T13:59:15.870265+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss"
-}, {
-  "fingerprint" : "d0bc2b4cd63451a0",
-  "title" : "南太平洋岛国瓦努阿图附近海域发生6.9级强震 当局密切防范海啸风险",
-  "summary" : "据权威地震监测机构及新华社消息，南太平洋岛国瓦努阿图附近海域发生6.9级强烈地震。震中位于海域，震感波及周边岛屿。目前暂未收到重大人员伤亡或建筑物受损报告，有关部门正密切监控是否有局地海啸波动及次生灾害发生。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-24T06:03:54.045981+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcEd5VWc5UFI1QVprQVFCTGdfMjkyWV9XaGJxLWdodDBxeXVyejNsbzd4NXpWU01pMTFqS1haUVVnX1AwMjNJUE5za25WRmVQeU04LV83Y3ZFQXFHTnA1Z0NTMWpPVVFpMmJfRGRraXhSMUJRYkQ5bzh5ZzAtS1JBNUE3eUhpM0I1elFweDFITllHMkEzS1h4VzBn?oc=5"
 } ]
