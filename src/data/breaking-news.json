@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "ded8bbc656a226c1",
+  "title" : "热带气旋“阿尔纳卜”在印度安得拉邦正式登陆 当局紧急撤离18万人引发严重洪灾",
+  "summary" : "据半岛电视台报道，强热带气旋“阿尔纳卜”已在印度东部安得拉邦沿海正式登陆。风暴伴随强降雨引发严重洪涝，迫使印度当局紧急撤离超18万沿海居民。受恶劣天气影响，当地大量航班及铁路列车运行受阻中断，救援部门已全面进入应急响应状态。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-28T08:42:01.444390+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss"
+}, {
   "fingerprint" : "0ed4880ce9bdefa0",
   "title" : "美军在东太平洋对疑似贩毒船只实施空袭 造成5人死亡",
   "summary" : "据美军南方司令部通报，美军在东太平洋海域对一艘涉嫌贩毒的船只实施了空袭，造成船上5人死亡。这是美军近期在该海域展开的最新打击行动。军方以直接空袭手段处置海上涉毒嫌疑目标并致人员死亡，引发各方高度关注。",
@@ -86,28 +94,4 @@
   "discoveredAt" : "2026-10-25T11:45:34.020480+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ty"
-}, {
-  "fingerprint" : "e120444d4dc7caef",
-  "title" : "尼日利亚东北部遭武装分子袭击 致至少10名村民遇害商铺被洗劫",
-  "summary" : "据BBC报道，尼日利亚东北部一村庄遭到武装分子袭击，袭击者大肆洗劫商铺并杀害了至少10名村民。当地警方目前正在搜寻其他受害者，当地官员警告实际遇难人数可能会进一步增加。该区域安全局势面临严峻挑战。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-25T06:26:32.326750+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "e02bc4f250deed60",
-  "title" : "日本小笠原群岛附近海域突发6.5级地震 暂无海啸威胁及伤亡报告",
-  "summary" : "据美国地质调查局（USGS）官方测定，协调世界时2026年10月25日02时09分，日本小笠原群岛（Bonin Islands）附近海域发生6.5级地震。震中位于离岛海域，目前日本气象厅及相关机构正持续监测海面波动，暂未收到伤亡及灾损报告。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-25T02:28:29.183857+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9"
-}, {
-  "fingerprint" : "f328f8fc47c28845",
-  "title" : "也门胡塞武装宣称对沙特机场及石油设施等多处目标发动袭击",
-  "summary" : "据新华网援引外媒报道，也门胡塞武装发布声明称，已针对沙特阿拉伯境内的机场和石油设施等多个关键战略目标发动了袭击。沙特方面暂未就受损及伤亡情况发布官方回应，事件或引发中东安全与全球能源市场新一轮震荡。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-24T19:14:53.611376+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE45MFBOU1dCS3lIRkY0d1JucFA1eFhISVJKWV9YdWozRHJoUUdvZDE5VUQ1ck9Uc0tHdHhXZFhLVlBiaGk1RkN5QWpaNmNLYkNIWGlDaURTMnpqdjc0SEhTeWlxLWNyZXAyYTVjRkpXcThjZWktaWtNTko0NlBxTms?oc=5"
 } ]
