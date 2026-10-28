@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "b9b404aa9d2d345f",
+  "title" : "胡塞武装突袭沙特最大炼油厂 国际原油价格应声再次上涨",
+  "summary" : "财联社援引多方消息，也门胡塞武装再次对沙特境内最大炼油厂发动打击。受中东局势骤然紧张及关键能源供应设施受威胁影响，国际原油市场暗流涌动，基准油价迅速走高。目前各方正密切跟踪沙特炼厂实际受损情况及产能影响。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-28T14:36:41.214195+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1IWGVVZlNraW1iS3doSVNGeUdWczFYWFQzLWlQa0Vlc0JWSzhLTm5qSDdNS3pXeS1MTE1oSlBxUDlnMzBvV0p0ZA?oc=5"
+}, {
   "fingerprint" : "ded8bbc656a226c1",
   "title" : "热带气旋“阿尔纳卜”在印度安得拉邦正式登陆 当局紧急撤离18万人引发严重洪灾",
   "summary" : "据半岛电视台报道，强热带气旋“阿尔纳卜”已在印度东部安得拉邦沿海正式登陆。风暴伴随强降雨引发严重洪涝，迫使印度当局紧急撤离超18万沿海居民。受恶劣天气影响，当地大量航班及铁路列车运行受阻中断，救援部门已全面进入应急响应状态。",
@@ -86,12 +94,4 @@
   "discoveredAt" : "2026-10-26T04:32:29.692427+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss"
-}, {
-  "fingerprint" : "3cdbe4c6a4e6d336",
-  "title" : "美国地质调查局测定：中国西藏那曲东北偏东方向发生5.8级地震",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月25日11时25分（北京时间19时25分），中国西藏那曲东北偏东约209公里处发生5.8级地震。震区位于青藏高原高海拔地带，周边多地有明显震感，相关部门正在核查灾情与人员物资受损状况。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-25T11:45:34.020480+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ty"
 } ]
