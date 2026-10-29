@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "45b215b1d1ca5cf5",
+  "title" : "西藏那曲市巴青县发生7.0级强震 当地紧急展开受损排查与群众安置",
+  "summary" : "据官方通报，西藏那曲市巴青县发生7.0级地震。灾情发生后，应急管理及住建等多部门迅速启动应急预案，工作组已深入震区一线开展建筑物应急评估排查与隐患消除，受灾群众基本生活保障与转移安置工作正紧张有序推进。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-29T05:40:20.661254+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xdWdzTVJyTEhRQ2Q0Nnc1cTdZZnl2LUQ3YmxBbHZHVnI5ZE91MGVEYjFRZDc1Sk5kWnhtbVdtYkw4bnRsbzlzS1pQU2p5Y1lja05MNlVaVjNqZUF5dENVY2czdEJCcGJ3S25sUEF2bw?oc=5"
+}, {
   "fingerprint" : "cf3a047c43cbd30c",
   "title" : "印尼马鲁古省附近海域发生6.4级强震 震源深度及灾情正密切监测",
   "summary" : "据中国新闻网及地震监测机构消息，印度尼西亚马鲁古省附近海域突发6.4级地震。由于震级较强且位于海域，当地防灾部门正密切监控是否有海啸威胁及余震发展，周边沿海地区有明显震感，目前暂未接获重大人员伤亡通报。",
@@ -110,12 +118,4 @@
   "discoveredAt" : "2026-10-26T16:19:03.484441+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "49f51d4b872bb584",
-  "title" : "沙特联军空袭也门首都萨那 称摧毁胡塞武装导弹发射装置及隧道",
-  "summary" : "半岛电视台报道，在也门胡塞武装向沙特首都利雅得国际机场发动袭击后，沙特主导的多国联军对也门首都萨那展开军事打击。联军表示，空袭精准摧毁了胡塞武装设在萨那的弹道导弹发射架和地下掩体隧道，也门战局面临新一轮报复循环。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-26T04:32:29.692427+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss"
 } ]
