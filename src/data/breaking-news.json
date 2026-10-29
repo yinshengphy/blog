@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "834cbd1733a21f35",
+  "title" : "瓦努阿图奥尔里港附近发生6.2级强震 震源位于东部近海",
+  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年10月29日21时46分，南太平洋岛国瓦努阿图奥尔里港东南偏东43公里处发生6.2级强震。震中附近陆地预计有较强震感，相关机构正持续监测是否引发次生灾害及设施受损情况。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-10-29T22:06:41.456419+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4f"
+}, {
   "fingerprint" : "035cacb9df917f93",
   "title" : "西班牙发生严重火车相撞事故致重大伤亡 全国进入哀悼状态",
   "summary" : "西班牙近日发生一起严重的致命火车相撞事故，导致多名乘客死伤。目前救援队伍仍在现场持续清理残骸并搜寻遇难人员，西班牙政府已宣布举国哀悼。相关铁路干线运营受阻，事故具体原因及最终伤亡核实工作正在进行中。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-27T00:12:06.056706+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss"
-}, {
-  "fingerprint" : "cf31d1fb0cdead65",
-  "title" : "叙利亚境内一处武器弹药库突发剧烈爆炸 伤亡及原因尚在核实中",
-  "summary" : "据半岛电视台突发报道，叙利亚境内一处武器弹药库发生剧烈爆炸。事发区域腾起巨大烟柱，目前人员伤亡情况及爆炸起因（是否由外部空袭打击或内部意外引发）尚待官方通报，叙利亚及周边地缘安全局势再度面临紧张考验。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-26T21:07:47.527165+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/26/huge-explosion-at-a-weapons-depot-in-syria?traffic_source=rss"
 } ]
