@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "25df78d48dcb42ef",
+  "title" : "韩国检方将紧急戒严定性为政变 再次提请法院判处尹锡悦死刑",
+  "summary" : "围绕此前引发全球关注的紧急戒严风波，韩国检方在司法调查与审理程序中将该举措定性为违宪政变，指控其涉嫌内乱核心罪名，并正式再次向法院提请判处尹锡悦死刑。此举标志着针对戒严事件的司法追责进入实质性决胜阶段，受到国际社会高度关注。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-29T16:46:32.665971+00:00",
+  "severity" : "顶级政经与科技震荡",
+  "link" : "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KSFZxWEh0VEp6LTlFSEpRNWRvM0RlVVJFcUo0R3JIeE56QzVWYy1hcUlsQ3ExSkd4d1g3QUZTMVZrSC1oUDduX0VBd0l2SXR2U2FFeDZ0dUlvank1R2MyWk5nN2lGRW5udlVfOVl4eHU?oc=5"
+}, {
   "fingerprint" : "9898c75a8939ec68",
   "title" : "胡塞武装称也门西南部地区遭遇空袭已致多人死伤",
   "summary" : "据财联社及也门方面消息，也门胡塞武装表示其控制的也门西南部地区突遭空中打击，空袭已导致多人死伤。当前红海危机及中东安全局势持续紧张，此次袭击表明也门境内军事对抗态势仍在蔓延，具体袭击来源和伤亡规模仍在进一步核实中。",
@@ -134,12 +142,4 @@
   "discoveredAt" : "2026-10-26T21:07:47.527165+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/video/newsfeed/2026/10/26/huge-explosion-at-a-weapons-depot-in-syria?traffic_source=rss"
-}, {
-  "fingerprint" : "3725bde5638f6afc",
-  "title" : "美国佛罗里达州一体育场附近突发枪击致12人受伤 一名涉案青少年已被捕",
-  "summary" : "当地时间周六晚，美国佛罗里达州一美式橄榄球场附近发生大规模枪击事件，造成包括儿童在内的12人受伤。事发时球赛刚刚散场，周边人员密集。当地警方迅速介入处置并当场控制局势，目前已逮捕一名涉案青少年，具体开枪动机及案件细节正在进一步调查中。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-26T16:19:03.484441+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss"
 } ]
