@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d32a5221aee85432",
+  "title" : "俄罗斯无人机袭击乌克兰火车站 造成至少13名平民丧生",
+  "summary" : "据联合国新闻（UN News）报道，俄罗斯对乌克兰境内一处火车站发动无人机袭击，造成至少13名平民死亡。联合国官员对此类针对平民和民用关键基础设施的致命袭击表示强烈谴责，指出该行为严重违反国际人道法，目前现场救援与伤亡统计工作仍在进行中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-30T07:10:55.269338+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Vjh6TXFIN2hxOW12YkVuYS1acl9VcWNaaWVZYXZuWkVtZ2dRSVBIbHF6cFBpVHNZamRBbGU1V3ZNZ2ZtdlNqcHplZi1CaHJ4S0hoaW1HRQ?oc=5"
+}, {
   "fingerprint" : "f62e382a689da385",
   "title" : "乌克兰首都基辅突遭弹道导弹袭击 市区传出连续剧烈爆炸声",
   "summary" : "据多家媒体快讯报道，乌克兰首都基辅突遭弹道导弹袭击，市区传出多声剧烈爆炸，乌空军此前已发出弹道导弹打击预警并拉响全境警报。当地防空系统正紧急拦截来袭目标，官方尚未公布具体的袭击损失与伤亡数据。",
@@ -142,20 +150,4 @@
   "discoveredAt" : "2026-10-27T07:56:41.669556+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones?traffic_source=rss"
-}, {
-  "fingerprint" : "d21710b6fc8cdc23",
-  "title" : "俄罗斯暂停对乌克兰赫尔松空袭 奥列什基局部停火协议正式生效",
-  "summary" : "据半岛电视台报道，随着一项局部停火协议正式生效，俄罗斯已停止对乌克兰赫尔松地区的打击行动。该协议由美国第一夫人梅拉尼娅·特朗普促成，停火期间将允许对奥列什基地区开展人员紧急疏散并运送人道主义救援物资。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-27T03:00:04.475019+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/27/russia-halts-strikes-on-ukraines-kherson-as-oleshky-ceasefire-takes-effect?traffic_source=rss"
-}, {
-  "fingerprint" : "9b089af6fe7e57d1",
-  "title" : "约旦对叙利亚境内多地发动报复性空袭 造成至少7人死亡",
-  "summary" : "据半岛电视台报道，约旦针对此前发生的教堂致命枪击事件对叙利亚境内两个省份发动报复性跨境空袭，已造成至少7人死亡。叙利亚官方否认此前与约旦方面存在行动协调，并强烈谴责该侵犯主权的军事打击，周边安全局势进一步紧绷。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-27T00:12:06.056706+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss"
 } ]
