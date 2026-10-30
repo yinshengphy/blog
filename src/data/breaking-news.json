@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "753087ec504245a0",
+  "title" : "英国海上贸易行动办公室通报：一艘油轮在驶出霍尔木兹海峡时突发爆炸起火，船员目前安全",
+  "summary" : "据英国海上贸易行动办公室（UKMTO）通报，一艘油轮在驶出全球核心能源通道霍尔木兹海峡时突发爆炸并起火。通报确认目前船上全体船员安全。该起突发事故在高度敏感的中东航道发生，正引发全球航运安全和原油市场密切关注，事故原因正在进一步调查中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-10-30T12:08:54.087045+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMidEFVX3lxTE56eVptbTVZekxXR2NZbGY4SVBIYlRQdWVxT2VoTkN0aFpfOFI0WEVFbW4wVkVaOFpObVVwYTV1dEV6ZGx3SVM1aTJCRldqZE9OYlNDWUE4ZVVjTjJvVzVPNFZUVUtVdlNncFMwVXk0Vi1nclps?oc=5"
+}, {
   "fingerprint" : "475243e170c6ae65",
   "title" : "报告称印度尼西亚9月严重野火浓烟肆虐 导致约3500人死亡",
   "summary" : "据半岛电视台援引最新监测报告报道，受持续干旱天气影响，印度尼西亚多地爆发严重森林野火，产生的浓厚有毒雾霾笼罩大片区域。报告指出，仅9月份野火浓烟就已导致当地约3500人死亡，引发严重的区域性公共卫生与环境危机。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-27T14:27:39.869046+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aeW9BQjRLMXVHUHRPTl9Ua2g2YVJIakZpeWMxUHJRM2dQWXAyVHdCSm0tQkdqajZXRDNBbnRURWVVSEgtajg4NmlBRVZBQlpmb3pQODVWYXdlQlVfWWc?oc=5"
-}, {
-  "fingerprint" : "0d29ece525e17551",
-  "title" : "“特强气旋风暴”阿纳布逼近印度 官方启动40万人大规模紧急疏散",
-  "summary" : "据半岛电视台报道，特强气旋风暴“阿纳布”正快速逼近印度沿海，预计将于周三正式登陆。印度防灾部门已全面启动应急预案并展开数万人的先期疏散，预计转移总人数将达40万人，沿海地区正全力防范强风暴潮及引发的次生灾害。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-27T08:32:15.710151+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss"
 } ]
