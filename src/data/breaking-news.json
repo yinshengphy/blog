@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "475243e170c6ae65",
+  "title" : "报告称印度尼西亚9月严重野火浓烟肆虐 导致约3500人死亡",
+  "summary" : "据半岛电视台援引最新监测报告报道，受持续干旱天气影响，印度尼西亚多地爆发严重森林野火，产生的浓厚有毒雾霾笼罩大片区域。报告指出，仅9月份野火浓烟就已导致当地约3500人死亡，引发严重的区域性公共卫生与环境危机。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-10-30T08:28:20.690166+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss"
+}, {
   "fingerprint" : "d32a5221aee85432",
   "title" : "俄罗斯无人机袭击乌克兰火车站 造成至少13名平民丧生",
   "summary" : "据联合国新闻（UN News）报道，俄罗斯对乌克兰境内一处火车站发动无人机袭击，造成至少13名平民死亡。联合国官员对此类针对平民和民用关键基础设施的致命袭击表示强烈谴责，指出该行为严重违反国际人道法，目前现场救援与伤亡统计工作仍在进行中。",
@@ -142,12 +150,4 @@
   "discoveredAt" : "2026-10-27T08:32:15.710151+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss"
-}, {
-  "fingerprint" : "8786278f347a5ae0",
-  "title" : "沙特联军宣布击落多枚也门胡塞武装射向沙特境内的导弹与无人机",
-  "summary" : "据半岛电视台报道，沙特主导的多国联军宣布拦截并摧毁了胡塞武装瞄准沙特境内目标发射的数枚导弹与无人机。此次跨境袭击发生在沙特、土耳其、巴基斯坦与伊朗高级别代表在德黑兰举行地区安全降温会谈之际，令刚刚出现缓和势头的中东地缘局势再度面临考验。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-10-27T07:56:41.669556+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones?traffic_source=rss"
 } ]
