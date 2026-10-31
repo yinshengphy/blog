@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6b422e3202cfbeaa",
+  "title" : "日本三重县志摩市东南近海发生6.0级强震，震源距陆地约58公里",
+  "summary" : "据美国地质调查局（USGS）速报，UTC时间2026年10月31日22时15分，日本三重县志摩市东南偏南约58公里近海发生M 6.0级地震。震中位于本州岛南部近海海域，周边沿海地区预计有较强震感，相关部门正跟进海啸与灾损监测。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-10-31T22:31:54.688585+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku"
+}, {
   "fingerprint" : "aa32feb6bf0905ae",
   "title" : "霍尔木兹海峡油轮遭吸附式水雷袭击起火 全球能源咽喉局势骤然升级",
   "summary" : "据媒体报道，一艘油轮在穿行全球能源咽喉霍尔木兹海峡时遭到吸附式水雷袭击并引发大火。吸附水雷通常需专业蛙人或特种部队近身布设，标志着该海域袭击手段严重升级，给波斯湾商业通航与全球能源供应链带来重大冲击与地缘震荡。",
@@ -126,28 +134,4 @@
   "discoveredAt" : "2026-10-29T01:35:34.112222+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LU1FDb2laT015aHNONzBxY2twZnpYMEdRdWNIRnFidjU2aGFfZ3B3bkdKVmVGQTNYVEEtTmJxQWxPNWNpeVc2X2VmbGNCWWRiWVdkZkRKZWFWd1V2YXFJRnRhcFJRcElD?oc=5"
-}, {
-  "fingerprint" : "5d8a93efe7736d24",
-  "title" : "西班牙发生严重列车相撞事故 首相宣布全国哀悼三天",
-  "summary" : "西班牙发生严重列车相撞事故并造成重大人员伤亡。西班牙首相随后宣布举国为事故遇难者哀悼三天，政府降半旗致哀。目前当地应急与救援部门已全面介入，事故具体伤亡核定及原因调查正在紧急推进中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-28T15:40:50.609579+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VQWJ3T0M1bFJ3R2thV3FmVUpzR0dvdVJmcUwzd0ttSkdHQ2hzeEhzOGlaYmE2RGhHUFRGMEVSN0tfb2tvUWJsVTVGenpsYzNqcmoybml6N3dHb3V0VHUydUozclZIN1p4?oc=5"
-}, {
-  "fingerprint" : "3d6af2d3fd83ff40",
-  "title" : "也门北部遭沙特空袭 已造成14人死亡15人受伤",
-  "summary" : "据新华网报道，也门北部地区突遭沙特空袭，目前已造成至少14人死亡、15人受伤。在近期也门胡塞武装与沙特相互实施军事打击的背景下，此次致命空袭令也门局势剧烈震荡，中东安全与红海周边对抗风险持续加剧。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-28T14:46:24.082425+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0dXN6Z1N6SHM1QVFqU2FCaEdjNHl4RXhHWjBIOFpkMVhxM3JaZUZmc0R5SHdrYV81TGF1SWtYUUhldFJOYVpqUWhaUUw2TFdfMTJSMFltSHhqRGpYYTZxVzREUDBaNXZ2UHY4YU81SkV1LXQxTXpldURZLWs2UQ?oc=5"
-}, {
-  "fingerprint" : "b9b404aa9d2d345f",
-  "title" : "胡塞武装突袭沙特最大炼油厂 国际原油价格应声再次上涨",
-  "summary" : "财联社援引多方消息，也门胡塞武装再次对沙特境内最大炼油厂发动打击。受中东局势骤然紧张及关键能源供应设施受威胁影响，国际原油市场暗流涌动，基准油价迅速走高。目前各方正密切跟踪沙特炼厂实际受损情况及产能影响。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-28T14:36:41.214195+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1IWGVVZlNraW1iS3doSVNGeUdWczFYWFQzLWlQa0Vlc0JWSzhLTm5qSDdNS3pXeS1MTE1oSlBxUDlnMzBvV0p0ZA?oc=5"
 } ]
