@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "3b4decf223e688a8",
+  "title" : "俄军袭击乌克兰扎波罗热一人道援助点 造成至少26人死亡",
+  "summary" : "据媒体报道，乌克兰扎波罗热地区一处正在运作的人道主义援助分发点遭到俄军轰炸袭击，已造成至少26人遇难，多人受伤。遭袭现场建筑损毁严重，救援人员正在废墟中搜救。针对平民及人道援助设施的重大袭击引发国际舆论高度关切。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-03T03:09:06.899426+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83UDFnU2xjN0ZPX3FrMUNfUGQ1ZjN5X2tkSjlKZndSa3JwT2V5c2tVc0RHc3NDUDdlbU1peGhfRmpacVdLX2dtUDk4b1JGSXJUbjFLdHVIeHprd3dCb0RhdVg2RjhGUVly?oc=5"
+}, {
   "fingerprint" : "5ecc0b6d48f66eee",
   "title" : "美媒报道美军袭击伊朗战略要地格什姆岛，局势急剧升级",
   "summary" : "据新华网援引美媒消息，美军袭击了位于霍尔木兹海峡战略要冲的伊朗格什姆岛。该岛扼守全球能源运输咽喉，若美军直接打击伊朗本土岛屿属实，标志着中东对抗态势发生质变升级，海峡局势及国际能源供应链面临空前冲击。",
@@ -86,12 +94,4 @@
   "discoveredAt" : "2026-10-31T08:49:52.806338+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4wUzVJWGtUX0NaM3g5UDBycFVRSWVwaEFwMTNjQmw4UHMzQUJuMXY2N1c4V1Z5Q19QZkZNbjdES29sa2NQeXlLa2JMN2s?oc=5"
-}, {
-  "fingerprint" : "1fcdb4d4d355592d",
-  "title" : "美国下令驻沙特非紧急人员及家属撤离 警告面临重大袭击威胁",
-  "summary" : "因面临紧迫的安全风险，美方已正式下令驻沙特阿拉伯的非紧急政府雇员及其符合条件的家属撤离，同时敦促美国公民保持高度警惕防范潜在袭击。该紧急撤离指令表明中东地区地缘安全局势面临严峻升级风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-31T02:02:19.973267+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GLTcxQkk4eVY5enJjTktIeEo0U3Rkb2RfV2J3bVRxcXJ0SjhkV0l1dG0tVlBEa1JGMklIRVBQeTc4T1VZMkFHVUdjWUhmbWNXdVYtb0RVUG9hdDZQUjljTy1GUDdxRFRX?oc=5"
 } ]
