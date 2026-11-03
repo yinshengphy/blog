@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "5ecc0b6d48f66eee",
+  "title" : "美媒报道美军袭击伊朗战略要地格什姆岛，局势急剧升级",
+  "summary" : "据新华网援引美媒消息，美军袭击了位于霍尔木兹海峡战略要冲的伊朗格什姆岛。该岛扼守全球能源运输咽喉，若美军直接打击伊朗本土岛屿属实，标志着中东对抗态势发生质变升级，海峡局势及国际能源供应链面临空前冲击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-03T01:29:26.325599+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Y1ZsN3ZtT21NNnVibzl3VC1sNHpLeVpONEpCclA3bmtQQzVuMWJ6dHJudFFPdnlvNlBaR05SbFJkc2RpVDZHYlctT0U2VDJaT1pKaXg5VGVoRm1FRVFSOEpwM3l0a3FYWWJ3NDlXMjNxdFhHWmVQMHl5b1ppSkU?oc=5"
+}, {
   "fingerprint" : "6f81d6fe33c55c30",
   "title" : "也门胡塞武装宣称对沙特东部达曼机场发动袭击",
   "summary" : "也门胡塞武装发布声明称，其对沙特阿拉伯东部省枢纽达曼的机场实施了袭击。达曼邻近沙特石油工业核心区域，该袭击主张引发外界对沙特纵深设施防护及中东局势升级的关切，沙特方面暂未就拦截情况及受损细节发布官方通报。",
@@ -86,20 +94,4 @@
   "discoveredAt" : "2026-10-31T02:02:19.973267+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GLTcxQkk4eVY5enJjTktIeEo0U3Rkb2RfV2J3bVRxcXJ0SjhkV0l1dG0tVlBEa1JGMklIRVBQeTc4T1VZMkFHVUdjWUhmbWNXdVYtb0RVUG9hdDZQUjljTy1GUDdxRFRX?oc=5"
-}, {
-  "fingerprint" : "8deed80c0a546c66",
-  "title" : "美国批准向乌克兰出售500枚爱国者导弹 极大提升乌军弹道导弹防御能力",
-  "summary" : "据BBC报道，美国已批准向乌克兰出售500枚“爱国者”防空导弹。作为乌克兰军队目前唯一能有效拦截俄罗斯弹道导弹的美制核心拦截装备，该笔大额弹药供应将实质性强化乌军防空反导网络，对俄乌战场防空态势产生重大影响。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-10-30T22:23:52.122500+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "491576991321ce65",
-  "title" : "伊朗称第四艘违规油轮在霍尔木兹海峡触雷爆炸 关键航道安全急剧恶化",
-  "summary" : "据媒体报道，伊朗官方通报当天已有第四艘违规航行的油轮在穿越霍尔木兹海峡时触雷爆炸。霍尔木兹海峡作为全球核心能源运输通道，单日接连发生多起油轮触雷事件，标志着该海域通航安全出现严重危机，引发国际能源市场与航运业的高度恐慌。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-30T22:01:33.881878+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBILUwxaW1vbldDcllUNncyanJuVmNUdng4S25VM0RkaVNCWkpWQlhzemtLSjQybENzVVh0aXQ3Y0REQzR4aW5oOVk3YUk?oc=5"
 } ]
