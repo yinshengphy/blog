@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "bbb703b7dd63709e",
+  "title" : "俄军连夜空袭乌克兰医院与发电厂 造成至少73人受伤",
+  "summary" : "据半岛电视台报道，俄罗斯军方连夜对乌克兰境内目标发动大规模袭击，动用弹道导弹和航空炸弹击中当地医院及关键发电厂。截至目前袭击已造成至少73人受伤，医疗与能源基础设施损毁严重，救援与损失评估工作正在进行中。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-11-03T10:40:40.089108+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss"
+}, {
   "fingerprint" : "3b4decf223e688a8",
   "title" : "俄军袭击乌克兰扎波罗热一人道援助点 造成至少26人死亡",
   "summary" : "据媒体报道，乌克兰扎波罗热地区一处正在运作的人道主义援助分发点遭到俄军轰炸袭击，已造成至少26人遇难，多人受伤。遭袭现场建筑损毁严重，救援人员正在废墟中搜救。针对平民及人道援助设施的重大袭击引发国际舆论高度关切。",
@@ -86,12 +94,4 @@
   "discoveredAt" : "2026-10-31T22:31:54.688585+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku"
-}, {
-  "fingerprint" : "aa32feb6bf0905ae",
-  "title" : "霍尔木兹海峡油轮遭吸附式水雷袭击起火 全球能源咽喉局势骤然升级",
-  "summary" : "据媒体报道，一艘油轮在穿行全球能源咽喉霍尔木兹海峡时遭到吸附式水雷袭击并引发大火。吸附水雷通常需专业蛙人或特种部队近身布设，标志着该海域袭击手段严重升级，给波斯湾商业通航与全球能源供应链带来重大冲击与地缘震荡。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-10-31T08:49:52.806338+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4wUzVJWGtUX0NaM3g5UDBycFVRSWVwaEFwMTNjQmw4UHMzQUJuMXY2N1c4V1Z5Q19QZkZNbjdES29sa2NQeXlLa2JMN2s?oc=5"
 } ]
