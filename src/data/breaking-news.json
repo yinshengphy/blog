@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "bd00f3038924317f",
+  "title" : "朝鲜试射多枚导弹回应美方指控 金与正否认涉加密货币盗窃并拒绝朝美对话",
+  "summary" : "据半岛电视台报道，朝鲜在发射多枚导弹的同时，朝鲜劳动党中央副部长金与正发表讲话，断然否认美方指责其对币安等机构实施黑客攻击并盗窃超60亿美元加密资产的说法，并表态全面拒绝与美国展开对话，半岛局势进一步紧张。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-11-04T05:30:28.884575+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss"
+}, {
   "fingerprint" : "965e1b5f97494d3c",
   "title" : "受俄军最新空袭袭击影响 乌克兰首都基辅宣布暂停全市供水",
   "summary" : "据央广网援引乌克兰官方消息，受俄罗斯军队对关键基础设施实施的新一轮打击影响，乌克兰首都基辅全市供水系统已紧急暂停运行。基辅市政与应急救援部门正全力开展受损设施抢修工作，并部署应急供水点以缓解居民基本生活需求。",
@@ -86,20 +94,4 @@
   "discoveredAt" : "2026-11-01T06:47:16.966538+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6dUY2MVdzQzZOVk9TaVpYYkxrQWNYaUtkUHJWd05xOXJrUzVrYjNGVXAxN2NzRXdBUHljdTZObGtLMXRUZkE0QmdYV18zSnRWdEhydnFuMDVHcGM2YXpCVm10RDE5QTNk?oc=5"
-}, {
-  "fingerprint" : "dbe2fb405aa1bbe5",
-  "title" : "美方通报莫斯科或面临恐袭风险 俄安全部门已采取应对措施",
-  "summary" : "据媒体报道，俄罗斯有关部门已从美方获悉关于莫斯科可能遭遇恐怖袭击的情报，俄安全机构正紧急采取针对性防范措施。2024年3月美方曾发布类似恐袭预警，数日后莫斯科“番红花城市大厅”即遭严重恐袭致140余人死亡，此次情报共享与安全部署引发各方高度关注。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-01T04:54:45.484995+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CeHpKZE5TOWdXTFlfT0otWU00TzdIZHdDSlA4TUxETWxOSkNBLWt5TGlpTXBZMWp1NW5JNUE2M0JOc2h0MGFlNzYxX28wNHBtNzI0VVhVVzI4V2xMejhCZEc5alprYjZ4T0l6aW1pUUUyX0ViMmR6Zg?oc=5"
-}, {
-  "fingerprint" : "6b422e3202cfbeaa",
-  "title" : "日本三重县志摩市东南近海发生6.0级强震，震源距陆地约58公里",
-  "summary" : "据美国地质调查局（USGS）速报，UTC时间2026年10月31日22时15分，日本三重县志摩市东南偏南约58公里近海发生M 6.0级地震。震中位于本州岛南部近海海域，周边沿海地区预计有较强震感，相关部门正跟进海啸与灾损监测。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-10-31T22:31:54.688585+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku"
 } ]
