@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d1d5ce950c738eb6",
+  "title" : "也门胡塞武装宣称对沙特首都利雅得国际机场等设施发动军事袭击",
+  "summary" : "据人民网国际报道，也门胡塞武装宣称对沙特阿拉伯首都利雅得国际机场等重点设施发动了袭击。沙特防空部队及官方尚未公布拦截细节与具体受损伤亡情况。此举标志着跨境空袭烈度上升，海湾关键基础设施安全风险骤增。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-05T01:36:27.107123+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jbEE4ZXJYMXVqX3VYckJqT05WUHhvQzBJd2w3M0hGNW5rVnlERm9YczdlanV1SHF3cFRFeEh5Ym9iWElFY3pUQ3kyTi1oc3o4WGdobnE4YldOOHFxNjhuVmJnckFlUFhUQ3R3?oc=5"
+}, {
   "fingerprint" : "bd00f3038924317f",
   "title" : "朝鲜试射多枚导弹回应美方指控 金与正否认涉加密货币盗窃并拒绝朝美对话",
   "summary" : "据半岛电视台报道，朝鲜在发射多枚导弹的同时，朝鲜劳动党中央副部长金与正发表讲话，断然否认美方指责其对币安等机构实施黑客攻击并盗窃超60亿美元加密资产的说法，并表态全面拒绝与美国展开对话，半岛局势进一步紧张。",
@@ -62,36 +70,4 @@
   "discoveredAt" : "2026-11-02T02:12:08.521269+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SZDlES1dvOGdIdWVoYTVLbnlwUDBXVVUySmRzM1M1cWYxRXhVaVpBVVlfQjlPdTg0a0dfbldTQ01BYXZNd0pMamw0cjh4dlloTVB1Zl9TeWViMGxtZ0lZREpTdXlGT1Ez?oc=5"
-}, {
-  "fingerprint" : "c52dcf15df25a129",
-  "title" : "美国佛罗里达州发生飞机坠毁事故 机上9人全部遇难",
-  "summary" : "据新华网报道，美国佛罗里达州突发一起严重坠机事故，导致机上载有的9名人员全部死亡。当地应急与航空监管部门已介入现场处置，目前正在对遇难者身份核实及事故发生原因展开全面调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-01T23:20:53.692369+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kVUNMd2xaeVdKSEVKNTRoRjlzSDhjUjYycjIxOS1DNnhzQ2RnaktuZk9tTkpOSDJXRHhBWVdmaURqMTZ6ZEZmTTBGTXEzN3pwUGpkN204c3c0UDhodFVYbWtfaVpKay1WUHphT1ExTzk2al9GcjRQWXUzLXYzZDQ?oc=5"
-}, {
-  "fingerprint" : "0cc7ac0da3ba58a9",
-  "title" : "乌克兰称俄罗斯袭击基辅关键能源设施 首都城区多地面临停水",
-  "summary" : "据乌克兰方面通报，俄罗斯军队对首都基辅的关键能源基础设施发动袭击，造成局部设施严重受损，基辅城区多地面临断水与能源供应困难。当地应急救援与市政供水部门已紧急开展抢修排险工作，袭击进一步加剧了乌方冬季民生能源保障压力。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-01T14:03:43.500958+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bXQ4VDRxOGdWOHZMLThxY1AzN3A3akZWY005S1UyWkg0RlBGMXU1cWZxYlRUN0dyOENLYUZ6TkxxTllrMWNKRFRFSC04R0ZNdUw1dmoyOWhDTjlHOXdoOWlSMlpQbGV2?oc=5"
-}, {
-  "fingerprint" : "3d4bbada6aea25f5",
-  "title" : "瓦努阿图西北部海域发生6.0级地震 暂无海啸预警及伤亡报告",
-  "summary" : "据美国地质调查局（USGS）测定，协调世界时2026年11月1日11时47分，南太平洋岛国瓦努阿图奥尔里港西北165公里处海域发生6.0级地震。震中远离主要人口密集陆地，目前暂未触发破坏性海啸预警，暂无人员伤亡及财产损失报告。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-11-01T12:04:10.921699+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tupl"
-}, {
-  "fingerprint" : "9c3833de6fc50086",
-  "title" : "美方分析报告披露：伊朗此前袭击造成中东美军基地严重损失",
-  "summary" : "央广网引述美方最新分析报告披露，伊朗此前针对中东地区美军基地的袭击行动造成了严重破坏与损失。该报告证实了袭击的实际毁伤效果，直接反映出美军防空与预警体系面临的严峻挑战，进一步推升中东军事对抗与地缘政治外溢风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-01T06:47:16.966538+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6dUY2MVdzQzZOVk9TaVpYYkxrQWNYaUtkUHJWd05xOXJrUzVrYjNGVXAxN2NzRXdBUHljdTZObGtLMXRUZkE0QmdYV18zSnRWdEhydnFuMDVHcGM2YXpCVm10RDE5QTNk?oc=5"
 } ]
