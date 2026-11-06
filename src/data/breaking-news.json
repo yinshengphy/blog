@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "445ede9404a73aff",
+  "title" : "日本本州东部外海突发6.1级强震 震源距波崎町东南约156公里",
+  "summary" : "据美国地质调查局（USGS）速报，北京时间2026年11月6日18时39分（UTC 10:39），日本本州东部外海发生6.1级地震，震中位于千叶/茨城沿海波崎町东南约156公里处。由于震中距离陆地较远，暂未触发重大海啸预警，伤亡与损失情况待进一步评估。",
+  "source" : "USGS 地质调查局",
+  "discoveredAt" : "2026-11-06T10:56:48.429468+00:00",
+  "severity" : "特大自然灾害",
+  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
+}, {
   "fingerprint" : "d7b681e3b95f05d6",
   "title" : "沙特多国联军宣布成功拦截一枚射向圣城麦地那方向的弹道导弹",
   "summary" : "据半岛电视台报道，沙特领导的多国联军成功拦截了一枚飞往伊斯兰圣城麦地那方向的导弹。此前沙特民防机构曾就战略能源港口延布面临的潜在危险发布预警。针对沙特西部核心宗教与经济重镇的袭击，标志着也门胡塞武装交火范围进一步扩大，中东局势持续紧张。",
@@ -70,36 +78,4 @@
   "discoveredAt" : "2026-11-03T21:54:48.590364+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wMEd1WFFOZkpYUWp1V1VCZ3FSQ2MtVzE3RXk0NmM4QTZtOC1fQl81Z0RaaHFrc1NJZVU0NVVsZHhQM0RkQzYwMXFZN0YxVXRuSnZsZm4tRWg2T3BFVTZtM1NvdUVrT1Fn?oc=5"
-}, {
-  "fingerprint" : "bbb703b7dd63709e",
-  "title" : "俄军连夜空袭乌克兰医院与发电厂 造成至少73人受伤",
-  "summary" : "据半岛电视台报道，俄罗斯军方连夜对乌克兰境内目标发动大规模袭击，动用弹道导弹和航空炸弹击中当地医院及关键发电厂。截至目前袭击已造成至少73人受伤，医疗与能源基础设施损毁严重，救援与损失评估工作正在进行中。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-03T10:40:40.089108+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss"
-}, {
-  "fingerprint" : "3b4decf223e688a8",
-  "title" : "俄军袭击乌克兰扎波罗热一人道援助点 造成至少26人死亡",
-  "summary" : "据媒体报道，乌克兰扎波罗热地区一处正在运作的人道主义援助分发点遭到俄军轰炸袭击，已造成至少26人遇难，多人受伤。遭袭现场建筑损毁严重，救援人员正在废墟中搜救。针对平民及人道援助设施的重大袭击引发国际舆论高度关切。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-03T03:09:06.899426+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83UDFnU2xjN0ZPX3FrMUNfUGQ1ZjN5X2tkSjlKZndSa3JwT2V5c2tVc0RHc3NDUDdlbU1peGhfRmpacVdLX2dtUDk4b1JGSXJUbjFLdHVIeHprd3dCb0RhdVg2RjhGUVly?oc=5"
-}, {
-  "fingerprint" : "5ecc0b6d48f66eee",
-  "title" : "美媒报道美军袭击伊朗战略要地格什姆岛，局势急剧升级",
-  "summary" : "据新华网援引美媒消息，美军袭击了位于霍尔木兹海峡战略要冲的伊朗格什姆岛。该岛扼守全球能源运输咽喉，若美军直接打击伊朗本土岛屿属实，标志着中东对抗态势发生质变升级，海峡局势及国际能源供应链面临空前冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-03T01:29:26.325599+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Y1ZsN3ZtT21NNnVibzl3VC1sNHpLeVpONEpCclA3bmtQQzVuMWJ6dHJudFFPdnlvNlBaR05SbFJkc2RpVDZHYlctT0U2VDJaT1pKaXg5VGVoRm1FRVFSOEpwM3l0a3FYWWJ3NDlXMjNxdFhHWmVQMHl5b1ppSkU?oc=5"
-}, {
-  "fingerprint" : "6f81d6fe33c55c30",
-  "title" : "也门胡塞武装宣称对沙特东部达曼机场发动袭击",
-  "summary" : "也门胡塞武装发布声明称，其对沙特阿拉伯东部省枢纽达曼的机场实施了袭击。达曼邻近沙特石油工业核心区域，该袭击主张引发外界对沙特纵深设施防护及中东局势升级的关切，沙特方面暂未就拦截情况及受损细节发布官方通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-02T21:40:05.036219+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tS2FBRDRQZ05KOVNGNXhIendxSGRaZUJ3Wm5CY0x3bDNrYWEtZkhUWktSeFh3cnRORGRrelBWTks4bTgtd1pPaHh2akFEMHJRSnhDYjhER1ZJU09aZUE?oc=5"
 } ]
