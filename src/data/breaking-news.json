@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "b563415fecb6d38c",
+  "title" : "突发！伊朗南部霍尔木兹海峡战略要地格什姆岛传出剧烈爆炸，初步报告称遭导弹袭击",
+  "summary" : "据媒体援引初步报告报道，位于霍尔木兹海峡关键战略要冲的伊朗南部格什姆岛突发爆炸。初步信息显示该区域疑似遭到两枚导弹击中，具体伤亡及设施损毁情况正在核查中。目前伊朗官方尚未正式发布袭击定性通报。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-07T01:19:03.915195+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lME9aMXdXdHpMZHZiNTV2UGRTeEZqbk5GVVN2d3otbXlEQndobVpsbDJrdGNkUDZMS1BUWHRSeURoUHU2TzRLeEhiRlVoNEFzTG80?oc=5"
+}, {
   "fingerprint" : "f756ccc6c52e3833",
   "title" : "也门胡塞武装称塔伊兹省一集市遭空袭致30余人死伤",
   "summary" : "据新华社援引也门胡塞武装消息，也门西南部塔伊兹省一处人员密集的集市突遭空袭，现场伤亡严重，初步统计已致30余人死伤。袭击造成严重物资损毁与恐慌，救援正在进行。该事件标志着近期也门冲突交火再次波及平民聚集区。",
@@ -78,12 +86,4 @@
   "discoveredAt" : "2026-11-04T05:30:28.884575+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss"
-}, {
-  "fingerprint" : "965e1b5f97494d3c",
-  "title" : "受俄军最新空袭袭击影响 乌克兰首都基辅宣布暂停全市供水",
-  "summary" : "据央广网援引乌克兰官方消息，受俄罗斯军队对关键基础设施实施的新一轮打击影响，乌克兰首都基辅全市供水系统已紧急暂停运行。基辅市政与应急救援部门正全力开展受损设施抢修工作，并部署应急供水点以缓解居民基本生活需求。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-03T21:54:48.590364+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wMEd1WFFOZkpYUWp1V1VCZ3FSQ2MtVzE3RXk0NmM4QTZtOC1fQl81Z0RaaHFrc1NJZVU0NVVsZHhQM0RkQzYwMXFZN0YxVXRuSnZsZm4tRWg2T3BFVTZtM1NvdUVrT1Fn?oc=5"
 } ]
