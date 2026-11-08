@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6b88feaa5523ee58",
+  "title" : "也门胡塞武装袭击沙特首都利雅得金融区 沙特阿美大楼报告受损",
+  "summary" : "据观察者网援引外媒报道，也门胡塞武装针对沙特阿拉伯首都利雅得阿卜杜拉国王金融区（KAFD）发动袭击，造成包括沙特阿美公司所属大楼在内的建筑物受损。此前沙特防空部队曾通报拦截来袭导弹，此次袭击事件显示核心经济目标遭波及，地缘冲突烈度再度升级。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-08T13:45:40.136281+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSkhxNXFrRW5CVEhSbzJrcDkwRGc1cEp0S3FPNnZWdnBmR0VWY3VjbVZxNTVUQW1mZlZycUl0TmFnS2lHV21McGZva2hub3ltbl9kM3BnNDJDalFTSjE5X1JKVlptLTBlVmJmM2piY2p0LVk?oc=5"
+}, {
   "fingerprint" : "9b2e6739e4cd642c",
   "title" : "沙特成功拦截胡塞武装瞄准首都利雅得和东部省的多枚弹道导弹",
   "summary" : "据半岛电视台报道，沙特阿拉伯成功拦截了也门胡塞武装发射、瞄准沙特首都利雅得以及东部省的多枚导弹。此轮跨境报复性袭击发生前，胡塞武装通报沙特主导的联军空袭萨那附近村庄造成至少33人死亡。也门交火烈度急剧升级，严重威胁地区核心设施安全。",
@@ -134,12 +142,4 @@
   "discoveredAt" : "2026-11-05T19:00:58.406551+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "10550e49bcfc4d50",
-  "title" : "沙特核心石油港口延布发布潜在危险预警 国际油价应声拉升",
-  "summary" : "沙特阿拉伯红海沿岸重要原油出口重镇延布发布潜在危险预警。与此同时，也门胡塞武装指责沙特联军对其发动空袭，中东地缘冲突再次激化。受沙特关键能源设施面临袭击威胁影响，全球原油市场供应担忧加剧，国际油价短线快速拉升。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-05T13:33:25.417867+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUXhKaE4zNEQtMTJZeUhpWHpDZGhFR09rWFNfYXN0TkczTGtJMDlmaWh2VkdzWmtBaG55eUVydXZrRHVGLW5MRnZMV2VSTmJCVDJ1X0JFX1dXdmlzU2NmVk9NYjRYZVc1bkxQSGpqay1aVUozcTZsT2hOS0kyNE5XUGxGTFRYVnlFNE54Zg?oc=5"
 } ]
