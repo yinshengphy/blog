@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "9b2e6739e4cd642c",
+  "title" : "沙特成功拦截胡塞武装瞄准首都利雅得和东部省的多枚弹道导弹",
+  "summary" : "据半岛电视台报道，沙特阿拉伯成功拦截了也门胡塞武装发射、瞄准沙特首都利雅得以及东部省的多枚导弹。此轮跨境报复性袭击发生前，胡塞武装通报沙特主导的联军空袭萨那附近村庄造成至少33人死亡。也门交火烈度急剧升级，严重威胁地区核心设施安全。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-11-08T07:52:20.604632+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+}, {
   "fingerprint" : "29543d4dd3d2ba0e",
   "title" : "波兰克拉科夫恶性枪击事件已致6人死亡 警方在枪手住所另查获3具遗体",
   "summary" : "波兰南部城市克拉科夫突发恶性涉枪暴力事件。枪击现场已确认致6人死亡，随后警方搜查涉案枪手住所时再次发现3具遇难者遗体，事件累计死亡人数升至至少9人。目前波兰执法部门已全面封锁现场并就枪手作案动机展开深入刑事调查。",
@@ -134,20 +142,4 @@
   "discoveredAt" : "2026-11-05T13:33:25.417867+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUXhKaE4zNEQtMTJZeUhpWHpDZGhFR09rWFNfYXN0TkczTGtJMDlmaWh2VkdzWmtBaG55eUVydXZrRHVGLW5MRnZMV2VSTmJCVDJ1X0JFX1dXdmlzU2NmVk9NYjRYZVc1bkxQSGpqay1aVUozcTZsT2hOS0kyNE5XUGxGTFRYVnlFNE54Zg?oc=5"
-}, {
-  "fingerprint" : "20ff3eb418db7915",
-  "title" : "也门战事急剧升级：胡塞武装称遭沙特多达百次袭击 双方地面激烈交战",
-  "summary" : "据中国新闻网援引外媒报道，也门冲突局势显著升级。也门胡塞武装表示遭到沙特方面上百次军事打击；与此同时，也门政府军与胡塞武装在前线的交火全面加剧。此前胡塞武装曾宣称袭击沙特机场等目标，此番沙特联军的反击行动与地面交战加剧，令也门局势再度陷入恶性循环。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-05T06:15:17.172092+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Id210N0JMSEViSmNnbEhoaTFNa0MtUDcxOWRzVFBnZDlVUHFKVHJNNmhNN25SYWdmZy03RzRONGNNNWhHSUNyVTVrVld6anhDRGRuZ1pUQjRtMHMxODlZbE1Na1IybGRz?oc=5"
-}, {
-  "fingerprint" : "4177144ec4112a19",
-  "title" : "美国花旗集团超3000人办公园区突发枪击事件 已致2死4伤",
-  "summary" : "据中国新闻网援引外媒报道，美国花旗集团一处容纳超过3000名员工的办公园区发生突发恶性枪击事件。目前事件已造成至少2人死亡、4人受伤，伤者已被送往医院救治。案发后园区紧急封锁排查，警方正就枪手身份及作案动机展开深入调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-05T05:30:35.825911+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Id0RXWjNPQ1UzbFpSLW1jOXFiSkdUSGlqNU5ia2t6UEptLWhIUWtLSllqTTFLVGFkVFl5V0V0ZnlOQlIzbkc3bVpJOE02dURLYUo0SkhSX2psbzhlU2xiYmhtbEJEdk9o?oc=5"
 } ]
