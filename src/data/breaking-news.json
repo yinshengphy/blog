@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "afbfc66ac36a435c",
+  "title" : "伊朗战略要冲格什姆岛附近海域传出剧烈爆炸声",
+  "summary" : "据央广网援引报道，位于霍尔木兹海峡咽喉位置的伊朗格什姆岛附近海域突发剧烈爆炸声。该区域为全球关键航运与石油生命线，近期局势高度敏感。目前伊朗官方尚未就爆炸起因及是否有舰船或陆上设施受损作出正式通报。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-08T22:55:08.850791+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhSGtZM2lDMHhtUmlGZ19YZTZXRXkyUzQxSWFXNmxuTFBHV0ZWYTNVRFdCekdyeDJlNXEtY2ZkU1M4TnNPekU5WmtNSWxiblFkOW9Rdi0ycFhkR05KZ2FPSEZKYU9Zdlg4?oc=5"
+}, {
   "fingerprint" : "c8688efef2f40648",
   "title" : "伊朗称霍尔木兹海峡三艘油轮同日爆炸起火",
   "summary" : "伊朗方面报告称，霍尔木兹海峡当天有三艘油轮爆炸起火。该海峡是全球关键能源运输通道，若事件涉及袭击、误击或海上安全事故，可能引发航运保险上涨、油价波动及地区军事紧张升级。目前事故原因、伤亡情况和是否影响通航尚待进一步核实。",
@@ -126,28 +134,4 @@
   "discoveredAt" : "2026-11-06T10:56:48.429468+00:00",
   "severity" : "特大自然灾害",
   "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
-}, {
-  "fingerprint" : "d7b681e3b95f05d6",
-  "title" : "沙特多国联军宣布成功拦截一枚射向圣城麦地那方向的弹道导弹",
-  "summary" : "据半岛电视台报道，沙特领导的多国联军成功拦截了一枚飞往伊斯兰圣城麦地那方向的导弹。此前沙特民防机构曾就战略能源港口延布面临的潜在危险发布预警。针对沙特西部核心宗教与经济重镇的袭击，标志着也门胡塞武装交火范围进一步扩大，中东局势持续紧张。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-05T21:10:19.188414+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss"
-}, {
-  "fingerprint" : "d59c442a776bf90e",
-  "title" : "也门胡塞武装宣称使用无人机袭击沙特法赫德国王国际机场",
-  "summary" : "也门胡塞武装发表声明称，使用无人机袭击了沙特东部达曼的法赫德国王国际机场。该机场是沙特重要的国际航空枢纽。此次跨境打击声明标志着针对沙特重要基础设施的袭扰持续，沙特军方通常会启动防空系统拦截，区域安全局势进一步紧绷。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-05T19:58:02.702495+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yTGRBV292NVVOb2hvODVQMWNINHBpZkxvZG11a3ZzNWVIN3l3TXFhYjhoTVFQd1ZNZmlVU21GS1AtRHZCb1doay1oTllTWV9FVllqd1ptSVBQQlZXQzNGbw?oc=5"
-}, {
-  "fingerprint" : "5b6b19cc21477bc3",
-  "title" : "土耳其西部突发连环枪击事件已致8死1重伤 警方正展开大规模缉捕",
-  "summary" : "据BBC报道，土耳其西部地区发生连环枪击暴力袭击，已导致8人死亡、1人受重伤。枪手在作案后逃匿，当地警方已启动大规模跨区域联合缉捕行动。目前枪手的行凶动机及案件详细关联仍在进一步调查与通报中。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-11-05T19:00:58.406551+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss"
 } ]
