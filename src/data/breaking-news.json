@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "7f43301ece170d62",
+  "title" : "土耳其西部一钢铁厂突发剧烈爆炸 已致至少16人死亡",
+  "summary" : "据英国广播公司（BBC）报道，土耳其伊兹密尔省阿里阿加地区的哈巴斯钢铁厂突发严重爆炸事故，目前已造成至少16人遇难。目击者称爆炸引发剧烈地面震动，一度被周边居民误认为是地震。该事件较此前通报的受伤情况发生重大伤亡剧变，当地搜救与调查工作正在进行。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-11-09T18:20:51.973970+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "c1732f55b581d548",
   "title" : "山西太原发生建筑火灾致14人遇难 相关责任人已被警方控制",
   "summary" : "据中国新闻网及官方通报，山西省太原市一处建筑发生火灾事故，已造成14人不幸遇难。灾情发生后救援力量迅速介入处置。目前，事故相关负责人已被依法采取控制措施，起火原因调查与善后处置工作正同步推进。",
@@ -166,12 +174,4 @@
   "discoveredAt" : "2026-11-07T01:19:03.915195+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lME9aMXdXdHpMZHZiNTV2UGRTeEZqbk5GVVN2d3otbXlEQndobVpsbDJrdGNkUDZMS1BUWHRSeURoUHU2TzRLeEhiRlVoNEFzTG80?oc=5"
-}, {
-  "fingerprint" : "f756ccc6c52e3833",
-  "title" : "也门胡塞武装称塔伊兹省一集市遭空袭致30余人死伤",
-  "summary" : "据新华社援引也门胡塞武装消息，也门西南部塔伊兹省一处人员密集的集市突遭空袭，现场伤亡严重，初步统计已致30余人死伤。袭击造成严重物资损毁与恐慌，救援正在进行。该事件标志着近期也门冲突交火再次波及平民聚集区。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-06T14:20:27.969240+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVdtb1JLMmZyd3I1bGl0ZWpEX1U3M0Fad2ptUHVEaU9HbXhLR0FJYjEtcWc4OE1XT0k4ZjhHb19WNlBmNi1pV29GQXZDNnVZRm9zN0ZoZWVkV1p6QVBLZGxURHJQY3NWUk1VeXV1TXpHUUpVUTlManZBRWpHWGZQdWJuQmFJTFRrQnNCT3c2aXgwNU5lMjRBNTVB?oc=5"
 } ]
