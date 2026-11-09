@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "c1732f55b581d548",
+  "title" : "山西太原发生建筑火灾致14人遇难 相关责任人已被警方控制",
+  "summary" : "据中国新闻网及官方通报，山西省太原市一处建筑发生火灾事故，已造成14人不幸遇难。灾情发生后救援力量迅速介入处置。目前，事故相关负责人已被依法采取控制措施，起火原因调查与善后处置工作正同步推进。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-09T11:34:16.687493+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03R1FQUG9nbW5ENFowT2tycXNEcmFnUTcwUkNQTC1DcGRpM216dnlSaHhrR2c2aTBCdTZDTUdlZk1aeVo1NFBPRnNlSjQ2aHY3NFpOdEpqSjJmY2lDTGoxdkRWdVkyS19i?oc=5"
+}, {
   "fingerprint" : "99736837394da715",
   "title" : "土耳其一家钢铁厂发生爆炸事故 致多名工人受伤",
   "summary" : "据中国新闻网援引外媒报道，土耳其一家钢铁厂突发爆炸事故，导致现场多名作业工人受伤。救援与医疗人员已赶赴现场处置伤员，事故具体原因及详细财产损失情况目前正在进一步调查中。",
@@ -166,12 +174,4 @@
   "discoveredAt" : "2026-11-06T14:20:27.969240+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVdtb1JLMmZyd3I1bGl0ZWpEX1U3M0Fad2ptUHVEaU9HbXhLR0FJYjEtcWc4OE1XT0k4ZjhHb19WNlBmNi1pV29GQXZDNnVZRm9zN0ZoZWVkV1p6QVBLZGxURHJQY3NWUk1VeXV1TXpHUUpVUTlManZBRWpHWGZQdWJuQmFJTFRrQnNCT3c2aXgwNU5lMjRBNTVB?oc=5"
-}, {
-  "fingerprint" : "445ede9404a73aff",
-  "title" : "日本本州东部外海突发6.1级强震 震源距波崎町东南约156公里",
-  "summary" : "据美国地质调查局（USGS）速报，北京时间2026年11月6日18时39分（UTC 10:39），日本本州东部外海发生6.1级地震，震中位于千叶/茨城沿海波崎町东南约156公里处。由于震中距离陆地较远，暂未触发重大海啸预警，伤亡与损失情况待进一步评估。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-11-06T10:56:48.429468+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
 } ]
