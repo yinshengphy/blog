@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "a73d50403df7c1f7",
+  "title" : "西班牙北部背包爆炸致一名警察死亡、另一人受伤",
+  "summary" : "英国广播公司报道，西班牙北部发生背包爆炸事件。警方在处理一宗住宅楼相关事件时遭遇爆炸，造成一名警察死亡、另一名受伤。事件性质、爆炸物来源及是否涉及蓄意袭击尚待西班牙警方和有关部门进一步确认。",
+  "source" : "BBC World News",
+  "discoveredAt" : "2026-11-10T14:03:28.525983+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss"
+}, {
   "fingerprint" : "e95223570ca1f82b",
   "title" : "菲律宾发生一起飞机坠毁事故 机上载有6名外国公民",
   "summary" : "据中国新闻网援引外媒报道，菲律宾突发一起飞机坠毁事故。初步消息显示，涉事飞机上载有6名外国公民。事发后当地应急搜救与航空监管部门已迅速展开行动，具体失事机型、坠毁地点及人员伤亡情况正在进一步核实确认中。",
@@ -158,12 +166,4 @@
   "discoveredAt" : "2026-11-07T15:43:05.103106+00:00",
   "severity" : "突发公共安全事件",
   "link" : "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss"
-}, {
-  "fingerprint" : "83ebe401f1cd7815",
-  "title" : "胡塞称萨那周边遭沙特空袭至少11人死亡",
-  "summary" : "据新华网客户端援引也门胡塞武装消息，萨那周边遭沙特空袭，至少11人死亡。现阶段相关信息主要来自冲突一方，袭击时间、具体目标、伤亡构成及沙特方面是否实施行动均待核实。若情况属实，事件可能标志也门战场空袭活动升级，并引发胡塞方面报复行动及地区安全风险上升。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-07T13:28:44.439747+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYmRnSzdBQ2JVOXhUMndIaFZMOU52dnI4ZTZDWTN6YkhpdTRJUjNmS1ppTGliUksyajlKLWM4QVBMeW9rUng5bkNrZ3otOTh0SEgxLVVGczRBcnZGNFBNcjVKVy11Y1FHaXlaaUYxYnVGaEh4dF9KOTA0NWpaZlZMQWR4YkhfWDVPTndjSjFNMnJZZVRsSHdYNzFn?oc=5"
 } ]
