@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "e95223570ca1f82b",
+  "title" : "菲律宾发生一起飞机坠毁事故 机上载有6名外国公民",
+  "summary" : "据中国新闻网援引外媒报道，菲律宾突发一起飞机坠毁事故。初步消息显示，涉事飞机上载有6名外国公民。事发后当地应急搜救与航空监管部门已迅速展开行动，具体失事机型、坠毁地点及人员伤亡情况正在进一步核实确认中。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-10T06:26:44.406398+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzSW1rSUZjWG9OdWdfM3c1Smxvbmp6UmQxTkpsYnJLSVNONWN1RVNWNWVPQ21BUDRtWURvTGlSemRKWmJNOXp6ekxWS21leXdGd1JLX3Qtb1Q2OHVKdFgwZWp6VVlnVUoy?oc=5"
+}, {
   "fingerprint" : "a32a0e1a65f2c1a2",
   "title" : "沙特首都利雅得传出剧烈爆炸声 官方尚未通报原因",
   "summary" : "据第一财经援引外媒突发消息，沙特阿拉伯首都利雅得当地传出剧烈爆炸声。目前沙特官方尚未就爆炸具体原因、是否有伤亡及财产损失作出正式通报。鉴于利雅得的中东枢纽地位，局势动向正引发国际社会与能源市场密切关切。",
@@ -158,28 +166,4 @@
   "discoveredAt" : "2026-11-07T13:28:44.439747+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYmRnSzdBQ2JVOXhUMndIaFZMOU52dnI4ZTZDWTN6YkhpdTRJUjNmS1ppTGliUksyajlKLWM4QVBMeW9rUng5bkNrZ3otOTh0SEgxLVVGczRBcnZGNFBNcjVKVy11Y1FHaXlaaUYxYnVGaEh4dF9KOTA0NWpaZlZMQWR4YkhfWDVPTndjSjFNMnJZZVRsSHdYNzFn?oc=5"
-}, {
-  "fingerprint" : "60cb40f0182be120",
-  "title" : "俄罗斯对乌克兰首都基辅发动导弹袭击 致建筑受损并造成平民受伤",
-  "summary" : "据半岛电视台报道，在乌克兰总统泽连斯基发出新袭击预警后，俄罗斯对基辅发动导弹打击。空袭导致部分建筑物损坏，并造成至少两名平民受伤。目前乌方正对袭击损失及人员伤亡情况展开进一步排查评估。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-07T05:39:49.114135+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
-}, {
-  "fingerprint" : "ee8a31f144269647",
-  "title" : "特朗普称美方已袭击伊朗防空设施，地区冲突风险升级",
-  "summary" : "据Google News收录报道，特朗普称美方袭击了伊朗防空设施。该说法若获证实，将意味着美伊军事对抗进一步升级，并可能影响伊朗防空体系及区域军事部署。目前袭击地点、规模、损失和行动主体仍待美国、伊朗及其他权威渠道核实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-07T04:23:11.826252+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NeHVYUXFYdGFSbTVJaWFoNXY4dEZfamxYOENPbFc3TndUTDVuNlZoR0xEU2VLV2NaVEtSUV9uZzFOVWJJeTZuUHItVXpaX0ZnOXFCa2s4Q0pwRUR6ZWc?oc=5"
-}, {
-  "fingerprint" : "b563415fecb6d38c",
-  "title" : "突发！伊朗南部霍尔木兹海峡战略要地格什姆岛传出剧烈爆炸，初步报告称遭导弹袭击",
-  "summary" : "据媒体援引初步报告报道，位于霍尔木兹海峡关键战略要冲的伊朗南部格什姆岛突发爆炸。初步信息显示该区域疑似遭到两枚导弹击中，具体伤亡及设施损毁情况正在核查中。目前伊朗官方尚未正式发布袭击定性通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-07T01:19:03.915195+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lME9aMXdXdHpMZHZiNTV2UGRTeEZqbk5GVVN2d3otbXlEQndobVpsbDJrdGNkUDZMS1BUWHRSeURoUHU2TzRLeEhiRlVoNEFzTG80?oc=5"
 } ]
