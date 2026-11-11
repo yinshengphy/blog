@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "83ec3122350786bd",
+  "title" : "霍尔木兹海峡突发油轮遇袭事件 国际原油价格应声反弹上涨",
+  "summary" : "据财联社援引突发消息，全球关键能源命脉霍尔木兹海峡再度发生油轮遇袭事件。袭击直接加剧了该区域地缘安全紧张局势及航运供应风险，国际原油价格在供应担忧中迅速反弹上涨。目前各方正密切关注受损情况及后续事态演变。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-11T11:33:41.867468+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DSnBWMlJWX1JrcGxDMGtLeDBZbE5OaXBvQXZXTkZGNnUzNTNmemFhNEZBanFFQVRIMXl0cFowZUZKSGdFXzNZZA?oc=5"
+}, {
   "fingerprint" : "980d282f3fe12cb6",
   "title" : "萨尔瓦多军方导弹袭击海地400马佐佐帮据点",
   "summary" : "半岛电视台报道称，萨尔瓦多军方近日向海地一处据称属于400马佐佐帮首领的建筑发射火箭弹。报道尚未说明袭击是否造成伤亡，也未披露萨尔瓦多部队在海地的行动授权、具体规模及后续部署。若消息获证实，将成为海地治安危机中一次引发高度关注的外部军事打击行动。",
@@ -126,20 +134,4 @@
   "discoveredAt" : "2026-11-08T13:45:40.136281+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSkhxNXFrRW5CVEhSbzJrcDkwRGc1cEp0S3FPNnZWdnBmR0VWY3VjbVZxNTVUQW1mZlZycUl0TmFnS2lHV21McGZva2hub3ltbl9kM3BnNDJDalFTSjE5X1JKVlptLTBlVmJmM2piY2p0LVk?oc=5"
-}, {
-  "fingerprint" : "9b2e6739e4cd642c",
-  "title" : "沙特成功拦截胡塞武装瞄准首都利雅得和东部省的多枚弹道导弹",
-  "summary" : "据半岛电视台报道，沙特阿拉伯成功拦截了也门胡塞武装发射、瞄准沙特首都利雅得以及东部省的多枚导弹。此轮跨境报复性袭击发生前，胡塞武装通报沙特主导的联军空袭萨那附近村庄造成至少33人死亡。也门交火烈度急剧升级，严重威胁地区核心设施安全。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-08T07:52:20.604632+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
-}, {
-  "fingerprint" : "29543d4dd3d2ba0e",
-  "title" : "波兰克拉科夫恶性枪击事件已致6人死亡 警方在枪手住所另查获3具遗体",
-  "summary" : "波兰南部城市克拉科夫突发恶性涉枪暴力事件。枪击现场已确认致6人死亡，随后警方搜查涉案枪手住所时再次发现3具遇难者遗体，事件累计死亡人数升至至少9人。目前波兰执法部门已全面封锁现场并就枪手作案动机展开深入刑事调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-08T03:31:15.273011+00:00",
-  "severity" : "突发公共安全事件",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0ejRrRV9FUHJwdVZtZGtNdFpPel9VVWhrYUhfcVkzRmtqaWNVYldnOGowSkVuWDA5RnM5NHNCVll4SEoxSUROTmFudENmaVRmTFFOWm56ZWdBZnRPdFdWVzJFT1ZPdVNh?oc=5"
 } ]
