@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "980d282f3fe12cb6",
+  "title" : "萨尔瓦多军方导弹袭击海地400马佐佐帮据点",
+  "summary" : "半岛电视台报道称，萨尔瓦多军方近日向海地一处据称属于400马佐佐帮首领的建筑发射火箭弹。报道尚未说明袭击是否造成伤亡，也未披露萨尔瓦多部队在海地的行动授权、具体规模及后续部署。若消息获证实，将成为海地治安危机中一次引发高度关注的外部军事打击行动。",
+  "source" : "Al Jazeera English",
+  "discoveredAt" : "2026-11-11T03:09:18.406462+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss"
+}, {
   "fingerprint" : "6ca4311e9f35ce97",
   "title" : "保加利亚发生重大连环车祸致多人遇难 政府宣布11月11日为国家哀悼日",
   "summary" : "央广网报道，保加利亚政府正式宣布11月11日为国家哀悼日，以悼念在近期一起特大连环车祸中遇难的人员。哀悼日期间，保加利亚全境所有国家机关和公共设施将降半旗致哀，相关公共庆祝活动予以取消。目前当地有关部门正全力推进善后及事故原因调查。",
@@ -134,12 +142,4 @@
   "discoveredAt" : "2026-11-08T03:31:15.273011+00:00",
   "severity" : "突发公共安全事件",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0ejRrRV9FUHJwdVZtZGtNdFpPel9VVWhrYUhfcVkzRmtqaWNVYldnOGowSkVuWDA5RnM5NHNCVll4SEoxSUROTmFudENmaVRmTFFOWm56ZWdBZnRPdFdWVzJFT1ZPdVNh?oc=5"
-}, {
-  "fingerprint" : "e40eb4ed58d6856e",
-  "title" : "日本静冈县发生地震已造成20余人受伤 救援工作正持续展开",
-  "summary" : "据新华网客户端援引官方消息，日本静冈县发生地震，截至目前已造成20余人受伤。当地消防与防灾部门已启动应急响应开展救援核查，基础设施与交通受损情况正在进一步统计中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-08T02:51:57.094730+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaDgwREdWR2lHTUh6UWhzR21zUWhpelo2dlc5c1FwdmxueTNxTUxXZFd3WW8wbVAtakZIOWNfeUZHdEdQMlZFVUdXWE1VaHRmdE5OYlhQNDU0YVM4QkpESkRubmpqN1dXeWd0dWdrQURHN3o4UUh5Tm5ieENFa0V2MWQzYldZTHp3T3VYV2FRNjFMb2lhWWQ5NFp3?oc=5"
 } ]
