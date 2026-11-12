@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "43e20feaf0950a50",
+  "title" : "俄媒称一名俄罗斯军官在圣彼得堡汽车爆炸事件中丧生",
+  "summary" : "据俄媒及中国新闻网报道，俄罗斯圣彼得堡发生一起针对车辆的爆炸事件，导致车内一名俄罗斯军官当场死亡。目前俄罗斯有关调查部门已按谋杀等罪名展开立案侦查。俄乌冲突背景下，针对军政人员的定点袭击事件再度推高安全警戒级别。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-12T07:01:55.424561+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSnpTZ2E2Nl9EZ1B4c3djTkQ1Ujgzd3ZTOUxweEV3bXNqUUhyY1JsSTFianotVWNqTTZycUFCTzZTcVN1Zmoyd2Z2aVBrcHdDNVhySkpLVTJnSlZwZUJGQV85aFkxRVFD?oc=5"
+}, {
   "fingerprint" : "83ec3122350786bd",
   "title" : "霍尔木兹海峡突发油轮遇袭事件 国际原油价格应声反弹上涨",
   "summary" : "据财联社援引突发消息，全球关键能源命脉霍尔木兹海峡再度发生油轮遇袭事件。袭击直接加剧了该区域地缘安全紧张局势及航运供应风险，国际原油价格在供应担忧中迅速反弹上涨。目前各方正密切关注受损情况及后续事态演变。",
@@ -78,60 +86,4 @@
   "discoveredAt" : "2026-11-09T10:38:33.186118+00:00",
   "severity" : "突发公共安全事件",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PX2FiWjEwaTBFNzNqSHNETlFhdlZ6SzdaUUthMWVUN3lxeko5YkFfazZOZHFmRjlFMUh3UUlNeTBfQ0RWTFlGVlhURTNZRjVvSkdVM1FIR2tHNEl3VFBOUTUwVjdUbkNh?oc=5"
-}, {
-  "fingerprint" : "fc36c2f1fee17bfa",
-  "title" : "波兰克拉科夫枪击案致至少六人死亡",
-  "summary" : "英国广播公司援引警方消息称，波兰克拉科夫发生枪击事件，至少六人死亡，约12人受伤。警方表示，枪击案嫌疑人已在医院死亡。目前尚不清楚嫌疑人的具体身份、作案动机及死伤者背景，案件正在进一步调查。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-11-09T06:52:29.159689+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "c90ec86bf0382e2e",
-  "title" : "所罗门群岛拉塔附近海域发生6.4级强震 震中临近沿岸岛屿",
-  "summary" : "据美国地质调查局（USGS）官方测定，协调世界时2026年11月9日03时35分，所罗门群岛拉塔西南27公里处发生6.4级强震。震中地处环太平洋地震活跃带，沿岸岛屿普遍有明显震感，防灾部门正密切监测可能引发的局地海啸波或基础设施损毁情况。",
-  "source" : "USGS 地质调查局",
-  "discoveredAt" : "2026-11-09T03:46:29.044734+00:00",
-  "severity" : "特大自然灾害",
-  "link" : "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16"
-}, {
-  "fingerprint" : "64b685e125dbd042",
-  "title" : "伊拉克北部库区重要天然气田遭无人机袭击，关键能源设施再成打击目标",
-  "summary" : "据新华网援引外媒报道，伊拉克北部库尔德自治区内一处关键天然气田遭到无人机袭击。该地区能源设施此前曾多次成为亲伊朗武装力量或跨境冲突的目标，本次袭击对当地天然气供给及发电系统构成直接威胁，具体伤亡及设施损毁程度正进一步核实中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-09T03:07:19.562312+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVRyc200Mnh2ajZtNVVuQUNpaWx0Z044Y3gyRVVHZ3ZxMGhmelh3b1ZPd2ZubVB1RDRPT0hXTFZ6d2hnQ28tbnFhUGZvMXFVd3Uxb1IyZzVFNkNYT1RlSjFJMGZ2V1F6eG42a1VCN1h5RXBnT3h5OGxyMndBUjYzQ1haQ0pqdy1HaHZTZldEOUZnUVNEMlRtejBR?oc=5"
-}, {
-  "fingerprint" : "d30d00a8e324946c",
-  "title" : "埃及发生严重列车相撞事故已致7死112伤 暂无中国公民伤亡",
-  "summary" : "据媒体及官方通报，埃及境内发生两列列车相撞特大交通事故，目前已造成至少7人死亡、112人受伤，伤者已被紧急送往附近医院救治。中国驻埃及使领馆表示暂未收到中国公民在此次事故中的伤亡报告，当地交通部门已介入调查事故原因。",
-  "source" : "Google News China Breaking",
-  "discoveredAt" : "2026-11-08T23:49:31.669152+00:00",
-  "severity" : "突发公共安全事件",
-  "link" : "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yU2htVkM3NmpueXNhWV9mWVVzVmIyVDVFNzVSQnRaajB1SEVCd09GNndJeUhrMVN0YmR1ZGRrTF9WblBtOFBOMWMweEF5M1BQTzFmdUhXWEs5SkNTSUV4OENVRTE?oc=5"
-}, {
-  "fingerprint" : "afbfc66ac36a435c",
-  "title" : "伊朗战略要冲格什姆岛附近海域传出剧烈爆炸声",
-  "summary" : "据央广网援引报道，位于霍尔木兹海峡咽喉位置的伊朗格什姆岛附近海域突发剧烈爆炸声。该区域为全球关键航运与石油生命线，近期局势高度敏感。目前伊朗官方尚未就爆炸起因及是否有舰船或陆上设施受损作出正式通报。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-08T22:55:08.850791+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhSGtZM2lDMHhtUmlGZ19YZTZXRXkyUzQxSWFXNmxuTFBHV0ZWYTNVRFdCekdyeDJlNXEtY2ZkU1M4TnNPekU5WmtNSWxiblFkOW9Rdi0ycFhkR05KZ2FPSEZKYU9Zdlg4?oc=5"
-}, {
-  "fingerprint" : "c8688efef2f40648",
-  "title" : "伊朗称霍尔木兹海峡三艘油轮同日爆炸起火",
-  "summary" : "伊朗方面报告称，霍尔木兹海峡当天有三艘油轮爆炸起火。该海峡是全球关键能源运输通道，若事件涉及袭击、误击或海上安全事故，可能引发航运保险上涨、油价波动及地区军事紧张升级。目前事故原因、伤亡情况和是否影响通航尚待进一步核实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-08T15:57:01.960062+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYVRiVlRDWjB2TXVPeUJULVhFNjlyeXF2R1JGZHB3RXR3ajF0bXJZM3ViMUFoVXFkNmFaLXNGLTh5YklmTFdXWWVXM3MzTkxIMDdMeUo0Z3lFUXZqb0Y4SW9HeWk2YXl3NEl0aHBPUy01aWxyZ1hrcXV4UWJRRkh4X1dJRWt5NTdGLWRhSQ?oc=5"
-}, {
-  "fingerprint" : "6b88feaa5523ee58",
-  "title" : "也门胡塞武装袭击沙特首都利雅得金融区 沙特阿美大楼报告受损",
-  "summary" : "据观察者网援引外媒报道，也门胡塞武装针对沙特阿拉伯首都利雅得阿卜杜拉国王金融区（KAFD）发动袭击，造成包括沙特阿美公司所属大楼在内的建筑物受损。此前沙特防空部队曾通报拦截来袭导弹，此次袭击事件显示核心经济目标遭波及，地缘冲突烈度再度升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-08T13:45:40.136281+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSkhxNXFrRW5CVEhSbzJrcDkwRGc1cEp0S3FPNnZWdnBmR0VWY3VjbVZxNTVUQW1mZlZycUl0TmFnS2lHV21McGZva2hub3ltbl9kM3BnNDJDalFTSjE5X1JKVlptLTBlVmJmM2piY2p0LVk?oc=5"
 } ]
