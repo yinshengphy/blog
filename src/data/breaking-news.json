@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "6d3dd9accf3032dc",
+  "title" : "英伟达CEO黄仁勋突发辞职 引发全球AI产业震荡与美中外交关注",
+  "summary" : "据法广等外媒报道，英伟达创始人兼CEO黄仁勋于周四突然宣布辞职。作为全球AI算力浪潮的核心掌舵者，其意外离任在全球科技界与资本市场引发剧烈震动。该突发变故不仅重创行业预期，亦对美国政界及当前敏感的美中科技与经贸外交关系带来显著连锁冲击。",
+  "source" : "RFI 法国国际广播",
+  "discoveredAt" : "2026-11-12T22:51:43.761728+00:00",
+  "severity" : "顶级政经与科技震荡",
+  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261112-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%A6%96%E5%B8%AD%E6%89%A7%E8%A1%8C%E5%AE%98%E9%BB%84%E4%BB%81%E5%8B%8B%E5%85%89%E9%80%9F%E8%BE%9E%E8%81%8C%E5%BC%95%E5%8F%91%E5%86%B2%E5%87%BB%E6%B3%A2"
+}, {
   "fingerprint" : "a3b7d1f23b941ccb",
   "title" : "美国华盛顿白宫附近街区突发枪击事件 导致至少5人中弹",
   "summary" : "据新华社援引当地通报，美国首都华盛顿特区距白宫不远处的一处街区发生枪击事件，造成至少5人中弹受伤。当地警方已紧急封锁事发及周边路段并启动现场勘验与嫌疑人搜捕工作，目前伤者情况和具体案发原因正在进一步调查中。",
@@ -78,12 +86,4 @@
   "discoveredAt" : "2026-11-10T00:58:43.846781+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLM3c0UFp6Zkd2ZXdKLW15a1ZTQVJaNy03TXhndnJhSWdBMjJkSFZXRVdTNnM5YWwxT25OSXZzcUtVQkNYY1ZTU1JELTF0NnlpYVNr?oc=5"
-}, {
-  "fingerprint" : "7f43301ece170d62",
-  "title" : "土耳其西部一钢铁厂突发剧烈爆炸 已致至少16人死亡",
-  "summary" : "据英国广播公司（BBC）报道，土耳其伊兹密尔省阿里阿加地区的哈巴斯钢铁厂突发严重爆炸事故，目前已造成至少16人遇难。目击者称爆炸引发剧烈地面震动，一度被周边居民误认为是地震。该事件较此前通报的受伤情况发生重大伤亡剧变，当地搜救与调查工作正在进行。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-11-09T18:20:51.973970+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss"
 } ]
