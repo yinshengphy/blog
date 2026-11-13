@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "d877ff9ebdc8b6d1",
+  "title" : "美国纽约楼房倒塌现场搜救行动正式结束 确认遇难人数升至8人",
+  "summary" : "据中国新闻网及当地官方消息，美国纽约发生的楼房倒塌事故现场搜救工作已正式结束。搜救人员在废墟排查中进一步确认伤亡情况，累计遇难人数已升至8人。目前现场转入事故调查与清理善后阶段，相关部门正深入排查倒塌具体原因及周边房屋结构安全隐患。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-13T02:20:41.005320+00:00",
+  "severity" : "严重人员伤亡事故",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNzE4b1Rpc1ZfT0dEVDRON1hKMXI5Z3RzSjRUeWxZU1BRalg3OGFEdk5UaU1WMU1XYzFwazQtTTZBMXZuRmYwSDlhdkY0VDk2SzVRQmwtRXdiZ3h5UnRhbXh2QU5rd2VP?oc=5"
+}, {
   "fingerprint" : "f924e7410eb31248",
   "title" : "也门胡塞武装宣称袭击沙特东西石油管道及空军基地",
   "summary" : "据媒体报道，也门胡塞武装针对沙特阿拉伯境内的东西战略石油管道以及空军基地发动了袭击。沙特东西石油管道是沙特绕过霍尔木兹海峡输送原油的核心通道，此次袭击对沙特能源基础设施与空防构成严重威胁，目前具体受损及伤亡情况有待进一步核实。",
@@ -86,12 +94,4 @@
   "discoveredAt" : "2026-11-10T06:26:44.406398+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzSW1rSUZjWG9OdWdfM3c1Smxvbmp6UmQxTkpsYnJLSVNONWN1RVNWNWVPQ21BUDRtWURvTGlSemRKWmJNOXp6ekxWS21leXdGd1JLX3Qtb1Q2OHVKdFgwZWp6VVlnVUoy?oc=5"
-}, {
-  "fingerprint" : "a32a0e1a65f2c1a2",
-  "title" : "沙特首都利雅得传出剧烈爆炸声 官方尚未通报原因",
-  "summary" : "据第一财经援引外媒突发消息，沙特阿拉伯首都利雅得当地传出剧烈爆炸声。目前沙特官方尚未就爆炸具体原因、是否有伤亡及财产损失作出正式通报。鉴于利雅得的中东枢纽地位，局势动向正引发国际社会与能源市场密切关切。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-10T00:58:43.846781+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLM3c0UFp6Zkd2ZXdKLW15a1ZTQVJaNy03TXhndnJhSWdBMjJkSFZXRVdTNnM5YWwxT25OSXZzcUtVQkNYY1ZTU1JELTF0NnlpYVNr?oc=5"
 } ]
