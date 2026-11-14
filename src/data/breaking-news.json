@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "151fddc14dbc6436",
+  "title" : "爱尔兰在多国领导人晚宴地点附近查获爆炸装置 现场安保已全面升级",
+  "summary" : "据媒体援引安全消息源报道，爱尔兰执法部门在多国领导人计划举行晚宴的地点附近排查时，突发查获一处爆炸装置。防爆专家及军警迅速封锁现场并成功解除威胁，事件未造成人员伤亡。目前相关区域安保全面收紧，爱尔兰当局正对爆炸物来源及潜在袭击威胁展开紧急调查。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-14T03:53:43.772871+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vaXFINFd2YWZoZFdDVXVkMFcwX2U2U0FBRnk1WEMwSDJLQm01bWxDb0ZmTDZRWmNxcFdZbDVpVFduNVBpbU10eW9idTJFZkhHaFZmREJEQUVhdmtZT2c?oc=5"
+}, {
   "fingerprint" : "4f8b57a858c34292",
   "title" : "伊朗称两艘油轮在霍尔木兹海峡突发爆炸 战略航道安全局势再度升级",
   "summary" : "据第一财经援引伊朗方面消息，两艘油轮在战略要道霍尔木兹海峡发生爆炸。该海峡承担全球近两成海运石油贸易，接连发生的油运船只安全事件引发国际社会高度关切，或重塑该区域海上安保与能源供应链预期。",
@@ -70,20 +78,4 @@
   "discoveredAt" : "2026-11-11T11:33:41.867468+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DSnBWMlJWX1JrcGxDMGtLeDBZbE5OaXBvQXZXTkZGNnUzNTNmemFhNEZBanFFQVRIMXl0cFowZUZKSGdFXzNZZA?oc=5"
-}, {
-  "fingerprint" : "980d282f3fe12cb6",
-  "title" : "萨尔瓦多军方导弹袭击海地400马佐佐帮据点",
-  "summary" : "半岛电视台报道称，萨尔瓦多军方近日向海地一处据称属于400马佐佐帮首领的建筑发射火箭弹。报道尚未说明袭击是否造成伤亡，也未披露萨尔瓦多部队在海地的行动授权、具体规模及后续部署。若消息获证实，将成为海地治安危机中一次引发高度关注的外部军事打击行动。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-11T03:09:18.406462+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss"
-}, {
-  "fingerprint" : "6ca4311e9f35ce97",
-  "title" : "保加利亚发生重大连环车祸致多人遇难 政府宣布11月11日为国家哀悼日",
-  "summary" : "央广网报道，保加利亚政府正式宣布11月11日为国家哀悼日，以悼念在近期一起特大连环车祸中遇难的人员。哀悼日期间，保加利亚全境所有国家机关和公共设施将降半旗致哀，相关公共庆祝活动予以取消。目前当地有关部门正全力推进善后及事故原因调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-10T23:37:33.323437+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WT19fTUQydXJEX1ZWNzNkY0x1VWUzZm50c054TU9pMXo3OUhCak1TekxWR0NReTE5c3pRLU05NXhuU2ZUc183NnNqMEszQ0Y0ZFRkRnk3ZUFQcGt6MFhtLVVEV1lITDRF?oc=5"
 } ]
