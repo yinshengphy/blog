@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "e2614bb3d02afdfe",
+  "title" : "伊朗伊斯兰革命卫队宣称出动6架无人机袭击巴林境内美军雷达",
+  "summary" : "据观察者网援引外媒报道，伊朗伊斯兰革命卫队发表声明称，出动6架无人机袭击了位于巴林境内的美军雷达系统。巴林为美国海军第五舰队司令部所在地，此次直接针对美军关键军事设施的打击宣告了中东紧张局势进一步外溢与升级。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-15T07:42:29.108055+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FaXNtOGdTbzFWTkduUWlsNmhDaHp6bVB1MDRuanFnVjhuOUVxeWhqZDVEejQ2N3pvZm9GMndYYjZBY2JuMDBVck9nTThZVnIwUFMtcC1KbFh2NlU5eXFhendOSTQzSV9VNXI3clZ6SFY4c1U?oc=5"
+}, {
   "fingerprint" : "dc5631f65c3c7272",
   "title" : "加沙局势突变：哈马斯拉法旅关键指挥官在以军定点空袭中身亡",
   "summary" : "据新华网客户端报道，以色列国防军在针对加沙地带南部拉法地区的精准空袭行动中，成功击毙哈马斯拉法旅高级指挥官。该指挥官系哈马斯在加沙南部战线的核心骨干，此举对哈马斯防御体系造成重大打击，战局面临进一步升级风险。",
@@ -110,12 +118,4 @@
   "discoveredAt" : "2026-11-12T09:01:42.217177+00:00",
   "severity" : "重大国家安全/战争冲突",
   "link" : "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
-}, {
-  "fingerprint" : "43e20feaf0950a50",
-  "title" : "俄媒称一名俄罗斯军官在圣彼得堡汽车爆炸事件中丧生",
-  "summary" : "据俄媒及中国新闻网报道，俄罗斯圣彼得堡发生一起针对车辆的爆炸事件，导致车内一名俄罗斯军官当场死亡。目前俄罗斯有关调查部门已按谋杀等罪名展开立案侦查。俄乌冲突背景下，针对军政人员的定点袭击事件再度推高安全警戒级别。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-12T07:01:55.424561+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSnpTZ2E2Nl9EZ1B4c3djTkQ1Ujgzd3ZTOUxweEV3bXNqUUhyY1JsSTFianotVWNqTTZycUFCTzZTcVN1Zmoyd2Z2aVBrcHdDNVhySkpLVTJnSlZwZUJGQV85aFkxRVFD?oc=5"
 } ]
