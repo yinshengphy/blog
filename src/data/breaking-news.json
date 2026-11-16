@@ -1,105 +1,110 @@
-[ {
-  "fingerprint" : "8aa78f804fe5198c",
-  "title" : "以情报警告伊朗拟袭击特朗普 特朗普收缩活动多名核心高官进驻安全屋",
-  "summary" : "据中国新闻网等多源媒体报道，以色列情报部门向美方发出警报，称伊朗近期可能针对特朗普发动袭击。受高危刺杀威胁影响，特朗普已显著减少公开行程，鲁比奥、贝森特等核心高官已被紧急安置进秘密“安全屋”。美特勤局等安保力量已全面收紧防线，严防跨国定点清除行动。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-16T02:09:12.118910+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mbVk0UEVBR1JSLWEzckM0Y0ZqVm9DTTJzUlVodDFhZnZWdDdNbjJJVzVhTjR0Tm45clVKcDk4dVZlNkRkZ3JCWlJYUE1rMDBpRHN1aTBjVUNxZjFQRVNQTXFmVW5DMjdW?oc=5"
-}, {
-  "fingerprint" : "53cb7651c7de8f7f",
-  "title" : "伊朗通报两艘油轮在霍尔木兹海峡触雷爆炸 关键航道安全风险激增",
-  "summary" : "据央广网报道，伊朗方面通报两艘油轮在霍尔木兹海峡海域触水雷发生爆炸。作为全球最重要的原油海上运输咽喉，霍尔木兹海峡油轮遇袭加剧了中东海上航行安全危机，或对国际能源市场供应链与地区安全局势造成直接冲击。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-16T00:00:35.079340+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2RDNKazREYmZoV3lKMWZUbG5DcmtrZ0xkZDE4aENqT1BKOGVVbkZ4a3V3VndKSE96cW5WYVlNWURrNVMwNGhIbHh6T1ZRTFNzUDF6RmFFbFltTTNyQ3NQY2NJVWd3OFBl?oc=5"
-}, {
-  "fingerprint" : "e2614bb3d02afdfe",
-  "title" : "伊朗伊斯兰革命卫队宣称出动6架无人机袭击巴林境内美军雷达",
-  "summary" : "据观察者网援引外媒报道，伊朗伊斯兰革命卫队发表声明称，出动6架无人机袭击了位于巴林境内的美军雷达系统。巴林为美国海军第五舰队司令部所在地，此次直接针对美军关键军事设施的打击宣告了中东紧张局势进一步外溢与升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-15T07:42:29.108055+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FaXNtOGdTbzFWTkduUWlsNmhDaHp6bVB1MDRuanFnVjhuOUVxeWhqZDVEejQ2N3pvZm9GMndYYjZBY2JuMDBVck9nTThZVnIwUFMtcC1KbFh2NlU5eXFhendOSTQzSV9VNXI3clZ6SFY4c1U?oc=5"
-}, {
-  "fingerprint" : "dc5631f65c3c7272",
-  "title" : "加沙局势突变：哈马斯拉法旅关键指挥官在以军定点空袭中身亡",
-  "summary" : "据新华网客户端报道，以色列国防军在针对加沙地带南部拉法地区的精准空袭行动中，成功击毙哈马斯拉法旅高级指挥官。该指挥官系哈马斯在加沙南部战线的核心骨干，此举对哈马斯防御体系造成重大打击，战局面临进一步升级风险。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-15T04:50:41.572041+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2V2UW1tV2NxclQtR3ZCd1M1Yi1QYWxtYUJOV09YTTNTNXlydk9MdnpsaVlpRTJrTTE5MHAtaXQzcV9lSFJrTDYyajNmb1plTUFzSlJNN01vUFZ6UXlqOXZrZ3FFSDlRQXluRXBlOG5WZnR6YjVGSjNSVGdEOHh1MnJKcmR1T0VISlNGaGdwM3diTm14dkI4bmdR?oc=5"
-}, {
-  "fingerprint" : "266f3a43ad7217cd",
-  "title" : "沙特主导多国联军在首都利雅得上空拦截两枚导弹及两架无人机",
-  "summary" : "半岛电视台报道，沙特主导的多国联军通报在首都利雅得上空成功拦截两枚导弹和两架无人机。与此同时，也门马里卜和焦夫省的前线战事持续激化，联合国机构通报自8月以来已有超34万名也门平民被迫流离失所。针对沙特首都的跨国空袭表明也门局势进一步恶化。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-15T03:17:24.037980+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss"
-}, {
-  "fingerprint" : "7d744304f627c640",
-  "title" : "缅甸军方对若开邦一处难民营发动空袭 造成至少12人死亡",
-  "summary" : "据半岛电视台报道，缅甸军方对若开邦一处流离失所者难民营发动突发空袭，导致至少12名平民遇难。当前缅甸军方与地方民族武装在该区域冲突持续加剧，针对平民聚集区的袭击进一步推高了当地人道主义危机风险。",
-  "source" : "Al Jazeera English",
-  "discoveredAt" : "2026-11-14T16:30:03.106054+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
-}, {
-  "fingerprint" : "c288c8c95cab5fd2",
-  "title" : "伊朗通报4艘油轮触雷起火 联合国通报134起商船袭击事件",
-  "summary" : "据伊朗方面最新通报，已有4艘油轮在相关海域遭遇水雷袭击并起火。与此同时，联合国相关机构通报记录的商船遇袭事件累计已达134起。中东关键航道安全局势进一步严峻，全球能源运输与航运安全面临重大威胁。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-14T11:32:56.239366+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcWNWUF92RFJHX3dZSENvNFMzeENqLUlReE5POFpKVkZVWm5Wa3RIZHZZVjlDSDRJZHpJd2k0TjFjYV9iNHp2eVVjU0d0MkpSRWgxODFfSjduak5Jam5LaTYybXRkYnVITzdnT1NlODJvenJLMktaX0IzbmlGUE5Hd1BLVW4wWDdZd2JB?oc=5"
-}, {
-  "fingerprint" : "691d2fed6addc99f",
-  "title" : "美国突发全国性民航停飞令 国土安全部称暂无遭受袭击迹象",
-  "summary" : "美国全境机场突发大范围航班停飞指令，引发高度关注。美国国土安全部部长紧急回应表示，目前尚未发现任何涉及恐怖袭击或恶意攻击的迹象。相关部门正紧急调查导致系统中断或停飞的核心原因，全美民航交通及旅客出行面临严重延误波及。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-14T09:25:19.389686+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjl5Smx6RmVoVkl5TmZyMlV4c0tiZGExa1NwbVJvS1VDS2tfSXdDTnI1Z251TzZEOXZFWTZnOURRVm9HQzJ5aXc4azMySHdDNTBDTTVDTExmNURZN2RQUk5DZjVwVENXMGd5Nmp0ckQycW5MdzFubkhHZVhIMDF3TGh6MXloQ1NxOWtxWjBnOVdJa0VEYzVJOQ?oc=5"
-}, {
-  "fingerprint" : "ae4ddf3fade85176",
-  "title" : "胡塞武装称袭击也门政府军军火库及集结点",
-  "summary" : "据同花顺援引相关消息，胡塞武装宣称袭击也门政府军军火库和部队集结点。该消息目前主要来自胡塞方面表述，缺乏政府军及国际主流媒体的独立确认，具体地点、袭击规模和人员伤亡均不明。若获证实，可能标志也门冲突出现新一轮军事升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-14T04:27:22.118137+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41MkRDbFRrUTFNb05sR0RxRms1YjV2bEFWSDNlSDFxdWdLbFFHOHlNZ3I5RFRPUVRhbXJuSTNwdXpwT1luanktWEtidmtTamJ4LVpfUVVkTjNzcFlEd1E?oc=5"
-}, {
-  "fingerprint" : "151fddc14dbc6436",
-  "title" : "爱尔兰在多国领导人晚宴地点附近查获爆炸装置 现场安保已全面升级",
-  "summary" : "据媒体援引安全消息源报道，爱尔兰执法部门在多国领导人计划举行晚宴的地点附近排查时，突发查获一处爆炸装置。防爆专家及军警迅速封锁现场并成功解除威胁，事件未造成人员伤亡。目前相关区域安保全面收紧，爱尔兰当局正对爆炸物来源及潜在袭击威胁展开紧急调查。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-14T03:53:43.772871+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vaXFINFd2YWZoZFdDVXVkMFcwX2U2U0FBRnk1WEMwSDJLQm01bWxDb0ZmTDZRWmNxcFdZbDVpVFduNVBpbU10eW9idTJFZkhHaFZmREJEQUVhdmtZT2c?oc=5"
-}, {
-  "fingerprint" : "4f8b57a858c34292",
-  "title" : "伊朗称两艘油轮在霍尔木兹海峡突发爆炸 战略航道安全局势再度升级",
-  "summary" : "据第一财经援引伊朗方面消息，两艘油轮在战略要道霍尔木兹海峡发生爆炸。该海峡承担全球近两成海运石油贸易，接连发生的油运船只安全事件引发国际社会高度关切，或重塑该区域海上安保与能源供应链预期。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-13T21:24:06.172749+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LM3V0b3YyX092aW84UlZRVU1mQzgza2ttR3QyX3V3LTJhOWUxT1NfUV91ZjFXRmtkbWVmYXFqb1hlbXhtcTQ4dHh1V1RfN0dYX05PQQ?oc=5"
-}, {
-  "fingerprint" : "164d05568e579aab",
-  "title" : "伊朗称一艘液化气运输船在霍尔木兹海峡触雷爆炸",
-  "summary" : "据新华网援引伊朗官方消息，一艘液化气运输船在霍尔木兹海峡航行时触雷发生爆炸。作为全球最重要的能源运输咽喉航道，此次爆炸事件标志着该区域海运安全风险骤然激化，极可能引发国际油气市场强烈震荡与地缘冲突升级。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-13T10:28:49.684798+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pczkwa2QtS09ZM1RtMktYelZvSTA2SDV4Rk1NWFRPOUFrc1haWFlLM2lWVWgzNlhTTXdFVjAzZE1rN2tPWW1fOVNMSVRGdURLcXgtYnRHT1FaaXgyc2Jndi1BRmdSdm84amRzR3NCdmMtT0NPeGNHQ2VfQnd0bkE?oc=5"
-}, {
-  "fingerprint" : "d877ff9ebdc8b6d1",
-  "title" : "美国纽约楼房倒塌现场搜救行动正式结束 确认遇难人数升至8人",
-  "summary" : "据中国新闻网及当地官方消息，美国纽约发生的楼房倒塌事故现场搜救工作已正式结束。搜救人员在废墟排查中进一步确认伤亡情况，累计遇难人数已升至8人。目前现场转入事故调查与清理善后阶段，相关部门正深入排查倒塌具体原因及周边房屋结构安全隐患。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-13T02:20:41.005320+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNzE4b1Rpc1ZfT0dEVDRON1hKMXI5Z3RzSjRUeWxZU1BRalg3OGFEdk5UaU1WMU1XYzFwazQtTTZBMXZuRmYwSDlhdkY0VDk2SzVRQmwtRXdiZ3h5UnRhbXh2QU5rd2VP?oc=5"
-} ]
+[
+  {
+    "fingerprint": "4aa12f2ea9ffdc21",
+    "title": "南非夸祖鲁-纳塔尔省与豪登省两起枪击致17人死亡",
+    "summary": "英国广播公司报道，南非夸祖鲁-纳塔尔省和豪登省近日接连发生两起大规模枪击事件，共造成17人死亡。案件具体经过、伤者人数及嫌疑人情况尚待南非警方进一步公布。连续发生的致命枪击再次凸显该国长期面临的严重暴力犯罪和枪支管控挑战。",
+    "source": "BBC World News",
+    "discoveredAt": "2026-11-16T11:04:08.018172+00:00",
+    "severity": "严重人员伤亡事故",
+    "link": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "fingerprint": "8aa78f804fe5198c",
+    "title": "以情报警告伊朗拟袭击特朗普 特朗普收缩活动多名核心高官进驻安全屋",
+    "summary": "据中国新闻网等多源媒体报道，以色列情报部门向美方发出警报，称伊朗近期可能针对特朗普发动袭击。受高危刺杀威胁影响，特朗普已显著减少公开行程，鲁比奥、贝森特等核心高官已被紧急安置进秘密“安全屋”。美特勤局等安保力量已全面收紧防线，严防跨国定点清除行动。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-16T02:09:12.118910+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mbVk0UEVBR1JSLWEzckM0Y0ZqVm9DTTJzUlVodDFhZnZWdDdNbjJJVzVhTjR0Tm45clVKcDk4dVZlNkRkZ3JCWlJYUE1rMDBpRHN1aTBjVUNxZjFQRVNQTXFmVW5DMjdW?oc=5"
+  },
+  {
+    "fingerprint": "53cb7651c7de8f7f",
+    "title": "伊朗通报两艘油轮在霍尔木兹海峡触雷爆炸 关键航道安全风险激增",
+    "summary": "据央广网报道，伊朗方面通报两艘油轮在霍尔木兹海峡海域触水雷发生爆炸。作为全球最重要的原油海上运输咽喉，霍尔木兹海峡油轮遇袭加剧了中东海上航行安全危机，或对国际能源市场供应链与地区安全局势造成直接冲击。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-16T00:00:35.079340+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2RDNKazREYmZoV3lKMWZUbG5DcmtrZ0xkZDE4aENqT1BKOGVVbkZ4a3V3VndKSE96cW5WYVlNWURrNVMwNGhIbHh6T1ZRTFNzUDF6RmFFbFltTTNyQ3NQY2NJVWd3OFBl?oc=5"
+  },
+  {
+    "fingerprint": "e2614bb3d02afdfe",
+    "title": "伊朗伊斯兰革命卫队宣称出动6架无人机袭击巴林境内美军雷达",
+    "summary": "据观察者网援引外媒报道，伊朗伊斯兰革命卫队发表声明称，出动6架无人机袭击了位于巴林境内的美军雷达系统。巴林为美国海军第五舰队司令部所在地，此次直接针对美军关键军事设施的打击宣告了中东紧张局势进一步外溢与升级。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-15T07:42:29.108055+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FaXNtOGdTbzFWTkduUWlsNmhDaHp6bVB1MDRuanFnVjhuOUVxeWhqZDVEejQ2N3pvZm9GMndYYjZBY2JuMDBVck9nTThZVnIwUFMtcC1KbFh2NlU5eXFhendOSTQzSV9VNXI3clZ6SFY4c1U?oc=5"
+  },
+  {
+    "fingerprint": "dc5631f65c3c7272",
+    "title": "加沙局势突变：哈马斯拉法旅关键指挥官在以军定点空袭中身亡",
+    "summary": "据新华网客户端报道，以色列国防军在针对加沙地带南部拉法地区的精准空袭行动中，成功击毙哈马斯拉法旅高级指挥官。该指挥官系哈马斯在加沙南部战线的核心骨干，此举对哈马斯防御体系造成重大打击，战局面临进一步升级风险。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-15T04:50:41.572041+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2V2UW1tV2NxclQtR3ZCd1M1Yi1QYWxtYUJOV09YTTNTNXlydk9MdnpsaVlpRTJrTTE5MHAtaXQzcV9lSFJrTDYyajNmb1plTUFzSlJNN01vUFZ6UXlqOXZrZ3FFSDlRQXluRXBlOG5WZnR6YjVGSjNSVGdEOHh1MnJKcmR1T0VISlNGaGdwM3diTm14dkI4bmdR?oc=5"
+  },
+  {
+    "fingerprint": "266f3a43ad7217cd",
+    "title": "沙特主导多国联军在首都利雅得上空拦截两枚导弹及两架无人机",
+    "summary": "半岛电视台报道，沙特主导的多国联军通报在首都利雅得上空成功拦截两枚导弹和两架无人机。与此同时，也门马里卜和焦夫省的前线战事持续激化，联合国机构通报自8月以来已有超34万名也门平民被迫流离失所。针对沙特首都的跨国空袭表明也门局势进一步恶化。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-15T03:17:24.037980+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss"
+  },
+  {
+    "fingerprint": "7d744304f627c640",
+    "title": "缅甸军方对若开邦一处难民营发动空袭 造成至少12人死亡",
+    "summary": "据半岛电视台报道，缅甸军方对若开邦一处流离失所者难民营发动突发空袭，导致至少12名平民遇难。当前缅甸军方与地方民族武装在该区域冲突持续加剧，针对平民聚集区的袭击进一步推高了当地人道主义危机风险。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-14T16:30:03.106054+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+  },
+  {
+    "fingerprint": "c288c8c95cab5fd2",
+    "title": "伊朗通报4艘油轮触雷起火 联合国通报134起商船袭击事件",
+    "summary": "据伊朗方面最新通报，已有4艘油轮在相关海域遭遇水雷袭击并起火。与此同时，联合国相关机构通报记录的商船遇袭事件累计已达134起。中东关键航道安全局势进一步严峻，全球能源运输与航运安全面临重大威胁。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-14T11:32:56.239366+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcWNWUF92RFJHX3dZSENvNFMzeENqLUlReE5POFpKVkZVWm5Wa3RIZHZZVjlDSDRJZHpJd2k0TjFjYV9iNHp2eVVjU0d0MkpSRWgxODFfSjduak5Jam5LaTYybXRkYnVITzdnT1NlODJvenJLMktaX0IzbmlGUE5Hd1BLVW4wWDdZd2JB?oc=5"
+  },
+  {
+    "fingerprint": "691d2fed6addc99f",
+    "title": "美国突发全国性民航停飞令 国土安全部称暂无遭受袭击迹象",
+    "summary": "美国全境机场突发大范围航班停飞指令，引发高度关注。美国国土安全部部长紧急回应表示，目前尚未发现任何涉及恐怖袭击或恶意攻击的迹象。相关部门正紧急调查导致系统中断或停飞的核心原因，全美民航交通及旅客出行面临严重延误波及。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-14T09:25:19.389686+00:00",
+    "severity": "顶级政经与科技震荡",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjl5Smx6RmVoVkl5TmZyMlV4c0tiZGExa1NwbVJvS1VDS2tfSXdDTnI1Z251TzZEOXZFWTZnOURRVm9HQzJ5aXc4azMySHdDNTBDTTVDTExmNURZN2RQUk5DZjVwVENXMGd5Nmp0ckQycW5MdzFubkhHZVhIMDF3TGh6MXloQ1NxOWtxWjBnOVdJa0VEYzVJOQ?oc=5"
+  },
+  {
+    "fingerprint": "ae4ddf3fade85176",
+    "title": "胡塞武装称袭击也门政府军军火库及集结点",
+    "summary": "据同花顺援引相关消息，胡塞武装宣称袭击也门政府军军火库和部队集结点。该消息目前主要来自胡塞方面表述，缺乏政府军及国际主流媒体的独立确认，具体地点、袭击规模和人员伤亡均不明。若获证实，可能标志也门冲突出现新一轮军事升级。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-14T04:27:22.118137+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41MkRDbFRrUTFNb05sR0RxRms1YjV2bEFWSDNlSDFxdWdLbFFHOHlNZ3I5RFRPUVRhbXJuSTNwdXpwT1luanktWEtidmtTamJ4LVpfUVVkTjNzcFlEd1E?oc=5"
+  },
+  {
+    "fingerprint": "151fddc14dbc6436",
+    "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置 现场安保已全面升级",
+    "summary": "据媒体援引安全消息源报道，爱尔兰执法部门在多国领导人计划举行晚宴的地点附近排查时，突发查获一处爆炸装置。防爆专家及军警迅速封锁现场并成功解除威胁，事件未造成人员伤亡。目前相关区域安保全面收紧，爱尔兰当局正对爆炸物来源及潜在袭击威胁展开紧急调查。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-14T03:53:43.772871+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vaXFINFd2YWZoZFdDVXVkMFcwX2U2U0FBRnk1WEMwSDJLQm01bWxDb0ZmTDZRWmNxcFdZbDVpVFduNVBpbU10eW9idTJFZkhHaFZmREJEQUVhdmtZT2c?oc=5"
+  },
+  {
+    "fingerprint": "4f8b57a858c34292",
+    "title": "伊朗称两艘油轮在霍尔木兹海峡突发爆炸 战略航道安全局势再度升级",
+    "summary": "据第一财经援引伊朗方面消息，两艘油轮在战略要道霍尔木兹海峡发生爆炸。该海峡承担全球近两成海运石油贸易，接连发生的油运船只安全事件引发国际社会高度关切，或重塑该区域海上安保与能源供应链预期。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-13T21:24:06.172749+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LM3V0b3YyX092aW84UlZRVU1mQzgza2ttR3QyX3V3LTJhOWUxT1NfUV91ZjFXRmtkbWVmYXFqb1hlbXhtcTQ4dHh1V1RfN0dYX05PQQ?oc=5"
+  }
+]
