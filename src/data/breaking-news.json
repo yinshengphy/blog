@@ -1,4 +1,12 @@
 [ {
+  "fingerprint" : "53cb7651c7de8f7f",
+  "title" : "伊朗通报两艘油轮在霍尔木兹海峡触雷爆炸 关键航道安全风险激增",
+  "summary" : "据央广网报道，伊朗方面通报两艘油轮在霍尔木兹海峡海域触水雷发生爆炸。作为全球最重要的原油海上运输咽喉，霍尔木兹海峡油轮遇袭加剧了中东海上航行安全危机，或对国际能源市场供应链与地区安全局势造成直接冲击。",
+  "source" : "Google News Top",
+  "discoveredAt" : "2026-11-16T00:00:35.079340+00:00",
+  "severity" : "重大国家安全/战争冲突",
+  "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2RDNKazREYmZoV3lKMWZUbG5DcmtrZ0xkZDE4aENqT1BKOGVVbkZ4a3V3VndKSE96cW5WYVlNWURrNVMwNGhIbHh6T1ZRTFNzUDF6RmFFbFltTTNyQ3NQY2NJVWd3OFBl?oc=5"
+}, {
   "fingerprint" : "e2614bb3d02afdfe",
   "title" : "伊朗伊斯兰革命卫队宣称出动6架无人机袭击巴林境内美军雷达",
   "summary" : "据观察者网援引外媒报道，伊朗伊斯兰革命卫队发表声明称，出动6架无人机袭击了位于巴林境内的美军雷达系统。巴林为美国海军第五舰队司令部所在地，此次直接针对美军关键军事设施的打击宣告了中东紧张局势进一步外溢与升级。",
@@ -86,36 +94,4 @@
   "discoveredAt" : "2026-11-13T02:20:41.005320+00:00",
   "severity" : "严重人员伤亡事故",
   "link" : "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNzE4b1Rpc1ZfT0dEVDRON1hKMXI5Z3RzSjRUeWxZU1BRalg3OGFEdk5UaU1WMU1XYzFwazQtTTZBMXZuRmYwSDlhdkY0VDk2SzVRQmwtRXdiZ3h5UnRhbXh2QU5rd2VP?oc=5"
-}, {
-  "fingerprint" : "f924e7410eb31248",
-  "title" : "也门胡塞武装宣称袭击沙特东西石油管道及空军基地",
-  "summary" : "据媒体报道，也门胡塞武装针对沙特阿拉伯境内的东西战略石油管道以及空军基地发动了袭击。沙特东西石油管道是沙特绕过霍尔木兹海峡输送原油的核心通道，此次袭击对沙特能源基础设施与空防构成严重威胁，目前具体受损及伤亡情况有待进一步核实。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-12T23:30:28.908249+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FLS1PelNmR3YzRUlEQmoxb192OVl2dHZHUmpsa2kyNjI2OWJ2Z0RPUFdnWEluVURJVkVlTGZzbHl1bGpxNnFmMXpOc3VwSHdSQXdWVGFJbzJGYjF3NjVRNkhjbw?oc=5"
-}, {
-  "fingerprint" : "6d3dd9accf3032dc",
-  "title" : "英伟达CEO黄仁勋突发辞职 引发全球AI产业震荡与美中外交关注",
-  "summary" : "据法广等外媒报道，英伟达创始人兼CEO黄仁勋于周四突然宣布辞职。作为全球AI算力浪潮的核心掌舵者，其意外离任在全球科技界与资本市场引发剧烈震动。该突发变故不仅重创行业预期，亦对美国政界及当前敏感的美中科技与经贸外交关系带来显著连锁冲击。",
-  "source" : "RFI 法国国际广播",
-  "discoveredAt" : "2026-11-12T22:51:43.761728+00:00",
-  "severity" : "顶级政经与科技震荡",
-  "link" : "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261112-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%A6%96%E5%B8%AD%E6%89%A7%E8%A1%8C%E5%AE%98%E9%BB%84%E4%BB%81%E5%8B%8B%E5%85%89%E9%80%9F%E8%BE%9E%E8%81%8C%E5%BC%95%E5%8F%91%E5%86%B2%E5%87%BB%E6%B3%A2"
-}, {
-  "fingerprint" : "a3b7d1f23b941ccb",
-  "title" : "美国华盛顿白宫附近街区突发枪击事件 导致至少5人中弹",
-  "summary" : "据新华社援引当地通报，美国首都华盛顿特区距白宫不远处的一处街区发生枪击事件，造成至少5人中弹受伤。当地警方已紧急封锁事发及周边路段并启动现场勘验与嫌疑人搜捕工作，目前伤者情况和具体案发原因正在进一步调查中。",
-  "source" : "Google News Top",
-  "discoveredAt" : "2026-11-12T14:42:18.972981+00:00",
-  "severity" : "严重人员伤亡事故",
-  "link" : "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wNU9POHRFaXNRRmN2Z1B3RlF6M3MtTFN1aEx0UkRpOHNBSERiV2V0bVgtNDA1X3NfeFZ6SThHeXFVNUJZeFZyWE9nTVFRTXBkaGFubDdlbjJjZlJ3VXNTWWZnWXoxb1VHQmNZbzRFbkhCU2pfSkVpYlFWMFpxaUE?oc=5"
-}, {
-  "fingerprint" : "7d7fca89b9bb3c61",
-  "title" : "以军空袭加沙南部最大医院外科及重症监护楼 造成至少6人死亡",
-  "summary" : "据BBC援引加沙卫生部门及目击者消息，以色列军队发射导弹袭击了加沙南部最大的纳赛尔医院，直接击中容纳外科病房与重症监护室（ICU）的关键大楼。袭击目前已造成至少6名巴勒斯坦人遇难，关键医疗设施遭破坏，现场救援与伤亡核实工作仍在进行。",
-  "source" : "BBC World News",
-  "discoveredAt" : "2026-11-12T09:01:42.217177+00:00",
-  "severity" : "重大国家安全/战争冲突",
-  "link" : "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
 } ]
