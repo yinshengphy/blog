@@ -2,6 +2,9 @@ node_modules/
 dist/
 .runner-cache/
 .astro/
+.wrangler/
+.cloudflare/
+.dev.vars*
 .env
 .DS_Store
 npm-debug.log*

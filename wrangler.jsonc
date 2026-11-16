@@ -1,0 +1,11 @@
+{
+  "name": "yinsheng-blog",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-11-16",
+  "kv_namespaces": [
+    {
+      "binding": "MARIO_KV",
+      "id": "32af0b8d7f88471791aa80a22685c442"
+    }
+  ]
+}

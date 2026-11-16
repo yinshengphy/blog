@@ -1,7 +1,6 @@
 ---
 import 'katex/dist/katex.min.css';
 import '../styles/global.css';
-import ChatWidget from '../components/ChatWidget.astro';
 import { ClientRouter } from 'astro:transitions';
 
 interface Props {
@@ -64,6 +63,5 @@ const isTrendingPage = Astro.url.pathname.startsWith('/trending');
       </div>
       <p class="footer-meta">© {year} yinshengphy</p>
     </footer>
-    <ChatWidget />
   </body>
 </html>

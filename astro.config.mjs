@@ -5,7 +5,7 @@ import rehypeKatex from 'rehype-katex';
 import remarkMath from 'remark-math';
 
 export default defineConfig({
-  site: 'https://yinshengphy.cn',
+  site: 'https://blog.yinshengphy.cn',
   output: 'static',
   integrations: [sitemap()],
   markdown: {
