@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "09767498c52dd79d",
+    "title": "乌克兰袭击克里米亚大桥致部分坍塌，泽连斯基称前所未有",
+    "summary": "BBC报道称，克里米亚大桥遭乌克兰导弹和无人机袭击后部分坍塌。乌方表示行动筹划数周，泽连斯基称其为“前所未有”的攻击。该桥连接俄罗斯本土与克里米亚，兼具交通、军事和象征意义，受损可能影响人员与军事物资运输，并加剧俄乌冲突升级风险。",
+    "source": "BBC World News",
+    "discoveredAt": "2026-11-17T17:06:35.900168+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "fingerprint": "22e34e89c7673c68",
     "title": "乌克兰首都基辅接连传出爆炸声，袭击情况待核实",
     "summary": "中国新闻网援引相关信息称，乌克兰首都基辅出现爆炸声，可能与防空拦截或俄乌冲突中的空袭有关，但目前尚无足够信息确认爆炸性质、发生地点及是否造成伤亡。由于基辅是乌克兰政治和军事核心区域，该消息具有较高安全关注度，仍需等待乌方官方通报及多源报道交叉验证。",
@@ -70,50 +79,5 @@
     "discoveredAt": "2026-11-15T03:17:24.037980+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss"
-  },
-  {
-    "fingerprint": "7d744304f627c640",
-    "title": "缅甸军方对若开邦一处难民营发动空袭 造成至少12人死亡",
-    "summary": "据半岛电视台报道，缅甸军方对若开邦一处流离失所者难民营发动突发空袭，导致至少12名平民遇难。当前缅甸军方与地方民族武装在该区域冲突持续加剧，针对平民聚集区的袭击进一步推高了当地人道主义危机风险。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-14T16:30:03.106054+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
-  },
-  {
-    "fingerprint": "c288c8c95cab5fd2",
-    "title": "伊朗通报4艘油轮触雷起火 联合国通报134起商船袭击事件",
-    "summary": "据伊朗方面最新通报，已有4艘油轮在相关海域遭遇水雷袭击并起火。与此同时，联合国相关机构通报记录的商船遇袭事件累计已达134起。中东关键航道安全局势进一步严峻，全球能源运输与航运安全面临重大威胁。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-14T11:32:56.239366+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcWNWUF92RFJHX3dZSENvNFMzeENqLUlReE5POFpKVkZVWm5Wa3RIZHZZVjlDSDRJZHpJd2k0TjFjYV9iNHp2eVVjU0d0MkpSRWgxODFfSjduak5Jam5LaTYybXRkYnVITzdnT1NlODJvenJLMktaX0IzbmlGUE5Hd1BLVW4wWDdZd2JB?oc=5"
-  },
-  {
-    "fingerprint": "691d2fed6addc99f",
-    "title": "美国突发全国性民航停飞令 国土安全部称暂无遭受袭击迹象",
-    "summary": "美国全境机场突发大范围航班停飞指令，引发高度关注。美国国土安全部部长紧急回应表示，目前尚未发现任何涉及恐怖袭击或恶意攻击的迹象。相关部门正紧急调查导致系统中断或停飞的核心原因，全美民航交通及旅客出行面临严重延误波及。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-14T09:25:19.389686+00:00",
-    "severity": "顶级政经与科技震荡",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjl5Smx6RmVoVkl5TmZyMlV4c0tiZGExa1NwbVJvS1VDS2tfSXdDTnI1Z251TzZEOXZFWTZnOURRVm9HQzJ5aXc4azMySHdDNTBDTTVDTExmNURZN2RQUk5DZjVwVENXMGd5Nmp0ckQycW5MdzFubkhHZVhIMDF3TGh6MXloQ1NxOWtxWjBnOVdJa0VEYzVJOQ?oc=5"
-  },
-  {
-    "fingerprint": "ae4ddf3fade85176",
-    "title": "胡塞武装称袭击也门政府军军火库及集结点",
-    "summary": "据同花顺援引相关消息，胡塞武装宣称袭击也门政府军军火库和部队集结点。该消息目前主要来自胡塞方面表述，缺乏政府军及国际主流媒体的独立确认，具体地点、袭击规模和人员伤亡均不明。若获证实，可能标志也门冲突出现新一轮军事升级。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-14T04:27:22.118137+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41MkRDbFRrUTFNb05sR0RxRms1YjV2bEFWSDNlSDFxdWdLbFFHOHlNZ3I5RFRPUVRhbXJuSTNwdXpwT1luanktWEtidmtTamJ4LVpfUVVkTjNzcFlEd1E?oc=5"
-  },
-  {
-    "fingerprint": "151fddc14dbc6436",
-    "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置 现场安保已全面升级",
-    "summary": "据媒体援引安全消息源报道，爱尔兰执法部门在多国领导人计划举行晚宴的地点附近排查时，突发查获一处爆炸装置。防爆专家及军警迅速封锁现场并成功解除威胁，事件未造成人员伤亡。目前相关区域安保全面收紧，爱尔兰当局正对爆炸物来源及潜在袭击威胁展开紧急调查。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-14T03:53:43.772871+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vaXFINFd2YWZoZFdDVXVkMFcwX2U2U0FBRnk1WEMwSDJLQm01bWxDb0ZmTDZRWmNxcFdZbDVpVFduNVBpbU10eW9idTJFZkhHaFZmREJEQUVhdmtZT2c?oc=5"
   }
 ]
