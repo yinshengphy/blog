@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "f374488cd3b70150",
+    "title": "美伊再度交火：伊朗袭击科威特巴林美空袭伊朗基地",
+    "summary": "华尔街见闻援引相关消息称，美伊冲突再度升级，伊朗袭击科威特和巴林境内目标，美国随后空袭伊朗导弹基地。事件涉及海湾多个国家，可能影响驻军安全、海湾航运及能源市场。目前袭击规模、具体目标和人员伤亡仍待美国、伊朗及相关海湾国家官方确认。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-18T09:32:29.414001+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xY0gtT0l5dnoxNlRLOWpMTFhERS1ORWlMY0loY0doaU56VktCcU5ucmNncUl0RkJDTXlCLVNNajBMTGcxdm5PYkhySFBBVUV2blQw?oc=5"
+  },
+  {
     "fingerprint": "983f90742d4a769e",
     "title": "伊朗宣称袭击科威特境内美军基地，地区冲突风险升级",
     "summary": "据第一财经援引相关消息，伊朗宣称袭击了科威特境内美军基地。现阶段尚缺乏美方、科威特官方或多家独立媒体对袭击细节的确认，人员伤亡、设施损毁及具体目标均不明。如消息属实，将是伊朗对驻海湾美军目标采取的又一次直接军事行动，可能推动地区冲突进一步升级。",
@@ -88,14 +97,5 @@
     "discoveredAt": "2026-11-16T00:00:35.079340+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2RDNKazREYmZoV3lKMWZUbG5DcmtrZ0xkZDE4aENqT1BKOGVVbkZ4a3V3VndKSE96cW5WYVlNWURrNVMwNGhIbHh6T1ZRTFNzUDF6RmFFbFltTTNyQ3NQY2NJVWd3OFBl?oc=5"
-  },
-  {
-    "fingerprint": "e2614bb3d02afdfe",
-    "title": "伊朗伊斯兰革命卫队宣称出动6架无人机袭击巴林境内美军雷达",
-    "summary": "据观察者网援引外媒报道，伊朗伊斯兰革命卫队发表声明称，出动6架无人机袭击了位于巴林境内的美军雷达系统。巴林为美国海军第五舰队司令部所在地，此次直接针对美军关键军事设施的打击宣告了中东紧张局势进一步外溢与升级。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-15T07:42:29.108055+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FaXNtOGdTbzFWTkduUWlsNmhDaHp6bVB1MDRuanFnVjhuOUVxeWhqZDVEejQ2N3pvZm9GMndYYjZBY2JuMDBVck9nTThZVnIwUFMtcC1KbFh2NlU5eXFhendOSTQzSV9VNXI3clZ6SFY4c1U?oc=5"
   }
 ]
