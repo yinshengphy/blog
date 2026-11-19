@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "181b29cd069ac343",
+    "title": "胡塞武装袭击利雅得致沙特主权基金大楼受损",
+    "summary": "据上观新闻援引相关消息，胡塞武装对沙特境内目标发动袭击，导致沙特公共投资基金相关大楼受损。事件涉及沙特核心金融与政府设施，显示也门战事外溢风险上升。袭击具体地点、时间、武器类型及人员伤亡情况尚待沙特官方或多家权威媒体确认。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-19T16:23:46.449814+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWjZoYXgzcmN6dmx3SXJndnRiampvZWdQcDhBVDlLczJHNTJ5NnpMTm1FNlQ4M3pqQlY0VVgxcHhnTXdCYUJ3LWREMHdfdXhjdmFxN1N4X1RzUQ?oc=5"
+  },
+  {
     "fingerprint": "eebb0c8d233d1c16",
     "title": "乌克兰一周三袭克里米亚大桥铁路运输中断",
     "summary": "德国之声称，乌克兰在一周内连续三次袭击连接俄罗斯本土与克里米亚的刻赤大桥，造成铁路运输中断。该桥是俄方连接克里米亚的重要交通和后勤通道，袭击具有较强战略象征性与军事影响。目前人员伤亡及设施受损程度尚待俄乌官方进一步确认。",
@@ -106,14 +115,5 @@
     "discoveredAt": "2026-11-16T21:28:07.692480+00:00",
     "severity": "重大自然灾害",
     "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu"
-  },
-  {
-    "fingerprint": "4aa12f2ea9ffdc21",
-    "title": "南非夸祖鲁-纳塔尔省与豪登省两起枪击致17人死亡",
-    "summary": "英国广播公司报道，南非夸祖鲁-纳塔尔省和豪登省近日接连发生两起大规模枪击事件，共造成17人死亡。案件具体经过、伤者人数及嫌疑人情况尚待南非警方进一步公布。连续发生的致命枪击再次凸显该国长期面临的严重暴力犯罪和枪支管控挑战。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-16T11:04:08.018172+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss"
   }
 ]
