@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "2469bb183e20e878",
+    "title": "格鲁吉亚公寓楼疑因燃气爆炸致6人死亡",
+    "summary": "格鲁吉亚内政部长苏尔汗·塔马扎什维利表示，救援人员已从一栋疑因燃气爆炸受损的公寓楼废墟中发现6具遗体。事故具体地点、爆炸原因及是否仍有人员失联尚待进一步核实，相关部门正在开展搜救和调查。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-19T23:45:40.409894+00:00",
+    "severity": "严重人员伤亡事故",
+    "link": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss"
+  },
+  {
     "fingerprint": "181b29cd069ac343",
     "title": "胡塞武装袭击利雅得致沙特主权基金大楼受损",
     "summary": "据上观新闻援引相关消息，胡塞武装对沙特境内目标发动袭击，导致沙特公共投资基金相关大楼受损。事件涉及沙特核心金融与政府设施，显示也门战事外溢风险上升。袭击具体地点、时间、武器类型及人员伤亡情况尚待沙特官方或多家权威媒体确认。",
@@ -97,23 +106,5 @@
     "discoveredAt": "2026-11-17T17:06:35.900168+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "22e34e89c7673c68",
-    "title": "乌克兰首都基辅接连传出爆炸声，袭击情况待核实",
-    "summary": "中国新闻网援引相关信息称，乌克兰首都基辅出现爆炸声，可能与防空拦截或俄乌冲突中的空袭有关，但目前尚无足够信息确认爆炸性质、发生地点及是否造成伤亡。由于基辅是乌克兰政治和军事核心区域，该消息具有较高安全关注度，仍需等待乌方官方通报及多源报道交叉验证。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-16T23:12:26.353677+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWX3d1WnNpNDRfQ0pqQm04STJMTzgyMlpxZmIyYW1QNlRCZFl3WENxMERraGpPcEotNExPajRPemFrMHhRMkhXVFlWVjU1R2RBVnhQZHR3LXpyVS16MTJYVXViYThxQm5B?oc=5"
-  },
-  {
-    "fingerprint": "0bb8836e14eae605",
-    "title": "印度尼西亚图阿尔西南方向发生6.6级地震",
-    "summary": "据美国地质调查局消息，印度尼西亚图阿尔西南151公里处于2026年11月16日21时11分17秒（UTC）发生6.6级地震。震中远离人口密集区，当前尚无伤亡和重大损失报告，但因震中位于海域附近，相关国家仍需关注海啸预警、沿岸异常潮汐及后续余震情况。",
-    "source": "USGS 地质调查局",
-    "discoveredAt": "2026-11-16T21:28:07.692480+00:00",
-    "severity": "重大自然灾害",
-    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu"
   }
 ]
