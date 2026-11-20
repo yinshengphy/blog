@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "d9581873fc62b7f1",
+    "title": "也门媒体称沙特过去24小时空袭致至少41人死亡",
+    "summary": "也门媒体称，过去24小时内沙特对也门发动多轮空袭，已造成至少41人死亡。该消息由新华网客户端转引，目前尚缺沙特方面、胡塞武装及国际独立机构的同步确认。若伤亡数字属实，将显示也门战事出现显著升级，并可能引发新一轮跨境报复和地区安全风险。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-20T17:46:44.952089+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHhOOWhsZG1NX2ZWdVdITXlTSnNzQ0ItMFFBWC0zc2lCRVIydVZ3VXlXUVpPdXJMTVFQc3I0YTV5UnpiM3ltM0IwNkNncTNtVFV2MFYwQ2RnZmxLS3Y5bnVhT0lzRGJQSmVMZ0NhczlCR1E3dWxkdVBiaW1MN3QtdGJZQmU3aGcyUTZneHBZOFRiSUt2VFlabi1n?oc=5"
+  },
+  {
     "fingerprint": "fc0c3c474be9ea8e",
     "title": "俄导弹在西方军演期间击中波兰，图斯克称并非意外",
     "summary": "BBC报道称，波兰总理图斯克表示，俄罗斯导弹击中波兰的事件发生时，乌克兰盟友正在该地区举行军事演习，初步判断不像意外。具体地点、伤亡和损失尚待波兰政府及北约正式确认。若确认导弹来自俄罗斯，事件将直接触及北约成员国安全，可能引发紧急磋商并加剧俄乌冲突外溢风险。",
@@ -115,14 +124,5 @@
     "discoveredAt": "2026-11-17T19:49:48.317196+00:00",
     "severity": "严重人员伤亡事故",
     "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "09767498c52dd79d",
-    "title": "乌克兰袭击克里米亚大桥致部分坍塌，泽连斯基称前所未有",
-    "summary": "BBC报道称，克里米亚大桥遭乌克兰导弹和无人机袭击后部分坍塌。乌方表示行动筹划数周，泽连斯基称其为“前所未有”的攻击。该桥连接俄罗斯本土与克里米亚，兼具交通、军事和象征意义，受损可能影响人员与军事物资运输，并加剧俄乌冲突升级风险。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-17T17:06:35.900168+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
   }
 ]
