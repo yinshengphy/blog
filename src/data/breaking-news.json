@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "8701a2556845c939",
+    "title": "海地处置爆炸物时发生爆炸，两名萨尔瓦多士兵死亡",
+    "summary": "半岛电视台英文报道，两名萨尔瓦多士兵在海地执行任务期间处理爆炸物时发生爆炸并死亡，另有两人受伤。萨尔瓦多部队自去年10月底部署海地以来首次出现人员死亡。目前事故具体地点、爆炸物来源及责任归属尚待海地和萨尔瓦多官方进一步通报。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-20T21:23:07.737569+00:00",
+    "severity": "严重人员伤亡事故",
+    "link": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss"
+  },
+  {
     "fingerprint": "d9581873fc62b7f1",
     "title": "也门媒体称沙特过去24小时空袭致至少41人死亡",
     "summary": "也门媒体称，过去24小时内沙特对也门发动多轮空袭，已造成至少41人死亡。该消息由新华网客户端转引，目前尚缺沙特方面、胡塞武装及国际独立机构的同步确认。若伤亡数字属实，将显示也门战事出现显著升级，并可能引发新一轮跨境报复和地区安全风险。",
@@ -115,14 +124,5 @@
     "discoveredAt": "2026-11-17T22:24:51.860933+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKYlJRQ3VORG5sVi1qWGFhWjJHRFN0YUNPelc5MkY0eWVtTHptcGRyLWpncWVMUFQtT0JueFNpdkVzOTJuX0twajFldzZkY3BMNnVTSG02NU83ckJNMnc?oc=5"
-  },
-  {
-    "fingerprint": "e9b9394b65b9626e",
-    "title": "俄罗斯军机在克麦罗沃州坠毁 机上19人全部遇难",
-    "summary": "俄罗斯克麦罗沃州发生军用飞机坠毁事故，机上19人无一生还。俄罗斯国防部已确认事故，并初步判断技术故障可能为主要原因。目前尚无迹象显示事故与军事冲突或外部袭击有关，具体机型、遇难者身份及事故经过仍待进一步调查公布。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-17T19:49:48.317196+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss"
   }
 ]
