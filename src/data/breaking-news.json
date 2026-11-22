@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "a9aca8494afdc961",
+    "title": "巴林称伊朗袭击民用工业设施炼油岛升起浓烟",
+    "summary": "巴林方面报告称，伊朗对巴林一处民用工业设施发动袭击，炼油厂所在的锡特拉岛升起浓烟。事件目标涉及能源及工业设施，具体受损情况、袭击方式和人员伤亡尚待进一步核实。若确认与此前伊朗袭击巴林美军目标有关，或显示冲突正向民用及关键能源基础设施扩散。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-22T11:50:19.057267+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHaXJWcWtaNGxuM3JSckh2eWhrNkNGSEs0NThBazVrd3FhdTl3NGJKbE1NSzNIQVJnWTRRcFhhLUlCRlJIQXlPSUYxV05DaE1kZi1aOVFkOWJhMXBaYVVoXw?oc=5"
+  },
+  {
     "fingerprint": "559680454c01f3c4",
     "title": "新疆乌鲁木齐东南约45公里发生5.1级地震",
     "summary": "美国地质调查局报告称，2026年11月22日09时08分28秒（UTC），新疆乌鲁木齐东南约45公里处发生5.1级地震。现有信息未显示人员伤亡或重大设施受损，暂不构成特大自然灾害，后续需关注当地震感、余震及官方灾情通报。",
@@ -178,14 +187,5 @@
     "discoveredAt": "2026-11-19T16:23:46.449814+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWjZoYXgzcmN6dmx3SXJndnRiampvZWdQcDhBVDlLczJHNTJ5NnpMTm1FNlQ4M3pqQlY0VVgxcHhnTXdCYUJ3LWREMHdfdXhjdmFxN1N4X1RzUQ?oc=5"
-  },
-  {
-    "fingerprint": "eebb0c8d233d1c16",
-    "title": "乌克兰一周三袭克里米亚大桥铁路运输中断",
-    "summary": "德国之声称，乌克兰在一周内连续三次袭击连接俄罗斯本土与克里米亚的刻赤大桥，造成铁路运输中断。该桥是俄方连接克里米亚的重要交通和后勤通道，袭击具有较强战略象征性与军事影响。目前人员伤亡及设施受损程度尚待俄乌官方进一步确认。",
-    "source": "DW Chinese (德国之声)",
-    "discoveredAt": "2026-11-19T09:56:55.541539+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.dw.com/zh/乌克兰一周内三次袭击克里米亚大桥-铁路运输中断/a-79988821?maca=chi-rss-chi-all-1127-xml-mrss"
   }
 ]
