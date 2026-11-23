@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "21d00e828f6808dd",
+    "title": "伊朗称霍尔木兹海峡三艘油轮发生爆炸",
+    "summary": "伊朗方面表示，三艘油轮在霍尔木兹海峡发生爆炸。该海峡是全球关键能源运输通道，事件可能引发航运安全和原油市场担忧。目前尚缺乏关于爆炸原因、船只受损程度、人员伤亡及是否存在军事袭击的独立多源确认，需等待伊朗及相关国家官方进一步通报。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-23T23:09:08.518477+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHlVWDdRbjBVWGdvVkplZkFtWTMyZlhNRnNRcVEwMkI3c2ZrR1c5Z3RNc0RHLVZqZ0RzbzBuODk5eXhmMDUyRnNRUFZ0eEhTN2tucnJEWDJiMVduR0N1b0pTZWxWZnhUN2NYRDU1SktMYnlFUTdDems1XzVkQnJoemNFV2dwTWc2dE1mSw?oc=5"
+  },
+  {
     "fingerprint": "c90fc71476286baa",
     "title": "曼彻斯特演唱会不明物质释放逾万人紧急疏散",
     "summary": "英国曼彻斯特Co-op Live体育场发生公共安全突发事件，演唱会期间疑似有不明物质释放，超过1.2万人被紧急撤离。现场活动受到影响，相关部门可能对场馆展开排查和调查。截至目前，尚无人员伤亡或物质成分的官方确认，事件是否涉及化学品泄漏或其他安全威胁仍待核实。",
@@ -205,14 +214,5 @@
     "discoveredAt": "2026-11-20T23:39:06.692622+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OazJfaXZOVm5udXRiSUplYWdFLW9Ra3NHbDEydVZkc1Z3aVhkeDRPTVkzV29Dd0x3Z3NBY19HTFkyWEQxUWc2VUtVZDQ3SDdWUzhCZThWVWNEYXphYV94czF3?oc=5"
-  },
-  {
-    "fingerprint": "8701a2556845c939",
-    "title": "海地处置爆炸物时发生爆炸，两名萨尔瓦多士兵死亡",
-    "summary": "半岛电视台英文报道，两名萨尔瓦多士兵在海地执行任务期间处理爆炸物时发生爆炸并死亡，另有两人受伤。萨尔瓦多部队自去年10月底部署海地以来首次出现人员死亡。目前事故具体地点、爆炸物来源及责任归属尚待海地和萨尔瓦多官方进一步通报。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-20T21:23:07.737569+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss"
   }
 ]
