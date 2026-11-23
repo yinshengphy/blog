@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "c2ad1c4923f5aa6b",
+    "title": "菲律宾南部一名官员住宅遭火箭弹袭击",
+    "summary": "据上观新闻援引相关信息报道，菲律宾南部一名官员住宅遭火箭弹袭击。现阶段尚不清楚袭击发生的具体地点、时间、伤亡情况及武器来源，也未确认是否与当地武装组织有关。由于缺乏菲律宾官方及多家权威媒体证实，该事件仍处于待核实状态，但针对公职人员住宅的火箭弹袭击具有较强安全和政治影响，需关注后续官方通报。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-23T15:41:43.160314+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NUhDckg2ZExFTUlMazVIa3ZCd192dWJEUVN4c0c4U2pOUTl4WmphendIT1A0ZWpxbmoxQU5PbVo2blJYclFMZnJjQjB1Qk5ocmNlQko2WGdSdw?oc=5"
+  },
+  {
     "fingerprint": "b838634096836ffa",
     "title": "瓦努阿图地区发生6.5级地震，暂无伤亡损失报告",
     "summary": "USGS报告称，瓦努阿图地区于2026年11月23日02时40分57秒（UTC）发生6.5级地震。该震级具备一定破坏潜势，但目前尚无人员伤亡、基础设施受损或海啸灾情报告。后续应重点核实震源深度、震中距居民点范围、余震活动及当地官方灾情通报。",
@@ -196,23 +205,5 @@
     "discoveredAt": "2026-11-20T17:46:44.952089+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHhOOWhsZG1NX2ZWdVdITXlTSnNzQ0ItMFFBWC0zc2lCRVIydVZ3VXlXUVpPdXJMTVFQc3I0YTV5UnpiM3ltM0IwNkNncTNtVFV2MFYwQ2RnZmxLS3Y5bnVhT0lzRGJQSmVMZ0NhczlCR1E3dWxkdVBiaW1MN3QtdGJZQmU3aGcyUTZneHBZOFRiSUt2VFlabi1n?oc=5"
-  },
-  {
-    "fingerprint": "fc0c3c474be9ea8e",
-    "title": "俄导弹在西方军演期间击中波兰，图斯克称并非意外",
-    "summary": "BBC报道称，波兰总理图斯克表示，俄罗斯导弹击中波兰的事件发生时，乌克兰盟友正在该地区举行军事演习，初步判断不像意外。具体地点、伤亡和损失尚待波兰政府及北约正式确认。若确认导弹来自俄罗斯，事件将直接触及北约成员国安全，可能引发紧急磋商并加剧俄乌冲突外溢风险。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-20T12:36:23.043315+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "92e965081a557ec7",
-    "title": "俄军大规模导弹袭击基辅三座桥梁，致五人死亡",
-    "summary": "BBC报道称，俄罗斯在乌克兰成功打击克里米亚大桥后，对基辅发动大规模导弹袭击，至少三座桥梁被击中，造成五人死亡。事件显示俄乌冲突报复性打击加剧，首都交通和关键基础设施面临更高风险，伤亡及损毁情况仍待官方进一步确认。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-20T08:43:45.219645+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
   }
 ]
