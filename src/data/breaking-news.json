@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "b838634096836ffa",
+    "title": "瓦努阿图地区发生6.5级地震，暂无伤亡损失报告",
+    "summary": "USGS报告称，瓦努阿图地区于2026年11月23日02时40分57秒（UTC）发生6.5级地震。该震级具备一定破坏潜势，但目前尚无人员伤亡、基础设施受损或海啸灾情报告。后续应重点核实震源深度、震中距居民点范围、余震活动及当地官方灾情通报。",
+    "source": "USGS 地质调查局",
+    "discoveredAt": "2026-11-23T02:51:33.469842+00:00",
+    "severity": "重大自然灾害预警",
+    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26327000"
+  },
+  {
     "fingerprint": "e57b4a902c603b7b",
     "title": "印尼糖果厂火灾发现24个尸袋仍有约30人失联",
     "summary": "印尼万丹省一处糖果厂此前发生严重火灾。最新消息称，救援人员在现场整理出24个尸袋，另有约30人失联，实际死亡人数及失联规模仍待当地政府和警方最终确认。该事件属于重大工业火灾事故，搜救、遗体辨认及事故原因调查正在展开。",
@@ -205,14 +214,5 @@
     "discoveredAt": "2026-11-20T08:43:45.219645+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "2469bb183e20e878",
-    "title": "格鲁吉亚公寓楼疑因燃气爆炸致6人死亡",
-    "summary": "格鲁吉亚内政部长苏尔汗·塔马扎什维利表示，救援人员已从一栋疑因燃气爆炸受损的公寓楼废墟中发现6具遗体。事故具体地点、爆炸原因及是否仍有人员失联尚待进一步核实，相关部门正在开展搜救和调查。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-19T23:45:40.409894+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss"
   }
 ]
