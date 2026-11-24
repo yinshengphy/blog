@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "cf05a92b4e868945",
+    "title": "哥伦比亚警察指挥部遭无人机袭击致3名平民受伤",
+    "summary": "据中国新闻网援引相关消息，哥伦比亚一处警察指挥部遭无人机袭击，已有3名平民受伤。目前袭击发生的具体地点、无人机所载物性质、袭击者身份及是否造成警务设施损毁等信息尚待哥伦比亚政府和警方进一步确认。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-24T02:18:33.437416+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXUjVoU3hob0xHRUFEMG1uc0d2MmZoVmVPX1lUb0VWWFFnd1g3ZE5VMFVLdEl2dVdOQzhzNGVrRHlJSlFEaFZ0eDlTdksxN3pWaS0wMGZLVVJ4THNvWV9kQVpSSVgzbDVr?oc=5"
+  },
+  {
     "fingerprint": "e68f137d63e15de5",
     "title": "以军空袭加沙城一辆汽车致2人死亡7人受伤",
     "summary": "央广网援引相关消息称，以军在加沙城对一辆汽车实施空袭，造成2人死亡、7人受伤。目前尚不清楚遇袭车辆人员身份及具体袭击原因，伤亡数字和现场情况仍有待当地卫生部门、以军或其他权威机构进一步核实。",
@@ -196,32 +205,5 @@
     "discoveredAt": "2026-11-21T09:56:22.662562+00:00",
     "severity": "特大自然灾害",
     "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij"
-  },
-  {
-    "fingerprint": "dcf4679d2a9e4f1b",
-    "title": "沙特称拦截胡塞向利雅得发射的三枚导弹",
-    "summary": "半岛电视台报道，沙特领导的联军称拦截了胡塞武装向沙特方向发射的三枚导弹。沙特首都利雅得接连发布紧急警报，目前尚无人员伤亡和设施受损信息。事件发生在沙特持续介入也门冲突、地区军事对抗升温背景下，需关注后续是否出现新的导弹袭击或沙特报复行动。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-21T00:26:52.586666+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss"
-  },
-  {
-    "fingerprint": "1e90dfb88a0a9312",
-    "title": "秘鲁翁多雷斯附近发生6.9级地震",
-    "summary": "美国地质调查局测定，2026年11月21日00时09分17秒（UTC），秘鲁胡宁大区翁多雷斯西北约22公里处发生6.9级地震。该震级具有明显破坏潜势，周边城镇可能出现建筑受损、滑坡及通信交通受影响情况，但截至目前暂无权威伤亡和损失报告。",
-    "source": "USGS 地质调查局",
-    "discoveredAt": "2026-11-21T00:20:03.916400+00:00",
-    "severity": "重大自然灾害",
-    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26325050"
-  },
-  {
-    "fingerprint": "0de205848d097528",
-    "title": "美伊交火升级伊朗革命卫队进入最高战备",
-    "summary": "手机网易网援引相关消息称，美伊交火态势升级，伊朗革命卫队据报进入最高战备，伊朗西部同时爆发大规模抗议。该线索涉及潜在区域性军事升级，但目前来源单一，尚未见美国、伊朗官方或国际主流媒体对交火规模、抗议地点及伤亡情况作出明确确认，需持续核查。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-20T23:39:06.692622+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OazJfaXZOVm5udXRiSUplYWdFLW9Ra3NHbDEydVZkc1Z3aVhkeDRPTVkzV29Dd0x3Z3NBY19HTFkyWEQxUWc2VUtVZDQ3SDdWUzhCZThWVWNEYXphYV94czF3?oc=5"
   }
 ]
