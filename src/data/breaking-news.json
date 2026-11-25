@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "6cb19f333551c773",
+    "title": "也门胡塞武装宣称袭击沙特炼油厂及金融中心",
+    "summary": "也门胡塞武装宣称袭击沙特炼油厂和金融中心，目标涉及沙特能源与金融等关键基础设施。当前尚缺沙特官方及独立信源对袭击地点、武器类型、拦截情况和人员伤亡的确认。若消息属实，可能进一步扩大胡塞与沙特之间的军事对抗，并冲击地区能源供应和金融市场稳定。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-25T10:30:05.892378+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QeVR3aWZpSHU1TTVfeHBMT1RaMGNvYnFzVjZPSC1NRHNaTXJIaFhvY1RYeXd1aklXVTFtdk9tcE5xUEx1LUgyNVdpUEtiZkJ2dkF5VFJzYzZTOGVVdkNEeTRIUkdJMVhMYzJiNmpMazExT2VtLVU1dF9wQmQ0bjQ?oc=5"
+  },
+  {
     "fingerprint": "50e44dc0711da754",
     "title": "伊朗称两艘油轮在霍尔木兹海峡触雷爆炸",
     "summary": "伊朗称两艘油轮在霍尔木兹海峡触雷爆炸，事故原因、雷区位置、船员伤亡和责任方尚未得到独立确认。霍尔木兹海峡是全球关键能源运输通道，若航行受阻，可能引发油价、航运保险及地区军事紧张度上升。",
@@ -214,14 +223,5 @@
     "discoveredAt": "2026-11-22T11:50:19.057267+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHaXJWcWtaNGxuM3JSckh2eWhrNkNGSEs0NThBazVrd3FhdTl3NGJKbE1NSzNIQVJnWTRRcFhhLUlCRlJIQXlPSUYxV05DaE1kZi1aOVFkOWJhMXBaYVVoXw?oc=5"
-  },
-  {
-    "fingerprint": "559680454c01f3c4",
-    "title": "新疆乌鲁木齐东南约45公里发生5.1级地震",
-    "summary": "美国地质调查局报告称，2026年11月22日09时08分28秒（UTC），新疆乌鲁木齐东南约45公里处发生5.1级地震。现有信息未显示人员伤亡或重大设施受损，暂不构成特大自然灾害，后续需关注当地震感、余震及官方灾情通报。",
-    "source": "USGS 地质调查局",
-    "discoveredAt": "2026-11-22T09:27:11.272044+00:00",
-    "severity": "一般自然灾害",
-    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrp"
   }
 ]
