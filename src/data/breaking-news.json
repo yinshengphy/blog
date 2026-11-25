@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "18da3b0df8cd2958",
+    "title": "沙特领导联军空袭也门荷台达港 胡塞威胁袭击吉达港口",
+    "summary": "沙特领导的联军对也门西部荷台达港发动打击，行动前曾要求相关人员撤离。胡塞武装随后威胁袭击沙特吉达及其他港口。事件显示沙特与胡塞之间冲突进一步升级，可能引发报复性导弹或无人机袭击，并增加红海航运和地区能源运输风险。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-25T02:57:47.878461+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss"
+  },
+  {
     "fingerprint": "916a0aab52ba88ca",
     "title": "土耳其军用直升机坠毁致5名士兵死亡",
     "summary": "土耳其发生军用直升机坠毁事故，造成5名士兵死亡。该事件属于较严重军事航空安全事故，但目前尚无迹象表明与武装冲突或外部袭击有关。事故发生地点、具体时间、机型及坠毁原因尚待土耳其国防部门或军方进一步通报确认。",
@@ -178,14 +187,5 @@
     "discoveredAt": "2026-11-22T03:44:31.208014+00:00",
     "severity": "严重人员伤亡事故",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOExuQ3dxQlpXN3JfN0hRNHczeDdmOTI5SmF0YWhTQ29RWnNTOTJTYXotNDRiNnlpbmRwUURKdXhiTUNGT2dUdmJrVEZJXzZodGtkLXFUdXgybl9wR3BlWndpbmg1ajdZQVhZaml2bEdoV0ltc3c3bWxUUjVYVzRwdnhYSVhRNExDai1sVlFFTUdwTjN4LXJFcG1n?oc=5"
-  },
-  {
-    "fingerprint": "80949271252f85d1",
-    "title": "伊朗锡里克附近海面传出爆炸声，原因尚不明",
-    "summary": "伊朗霍尔木兹甘省锡里克附近海面传出爆炸声。现有信息尚不足以判断是军事行动、海上事故还是其他原因，暂无人员伤亡和财产损失报告。鉴于该地邻近霍尔木兹海峡，且地区近期军事对抗升温，事件具有一定安全风险，仍需等待伊朗官方或多方信源进一步核实。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-21T23:48:51.117304+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xMV8yLW5iRUZKSGNCVDh1QmhIX05CSjZLMDVyX1duYzRqd0pNS3pNTVRBOU4yVmwwTy0zZ2VBTmYwaEkyYVZ0Y1FxejhlM1JhY2VvRk95WlV5RklOY19ZRlFZWEJjQTZV?oc=5"
   }
 ]
