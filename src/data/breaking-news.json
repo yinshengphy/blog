@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "11841b522b35409d",
+    "title": "乌克兰称袭击俄萨瓦斯莱卡机场 五架军机受损",
+    "summary": "BBC报道称，乌克兰宣称袭击俄罗斯下诺夫哥罗德州萨瓦斯莱卡机场，击中五架俄军飞机。该基地被认为用于部署可发射高超音速导弹和滑翔炸弹的战机。俄方尚未正式确认损失，人员伤亡及袭击方式仍待核实。",
+    "source": "BBC World News",
+    "discoveredAt": "2026-11-25T15:01:09.763353+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "fingerprint": "d3d304b1cd94a041",
     "title": "美国密西西比州外海飞机失事致6人死亡包括两名儿童",
     "summary": "据BBC援引美国海岸警卫队消息，潜水员在密西西比州外海一架失事飞机的机身内发现6具遗体，包括4名成年人和两名分别为8岁、10岁的男孩。目前官方尚未公布事故发生时间、飞机型号及失事原因，相关搜救和调查工作正在进行。",
@@ -205,32 +214,5 @@
     "discoveredAt": "2026-11-22T15:57:58.373068+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "d8ae7ce298ef3d12",
-    "title": "泽连斯基敦促美国提供爱国者导弹，俄袭乌致3人死亡",
-    "summary": "据半岛电视台报道，俄罗斯新一轮无人机和炮击行动在乌克兰造成至少3人死亡，其中基辅附近两人遇难，扎波罗热一人死亡。乌总统泽连斯基同时呼吁美国提供更多爱国者防空导弹，以应对持续升级的俄军空袭。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-22T14:58:51.597501+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss"
-  },
-  {
-    "fingerprint": "eda5b3e438b7cb82",
-    "title": "沙特称拦截胡塞无人机导弹 胡塞称萨那遭袭致人受伤",
-    "summary": "沙特防空系统击落一架无人机并拦截导弹，境内暂未报告较大损失。胡塞媒体同日称，也门首都萨那一处石油公司遭空袭，造成数人受伤。双方说法尚未获独立核实。事件显示沙特与胡塞武装军事冲突再度升温，可能加剧地区紧张并威胁能源设施与红海周边安全。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-22T13:36:18.212625+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss"
-  },
-  {
-    "fingerprint": "a9aca8494afdc961",
-    "title": "巴林称伊朗袭击民用工业设施炼油岛升起浓烟",
-    "summary": "巴林方面报告称，伊朗对巴林一处民用工业设施发动袭击，炼油厂所在的锡特拉岛升起浓烟。事件目标涉及能源及工业设施，具体受损情况、袭击方式和人员伤亡尚待进一步核实。若确认与此前伊朗袭击巴林美军目标有关，或显示冲突正向民用及关键能源基础设施扩散。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-22T11:50:19.057267+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHaXJWcWtaNGxuM3JSckh2eWhrNkNGSEs0NThBazVrd3FhdTl3NGJKbE1NSzNIQVJnWTRRcFhhLUlCRlJIQXlPSUYxV05DaE1kZi1aOVFkOWJhMXBaYVVoXw?oc=5"
   }
 ]
