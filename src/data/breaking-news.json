@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "53e30c79a86cefc3",
+    "title": "曼谷炼油厂爆炸致9人受伤其中3人重伤",
+    "summary": "BBC报道称，泰国曼谷一处炼油厂发生爆炸，现场升起的大量黑烟可从城市多处看到，造成9人受伤、其中3人伤势危重。当地官员已敦促周边居民离开危险区域。目前爆炸原因、是否存在进一步伤亡及对炼油生产和城市交通的影响，仍待泰方官方通报确认。",
+    "source": "BBC World News",
+    "discoveredAt": "2026-11-26T16:23:35.279862+00:00",
+    "severity": "严重人员伤亡事故",
+    "link": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
     "fingerprint": "f356fe4606badf67",
     "title": "沙特称西南部一处炼油厂遭胡塞武装袭击",
     "summary": "沙特方面通报称，西南部一处炼油厂遭胡塞武装袭击。该事件显示也门冲突外溢风险仍在，可能对沙特能源设施和区域航运安全造成影响，但袭击时间、武器类型、人员伤亡及炼油厂受损情况目前均缺乏多源独立确认。",
@@ -322,14 +331,5 @@
     "discoveredAt": "2026-11-23T16:44:03.989874+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss"
-  },
-  {
-    "fingerprint": "c2ad1c4923f5aa6b",
-    "title": "菲律宾南部一名官员住宅遭火箭弹袭击",
-    "summary": "据上观新闻援引相关信息报道，菲律宾南部一名官员住宅遭火箭弹袭击。现阶段尚不清楚袭击发生的具体地点、时间、伤亡情况及武器来源，也未确认是否与当地武装组织有关。由于缺乏菲律宾官方及多家权威媒体证实，该事件仍处于待核实状态，但针对公职人员住宅的火箭弹袭击具有较强安全和政治影响，需关注后续官方通报。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-23T15:41:43.160314+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NUhDckg2ZExFTUlMazVIa3ZCd192dWJEUVN4c0c4U2pOUTl4WmphendIT1A0ZWpxbmoxQU5PbVo2blJYclFMZnJjQjB1Qk5ocmNlQko2WGdSdw?oc=5"
   }
 ]
