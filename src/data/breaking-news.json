@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "8aac190c68cd79b3",
+    "title": "胡塞称袭击沙特塔努拉角炼油厂及利雅得金融中心",
+    "summary": "胡塞武装宣称袭击沙特塔努拉角炼油厂及利雅得金融中心。相关目标分别涉及全球重要石油设施和沙特首都核心金融区域，但目前尚无沙特官方或多家独立媒体确认，人员伤亡及设施损毁情况不明。事件发生在近期沙特多地遭袭、拦截报告频出的背景下，若得到证实，或标志着袭击目标向能源与金融核心设施进一步升级。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-26T04:10:47.057818+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YblhnRUhuTDdiYmtTenNOdHZETjMtdmdobHBPd0RLd2c2Y05PbFlGTmllQzVOZ1E2RmVpdjhONnlBX0lHWEo4X1BrVGYzY0ZkY3c?oc=5"
+  },
+  {
     "fingerprint": "470e2e7d77eea089",
     "title": "以色列空袭加沙地带击毙哈马斯安全官员",
     "summary": "据8world报道，以色列再次对加沙地带实施空袭，造成哈马斯一名安全官员死亡。事件显示以巴武装冲突仍在持续，但目前尚无更多关于袭击具体地点、平民伤亡、设施损毁及以军行动规模的权威细节，相关情况有待以色列、哈马斯或其他官方渠道进一步确认。",
@@ -241,14 +250,5 @@
     "discoveredAt": "2026-11-23T15:41:43.160314+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NUhDckg2ZExFTUlMazVIa3ZCd192dWJEUVN4c0c4U2pOUTl4WmphendIT1A0ZWpxbmoxQU5PbVo2blJYclFMZnJjQjB1Qk5ocmNlQko2WGdSdw?oc=5"
-  },
-  {
-    "fingerprint": "b838634096836ffa",
-    "title": "瓦努阿图地区发生6.5级地震，暂无伤亡损失报告",
-    "summary": "USGS报告称，瓦努阿图地区于2026年11月23日02时40分57秒（UTC）发生6.5级地震。该震级具备一定破坏潜势，但目前尚无人员伤亡、基础设施受损或海啸灾情报告。后续应重点核实震源深度、震中距居民点范围、余震活动及当地官方灾情通报。",
-    "source": "USGS 地质调查局",
-    "discoveredAt": "2026-11-23T02:51:33.469842+00:00",
-    "severity": "重大自然灾害预警",
-    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26327000"
   }
 ]
