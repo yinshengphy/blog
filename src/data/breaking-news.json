@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "c39390b641ffb3f7",
+    "title": "胡塞武装宣称袭击沙特吉达和吉赞港",
+    "summary": "也门胡塞武装宣称袭击沙特吉达港和吉赞港。相关港口分别位于红海沿岸及沙特西南部，具有重要商贸和军事运输价值。目前尚无沙特方面或独立来源确认袭击细节，人员伤亡、港口受损及航运影响均不明。事件若属实，将构成对沙特境内关键港口目标的新一轮打击，可能进一步推高地区冲突和红海航运风险。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-26T00:03:50.073323+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YNUR3NUhpdlVQTEJjRnJuTUEybFNROXdEeHhtR1FIX244TWZpdFNfYzRzMno2M19GWktDVlZLUEFBOXFiSXUyeHpxTU42aUp0aU9DT1pVRk5oSnlWcXZmNzNKUkxMdw?oc=5"
+  },
+  {
     "fingerprint": "d8c0a12721189d78",
     "title": "乌克兰袭击俄罗斯船只致两名利比亚人员死亡",
     "summary": "美国之音称，乌克兰袭击一艘俄罗斯船只，导致两名利比亚人员死亡。利比亚军方已发出将作出回应的警告，但袭击具体地点、武器类型、船只身份及人员隶属关系尚未得到多方独立确认。若利比亚采取实际行动，事件或推动俄乌冲突进一步外溢。",
@@ -223,14 +232,5 @@
     "discoveredAt": "2026-11-23T02:51:33.469842+00:00",
     "severity": "重大自然灾害预警",
     "link": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26327000"
-  },
-  {
-    "fingerprint": "e57b4a902c603b7b",
-    "title": "印尼糖果厂火灾发现24个尸袋仍有约30人失联",
-    "summary": "印尼万丹省一处糖果厂此前发生严重火灾。最新消息称，救援人员在现场整理出24个尸袋，另有约30人失联，实际死亡人数及失联规模仍待当地政府和警方最终确认。该事件属于重大工业火灾事故，搜救、遗体辨认及事故原因调查正在展开。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-22T21:14:16.009709+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtV1JiY3VpS1FtWlR3bVdUSmV4VmtSZUtJd3pzWEcxc2JOV1cyOEc3T05aNWVCQWtOUHdfamJzd1JzSmVyTWVsQUVPWmxQSHNQNHZrWUNseHBNb3Q3aEE1SVE0OHBMMXJqZ05tYWZ5NmwzNlN4RzNwNg?oc=5"
   }
 ]
