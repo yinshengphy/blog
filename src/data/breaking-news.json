@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "7a82abb8d1202d25",
+    "title": "乌克兰称新行动令俄军伤亡上升，前线激战与停火磋商并行",
+    "summary": "半岛电视台报道称，乌克兰称一项新的前线军事行动正在形成对俄军的“诱捕”，俄军多轮进攻遭遇顽强抵抗并出现伤亡上升。与此同时，西方国家正讨论停火方案。当前报道未披露明确伤亡数字、行动地点及官方独立佐证，需关注战线是否出现突破及停火谈判进展。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-27T17:58:39.363241+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss"
+  },
+  {
     "fingerprint": "21e5b531db9d6224",
     "title": "乌克兰“三海联动”袭击俄舰船，战火外溢风险上升",
     "summary": "新华网称，乌克兰近期采取“三海联动”方式袭击俄罗斯舰船，显示俄乌冲突可能从陆空战场向更广泛海域延伸。相关行动的具体地点、目标、损毁及人员伤亡情况尚未完全确认，但其对区域航运安全、军事部署和冲突外溢的影响值得持续关注。",
@@ -259,14 +268,5 @@
     "discoveredAt": "2026-11-24T23:31:25.148697+00:00",
     "severity": "严重人员伤亡事故",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NUHdobnZVTDY1Q1MtRFpndEo4akZHalYxR1NhU3MzbHdQYXJ3U0x2eG02dEhNd1FoX2dQdTlCZm83MmdnbU0wdmpQb2dwb1hDdWN5ZDZzRDNybkFzUEdyeElUNUxDUlVU?oc=5"
-  },
-  {
-    "fingerprint": "c0d43d0bf324ceca",
-    "title": "胡塞武装袭击利雅得金融中心致11人受伤",
-    "summary": "财联社援引沙特方面消息称，胡塞武装袭击沙特首都利雅得金融中心，造成11人受伤。现有信息未说明袭击方式、目标损毁程度及伤者具体情况，暂缺沙特官方完整通报和多家国际媒体交叉确认。鉴于利雅得为沙特政治经济核心，若消息属实，将构成也门冲突外溢及地区安全局势升级。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-24T17:19:31.682590+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB2cnR0SzRRTTJpdHdiSnR6R1p6Znp1TERsdEVEUzZTWFZLZXE4SktMY2dYS1NYUElwY1hwOG1LWklyYUgyTXhzTw?oc=5"
   }
 ]
