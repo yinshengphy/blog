@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "03b726d261ec2fd6",
+    "title": "消息人士称哈马斯领导人哈利勒·哈亚之子在加沙遇袭身亡",
+    "summary": "据消息人士透露，哈马斯领导人哈利勒·哈亚之子在加沙遭以色列军方空袭并身亡。现阶段尚缺乏以军、哈马斯或其他权威渠道确认，袭击具体地点、发生时间及是否造成其他伤亡均不明确。事件涉及哈马斯高层家属，可能对加沙战事及后续谈判氛围产生影响。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-27T10:48:04.143834+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sd1YzOV9SOFNkc1QzbHZZbUdmTGNyNlhwQ3pSak84QWduckhCaDlEYmRfZVdGZ2N6bkwwMHNvNDBvNWdGMGh2aHVmb3NQaF8tS1ZTcEtRNDVYclF2X0JNbHBSSGlYZw?oc=5"
+  },
+  {
     "fingerprint": "53e30c79a86cefc3",
     "title": "曼谷炼油厂爆炸致9人受伤其中3人重伤",
     "summary": "BBC报道称，泰国曼谷一处炼油厂发生爆炸，现场升起的大量黑烟可从城市多处看到，造成9人受伤、其中3人伤势危重。当地官员已敦促周边居民离开危险区域。目前爆炸原因、是否存在进一步伤亡及对炼油生产和城市交通的影响，仍待泰方官方通报确认。",
@@ -268,68 +277,5 @@
     "discoveredAt": "2026-11-24T11:25:37.136095+00:00",
     "severity": "重大自然灾害",
     "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6h"
-  },
-  {
-    "fingerprint": "91f0dd7c209fb311",
-    "title": "沙特空袭也门西南部，造成25人死亡或失踪",
-    "summary": "海外媒体报道称，沙特对也门西南部目标实施空袭，造成至少25人死亡或失踪。当前尚不清楚伤亡者身份、受袭目标及行动具体时间，也门方面和沙特官方尚未发布完整通报。事件显示也门冲突仍存在升级风险，后续需关注报复行动及平民伤亡扩大情况。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-24T07:56:35.892619+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNTHIyTDljbmZ6Y1ZwbjRMa2xzNVRKdlMzQmVDcjJTVDUyRGhNXzNVOWs5MEFMeXFoZ2plM3JIWUhzYnJEeW11TGNKaDUxY2lGY0tOX2I2YmZRU25LQS1ydlZPUVlLUmFVdjByeDdMU2lWdEhTUkRQeXZ5eHhsYmpuSnZxYU03Umx4MkUtdlRIOURuMERNTU9PM2JMQnJxWWRpeHVHa2dYc2ZUV3FUQ3dtcjZqVmQ1amQ0dE8zNjFhYkhSYlVNbTZjX2dnbUVIcHVCTW1RUldtbTAtUmVhak03NUx5TDhzdzRfcjZWVjBOM1BkdTQ5QlNwa3JxMnE4Ym9TQjNoN1dqXzUtNXFQMDhZM3FqTENUWHp4M09wbkF3?oc=5"
-  },
-  {
-    "fingerprint": "77449cebfc322918",
-    "title": "乌克兰披露袭击内幕：俄军舰在利比亚港口被击沉",
-    "summary": "《华尔街日报》援引相关信息披露，乌克兰曾对一艘停靠利比亚港口的俄罗斯军舰实施袭击并将其击沉。报道重点聚焦行动策划、情报支持及执行过程，但目前缺乏俄乌双方官方完整确认，舰艇型号、伤亡和确切时间仍待核实。该消息属于重大军事行动内幕披露，并非即时突发事件。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-24T03:34:45.340656+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUROT2dCNkdKdlBvQjYwN1phcVZHalhNT2JZcUV4VVA0Y0FkNlRmYVFoRURPWk1VSWlDb1Z4WjBBLUVoak1uTEJTOHNIcmcxRmxnUmwxOWdZU1NwUjMzSE5TQm1sR0tKVnFWejJ6bHp4YmplNWlmT0J6QU1INnA5MlVrLW5qalVzLV9wNTBYRTNIZFVnUkY5YWo5NkVmTDRJdHYtWlFrN19fZw?oc=5"
-  },
-  {
-    "fingerprint": "cf05a92b4e868945",
-    "title": "哥伦比亚警察指挥部遭无人机袭击致3名平民受伤",
-    "summary": "据中国新闻网援引相关消息，哥伦比亚一处警察指挥部遭无人机袭击，已有3名平民受伤。目前袭击发生的具体地点、无人机所载物性质、袭击者身份及是否造成警务设施损毁等信息尚待哥伦比亚政府和警方进一步确认。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-24T02:18:33.437416+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXUjVoU3hob0xHRUFEMG1uc0d2MmZoVmVPX1lUb0VWWFFnd1g3ZE5VMFVLdEl2dVdOQzhzNGVrRHlJSlFEaFZ0eDlTdksxN3pWaS0wMGZLVVJ4THNvWV9kQVpSSVgzbDVr?oc=5"
-  },
-  {
-    "fingerprint": "e68f137d63e15de5",
-    "title": "以军空袭加沙城一辆汽车致2人死亡7人受伤",
-    "summary": "央广网援引相关消息称，以军在加沙城对一辆汽车实施空袭，造成2人死亡、7人受伤。目前尚不清楚遇袭车辆人员身份及具体袭击原因，伤亡数字和现场情况仍有待当地卫生部门、以军或其他权威机构进一步核实。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-23T23:25:12.900011+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56QVpkYVQwaFZ1cTF4TTloZmJmcjFqUnI1Mms3dndER003SzlCTTJoSXR5Wkw4OVJLdnBncXlYRlVwY1JfUFJ0clRONHJZUU9fUjQ2NDhGMVVKaFYwYkw0eG1mYW5qRzN1?oc=5"
-  },
-  {
-    "fingerprint": "21d00e828f6808dd",
-    "title": "伊朗称霍尔木兹海峡三艘油轮发生爆炸",
-    "summary": "伊朗方面表示，三艘油轮在霍尔木兹海峡发生爆炸。该海峡是全球关键能源运输通道，事件可能引发航运安全和原油市场担忧。目前尚缺乏关于爆炸原因、船只受损程度、人员伤亡及是否存在军事袭击的独立多源确认，需等待伊朗及相关国家官方进一步通报。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-23T23:09:08.518477+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHlVWDdRbjBVWGdvVkplZkFtWTMyZlhNRnNRcVEwMkI3c2ZrR1c5Z3RNc0RHLVZqZ0RzbzBuODk5eXhmMDUyRnNRUFZ0eEhTN2tucnJEWDJiMVduR0N1b0pTZWxWZnhUN2NYRDU1SktMYnlFUTdDems1XzVkQnJoemNFV2dwTWc2dE1mSw?oc=5"
-  },
-  {
-    "fingerprint": "c90fc71476286baa",
-    "title": "曼彻斯特演唱会不明物质释放逾万人紧急疏散",
-    "summary": "英国曼彻斯特Co-op Live体育场发生公共安全突发事件，演唱会期间疑似有不明物质释放，超过1.2万人被紧急撤离。现场活动受到影响，相关部门可能对场馆展开排查和调查。截至目前，尚无人员伤亡或物质成分的官方确认，事件是否涉及化学品泄漏或其他安全威胁仍待核实。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-23T19:25:11.362398+00:00",
-    "severity": "重大公共安全事件",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
-  },
-  {
-    "fingerprint": "215fe05657bc2d2f",
-    "title": "加沙哀悼遭以色列空袭身亡的联合国员工",
-    "summary": "半岛电视台英文报道称，加沙民众正在悼念联合国近东救济工程处员工阿德尔·阿勒赫卢。该员工周一在执行公务期间遭以色列空袭身亡。事件再次凸显加沙人道主义工作人员及援助设施面临的高风险，但伤亡细节和袭击责任仍待更多官方信息确认。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-23T16:44:03.989874+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss"
   }
 ]
