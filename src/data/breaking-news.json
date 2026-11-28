@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "8f962203096b5b5f",
+    "title": "阿富汗库纳尔地区一所学校爆炸致学生死伤",
+    "summary": "半岛电视台报道称，阿富汗东部库纳尔地区一所学校发生爆炸，造成学生死亡和受伤。当前尚无官方公布具体伤亡数字，爆炸发生地点、原因及是否涉及武装袭击均待核实。事件已造成校园人员伤亡，并可能加剧当地安全担忧。",
+    "source": "Al Jazeera English",
+    "discoveredAt": "2026-11-28T07:50:41.786760+00:00",
+    "severity": "严重人员伤亡事故",
+    "link": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss"
+  },
+  {
     "fingerprint": "f965dd66db969870",
     "title": "胡塞称沙特联军24小时内发动104次空袭及导弹袭击",
     "summary": "胡塞武装发布消息称，过去24小时沙特联军在也门实施104次空袭和导弹袭击。该说法目前主要来自冲突一方，尚无沙特方面或国际独立信源确认，具体打击目标、伤亡和损毁情况不明。事件如获证实，将显示也门冲突出现高强度军事行动，并可能对红海航运及海湾地区局势产生外溢影响。",
@@ -232,59 +241,5 @@
     "discoveredAt": "2026-11-25T10:30:05.892378+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QeVR3aWZpSHU1TTVfeHBMT1RaMGNvYnFzVjZPSC1NRHNaTXJIaFhvY1RYeXd1aklXVTFtdk9tcE5xUEx1LUgyNVdpUEtiZkJ2dkF5VFJzYzZTOGVVdkNEeTRIUkdJMVhMYzJiNmpMazExT2VtLVU1dF9wQmQ0bjQ?oc=5"
-  },
-  {
-    "fingerprint": "50e44dc0711da754",
-    "title": "伊朗称两艘油轮在霍尔木兹海峡触雷爆炸",
-    "summary": "伊朗称两艘油轮在霍尔木兹海峡触雷爆炸，事故原因、雷区位置、船员伤亡和责任方尚未得到独立确认。霍尔木兹海峡是全球关键能源运输通道，若航行受阻，可能引发油价、航运保险及地区军事紧张度上升。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-25T06:32:31.110548+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2TUhuQVNzX051R3VHUVh5VEZSUWw3Y1FIbXdEcTduS3ZIY2wybWgzMDdfaThmTFNzbnppdVZnM01neUF2NG1hTk0wSHJObzZSaVRoU2FaSHlnOWU2U3V5eFE2QWpDS3RfZTJXbm1LLWJKbTRPQUlFdmp1YWRCZw?oc=5"
-  },
-  {
-    "fingerprint": "b245394c41cfb8ba",
-    "title": "以军空袭加沙沙提难民营公寓楼致至少4人死亡",
-    "summary": "半岛电视台英文报道称，以色列一架战机袭击加沙城沙提难民营一栋公寓楼，至少4人死亡。当前伤亡数字及袭击目标性质仍待当地卫生部门、以色列军方或其他权威渠道确认。事件发生在加沙持续冲突背景下，可能进一步推高平民伤亡和地区局势升级风险。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-25T04:40:33.857585+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss"
-  },
-  {
-    "fingerprint": "ebec38166f2fbe11",
-    "title": "泽连斯基证实乌方袭击芬兰湾一艘俄货船",
-    "summary": "泽连斯基证实乌方袭击芬兰湾一艘俄罗斯货船。该行动发生在远离乌克兰传统战场的波罗的海敏感区域，受到多国关注。袭击是否造成伤亡、船舶受损及具体实施方式尚待进一步核实，事件可能加剧俄乌冲突外溢和地区海上安全担忧。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-25T03:44:09.764253+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JOHA3OHp5VGxvTUxPTWlLWFV3Xy1VamNWZDRteXcyNGVIdEk4TzhZUWl2SEtzV3lnOGdTZVJnZk9pMXR2a3d4VEU0cFQxSGhBSkZ3QXNGMklOVHNaMnJLNUVhWU1HUVZw?oc=5"
-  },
-  {
-    "fingerprint": "1a6816d290f48ec0",
-    "title": "胡塞武装一周内第二次袭击沙特首都最高建筑",
-    "summary": "《华尔街日报》称，也门胡塞武装不到一周内第二次袭击沙特首都利雅得最高建筑。该事件与此前利雅得金融中心遇袭相互关联，显示胡塞对沙特纵深目标的打击频率上升。伤亡、拦截及建筑受损情况仍待沙特官方进一步确认。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-25T03:37:28.025269+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ2JTNzktVC1aMmdtRTV1YzNlNVNBNGhyOC1BUWlpWDFKNzA1VjFUQkZPR1Jlb2gyb2VJSUhJQ19rRUhMcGtJc19CMXhNb3k0eVVpQWVtU1JnWU5SbjV1ZS1FeE1feHNjQlNzYThBS0FzUldpQ1JWb2d0WkU4VWFBb2l2ZWpUWUp5aXNYR216U1lGaFA0OXh1Zlk2eTF2ckxsOF93M1VB?oc=5"
-  },
-  {
-    "fingerprint": "e9a053f2c440d77e",
-    "title": "载约175名移民船只失联，多人下落不明",
-    "summary": "据报道，一艘载有约175名移民的船只从塞内加尔出发约两周后失联，船上人员目前下落不明。由于该航线横跨大西洋、航程风险较高，事件可能演变为重大海难。当前缺乏失联海域、船只状况及人员身份等关键信息，是否已启动正式搜救及具体伤亡情况仍待官方进一步确认。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-25T03:24:10.246319+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HSFhrd05YMWR4dzRDQmJiZk0zNExEQkhtYjBjckxEc2sxNE1KMGczX2x1a29nZ19RVWx6Y3JJZHBLVE1pSDM4blJ0N2ZvRF93OHdpLVV1MThvanVwZEhMNFlIQkxabkdQ?oc=5"
-  },
-  {
-    "fingerprint": "18da3b0df8cd2958",
-    "title": "沙特领导联军空袭也门荷台达港 胡塞威胁袭击吉达港口",
-    "summary": "沙特领导的联军对也门西部荷台达港发动打击，行动前曾要求相关人员撤离。胡塞武装随后威胁袭击沙特吉达及其他港口。事件显示沙特与胡塞之间冲突进一步升级，可能引发报复性导弹或无人机袭击，并增加红海航运和地区能源运输风险。",
-    "source": "Al Jazeera English",
-    "discoveredAt": "2026-11-25T02:57:47.878461+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss"
   }
 ]
