@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "224bb54017d53635",
+    "title": "科威特抗议伊朗持续袭击：两名意大利公民死亡",
+    "summary": "科威特方面召见伊朗大使，就所谓伊朗“持续袭击”提出强烈抗议，并通报袭击造成两名意大利公民死亡、一名科威特公民和一名巴基斯坦公民受伤。事件涉及多国平民伤亡，已从单纯军事行动升级为外交危机，可能加剧海湾地区紧张局势。袭击具体地点、方式及责任认定仍需进一步核实。",
+    "source": "Google News Top",
+    "discoveredAt": "2026-11-28T01:14:13.353817+00:00",
+    "severity": "重大国家安全/战争冲突",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yYnVBY3pzZjBSTWtQYzJmU1lLdENrbk5uM2dJWFRmVDFTcjl1MEcteTVXcFItc1BrZG1vMVpEUGg3X0I1czdibk96S2Z4MXJlekFJakdwMFByZzg?oc=5"
+  },
+  {
     "fingerprint": "6d02aea5b5508580",
     "title": "伊朗称一艘油轮在霍尔木兹海峡触雷爆炸",
     "summary": "伊朗通报称，一艘油轮在霍尔木兹海峡触雷爆炸。该海峡是全球关键能源运输通道，事件真实性、雷区来源、涉事船舶国籍及人员伤亡情况仍待进一步核实。如确认涉及人为布雷或军事行动，可能引发航运警戒升级、保险费率上升及地区局势进一步恶化。",
@@ -268,14 +277,5 @@
     "discoveredAt": "2026-11-25T02:57:47.878461+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss"
-  },
-  {
-    "fingerprint": "916a0aab52ba88ca",
-    "title": "土耳其军用直升机坠毁致5名士兵死亡",
-    "summary": "土耳其发生军用直升机坠毁事故，造成5名士兵死亡。该事件属于较严重军事航空安全事故，但目前尚无迹象表明与武装冲突或外部袭击有关。事故发生地点、具体时间、机型及坠毁原因尚待土耳其国防部门或军方进一步通报确认。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-24T23:31:25.148697+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NUHdobnZVTDY1Q1MtRFpndEo4akZHalYxR1NhU3MzbHdQYXJ3U0x2eG02dEhNd1FoX2dQdTlCZm83MmdnbU0wdmpQb2dwb1hDdWN5ZDZzRDNybkFzUEdyeElUNUxDUlVU?oc=5"
   }
 ]
