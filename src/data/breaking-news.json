@@ -1,5 +1,14 @@
 [
   {
+    "fingerprint": "13d6299d4a5278de",
+    "title": "俄罗斯堪察加半岛发生6.7级地震 震中距叶利佐沃约62公里",
+    "summary": "美国地质调查局测定，UTC时间2026年11月28日13时15分06秒，俄罗斯堪察加边疆区叶利佐沃西北偏北约62公里处发生6.7级地震。震中位于堪察加半岛，附近主要城市包括叶利佐沃和彼得罗巴甫洛夫斯克。目前暂无人员伤亡和海啸预警，需关注后续灾情评估。",
+    "source": "USGS 地质调查局",
+    "discoveredAt": "2026-11-28T13:27:28.620645+00:00",
+    "severity": "特大自然灾害",
+    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue3p"
+  },
+  {
     "fingerprint": "dcf2ec8451fb80a4",
     "title": "以军袭击加沙多地致1死多人受伤",
     "summary": "界面新闻援引相关消息称，以色列军队袭击加沙地带多个地点，造成至少1人死亡、多人受伤。目前报道未明确袭击时间、具体地点、伤者人数及目标性质，尚缺乏多家独立媒体或官方渠道交叉确认。事件发生在加沙持续冲突背景下，可能进一步推高当地安全与人道局势风险。",
@@ -232,23 +241,5 @@
     "discoveredAt": "2026-11-25T15:01:09.763353+00:00",
     "severity": "重大国家安全/战争冲突",
     "link": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "d3d304b1cd94a041",
-    "title": "美国密西西比州外海飞机失事致6人死亡包括两名儿童",
-    "summary": "据BBC援引美国海岸警卫队消息，潜水员在密西西比州外海一架失事飞机的机身内发现6具遗体，包括4名成年人和两名分别为8岁、10岁的男孩。目前官方尚未公布事故发生时间、飞机型号及失事原因，相关搜救和调查工作正在进行。",
-    "source": "BBC World News",
-    "discoveredAt": "2026-11-25T10:36:53.413441+00:00",
-    "severity": "严重人员伤亡事故",
-    "link": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "fingerprint": "6cb19f333551c773",
-    "title": "也门胡塞武装宣称袭击沙特炼油厂及金融中心",
-    "summary": "也门胡塞武装宣称袭击沙特炼油厂和金融中心，目标涉及沙特能源与金融等关键基础设施。当前尚缺沙特官方及独立信源对袭击地点、武器类型、拦截情况和人员伤亡的确认。若消息属实，可能进一步扩大胡塞与沙特之间的军事对抗，并冲击地区能源供应和金融市场稳定。",
-    "source": "Google News Top",
-    "discoveredAt": "2026-11-25T10:30:05.892378+00:00",
-    "severity": "重大国家安全/战争冲突",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QeVR3aWZpSHU1TTVfeHBMT1RaMGNvYnFzVjZPSC1NRHNaTXJIaFhvY1RYeXd1aklXVTFtdk9tcE5xUEx1LUgyNVdpUEtiZkJ2dkF5VFJzYzZTOGVVdkNEeTRIUkdJMVhMYzJiNmpMazExT2VtLVU1dF9wQmQ0bjQ?oc=5"
   }
 ]
